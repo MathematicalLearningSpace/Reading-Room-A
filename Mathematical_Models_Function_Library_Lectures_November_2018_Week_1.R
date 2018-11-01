@@ -119,4 +119,44 @@ Arrhenius.equation.models.prototype(X,parameter.matrix,6)
 png(file = stringr::str_join("Figures//Figure","1",".png"))
 plot(Arrhenius.equation.models(X,parameter.matrix,6)$A.E.3)
 dev.off()
+#-----------------------------------------------------A------------------------------------------------------------------------------------
+logistic.1<-function(T.1,A=1,K=0,C=1,Q=1,B=1,M=1,v=1)
+{
+  Table.1<-""
+  logistic<-NULL
+  #\begin{equation}f(x) = \frac 1 {1+e^{-x}}= \frac {e^{x}} {1+e^{x}}\\end{equation} \cite{key1}
+  #\begin{equation}\frac{d}{dx}f(x) = \frac{e^{x} \cdot (1+e^{x})-e^{x} \cdot e^{x}}{(1 + e^{x})^2} =\end{equation} \cite{key2}
+  #\begin{equation}\frac{e^{x}}{(1 + e^{x})^2} = f(x)(1-f(x))\end{equation}\cite{key3}
+  #\begin{equation}\frac{d}{dx}f(x) = f(x)(1-f(x)) \end{equation} \cite{key4}
+  
+  for(t in 1:T.1)
+  {
+    logistic[t]<-A + (K-A)/(C + Q*exp(-B*(t-M))^(1/v))
+  }
+  
+  output<-list()
+  output$A<-A
+  output$K<-K
+  output$C<-C
+  output$Q<-Q
+  output$B<-B
+  output$M<-M
+  output$v<-v
+  output$logistic<-logistic
+  output$Table.1<-Table.1
+  output$Reference<-stringr::str_c("\\bibitem[1]{key100}Wikipedia contributors.", 
+                                   "\\newblock Generalised logistic function.",
+                                   "\\newblock Wikipedia, The Free Encyclopedia. Wikipedia, The Free Encyclopedia, 23 Jun. 2018. Web. 1 Nov. 2018.") 
+  return(output)
+}
 
+#-------------------------------------------------------------Test---------------------------------------------------
+logistic.1(10)
+
+plot_colors <- c("blue","black", "green", "orange", "pink")
+png(file = stringr::str_join("Figures//Figure","1",".png"))
+plot(seq(0,100,1),logistic.1(101)$logistic,type="l")
+legend(x = "top",inset = 0,
+       legend = c("Logistic"), 
+       col=plot_colors, lwd=5, cex=.5, horiz = TRUE)
+dev.off()
