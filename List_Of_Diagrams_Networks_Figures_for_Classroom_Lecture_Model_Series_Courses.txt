@@ -1,1 +1,33 @@
-Title: List of Diagrams Networks Figures for Classroom LectureModel Series Courses
+Title: List of Diagrams Networks Figures for Classroom Lecture Model Series Courses
+
+English
+Letter & Symbol & Name & Description \\
+\hline
+A & Triangle Up & 2D Bar Plot Horizontal & \\
+B & Triangle Down & 2D Bar Plot Vertical & \\
+C
+D
+E
+F
+G
+H
+I
+J
+K
+L
+M
+N
+O 
+P
+Q
+R
+S
+T
+U
+V
+W
+X
+Y
+Z
+\hline
+\caption{Visualization Diagrams, Networks and Figures}
