@@ -1,2 +1,43 @@
 
 Title: Differential Equations in Mathematical Biology, Botany and Oncology
+
+\section{Group 1} Symbol Diamond Polygon with 4 node star graph
+
+\item ODE
+\item DDE
+\item SDE
+\item FDE
+\item DDE SDE
+\item FDE DDE SDE
+\item SDE Bridges and Diffusion
+\item Stochastic Noise Models
+\item Markov Models
+
+\section{Group 2} - Symbol Diamond Polygon with 9 node star graph
+
+\item Newton and Euler Algorithms
+\item Runge Kutta ODE23 ODE45 Algorithms
+\item Milstein Algorithms
+\item Stochastic Search and Integration Algorithms
+\item Baum-Welch and Viterbi Algorithms
+\item Combinatorial Optimization
+\item Heuristic-Metaheuristic Optimization
+\item EigenVector Frequencies, Modes, Harmonics
+\item Distance, Connectivity and Toplogical Metrics for Adjacency Lists and Matrices
+
+\section{Group 3} Symbol ellipse with 9 node star graph
+
+\item Equilibrium Analysis I
+\item Equilibrium Analysis II
+\item Global Stability Theorems
+\item Local Stability Theorems
+\item Visualization I -Phase Portraits, Null Clines
+\item Visualization II
+\item Toplogical Dynamics I
+\item Topological Dynamics II
+\item Graph Models
+ 
+
+\item Lecture Test Day 1
+\item Lecture Test Day 2
+\item Lecture Test Day 3
