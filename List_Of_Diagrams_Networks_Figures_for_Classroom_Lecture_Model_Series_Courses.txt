@@ -31,3 +31,72 @@ Y
 Z
 \hline
 \caption{Visualization Diagrams, Networks and Figures}
+
+\section{Design Library}
+
+%-----------------------------Design 15-----------------------------------
+\begin{figure}[H]
+\begin{tikzpicture}
+\filldraw [fill=teal, draw=black, ultra thick] (0,8) rectangle (16,7);
+\node at (2,7.5){Library Design:15};
+\end{tikzpicture}
+\end{figure}
+\tikz \draw (0,0) node[text width=12cm,text ragged]{This is a demonstration.};
+\begin{figure}[H]
+\begin{minipage}{0.5\textwidth}
+\begin{tikzpicture}\begin{axis}[colorbar]
+\addplot3 [surf,faceted color=blue,samples=15,domain=0:1,y domain=-1:1] {x^3 - 5*y^2};
+\end{axis}
+\end{tikzpicture}
+\end{minipage}
+\begin{minipage}{0.5\textwidth}
+\centering
+\tiny
+ \begin{tabular}{rp{3cm}l}	
+		\hline
+		Graph ID & Description &  \\
+		\hline 
+		A & Plot A & \\
+		B & Plot B & \\
+		C & Plot C & \\		
+		D & Plot D & \\
+		\hline
+\end{tabular}
+ \caption{Visualization Designs}
+ \label{tab:wide-form}
+\end{minipage}
+\caption{Description}
+ \end{figure}
+\tikz \draw (0,0) node[text width=12cm,text ragged]{This is a demonstration.};
+\begin{figure}[H]
+\begin{minipage}{0.3\textwidth}
+\begin{tikzpicture}[scale=0.7]
+\begin{axis}[view={60}{30}]
+\addplot3+ [domain=0:5*pi,samples=60,samples y=0,] ({sin(deg(x))},{cos(deg(x))},{2*x/(5*pi)});
+\end{axis}
+\end{tikzpicture}
+\end{minipage}
+\begin{minipage}{0.3\textwidth}
+\begin{tikzpicture}[scale=0.7]
+\begin{axis}[view={60}{30}]
+\addplot3+ [domain=0:5*pi,samples=60,samples y=0,] ({sin(deg(x))},{cos(deg(x))},{4*x/(5*pi)});
+\end{axis}
+\end{tikzpicture}
+\end{minipage}
+\begin{minipage}{0.3\textwidth}
+\begin{tikzpicture}[scale=0.7]
+\begin{axis}[view={60}{30}]
+\addplot3+ [domain=0:5*pi,samples=60,samples y=0,] ({sin(deg(x))},{cos(deg(x))},{6*x/(5*pi)});
+\end{axis}
+\end{tikzpicture}
+\end{minipage}
+\caption{From Left to Right A: Plot 1 B:Plot 2 C:Plot 3}
+ \end{figure}
+\begin{figure}[H]
+\begin{tikzpicture}
+\filldraw [fill=teal, draw=black, ultra thick] (0,-20) rectangle (16,-22);
+\node at (2,-21.5){Narration of Four Figures};
+\end{tikzpicture}
+\end{figure}
+\clearpage
+%-------------------------------------------------------------------------------------------
