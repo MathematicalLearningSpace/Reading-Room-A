@@ -1,2 +1,49 @@
 
-Title: Design of Signal Transduction Networks  and Gene Expression in Oncology Cell Lines
+Title: Design of Signal Transduction Networks and Gene Expression in Oncology Cell Lines
+
+\section{Group 1}
+
+\item NCI-60 Cell Line Model, Gene Expression, Compound Alignments 
+\item Biotheorems on Gene Expression, Boundaries and Similarties
+\item Motif Clustering Algorithms and Sequence Alignments
+\item Signal Transduction, Projection and Compression
+\item Amino Acid Based Chemical Modeling I and II
+\item Gene Inhibitors and Silencers
+\item Botany Models I - Species Modeling
+\item Botany Models II - Shikimate Pathway I
+\item Botany Models III - ShikiMate Pathway II
+
+\section{Group 2}
+
+\item MAPK_MAPK14, ErbB_EGFR, Rap1_RRAS2
+\item Calcium_MAPK14,cGMP_PRKACA, cAMP_PRKG1
+\item Chemokine_FGR4, NFKappa_BIRC2", HIF1_EGFR
+\item FOX0_Ubiquitin
+\item Phosphatadylinositol_PLCD3,Sphingolipid_C06124
+\item Cell.Cycle_CDC25A, Apoptsis_TP53, p53_MDM2
+\item mTOR_MTOR,PI3K_AKT_AKT3",AMPK_PRKAG2
+\item Longevity_SIRT1, Immune Systems
+\item Wnt_APC2, Notch_RBPJL, Hedgehog_GLI1
+\item TGF_Beta_SMAD6, VEGF_KDR
+\item Apelin_GNB5, Hippo_YAP1
+\item JakStat_JAK1,IL17.TAB3
+\item Insulin_AKT3,Glucagon_PRKACA
+\item WDR Proteins Model and Signal Network Reviews
+
+\section{Group 3}
+
+\item Digestion Models and Dynamics I
+\item Digestion Models and Dynamics II
+\item Sugar and Insulin Models I
+\item Sugar and Insulin Models II
+\item Metabolic Rate Modeling
+\item Obesity Models
+\item Pancreatic Signaling I 
+\item Pancreatic Signaling II
+\item Pancreatic Signaling III
+
+\section{Group 4}
+
+\item Lecture Test Day 1
+\item Lecture Test Day 2
+\item Lecture Test Day 3
