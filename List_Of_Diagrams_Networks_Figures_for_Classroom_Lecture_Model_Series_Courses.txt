@@ -100,3 +100,103 @@ Z
 \end{figure}
 \clearpage
 %-------------------------------------------------------------------------------------------
+%---------------------------------------Design 18-------------------------------------------
+\begin{figure}[H]
+\begin{tikzpicture}
+\filldraw [fill=teal, draw=black, ultra thick] (0,8) rectangle (16,7);
+\node at (2,7.5){Design:18};
+\end{tikzpicture}
+\end{figure}
+\tikz \draw (0,0) node[text width=12cm,text ragged]{This is a demonstration text for showing how line breaking works.};
+\begin{figure}[H]
+\begin{minipage}{0.3\textwidth}
+%-----------------------------------------------Figure 1-----------------------------------------------------------
+\begin{tikzpicture}[scale=0.5]
+\begin{polaraxis}
+\addplot+ [mark=none,domain=0:720,samples=200,]{sin((2^(0.25))*x)*cos((2^(0.25))*x)};
+\end{polaraxis}
+\end{tikzpicture}
+\end{minipage}
+\begin{minipage}{0.3\textwidth}
+%-----------------------------------------------Figure 2-----------------------------------------------------------
+\begin{tikzpicture}[scale=0.5]
+\begin{polaraxis}
+\addplot+ [mark=none,domain=0:720,samples=200,]{sin((2^(0.5))*x)*cos((2^(0.5))*x)};
+\end{polaraxis}
+\end{tikzpicture}
+\end{minipage}
+\begin{minipage}{0.3\textwidth}
+%-----------------------------------------------Figure 3-----------------------------------------------------------
+\begin{tikzpicture}[scale=0.5]
+\begin{polaraxis}
+\addplot+ [mark=none,domain=0:720,samples=200,]{sin((2^(0.75))*x)*cos((2^(0.75))*x)};
+\end{polaraxis}
+\end{tikzpicture}
+\end{minipage}
+\caption{A: B: C: }
+ \end{figure}
+\begin{figure}[H]
+\begin{minipage}{0.3\textwidth}
+%-----------------------------------------------Figure 4-----------------------------------------------------------
+\begin{tikzpicture}[scale=0.5]
+\begin{polaraxis}
+\addplot+ [mark=none,domain=0:720,samples=200,]{sin((2^(1.25))*x)+cos((2^(1.25))*x)};
+\end{polaraxis}
+\end{tikzpicture}
+\end{minipage}
+\begin{minipage}{0.3\textwidth}
+%-----------------------------------------------Figure 5-----------------------------------------------------------
+\begin{tikzpicture}[scale=0.5]
+\begin{polaraxis}
+\addplot+ [mark=none,domain=0:720,samples=200,]{sin((2^(1.5))*x)*cos((2^(1.5))*x)};
+\end{polaraxis}
+\end{tikzpicture}
+\end{minipage}
+\begin{minipage}{0.3\textwidth}
+%-----------------------------------------------Figure 6-----------------------------------------------------------
+\begin{tikzpicture}[scale=0.5]
+\begin{polaraxis}
+\addplot+ [mark=none,domain=0:720,samples=200,]{sin((2^(1.75))*x)*cos((2^(1.75))*x)};
+\end{polaraxis}
+\end{tikzpicture}
+\end{minipage}
+\caption{A: B: C: }
+ \end{figure}
+\begin{figure}[H]
+\begin{minipage}{0.3\textwidth}
+%-----------------------------------------------Figure 7-----------------------------------------------------------
+\begin{tikzpicture}[scale=0.5]
+\begin{polaraxis}
+\addplot+ [mark=none,domain=0:720,samples=200,]{sin((2^1)*x)*cos((2^1)*x)};
+\end{polaraxis}
+\end{tikzpicture}
+\end{minipage}
+\begin{minipage}{0.3\textwidth}
+%-----------------------------------------------Figure 8-----------------------------------------------------------
+\begin{tikzpicture}[scale=0.5]
+\begin{polaraxis}
+\addplot+ [mark=none,domain=0:720,samples=200,]{sin((2^2)*x)*cos((2^2)*x)};
+\end{polaraxis}
+\end{tikzpicture}
+\end{minipage}
+\begin{minipage}{0.3\textwidth}
+%-----------------------------------------------Figure 9-----------------------------------------------------------
+\begin{tikzpicture}[scale=0.5]
+\begin{polaraxis}
+\addplot+ [mark=none,domain=0:720,samples=200,]{sin((2^3)*x)*cos((2^3)*x)};
+\end{polaraxis}
+\end{tikzpicture}
+\end{minipage}
+\caption{A: B: C: }
+ \end{figure}
+
+\begin{figure}[H]
+\begin{tikzpicture}
+\filldraw [fill=teal, draw=black, ultra thick] (0,-20) rectangle (16,-22);
+\node at (2,-21.5){Design:18};
+\end{tikzpicture}
+ \end{figure}
+ 
+\clearpage
+
+
