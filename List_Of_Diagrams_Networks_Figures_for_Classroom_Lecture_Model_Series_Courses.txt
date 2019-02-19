@@ -199,4 +199,101 @@ Z
  
 \clearpage
 
+%---------------------------------------Design 19-----------------------------------
+\begin{figure}[H]
+\begin{tikzpicture}
+\filldraw [fill=teal, draw=black, ultra thick] (0,8) rectangle (16,7);
+\node at (2,7.5){Design:19};
+\end{tikzpicture}
+\end{figure}
+\tikz \draw (0,0) node[text width=12cm,text ragged]{This is a demonstration text.};
+\begin{figure}[H]
+\begin{minipage}[c][1\width]{0.5\textwidth}%
+%--------------------------------------Figure 1-----------------------------------------------------------------------------
+\begin{tikzpicture}
+\begin{axis}[ybar interval, ymax=55,ymin=0, minor y tick num = 3]
+\addplot coordinates { (0, 5) (5, 35) (10, 50) (15, 30) (20, 15) (25, 0) };
+\end{axis}
+\begin{axis}[ybar interval, ymax=55,ymin=0, minor y tick num = 3]
+\addplot coordinates { (0, 5) (5, 35) (10, 50) (15, 30) (20, 15) (25, 0) };
+\end{axis}
+\begin{axis}[ybar interval, ymax=55,ymin=0, minor y tick num = 3]
+\addplot coordinates { (0, 5) (5, 35) (10, 50) (15, 30) (20, 15) (25, 0) };
+\end{axis}
+\end{tikzpicture}
+\end{minipage}
+\begin{minipage}[c][1\width]{0.5\textwidth}%
+%-------------------------------------Figure 2-----------------------------------------------------------------------------
+\begin{tikzpicture}
+\begin{axis}[ybar interval, ymax=55,ymin=0, minor y tick num = 3]
+\addplot coordinates { (0, 5) (5, 35) (10, 50) (15, 30) (20, 15) (25, 0) };
+\end{axis}
+\begin{axis}[ybar interval, ymax=55,ymin=0, minor y tick num = 3]
+\addplot coordinates { (0, 5) (5, 35) (10, 50) (15, 30) (20, 15) (25, 0) };
+\end{axis}
+\begin{axis}[ybar interval, ymax=55,ymin=0, minor y tick num = 3]
+\addplot coordinates { (0, 5) (5, 35) (10, 50) (15, 30) (20, 15) (25, 0) };
+\end{axis}
+\end{tikzpicture}
+\end{minipage}
+%------------------------------------Table 1-------------------------------------------------------------------------------
+\begin{minipage}{0.5\textwidth}
+\centering
+\tiny
+ \begin{tabular}{rp{3cm}l}	
+		\hline
+		ID & Description &  \\
+		\hline 
+		1 & A & \\
+		\hline
+\end{tabular}
+ \caption{Table 1}
+ \label{tab:Table2}
+\end{minipage}
+%-------------------------------------Table 2-----------------------------------------------------------------------------------
+\begin{minipage}{0.5\textwidth}
+\centering
+\tiny
+ \begin{tabular}{rp{3cm}l}	
+		\hline
+		ID & Description &  \\
+		\hline 
+		1 & A & \\
+		\hline
+\end{tabular}
+ \caption{Table 2}
+ \label{tab:Table1}
+\end{minipage}
+\begin{minipage}[c][1\width]{0.3\textwidth}%
+%-------------------------------------Figure 3-----------------------------------------------------------------------------
+\begin{tikzpicture}[scale=.5]
+\begin{axis}[colorbar horizontal]\addplot[only marks,scatter,scatter src={mod(\coordindex,15)},samples=150,] {rand};
+\end{axis}
+\end{tikzpicture}
+\end{minipage}
+\begin{minipage}[c][1\width]{0.3\textwidth}%
+%------------------------------------Figure 4-----------------------------------------------------------------------------
+\begin{tikzpicture}[scale=.5]
+\begin{axis}[colorbar horizontal]\addplot[only marks,scatter,scatter src={mod(\coordindex,15)},samples=150,] {rand};
+\end{axis}
+\end{tikzpicture}
+\end{minipage}
+\begin{minipage}[c][1\width]{0.3\textwidth}%
+%------------------------------------Figure 5-----------------------------------------------------------------------------
+\begin{tikzpicture}[scale=.5]
+\begin{axis}[colorbar horizontal]\addplot[only marks,scatter,scatter src={mod(\coordindex,15)},samples=150,] {rand};
+\end{axis}
+\end{tikzpicture}
+\end{minipage}
+\caption{the caption}
+ \end{figure}
+%----------------------------------Figure-----------------------------------------------------------------------------
+\begin{figure}[H]
+\begin{tikzpicture}
+\filldraw [fill=teal, draw=black, ultra thick] (0,-20) rectangle (16,-22);
+\node at (2,-21.5){Design:19};
+\end{tikzpicture}
+ \end{figure}
+
+\clearpage
 
