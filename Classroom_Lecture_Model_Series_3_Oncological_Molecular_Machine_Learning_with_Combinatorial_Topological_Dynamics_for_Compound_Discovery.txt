@@ -1,2 +1,44 @@
 
 Title: Classroom Lecture Model Series 3 Oncological Molecular Machine Learning with Combinatorial Topological Dynamics for Compound Discovery
+
+\section{Group 1}
+
+\item Ribosome Design, Engineering and Simulation
+\item EndoPlasmic Rectilium Smooth and Rough Design
+\item Translation and Transcription Error Models I
+\item Translation and Transcription Error Models II
+\item Translation and Transcription Error Models III
+\item Tridiagonal Models 
+\item Peptide Models I
+\item Peptide Models II
+\item Mitochrondria Models
+
+\section{Group 2}
+
+\item Modal Analysis and Hamiltonian Dynamics 
+\item Protein Interaction Models
+\item Stochastic Search and Optimization in Compound Discovery
+\item Molecular Machine Learning Models
+\item Structure Activity Relationship Matrix Designs
+\item EigenFrequency Classifiers
+\item WDR Models
+\item Molecular Machines I
+\item Molecular Machines II
+
+\section{Group 3}
+
+\item Chaperone Design
+\item Chaperone Engineering
+\item Chaperone Simulation
+\item Proteasome Design
+\item Proteasome Engineering
+\item Proteasome Simulation
+\item System  Models: Ribosome, Chaperone, Proteasome I
+\item System  Models: Ribosome, Chaperone, Proteasome II
+\item Course 1 2 3 Review
+
+\section{Group 4}
+
+\item Lecture Test Day 1
+\item Lecture Test Day 2
+\item Lecture Test Day 3
