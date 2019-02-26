@@ -1,4 +1,159 @@
+\documentclass[preprint, 9pt,times]{elsarticle}
+\usepackage{chemfig}
+\usepackage{xymtex}
+\usepackage{xcolor}
+\usepackage[margin=0.5in]{geometry}
+\usepackage{siunitx}
+\usepackage[version=4]{mhchem}
+\usepackage{tikz}
+\usepackage{graphicx}
+\usepackage{amsmath, amssymb}
+\usepackage{blindtext}
+\setlength{\parindent}{0pt}
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.3,}
+\pgfplotscreateplotcyclelist{line styles}{
+	black,solid\\
+	blue,dashed\\
+	red,dotted\\
+	orange,dashdotted\\
+}
+\newcommand*\GnuplotDefs{
+	set samples 50;
+	cdfn(x,mu,sd) = 0.5 * ( 1 + erf( (x-mu)/sd/sqrt(2)) );
+	pdfn(x,mu,sd) = 1/(sd*sqrt(2*pi)) * exp( -(x-mu)^2 / (2*sd^2) );
+	tpdfn(x,mu,sd,a,b) = pdfn(x,mu,sd) / ( cdfn(b,mu,sd) - cdfn(a,mu,sd) );
+}
+\usepackage{geometry}
+\usepackage{mathtools}
+\usepackage{tkz-berge}
+\usepackage{etex,musixtex}
+\usepackage{xparse}
+\usepackage{tikz}
+\usetikzlibrary{tikzmark}
+\usepackage{graphicx}
+\usepackage{xsavebox}
+\NewDocumentCommand\FrameNote{mO{0pt}O{14pt}O{10pt}}{
+\tikz[remember picture,overlay]
+  \node[inner ysep=0pt,draw,red,text width=#4,minimum height=#3,anchor=west] at ([xshift=-4.5pt,yshift=\the\dimexpr#2-5pt\relax]pic cs:#1) {};
+}
+\usetikzlibrary{automata}
+\usetikzlibrary{calc}
+\usetikzlibrary{arrows}
+\usetikzlibrary{arrows.meta}
+\usetikzlibrary{positioning,shapes,shadows,arrows}
+\usetikzlibrary{shapes.geometric}
+\usetikzlibrary{calendar,shadings}
+\usetikzlibrary{chains,quotes}
+% Definition of blocks:
+\tikzset{%
+  block/.style    = {draw, thick, rectangle, minimum height = 1em,
+    minimum width = 3em},
+  sum/.style      = {draw, circle, node distance = 1cm}, % Adder
+  input/.style    = {coordinate}, % Input
+  output/.style   = {coordinate} % Output
+}
+\renewcommand*{\familydefault}{\sfdefault}
+\colorlet{winter}{blue}
+\colorlet{spring}{green!60!black}
+\colorlet{summer}{orange}
+\colorlet{fall}{red}
+\newcount\mycount
+\newcommand\shapeLarge{50mm}
+\newcommand\shapeMedium{25mm}
+\newcommand\shapeSmall{5mm}
+\newcommand*{\xMin}{0}%
+\newcommand*{\xMax}{6}%
+\newcommand*{\yMin}{0}%
+\newcommand*{\yMax}{6}%
+\newcommand*{\zMax}{6}%
+\newcommand*{\zMin}{0}%
+\definecolor{colorwaveA}{RGB}{98,145,224}
+\definecolor{colorwaveB}{RGB}{250,250,50}
+\definecolor{colorwaveC}{RGB}{25,125,25}
+\definecolor{colorwaveD}{RGB}{100,100,100}
+\definecolor{colorwaveE}{RGB}{80,100,1}
+\definecolor{colorwaveF}{RGB}{60,1,1}
+\definecolor{colorwaveG}{RGB}{25,1,100}
+\definecolor{colorwaveH}{RGB}{1,90,1}
+\definecolor{colorwaveI}{RGB}{1,100,1}
+\definecolor{colorwaveJ}{RGB}{1,1,1}
+\def\firstcircle{(90:1.75cm) circle (2.5cm)}
+\def\secondcircle{(210:1.75cm) circle (2.5cm)}
+\def\thirdcircle{(330:1.75cm) circle (2.5cm)}
 
+\tikzset{%
+	shapeTriangle/.style={draw,shape=regular polygon,fill=colorwaveA,circular drop shadow,regular polygon sides=3,minimum size=\shapeSmall,inner sep=0pt,outer sep=0pt},
+	shapeTriangle3/.style={shapeTriangle,fill=colorwaveD,circular drop shadow,shape border rotate=45},
+	shapeTriangle4/.style={shapeTriangle,fill=colorwaveA,circular drop shadow,shape border rotate=90},
+	shapeTriangle5/.style={shapeTriangle,fill=colorwaveB,shape border rotate=135},
+	shapeTriangle6/.style={shapeTriangle,fill=colorwaveC,shape border rotate=180},
+	shapeTriangle7/.style={shapeTriangle,fill=colorwaveE,shape border rotate=225},
+	shapeTriangle8/.style={shapeTriangle,fill=colorwaveF,shape border rotate=270},
+	shapeTriangle9/.style={shapeTriangle,fill=colorwaveG,shape border rotate=315},
+}
+\tikzset{shapeSquare/.style={draw,shape=regular polygon,fill=colorwaveC,circular drop shadow,regular polygon sides=4,minimum size=\shapeSmall,inner sep=0pt,outer sep=0pt},
+	shapeSquare2/.style={shapeSquare,shape border rotate=45},
+}
+
+\tikzset{shapeHexagon/.style={draw,shape=regular polygon,fill=colorwaveA,circular drop shadow,regular polygon sides=6,minimum size=\shapeSmall,inner sep=0pt,outer sep=0pt},
+	shapeHexagon2/.style={shapeHexagon,shape border rotate=90},
+}
+
+\tikzset{shapeOctagon/.style={draw,shape=regular polygon,fill=colorwaveB,circular drop shadow,regular polygon sides=8,minimum size=\shapeSmall,inner sep=0pt,outer sep=0pt},
+	shapeOctagon2/.style={shapeHexagon,shape border rotate=45},
+}
+\tikzset{shapeEllipse/.style={draw,shape=ellipse,minimum size=\shapeSmall,inner sep=0pt,outer sep=0pt},
+	shapeEllipse2/.style={shapeEllipse,shape border rotate=90},
+}
+
+\tikzset{closedFigure/.style={draw=\draw[->,rounded corners=0.2cm,shorten >=2pt]
+		(1.5,0.5)-- ++(0,-1)-- ++(1,0)-- ++(0,2)-- ++(-1,0)-- ++(0,2)-- ++(1,0)--
+		++(0,1)-- ++(-1,0)-- ++(0,-1)-- ++(-2,0)-- ++(0,3)-- ++(2,0)-- ++(0,-1)--
+		++(1,0)-- ++(0,1)-- ++(1,0)-- ++(0,-1)-- ++(1,0)-- ++(0,-3)-- ++(-2,0)--
+		++(1,0)-- ++(0,-3)-- ++(1,0)-- ++(0,-1)-- ++(-6,0)-- ++(0,3)-- ++(2,0)--
+		++(0,-1)-- ++(1,0)}
+}
+
+\tikzstyle{start}=[circle, draw=none,,minimum size=\shapeMedium, fill=blue, circular drop shadow,text centered, anchor=north, text=white]
+\tikzstyle{finish}=[circle, draw=none,,minimum size=\shapeMedium, fill=blue,circular drop shadow,text centered, anchor=north, text=white]
+\tikzstyle{finish}=[rectangle, draw=none, ,minimum size=\shapeMedium,fill=blue,circular drop shadow,text centered, anchor=north, text=white]
+
+\newlength{\xdim}
+\definecolor{findOptimalPartition}{HTML}{D7191C}
+\definecolor{storeClusterComponent}{HTML}{FDAE61}
+\definecolor{dbscan}{HTML}{ABDDA4}
+\definecolor{constructCluster}{HTML}{2B83BA}
+\usepackage[noadjust]{cite}
+\usepackage{algpseudocode}
+\usepackage{listings}
+\usepackage{algorithm}
+\usepackage{color}
+\usepackage{parskip}
+\usepackage{amsfonts}
+\usepackage{amsthm}
+\usepackage{tikz}
+\usepackage{tkz-berge}
+\usepackage{caption}
+\usepackage{hyperref}
+\usepackage{amsrefs}
+\usepackage{mathtools, amssymb}
+\usepackage{graphicx}
+\usepackage{subcaption}
+\usepackage{tabularx,ragged2e}
+\usepackage[framemethod=tikz]{mdframed}
+\newcommand{\N}{\mathbb N}
+\newcommand{\Q}{\mathbb Q}
+\theoremstyle{definition}
+\newtheorem{definition}{Definition}[section]
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{example}{Example}[section]
+\renewcommand{\qedsymbol}{$\blacksquare$}
+\newtheorem{corollary}{Corollary}[theorem]
+\newtheorem{lemma}[theorem]{Lemma}
+\renewcommand{\rmdefault}{ptm} 
+\hypersetup{colorlinks,linkcolor={blue},citecolor={blue},urlcolor={red}}  
+\graphicspath{{Figures/1}}
 \begin{document}
 \twocolumn
 \scriptsize
@@ -18,3 +173,41 @@ Introduction: This is summary statement.
 Conclusion:  This is the conclusion for the ontology enrichment.
 		
 Keywords: Topic 1, Topic 2, Topic 3, Topic 4, Topic 5, Topic 5
+
+\section{Reading List}
+
+
+\section{References}
+
+\bibliographystyle{plain}
+\begin{thebibliography}{00}
+\footnotesize
+
+\subsection{Main Article for Classroom}
+
+\bibitem[1]{key1}Li H1, Zhang XP, Liu F. (2013). 
+\newblock \textbf{Coordination between p21 and DDB2 in the cellular response to UV radiation }
+\newblock PLoS One. https://www.ncbi.nlm.nih.gov/pubmed/24260342
+
+\subsection{Introduction 100}
+
+\subsection{Botany 200}
+
+\subsection{Chemistry 300}
+
+\subsection{Biology 400}
+
+\subsection{Mathematical 500}
+
+\subsection{Algorithm 600}
+
+\subsection{Visualization 700}
+
+\subsection{Music Theory 800}
+
+\subsection{R Method API 1000}
+
+\subsection{Additional Readings for Next Lecture Article}
+
+\end{thebibliography}
+\end{document}
