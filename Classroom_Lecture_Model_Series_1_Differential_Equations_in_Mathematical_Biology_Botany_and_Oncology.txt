@@ -3,6 +3,7 @@ Title: Differential Equations in Mathematical Biology, Botany and Oncology
 
 \section{Group 1} Symbol Diamond Polygon with 4 node star graph
 
+\begin{enumerate}
 \item ODE
 \item DDE
 \item SDE
@@ -12,9 +13,11 @@ Title: Differential Equations in Mathematical Biology, Botany and Oncology
 \item SDE Bridges and Diffusion
 \item Stochastic Noise Models
 \item Markov Models
+\end{enumerate}
 
 \section{Group 2} - Symbol Diamond Polygon with 9 node star graph
 
+\begin{enumerate}
 \item Newton and Euler Algorithms
 \item Runge Kutta ODE23 ODE45 Algorithms
 \item Milstein Algorithms
@@ -24,9 +27,11 @@ Title: Differential Equations in Mathematical Biology, Botany and Oncology
 \item Heuristic-Metaheuristic Optimization
 \item EigenVector Frequencies, Modes, Harmonics
 \item Distance, Connectivity and Toplogical Metrics for Adjacency Lists and Matrices
+\end{enumerate}
 
 \section{Group 3} Symbol ellipse with 9 node star graph
 
+\begin{enumerate}
 \item Equilibrium Analysis I
 \item Equilibrium Analysis II
 \item Global Stability Theorems
@@ -36,8 +41,10 @@ Title: Differential Equations in Mathematical Biology, Botany and Oncology
 \item Toplogical Dynamics I
 \item Topological Dynamics II
 \item Graph Models
- 
+\end{enumerate}
 
+\begin{enumerate}
 \item Lecture Test Day 1
 \item Lecture Test Day 2
 \item Lecture Test Day 3
+\end{enumerate}
