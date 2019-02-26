@@ -3,6 +3,7 @@ Title: Design of Signal Transduction Networks and Gene Expression in Oncology Ce
 
 \section{Group 1}
 
+\begin{enumerate}
 \item NCI-60 Cell Line Model, Gene Expression, Compound Alignments 
 \item Biotheorems on Gene Expression, Boundaries and Similarties
 \item Motif Clustering Algorithms and Sequence Alignments
@@ -12,9 +13,11 @@ Title: Design of Signal Transduction Networks and Gene Expression in Oncology Ce
 \item Botany Models I - Species Modeling
 \item Botany Models II - Shikimate Pathway I
 \item Botany Models III - ShikiMate Pathway II
+\end{enumerate}
 
 \section{Group 2}
 
+\begin{enumerate}
 \item MAPK_MAPK14, ErbB_EGFR, Rap1_RRAS2
 \item Calcium_MAPK14,cGMP_PRKACA, cAMP_PRKG1
 \item Chemokine_FGR4, NFKappa_BIRC2", HIF1_EGFR
@@ -29,9 +32,11 @@ Title: Design of Signal Transduction Networks and Gene Expression in Oncology Ce
 \item JakStat_JAK1,IL17.TAB3
 \item Insulin_AKT3,Glucagon_PRKACA
 \item WDR Proteins Model and Signal Network Reviews
+\end{enumerate}
 
 \section{Group 3}
 
+\begin{enumerate}
 \item Digestion Models and Dynamics I
 \item Digestion Models and Dynamics II
 \item Sugar and Insulin Models I
@@ -41,9 +46,12 @@ Title: Design of Signal Transduction Networks and Gene Expression in Oncology Ce
 \item Pancreatic Signaling I 
 \item Pancreatic Signaling II
 \item Pancreatic Signaling III
+\end{enumerate}
 
 \section{Group 4}
 
+\begin{enumerate}
 \item Lecture Test Day 1
 \item Lecture Test Day 2
 \item Lecture Test Day 3
+\end{enumerate}
