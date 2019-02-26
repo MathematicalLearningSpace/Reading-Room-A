@@ -1,1 +1,16 @@
 Title: List of Data Annotation Tables for Classroom Lecture Model Series Courses
+
+\begin{table}[H]\footnotesize
+	\caption{Statistical Artifact and Description}
+	\begin{tabular}{p{1cm}p{1.25cm}p{2cm}p{2cm}p{2cm}}
+		\hline	
+		LectureID & Artifact & Caption & Narration & Comment \\
+		\hline 
+		A & Table 1 & Caption 1 & Narration 1 & Comment \\
+		B & Table 2 & Caption 2 & Narration 2 & Comment \\
+		C & Table 3 & Caption 3 & Narration 3 & Comment \\
+		D & Table 4 & Caption 4 & Narration 4 & Comment \\
+		\hline
+	\end{tabular}
+\end{table}
+
