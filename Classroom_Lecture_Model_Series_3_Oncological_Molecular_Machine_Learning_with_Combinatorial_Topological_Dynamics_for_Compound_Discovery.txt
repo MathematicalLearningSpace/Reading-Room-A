@@ -3,6 +3,7 @@ Title: Classroom Lecture Model Series 3 Oncological Molecular Machine Learning w
 
 \section{Group 1}
 
+\begin{enumerate}
 \item Ribosome Design, Engineering and Simulation
 \item EndoPlasmic Rectilium Smooth and Rough Design
 \item Translation and Transcription Error Models I
@@ -12,9 +13,11 @@ Title: Classroom Lecture Model Series 3 Oncological Molecular Machine Learning w
 \item Peptide Models I
 \item Peptide Models II
 \item Mitochrondria Models
+\end{enumerate}
 
 \section{Group 2}
 
+\begin{enumerate}
 \item Modal Analysis and Hamiltonian Dynamics 
 \item Protein Interaction Models
 \item Stochastic Search and Optimization in Compound Discovery
@@ -24,9 +27,11 @@ Title: Classroom Lecture Model Series 3 Oncological Molecular Machine Learning w
 \item WDR Models
 \item Molecular Machines I
 \item Molecular Machines II
+\end{enumerate}
 
 \section{Group 3}
 
+\begin{enumerate}
 \item Chaperone Design
 \item Chaperone Engineering
 \item Chaperone Simulation
@@ -36,9 +41,12 @@ Title: Classroom Lecture Model Series 3 Oncological Molecular Machine Learning w
 \item System  Models: Ribosome, Chaperone, Proteasome I
 \item System  Models: Ribosome, Chaperone, Proteasome II
 \item Course 1 2 3 Review
+\end{enumerate}
 
 \section{Group 4}
 
+\begin{enumerate}
 \item Lecture Test Day 1
 \item Lecture Test Day 2
 \item Lecture Test Day 3
+\end{enumerate}
