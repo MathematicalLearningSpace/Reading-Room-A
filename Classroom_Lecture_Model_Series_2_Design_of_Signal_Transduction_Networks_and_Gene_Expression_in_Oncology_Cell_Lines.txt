@@ -36,8 +36,9 @@ Title: Design of Signal Transduction Networks and Gene Expression in Oncology Ce
 \section{Group 3}
 
 \begin{enumerate}
-\item Digestion Models and Dynamics I
-\item Digestion Models and Dynamics II
+\item Digestion Models and Dynamics I and II
+\item Plant Immune System Models and Dynamics I
+\item Human Immune System Models and Dyanmics II
 \item Sugar and Insulin Models I
 \item Sugar and Insulin Models II
 \item Metabolic Rate Modeling
