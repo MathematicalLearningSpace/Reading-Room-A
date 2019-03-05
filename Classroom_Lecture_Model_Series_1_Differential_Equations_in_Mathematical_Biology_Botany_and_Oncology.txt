@@ -3,10 +3,10 @@ Title: Differential Equations in Mathematical Biology, Botany and Oncology
 \section{Group 1} Symbol Diamond Polygon with 4 node star graph
 
 \begin{enumerate}
-\item ODE
-\item DDE
-\item SDE
-\item FDE
+\item Ordinary Differential Equation Models (ODE)
+\item Delayed Differential Equations Models (DDE)
+\item Stochastic Differential Equations Models (SDE)
+\item Fractional Differential Equations Models (FDE)
 \item DDE SDE
 \item FDE DDE SDE
 \item SDE Bridges and Diffusion
