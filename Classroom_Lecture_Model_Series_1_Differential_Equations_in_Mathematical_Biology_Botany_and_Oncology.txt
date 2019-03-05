@@ -5,11 +5,11 @@ Title: Differential Equations in Mathematical Biology, Botany and Oncology
 \begin{enumerate}
 \item Ordinary Differential Equation Models (ODE)
 \item Delayed Differential Equations Models (DDE)
+\item Itô Lemma and Calculus
 \item Stochastic Differential Equations Models (SDE)
 \item Fractional Differential Equations Models (FDE)
 \item DDE SDE
 \item FDE DDE SDE
-\item Itô Lemma and Calculus
 \item SDE Bridges and Diffusion Models
 \item Stochastic Noise Models
 \item Markov Models
