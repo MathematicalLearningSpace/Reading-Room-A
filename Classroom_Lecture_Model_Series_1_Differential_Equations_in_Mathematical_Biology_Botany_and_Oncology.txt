@@ -1,4 +1,4 @@
-%----------------------------------Outline of Topics for In Classroom Lectures-------------------------%
+%--------------------Outline of Topics for In Classroom Lectures with Presentation in R and TeX-------------------------%
 Title: Differential Equations in Mathematical Biology, Botany and Oncology
 \section{Group 1} Symbol Diamond Polygon with 4 node star graph
 
