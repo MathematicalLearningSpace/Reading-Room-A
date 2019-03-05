@@ -31,6 +31,7 @@ Title: Classroom Lecture Model Series 3 Oncological Molecular Machine Learning w
 \section{Group 3}
 
 \begin{enumerate}
+\item Organelle Assembly and Alignment Methodology
 \item Chaperone Design
 \item Chaperone Engineering
 \item Chaperone Simulation
