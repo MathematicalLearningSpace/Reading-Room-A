@@ -17,11 +17,11 @@ Title: Classroom Lecture Model Series 3 Oncological Molecular Machine Learning w
 \section{Group 2}
 
 \begin{enumerate}
-\item Modal Analysis and Hamiltonian Dynamics 
-\item Protein Interaction Models
+\item Normal Modal Analysis, Gaussian Network, Force Fields and Hamiltonian Dynamics 
+\item Heat Schock Proteins and Protein Interaction Models
 \item Stochastic Search and Optimization in Compound Discovery
-\item Molecular Machine Learning Models
-\item Structure Activity Relationship Matrix Designs
+\item Cheminformatics and Molecular Machine Learning Models
+\item Quantitative Structure Activity Relationship Descriptors Matrix Designs
 \item EigenFrequency Classifiers
 \item WDR Models
 \item Molecular Machines I
