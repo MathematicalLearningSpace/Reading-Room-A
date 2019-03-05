@@ -1,2 +1,14 @@
 
 Title: List of Algorithms From Function Library for Classroom Lecture Model Series Courses
+
+\centering
+\begin{table}[H]\footnotesize
+\caption{List of Algorithms From Function Library for Classroom Lecture Model Series Courses}
+\begin{tabular}{p{1.5cm}p{1.5cm}p{1.5cm}}
+\hline
+AlgorithmID & Description & Lecture \\
+\hline
+\hline
+\end{tabular}
+\end{table}
+\raggedright
