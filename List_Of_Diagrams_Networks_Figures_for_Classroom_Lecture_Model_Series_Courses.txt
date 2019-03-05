@@ -1,37 +1,45 @@
 Title: List of Diagrams Networks Figures for Classroom Lecture Model Series Courses
 
+\centering
+\begin{table}[H]\footnotesize
+\caption{List of Equation Systems for Classroom Lecture Model Series Courses}
+\begin{tabular}{p{1.5cm}p{1.5cm}p{1.5cm}}
+\hline
+Figure ID & Description & Lecture \\
+\hline
 English
 Letter & Symbol & Name & Description \\
 \hline
 A & Triangle Up & 2D Bar Plot Horizontal & \\
 B & Triangle Down & 2D Bar Plot Vertical & \\
-C
-D
-E
-F
-G
-H
-I
-J
-K
-L
-M
-N
-O 
-P
-Q
-R
-S
-T
-U
-V
-W
-X
-Y
-Z
+C & & \\
+D & & \\
+E & &  \\
+F & & \\
+G & & \\
+H & & \\
+I & & \\
+J & & \\
+K & & \\
+L & & \\
+M & & \\
+N & & \\
+O & & \\
+P & & \\
+Q & & \\
+R & & \\
+S & & \\
+T & & \\
+U & & \\
+V & & \\
+W & & \\
+X & & \\
+Y & & \\
+Z & & \\
 \hline
+\end{tabular}
 \caption{Visualization Diagrams, Networks and Figures}
-
+\end{table}
 \section{Design Library}
 
 %-----------------------------Design 15-----------------------------------
