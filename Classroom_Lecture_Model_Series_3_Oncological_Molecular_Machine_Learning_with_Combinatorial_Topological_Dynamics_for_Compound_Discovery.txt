@@ -1,6 +1,5 @@
-%----------------------------------Outline of Topics for In Classroom Lectures-------------------------%
+%-------------------Outline of Topics for In Classroom Lectures with Presentation in R and TeX-------------------------%
 Title: Classroom Lecture Model Series 3 Oncological Molecular Machine Learning with Combinatorial Topological Dynamics for Compound Discovery
-
 \section{Group 1}
 
 \begin{enumerate}
