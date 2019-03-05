@@ -1,1 +1,13 @@
 Title: List of Equation Systems for Classroom Lecture Model Series Courses
+
+\centering
+\begin{table}[H]\footnotesize
+\caption{List of Equation Systems for Classroom Lecture Model Series Courses}
+\begin{tabular}{p{1.5cm}p{1.5cm}p{1.5cm}}
+\hline
+Equation System ID & Description & Lecture \\
+\hline
+\hline
+\end{tabular}
+\end{table}
+\raggedright
