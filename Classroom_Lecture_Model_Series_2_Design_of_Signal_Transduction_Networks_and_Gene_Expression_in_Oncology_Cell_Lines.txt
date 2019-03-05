@@ -1,4 +1,4 @@
-%----------------------------------Outline of Topics for In Classroom Lectures-------------------------%
+%---------------------Outline of Topics for In Classroom Lectures with Presentation in R and TeX-------------------------%
 Title: Design of Signal Transduction Networks and Gene Expression in Oncology Cell Lines
 \section{Group 1}
 
