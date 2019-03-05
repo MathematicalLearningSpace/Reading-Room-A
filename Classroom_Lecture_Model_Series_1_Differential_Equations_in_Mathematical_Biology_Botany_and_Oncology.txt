@@ -9,7 +9,8 @@ Title: Differential Equations in Mathematical Biology, Botany and Oncology
 \item Fractional Differential Equations Models (FDE)
 \item DDE SDE
 \item FDE DDE SDE
-\item SDE Bridges and Diffusion
+\item Itô Lemma and Calculus
+\item SDE Bridges and Diffusion Models
 \item Stochastic Noise Models
 \item Markov Models
 \end{enumerate}
