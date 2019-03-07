@@ -1,2 +1,6 @@
 \bibitem[1]{key1} Jaffe, D.A. and J.O. Smith
 \newblock Extension of the Karplus-Strong Plucked-String Algorithm
+
+\bibitem[1]{key1} Ying Ding and David Gerhard
+\newblock ANALYSIS AND SYNTHESIS OF THE GUQIN-A CHINESE TRADITIONAL INSTRUMENT
+
