@@ -1,0 +1,146 @@
+
+\bibitem[1]{key1}Zhihui Wang Paul Macklin and Vittorio Cristini
+\newblock Multiscale Cancer Modeling Thomas S. Deisboeck 
+
+\bibitem[1]{key1}Yong Zhu Richard G. Stevens Aaron E. Hoffman Liesel M. FitzGerald Erika M. Kwon Elaine A. Ostrander Scott Davis Tongzhang Zheng and Janet L. Stanford
+\newblock Testing the Circadian Gene Hypothesis in Prostate Cancer:A Population-Based Case-Control Study
+
+\bibitem[1]{key1}Lin Liu,1 Elise Tran,2 Yani  Zhao,1 Yuchen  Huang,1 Richard Flavell,2,3and Binfeng Lu1
+\newblock Gadd45 and Gadd45 are critical for regulating autoimmunity
+
+\bibitem[1]{key1}Dengke K. Ma Junjie U. Guo Guo-li Ming and Hongjun Song
+\newblock Perspective DNA excision repair proteins and Gadd45 as molecular players for active DNA demethylation
+
+\bibitem[1]{key1}Wen-lin WU1,2, Jin-hua GAO3, Ai-juan XIA4,  Guang-ping LIU5, Kao-sheng LV6, Chun-lin WU
+\newblock SP11 regulates p53 stability by deubiquitinating p53*Jia-ying KE†1,2, Cong-jie DAI1,2, 
+
+\bibitem[1]{key1}Krishna Garikipati
+\newblock Perspectives on the mathematics of biological patterning andmorphogenesis
+
+\bibitem[1]{key1}ALFRED GIERER
+\newblock Theoretical approaches to holistic biological features: Pattern formation, neural networks and the brain-mind relation
+
+\bibitem[1]{key1}David K. Lubensky
+\newblock Switching Perspectives on Pattern Formation inBiologySelf-organized Notch dynamics generate stereo typed sensory organ patterns in Drosophila Authors:  Francis Corson, Lydie Couturier, Herv ´e Rouault, Khalil Mazouni, andFran ¸cois Schweisguth Science 356, eaai7407 
+
+\bibitem[1]{key1}S Kondo
+\newblock REVIEW Pattern formation in the animal skin 
+
+\bibitem[1]{key1}Shigeru Kondo
+\newblock REVIEW The reaction-diffusion system: a mechanism for autonomous pattern formation in the animal skin
+
+\bibitem[1]{key1}Kishore Dutta
+\newblock Reaction-diffusion Dynamics and Biological Pattern Formation
+
+\bibitem[1]{key1}Boyce Tsang
+\newblock Patterns in reaction diffusion system
+
+\bibitem[1]{key1}Rafael A. Barrio, Ruth E. Baker Benjamin Vaughan, Jr. Karla Tribuzy Marcelo R. de Carvalho Rodney Bassanezi and Philip K. Maini
+\newblock Modeling the skin pattern of fishes
+
+\bibitem[1]{key1}Marcelo Sobottk Andrew G. Hart
+\newblock A model capturing novel strand symmetries in bacterial DNA
+
+\bibitem[1]{key1}Ulrike Rescha, Michaela Semlitscha, Astrid Hammerb, Heidrun Susani-Etzerodta, Henning Walczakc,Wolfgang Sattlera, Ernst Malle
+\newblock Hypochlorite-modified low-density lipoprotein induces the apoptotic machineryin Jurkat T-cell lines
+
+\bibitem[1]{key1}Fiona E. Mu ¨llner,†‡Sheyum Syed,§Paul R. Selvin,§{and Fred J. Sigworth
+\newblock Improved Hidden Markov Models for Molecular Motors, Part 1: Basic Theory
+
+\bibitem[1]{key1}Sheyum Syed,†Fiona E. Mu ¨llner,§{Paul R. Selvin,†‡*and Fred J. Sigworth
+\newblock Improved Hidden Markov Models for Molecular Motors, Part 2: Extensionsand Application to Experimental Data
+
+\bibitem[1]{key1}David Haussler
+\newblock Combining Phylogenetic and Hidden Markov Models inBiosequence Analysis
+Adam Siepel
+
+\bibitem[1]{key1}Ziyue Gao Minyoung J. Wyman Guy Sella and Molly Przeworski
+\newblock Interpreting the dependence of mutation rates on age and time 
+
+\bibitem[1]{key1}D.T.ACHAKU P.V.AYOO
+\newblock SIMULATION OF NUCLEOTIDE SUBSTITUTION RATES IN A DNA USING JC69 MODEL 
+
+\bibitem[1]{key1}Andrey Rzhetsky 
+\newblock Estimating  Substitution  Rates in Ribosomal RNA Genes 
+
+\bibitem[1]{key1}Klara L. Verbyla Von Bing Yap2, Anuj Pahwa1, Yunli Shao1, Gavin A. Huttley
+\newblock The Embedding Problem for Markov Models ofNucleotide Substitution 
+
+\bibitem[1]{key1}G. Padmaand Dr. C. Vijayalakshmi
+\newblock An Analysis of Continuous Time Markov Chains using Generator Matrices
+
+\bibitem[1]{key1}Gerton Lunter*and Jotun Hein
+\newblock A nucleotide substitution model with nearest-neighbour interactions
+
+\bibitem[1]{key1}Jian-Jun SHU*, Kian Yan YONG
+\newblock Fourier-based classification of protein secondary structures
+
+\bibitem[1]{key1}Andrei A. BUNACIU1, Serban FLESCHIN2, Hassan Y. ABOUL-ENEIN
+\newblock Evaluation of the Protein Secondary Structures  Using Fourier Transform Infrared Spectroscopy 
+
+\bibitem[1]{key1}Andrew J. Bordner*,1and Hans D. Mittelmann
+\newblock A New Formulation of Protein Evolutionary Models thatAccount for Structural Constraints
+
+\bibitem[1]{key1}Carlos Sevcik
+\newblock Caveat on the Boltzmann distribution function use in biology.
+
+\bibitem[1]{key1}Yani  Zhao,  Mateusz  Chwastyk,  and  Marek  Cieplak
+\newblock Topological transformations in proteins: effects of heating and proximity of an interface
+
+\bibitem[1]{key1}C. Anselmi, G. Bocchinfuso, P. De Santis* and A. Scipioni
+\newblock Topological Invariants in Protein Folding and Their Scaling Properties
+
+\bibitem[1]{key1}Wang and Oster
+\newblock Ratchets, power strokes, and molecular motors
+
+\bibitem[1]{key1}Anne E. Hafner, Ludger Santen, Heiko Rieger & M. Reza Shaebani
+\newblock Run-and-pause dynamics of cytoskeletal motor proteins
+
+\bibitem[1]{key1}Gaurav Jerath, Prakash Kishore Hazam, Shashi Shekhar,Vibin Ramakrishnan
+\newblock Mapping the Geometric Evolution of Protein Folding Motor
+
+\bibitem[1]{key1}Rafael Tapia-Rojo1, Jaime Andres Rivas Pardo1, Julio M. Fernández
+\newblock The Mechanical Power of Protein FoldingEdward C. Eckels#,1,2, Shubhasis Haldar#,1, 
+
+\bibitem[1]{key1}Yoram Zarai, Michael Margaliot, and Tamir Tulle
+\newblock A Deterministic Mathematical Model for Bidirectional Excluded Flow with Langmuir Kinetics
+
+\bibitem[1]{key1}Francesco MAINARDI(1), Paolo PARADISI(2)and Rudolf GORENFLO
+\newblock Probability distributions generated by fractional diffusion equations
+
+\bibitem[1]{key1}Walter G. Gl6ckle and Theo F. Nonnenmacher
+\newblock A Fractional Calculus Approach to Self Similar Protein Dynamics
+
+\bibitem[1]{key1}Chapter 2 
+\newblock Studying Protein Interior with Fractal Dimension
+
+\bibitem[1]{key1}Thomas Goetze and Jurgen Brickmann
+\newblock Self similarity of protein surfaces
+
+\bibitem[1]{key1}Acceptance-Rejection Method
+
+\bibitem[1]{key1}LAJOS TAKiCS
+\newblock SOJOURN TIMES
+
+\bibitem[1]{key1}Gerardo Rubino and Bruno Sericola
+\newblock Sojourn Times in Finite Markov Processes
+
+\bibitem[1]{key1}Shan Cheung, Jane L. Hutton, Julia A. Brettschneider
+\newblock Review of sojourn time calculation models used in breast cancer screening 
+
+\bibitem[1]{key1}Augusto  Gonzalez
+\newblock Levy model of cancer
+
+\bibitem[1]{key1}Doron Levy
+\newblock Agent-Based Models in Cancer Analysis & Numerical Methods
+
+\bibitem[1]{key1}Richard Durrett
+\newblock Branching Process Models of Cancer
+
+\bibitem[1]{key1}Heyrim Cho1·Doron Levy
+\newblock Modeling the Dynamics of Heterogeneity of SolidTumors in Response to Chemotherapy
+
+\bibitem[1]{key1}Stavroula A Chrysanthopoulou
+\newblock MILC: A Microsimulation Model of the Natural History of Lung Cancer
+
+
