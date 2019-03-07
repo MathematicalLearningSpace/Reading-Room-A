@@ -160,4 +160,42 @@ Giulia Ambrosi, Pamela Milani
 Review Endoplasmic reticulum, oxidative stress and their complex crosstalk in neurodegeneration: proteostasis, signaling pathways and molecular chaperones
 AIMS Molecular Science,4(4): 424-444
 
+%---------------------------------------------------------------------------------------------------------------------------------------- %
+Hidetaka Hamasaki
+Review article Functional Foods for Type 2 Diabetes
+AIMS Medical Science, 3(3): 278–297.
+
+Vandana Gulati Mansi Dass Singh, Pankaj Gulati
+Review Role of mushrooms in gestational diabetes mellitus 
+AIMS Medical Science, 6 (1): 49–66. 
+
+Sangeetha Shyam and Amutha Ramadas
+Editorial Diet in Gestational Diabetes Mellitus is important — but much remains to be done!
+AIMS Medical Science, 6 (1): 128–131. 
+
+%---------------------------------------------------------------------------------------------------------------------------------------%
+Ellie Sayers Alex MacGregor and Simon R.Carding
+Review Drug-microbiota  interactions  and  treatment  response: Relevance  to rheumatoid arthritis 
+AIMS Microbiology, 4(4): 642–654.
+
+Matthew Johnston ,  Michael McBride, Divakar  Dahiya, Richard Owusu-Apenten and Poonam Singh Nigam
+Review Antibacterial   activity   of Manuka   honeyand   its   components: An overview
+AIMS Microbiology, 4(4): 655–664.
+
+%---------------------------------------------------------------------------------------------------------------------------------------%
+Irakli Loladze
+Research article Iterative  chemostat:  A  modelling  framework  linking  biosynthesis  to  nutrient cycling on ecological and evolutionary time scales
+Mathematical Biosciences and Engineering,   16(2): 990–1004. 
+
+Youlong Lv and Jie Zhang
+Research article A   genetic   regulatory   network   basedmethod   for   multi-objective sequencing problem in mixed-model assembly lines
+Mathematical Biosciences and Engineering, 16(2):1228–1243.
+
+Zong Wang, Qimin Zhang and Xining Li
+Research Article Markovian switching for near-optimal control of a stochastic SIV epidemic model
+Mathematical Biosciences and Engineering, 16(3): 1348–1375.
+
+Hanyu Zhao, Chao Che Bo Jin and Xiaopeng Wei
+Research article A viral protein identifying framework based on temporal convolutionalnetwork
+Mathematical Biosciences and Engineering, 16(3): 1709–1717
 
