@@ -27,7 +27,7 @@ LONG  TIME  BEHAVIOR  OF  FRACTIONAL  IMPULSIVE
 STOCHASTIC  DIFFERENTIAL  EQUATIONSWITH  INFINITE  DELAY
 DISCRETE AND CONTINUOUS DYNAMICAL SYSTEMS SERIES B
 
-Tom �as Caraballo, Maria-Jos �e Garrido-Atienza, Javier L �opez-de-la-Cruz
+Tom ´as Caraballo, Maria-Jos ´e Garrido-Atienza, Javier L ´opez-de-la-Cruz
 and A. Rapaport
 MODELING AND ANALYSIS OF RANDOM AND STOCHASTIC INPUT FLOWS IN THE CHEMOSTAT MODEL
 DISCRETE AND CONTINUOUS DYNAMICAL SYSTEMS SERIES B
@@ -57,7 +57,7 @@ REGULARITY  OF  SOLUTIONS  TO  TIME  FRACTIONALDIFFUSION  EQUATIONS
 DISCRETE AND CONTINUOUS DYNAMICAL SYSTEMS SERIES B
 
 Liu, L. and J. Zheng
-GLOBAL EXISTENCE AND BOUNDEDNESS OF SOLUTION OF A PARABOLIC�PARABOLIC�ODE CHEMOTAXIS�HAPTOTAXIS MODEL WITH (GENERALIZED) LOGISTIC SOURCE
+GLOBAL EXISTENCE AND BOUNDEDNESS OF SOLUTION OF A PARABOLIC–PARABOLIC–ODE CHEMOTAXIS–HAPTOTAXIS MODEL WITH (GENERALIZED) LOGISTIC SOURCE
 DISCRETE AND CONTINUOUS DYNAMICAL SYSTEMS SERIES B
 
 Zhang, D., X. Cai and L.Wang
@@ -87,3 +87,77 @@ DISCRETE AND CONTINUOUS DYNAMICAL SYSTEMS SERIES B
 Wang, R. and Y. Li
 BACKWARD  COMPACTNESS  AND  PERIODICITY  OF  RANDOM ATTRACTORS  FOR  STOCHASTIC  WAVE  EQUATIONS  WITH VARYING  COEFFICIENTS
 DISCRETE AND CONTINUOUS DYNAMICAL SYSTEMS SERIES B
+
+%------------------------------------------------------------------------------------------------------------------------------%
+
+Javier Fernández, Sául Redondo-Blanco, Elisa M. Miguélez, Claudio J. Villar,  Alfonso Clemente , and Felipe Lombó
+Review Healthy  effects  of  prebiotics  and  their  metabolites  against  intestinal  diseases and colorectal cancer  
+AIMS Microbiology, 1(1): 48-71.
+
+Janine E. Deakin 1, *, Renae Domaschenz 1,2,3, Pek Siew Lim 4, Tariq Ezaz 1, and Sudha Rao
+Review Comparative   epigenomics:   an   emerging   field   with   breakthrough   potential to understand evolution of epigenetic regulation 
+AIMS Genetics Volume 1, Issue 1, p.34-54
+
+Manrui Zhang, Melissa A.Simon, Xinqi Dong
+Research article The Prevalence of Perceived Stress among U.S. Chinese Older Adults
+AIMS Medical Science
+
+Alexander B. Dillon, Kevin Lin, Andrew Kwong and Susana Ortiz
+Review Immunotherapy  in  Melanoma,  Gastrointestinal  (GI),  and  Pulmonary  Malignancies 
+AIMS Public Health
+
+Research article Polymorphisms in the ANKS1B gene are associated with cancer, obesity and type 2 diabetes
+Ke-Sheng Wang, Xuefeng Liu, Daniel Owusu, Yue Pan and Changchun Xie
+Genetics, Volume 2, Issue 3, 192-203
+
+Review SUMO modulation of protein aggregation and degradation
+Marco Feligioni, Serena Marcelli, Erin Knock, Urooba Nadeem Ottavio Arancio and Paul E. Frase
+AIMS Molecular Science, 2(4): 382-410
+
+Oleg A. Karpov, Gareth W. Fearnley, Gina A. Smith, Jayakanth Kankanala, Michael J. McPherson , Darren C. Tomlinson Michael A. Harrison, and Sreenivasan Ponnambalam
+Review Receptor tyrosine kinase structure and function in health and disease 
+AIMS Biophysics, 2(4): 476-502.
+
+Sezer Okay and Mehmet Sezgin
+Review Transgenic plants for the production of immunogenic proteins 
+AIMS Bioengineering, 5(3): 151–161.
+
+Simge Çelebi and Mert Burkay Çöteli
+Research article Red and white blood cell classification using Artificial Neural Networks
+AIMS Bioengineering, 5(3): 179–191.
+
+Jay L. Brewster 
+Review Signaling hubs at ER/mitochondrial membrane associations 
+AIMS Biophysics, 4(2): 222-239. 
+
+%----------------------------------------------------------------------------------------------------------------%
+
+Karen E. Livermore, Jennifer Munkley, and David J. Elliott
+Review Androgen receptor and prostate cancer
+AIMS Molecular Science,3(2): 280-299.
+
+Akshaj Pole, Manjari Dimri,and Goberdhan P. Dimri
+Review Oxidative stress, cellular senescence and ageing
+AIMS Molecular Science,3(3): 300-324.
+
+Martina Huranova, Ondrej Stepane
+Review Role of actin cytoskeletonat multiple levels of T cell activation
+AIMS Molecular Science,3(4): 585-596
+
+Song-Tao Liu, Hang Zhan
+Review The mitotic checkpoint complex (MCC): looking back and forth after 15 years
+AIMS Molecular Science, 3(4): 597-634.
+
+Fohona S. Coulibaly, Bi-Botti C. Youan
+Review Current status of lectin-based cancer diagnosis and therapy 
+AIMS Molecular Science, 4(1): 1-27. 
+
+Mohamed A. Eldeeb
+Commentary Aging: when the ubiquitin–proteasome machinery collapses
+AIMS Molecular Science,4(2): 219-223.
+
+Giulia Ambrosi, Pamela Milani
+Review Endoplasmic reticulum, oxidative stress and their complex crosstalk in neurodegeneration: proteostasis, signaling pathways and molecular chaperones
+AIMS Molecular Science,4(4): 424-444
+
+
