@@ -1,4 +1,6 @@
 
+%----------------------------------Reading List In Development for Lectures-------------------------%
+
 \bibitem[1]{key1}Zhihui Wang Paul Macklin and Vittorio Cristini
 \newblock Multiscale Cancer Modeling Thomas S. Deisboeck 
 
@@ -12,7 +14,7 @@
 \newblock Perspective DNA excision repair proteins and Gadd45 as molecular players for active DNA demethylation
 
 \bibitem[1]{key1}Wen-lin WU1,2, Jin-hua GAO3, Ai-juan XIA4,  Guang-ping LIU5, Kao-sheng LV6, Chun-lin WU
-\newblock SP11 regulates p53 stability by deubiquitinating p53*Jia-ying KE†1,2, Cong-jie DAI1,2, 
+\newblock SP11 regulates p53 stability by deubiquitinating p53*Jia-ying KEâ€ 1,2, Cong-jie DAI1,2, 
 
 \bibitem[1]{key1}Krishna Garikipati
 \newblock Perspectives on the mathematics of biological patterning andmorphogenesis
@@ -21,7 +23,7 @@
 \newblock Theoretical approaches to holistic biological features: Pattern formation, neural networks and the brain-mind relation
 
 \bibitem[1]{key1}David K. Lubensky
-\newblock Switching Perspectives on Pattern Formation inBiologySelf-organized Notch dynamics generate stereo typed sensory organ patterns in Drosophila Authors:  Francis Corson, Lydie Couturier, Herv ´e Rouault, Khalil Mazouni, andFran ¸cois Schweisguth Science 356, eaai7407 
+\newblock Switching Perspectives on Pattern Formation inBiologySelf-organized Notch dynamics generate stereo typed sensory organ patterns in Drosophila Authors:  Francis Corson, Lydie Couturier, Herv Â´e Rouault, Khalil Mazouni, andFran Â¸cois Schweisguth Science 356, eaai7407 
 
 \bibitem[1]{key1}S Kondo
 \newblock REVIEW Pattern formation in the animal skin 
@@ -44,10 +46,10 @@
 \bibitem[1]{key1}Ulrike Rescha, Michaela Semlitscha, Astrid Hammerb, Heidrun Susani-Etzerodta, Henning Walczakc,Wolfgang Sattlera, Ernst Malle
 \newblock Hypochlorite-modified low-density lipoprotein induces the apoptotic machineryin Jurkat T-cell lines
 
-\bibitem[1]{key1}Fiona E. Mu ¨llner,†‡Sheyum Syed,§Paul R. Selvin,§{and Fred J. Sigworth
+\bibitem[1]{key1}Fiona E. Mu Â¨llner,â€ â€¡Sheyum Syed,Â§Paul R. Selvin,Â§{and Fred J. Sigworth
 \newblock Improved Hidden Markov Models for Molecular Motors, Part 1: Basic Theory
 
-\bibitem[1]{key1}Sheyum Syed,†Fiona E. Mu ¨llner,§{Paul R. Selvin,†‡*and Fred J. Sigworth
+\bibitem[1]{key1}Sheyum Syed,â€ Fiona E. Mu Â¨llner,Â§{Paul R. Selvin,â€ â€¡*and Fred J. Sigworth
 \newblock Improved Hidden Markov Models for Molecular Motors, Part 2: Extensionsand Application to Experimental Data
 
 \bibitem[1]{key1}David Haussler
@@ -99,7 +101,7 @@ Adam Siepel
 \bibitem[1]{key1}Gaurav Jerath, Prakash Kishore Hazam, Shashi Shekhar,Vibin Ramakrishnan
 \newblock Mapping the Geometric Evolution of Protein Folding Motor
 
-\bibitem[1]{key1}Rafael Tapia-Rojo1, Jaime Andres Rivas Pardo1, Julio M. Fernández
+\bibitem[1]{key1}Rafael Tapia-Rojo1, Jaime Andres Rivas Pardo1, Julio M. FernÃ¡ndez
 \newblock The Mechanical Power of Protein FoldingEdward C. Eckels#,1,2, Shubhasis Haldar#,1, 
 
 \bibitem[1]{key1}Yoram Zarai, Michael Margaliot, and Tamir Tulle
@@ -137,7 +139,7 @@ Adam Siepel
 \bibitem[1]{key1}Richard Durrett
 \newblock Branching Process Models of Cancer
 
-\bibitem[1]{key1}Heyrim Cho1·Doron Levy
+\bibitem[1]{key1}Heyrim Cho1Â·Doron Levy
 \newblock Modeling the Dynamics of Heterogeneity of SolidTumors in Response to Chemotherapy
 
 \bibitem[1]{key1}Stavroula A Chrysanthopoulou
