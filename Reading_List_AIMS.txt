@@ -1,3 +1,4 @@
+%-------------An Updated List of Referencesfor Translation into TeX for Lectures and Examples in the Classroom-------------------%
 
 Shiu, A. and T. de Wolff
 NONDEGENERATE  MULTISTATIONARITY IN  SMALL  REACTION  NETWORKS
