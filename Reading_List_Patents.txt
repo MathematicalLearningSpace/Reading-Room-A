@@ -1,3 +1,4 @@
+%-----------------------------------Tables of Patents to Discuss in the Classroom-----------------------------------------------%
 
 \hline
 Patent & ID & Name & Date & Title & Description & Link \\
