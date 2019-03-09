@@ -1,1 +1,7 @@
 Title: List of Natural Language Translations and Vocabulary for Classroom Lecture Model Series Courses
+
+%-----Table for Scientific Vocabulary List for Natural Language Translation, Teaching and Second Language Acquistion ----------------%
+
+\hline
+VocabularyID & English Word & Chinese & Japanese & Korean & Italian & French & Spanish & Nepali \\
+\hline
