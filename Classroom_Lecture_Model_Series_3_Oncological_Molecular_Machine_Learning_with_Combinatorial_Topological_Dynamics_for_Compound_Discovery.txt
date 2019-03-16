@@ -1,5 +1,9 @@
 %-------------------Outline of Topics for In Classroom Lectures with Presentation in R and TeX-------------------------%
 Title: Classroom Lecture Model Series 3 Oncological Molecular Machine Learning with Combinatorial Topological Dynamics for Compound Discovery
+%-----------------------------------------------------------------------------------------------------------------------%
+%-------------------------------------------------Group 1---------------------------------------------------------------%
+%-----------------------------------------------------------------------------------------------------------------------%
+
 \section{Group 1}
 
 \begin{enumerate}
@@ -14,6 +18,9 @@ Title: Classroom Lecture Model Series 3 Oncological Molecular Machine Learning w
 \item Mitochrondria Models
 \end{enumerate}
 
+%-----------------------------------------------------------------------------------------------------------------------%
+%-------------------------------------------------Group 2---------------------------------------------------------------%
+%-----------------------------------------------------------------------------------------------------------------------%
 \section{Group 2}
 
 \begin{enumerate}
@@ -27,6 +34,10 @@ Title: Classroom Lecture Model Series 3 Oncological Molecular Machine Learning w
 \item Molecular Machines I
 \item Molecular Machines II
 \end{enumerate}
+
+%-----------------------------------------------------------------------------------------------------------------------%
+%-------------------------------------------------Group 3---------------------------------------------------------------%
+%-----------------------------------------------------------------------------------------------------------------------%
 
 \section{Group 3}
 
@@ -50,3 +61,12 @@ Title: Classroom Lecture Model Series 3 Oncological Molecular Machine Learning w
 \item Lecture Test Day 2
 \item Lecture Test Day 3
 \end{enumerate}
+
+
+%-----------------------------------------------------------------------------------------------------------------------%
+%-------------------------------Reading List For Lectures---------------------------------------------------------------%
+%-----------------------------------------------------------------------------------------------------------------------%
+
+\section{Reading List For Lectures}
+
+\subsection{Articles for the Classroom Teaching}
