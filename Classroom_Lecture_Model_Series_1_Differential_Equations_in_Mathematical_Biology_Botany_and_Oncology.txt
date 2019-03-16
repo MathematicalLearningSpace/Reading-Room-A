@@ -1,5 +1,9 @@
 %--------------------Outline of Topics for In Classroom Lectures with Presentation in R and TeX-------------------------%
 Title: Differential Equations in Mathematical Biology, Botany and Oncology
+
+%-----------------------------------------------------------------------------------------------------------------------%
+%-------------------------------------------------Group 1---------------------------------------------------------------%
+%-----------------------------------------------------------------------------------------------------------------------%
 \section{Group 1} Symbol Diamond Polygon with 4 node star graph
 
 \begin{enumerate}
@@ -14,6 +18,9 @@ Title: Differential Equations in Mathematical Biology, Botany and Oncology
 \item Stochastic Noise Models
 \item Markov Models
 \end{enumerate}
+%-----------------------------------------------------------------------------------------------------------------------%
+%-------------------------------------------------Group 2---------------------------------------------------------------%
+%-----------------------------------------------------------------------------------------------------------------------%
 
 \section{Group 2} - Symbol Diamond Polygon with 9 node star graph
 
@@ -28,6 +35,10 @@ Title: Differential Equations in Mathematical Biology, Botany and Oncology
 \item EigenVector Frequencies, Modes, Harmonics
 \item Distance, Connectivity and Toplogical Metrics for Adjacency Lists and Matrices
 \end{enumerate}
+
+%-----------------------------------------------------------------------------------------------------------------------%
+%-------------------------------------------------Group 3---------------------------------------------------------------%
+%-----------------------------------------------------------------------------------------------------------------------%
 
 \section{Group 3} Symbol ellipse with 9 node star graph
 
@@ -48,3 +59,12 @@ Title: Differential Equations in Mathematical Biology, Botany and Oncology
 \item Lecture Test Day 2
 \item Lecture Test Day 3
 \end{enumerate}
+
+%-----------------------------------------------------------------------------------------------------------------------%
+%-------------------------------Reading List For Lectures---------------------------------------------------------------%
+%-----------------------------------------------------------------------------------------------------------------------%
+
+\section{Reading List For Lectures}
+
+\subsection{Articles for the Classroom Teaching}
+
