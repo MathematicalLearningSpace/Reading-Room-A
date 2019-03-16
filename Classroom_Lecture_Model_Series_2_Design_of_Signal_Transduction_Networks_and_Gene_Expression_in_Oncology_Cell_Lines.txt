@@ -1,5 +1,8 @@
 %---------------------Outline of Topics for In Classroom Lectures with Presentation in R and TeX-------------------------%
 Title: Design of Signal Transduction Networks and Gene Expression in Oncology Cell Lines
+%-----------------------------------------------------------------------------------------------------------------------%
+%-------------------------------------------------Group 1---------------------------------------------------------------%
+%-----------------------------------------------------------------------------------------------------------------------%
 \section{Group 1}
 
 \begin{enumerate}
@@ -14,6 +17,9 @@ Title: Design of Signal Transduction Networks and Gene Expression in Oncology Ce
 \item Botany Models III - ShikiMate Pathway II
 \end{enumerate}
 
+%-----------------------------------------------------------------------------------------------------------------------%
+%-------------------------------------------------Group 2---------------------------------------------------------------%
+%-----------------------------------------------------------------------------------------------------------------------%
 \section{Group 2}
 
 \begin{enumerate}
@@ -32,6 +38,9 @@ Title: Design of Signal Transduction Networks and Gene Expression in Oncology Ce
 \item Insulin_AKT3,Glucagon_PRKACA
 \item WDR Proteins Model and Signal Network Reviews
 \end{enumerate}
+%-----------------------------------------------------------------------------------------------------------------------%
+%-------------------------------------------------Group 3---------------------------------------------------------------%
+%-----------------------------------------------------------------------------------------------------------------------%
 
 \section{Group 3}
 
@@ -55,3 +64,12 @@ Title: Design of Signal Transduction Networks and Gene Expression in Oncology Ce
 \item Lecture Test Day 2
 \item Lecture Test Day 3
 \end{enumerate}
+
+
+%-----------------------------------------------------------------------------------------------------------------------%
+%-------------------------------Reading List For Lectures---------------------------------------------------------------%
+%-----------------------------------------------------------------------------------------------------------------------%
+
+\section{Reading List For Lectures}
+
+\subsection{Articles for the Classroom Teaching}
