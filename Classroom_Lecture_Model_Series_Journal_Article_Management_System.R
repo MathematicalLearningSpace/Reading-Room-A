@@ -1,4 +1,9 @@
-#----------------------------------------Journal Article Management System----------------------------------
+#----------------------------------------Classroom Notes and Journal Article Management System----------------------------------
+
+Notes.Mathematical.Title.Keywords<-c("Notes","Mathematical Model" ,"Differential Equations Type","Solution Type to Mathematical Model",
+                                     "Dynamical Behavior and Properties",
+                                     "Chemistry Compounds","Nutrition Model","Gene Protein Enzyme Interactions",
+                                     "Signal Transduction", "Organelle", "Biology System","Species", "Cancer Type")
 
 Class.Lecture.Math.Organization<-c("Introduction",
                                   "List of Articles",
