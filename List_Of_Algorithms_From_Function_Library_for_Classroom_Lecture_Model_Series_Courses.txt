@@ -4,10 +4,11 @@ Title: List of Algorithms From Function Library for Classroom Lecture Model Seri
 \centering
 \begin{table}[H]\footnotesize
 \caption{List of Algorithms From Function Library for Classroom Lecture Model Series Courses}
-\begin{tabular}{p{1.5cm}p{1.5cm}p{1.5cm}}
+\begin{tabular}{p{1.5cm}p{1.5cm}p{1.5cm}p{1.5cm}p{1.5cm}p{1.5cm}p{1cm}}
 \hline
-AlgorithmID & Description & Lecture \\
+AlgorithmID & MethodID & Description & LectureID & CDF & DataSet & Curated \\
 \hline
+Algorithm.A & Moments.A & First 6 Moments and Ratios for Differential Equation Systems & Course.1.Lecture.1 & Normal & Synthetic & Yes \\
 \hline
 \end{tabular}
 \end{table}
