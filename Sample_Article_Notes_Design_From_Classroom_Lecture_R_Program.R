@@ -58,7 +58,7 @@ Algorithm.3<-function(X)
 variables.initial.test.A<-c("")
 parameters.test <- c("")
 parameters.test<-c(parameters.test,noise.test.parameters)
-
+times <- seq(0, 48, by = 48/120)
 #------------------------------------------------Equation Systems------------------------------------------------------#
 system.equation.model.test<-function(times, variables.intitial.test, parameters.test)
 {
