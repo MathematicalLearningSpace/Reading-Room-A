@@ -69,6 +69,12 @@ Network.C<-c("p53","p53p","Pten","Mdm2n","Mdm2c","Mdm2cp","Akt","Aktp","PIP2","P
 Network.D<-c("BAX","CytoC","Apops","Apaf-1","CASP9","Procasp9","CASP3","Procasp3","PARP1","PARP3")
 Networks<-c(Network.A,Network.B,Network.C,Network.D)
 #------------------------------------------------Tables--------------------------------------------------------------#
+Table.1<-xtable::xtable(Table.1.df)
+Table.2<-xtable::xtable(Table.2.df)
+Table.3<-xtable::xtable(Table.3.df)
+Table.4<-xtable::xtable(Table.4.df)
+Table.5<-xtable::xtable(Table.5.df)
+Table.6<-xtable::xtable(Table.6.df)
 
 
 #------------------------------------------------Figures-------------------------------------------------------------#
