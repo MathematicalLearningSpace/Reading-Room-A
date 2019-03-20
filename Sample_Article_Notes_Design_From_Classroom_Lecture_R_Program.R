@@ -73,4 +73,46 @@ Network.D<-c("BAX","CytoC","Apops","Apaf-1","CASP9","Procasp9","CASP3","Procasp3
 
 #------------------------------------------------Figures-------------------------------------------------------------#
 
+png(file = stringr::str_join("Figures//Example_",1,"_Figure_","1",".png"))
+Figure.1<-plot(system.equation.model.test.solution.1[,2],xlab="T",ylab="Value")
+lines(system.equation.model.test.solution.1[,3],col=2)
+lines(system.equation.model.test.solution.1[,4],col=3)
+legend("topleft", legend = Network.A, col = seq(Network.A),lty = 1, cex = .8)
+dev.off()
+png(file = stringr::str_join("Figures//Example_",1,"_Figure_","2",".png"))
+Figure.2<-plot(system.equation.model.test.solution.1[,5],xlab="T",ylab="Value")
+lines(system.equation.model.test.solution.1[,6],col=2)
+lines(system.equation.model.test.solution.1[,7],col=3)
+lines(system.equation.model.test.solution.1[,8],col=4)
+lines(system.equation.model.test.solution.1[,9],col=5)
+lines(system.equation.model.test.solution.1[,10],col=6)
+lines(system.equation.model.test.solution.1[,11],col=7)
+legend("topleft", legend = Network.B, col = seq(Network.B),lty = 1, cex = .8)
+dev.off()
+
+png(file = stringr::str_join("Figures//Example_",1,"_Figure_","3",".png"))
+Figure.3<-plot(system.equation.model.test.solution.1[,14],xlab="T",ylab="Value")
+lines(system.equation.model.test.solution.1[,15],col=2)
+lines(system.equation.model.test.solution.1[,16],col=3)
+lines(system.equation.model.test.solution.1[,17],col=4)
+lines(system.equation.model.test.solution.1[,18],col=5)
+lines(system.equation.model.test.solution.1[,19],col=6)
+lines(system.equation.model.test.solution.1[,20],col=7)
+lines(system.equation.model.test.solution.1[,21],col=8)
+lines(system.equation.model.test.solution.1[,22],col=9)
+lines(system.equation.model.test.solution.1[,23],col=10)
+legend("topleft", legend = Network.C, col = seq(Network.C),lty = 1, cex = .8)
+dev.off()
+png(file = stringr::str_join("Figures//Example_",1,"_Figure_","4",".png"))
+Figure.4<-plot(system.equation.model.test.solution.1[,26],xlab="T",ylab="Value")
+lines(system.equation.model.test.solution.1[,27],col=2)
+lines(system.equation.model.test.solution.1[,28],col=3)
+lines(system.equation.model.test.solution.1[,29],col=4)
+lines(system.equation.model.test.solution.1[,30],col=5)
+lines(system.equation.model.test.solution.1[,31],col=6)
+legend("topleft", legend = Network.D, col = seq(Network.D),lty = 1, cex = .8)
+dev.off()
+
+
+
 #------------------------------------------------References----------------------------------------------------------#
