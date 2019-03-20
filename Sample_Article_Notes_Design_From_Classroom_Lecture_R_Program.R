@@ -67,7 +67,7 @@ Network.A<-c("UV","ATR","ATRp","RPA")
 Network.B<-c("p21","p21CE","DDb2","Rb","Rbp","Cyclin E","EF21")
 Network.C<-c("p53","p53p","Pten","Mdm2n","Mdm2c","Mdm2cp","Akt","Aktp","PIP2","PIP3")
 Network.D<-c("BAX","CytoC","Apops","Apaf-1","CASP9","Procasp9","CASP3","Procasp3","PARP1","PARP3")
-
+Networks<-c(Network.A,Network.B,Network.C,Network.D)
 #------------------------------------------------Tables--------------------------------------------------------------#
 
 
@@ -113,6 +113,26 @@ lines(system.equation.model.test.solution.1[,31],col=6)
 legend("topleft", legend = Network.D, col = seq(Network.D),lty = 1, cex = .8)
 dev.off()
 
+#-------------------------------------Network A------------------------
+#Network.A<-c("UV","ATR","ATRp","RPA")
+png(file = stringr::str_join("Figures//Example_",1,"_Figure_","5",".png"))
+Figure.1.A<-scatterplot.matrix(system.equation.model.test.solution.1[,2:4])
+dev.off()
+#-------------------------------------Network B--------------------------
+#Network.B<-c("p21","p21CE","DDb2","Rb","Rbp","Cyclin E","EF21")
+png(file = stringr::str_join("Figures//Example_",1,"_Figure_","6",".png"))
+Figure.1.B<-scatterplot.matrix(system.equation.model.test.solution.1[,5:13])
+dev.off()
+#-------------------------------------Network C--------------------------
+#Network.C<-c("p53","p53p","Pten","Mdm2n","Mdm2c","Mdm2cp","Akt","Aktp","PIP2","PIP3")
+png(file = stringr::str_join("Figures//Example_",1,"_Figure_","7",".png"))
+Figure.1.C<-scatterplot.matrix(system.equation.model.test.solution.1[,14:25])
+dev.off()
+#-------------------------------------Network D---------------------------
+#Network.D<-c("BAX","CytoC","Apops","Apaf-1","CASP9","Procasp9","CASP3","Procasp3","PARP1","PARP3")
+png(file = stringr::str_join("Figures//Example_",1,"_Figure_","8",".png"))
+Figure.1.D<-scatterplot.matrix(system.equation.model.test.solution.1[,26:31])
+dev.off()
 
 
 #------------------------------------------------References----------------------------------------------------------#
