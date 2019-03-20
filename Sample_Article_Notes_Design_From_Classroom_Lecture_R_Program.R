@@ -56,3 +56,8 @@ Algorithm.3<-function(X)
   output<-list()
   return(output)
 }
+#---------------------------------------------------------------------------------------------------------------------#
+Network.A<-c("UV","ATR","ATRp","RPA")
+Network.B<-c("p21","p21CE","DDb2","Rb","Rbp","Cyclin E","EF21")
+Network.C<-c("p53","p53p","Pten","Mdm2n","Mdm2c","Mdm2cp","Akt","Aktp","PIP2","PIP3")
+Network.D<-c("BAX","CytoC","Apops","Apaf-1","CASP9","Procasp9","CASP3","Procasp3","PARP1","PARP3")
