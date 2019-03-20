@@ -251,6 +251,24 @@ A sample of one arrangment of four separate networks for the dynamical descripti
 
 \section{Definitions}
 
+\begin{definition}
+ Let $g\colon \Omega \subset \mathbb{R} \times \mathbb{R}^n \to \mathbb{R}^n$ where $\Omega$ is an open set of $\mathbb{R} \times \mathbb{R}^n$ and a time based differential equation is
+\begin{equation}
+\frac{dx}{dt} = g(t,x(t))
+\end{equation}
+with an initial point in the domain of $g$ $(t_0, x_0) \in \Omega$.  Furthermore, let G be a vector field with a vector value function $(g_1,g_2,...,g_n)$ for $(x_{1}(t),x_{2}(t),...,x_{n}(t))$ with a vector of time based derivatives
+\begin{equation}
+\mathbf{x}'(t)=
+\begin{cases}
+\frac{dx_1}{dt} &= g_1(x_1(t),\ldots,x_n(t); \alpha_1) \\ 
+&\vdots \\
+\frac{dx_n}{dt} &= g_n(x_1(t),\ldots,x_n(t);\alpha_n).
+\end{cases}
+\end{equation}
+with $\mathbf{x}'(t) = \mathbf{G}(\mathbf{x}(t)).\!\ $ and $\alpha_{i}$ is a parameter vector  for  $(g_1,g_2,...,g_n)$.
+\end{definition}
+
+
 \section{Theorems}
 
 \section{Algorithms}
