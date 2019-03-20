@@ -31,7 +31,7 @@ noise.test.parameters <-c(k.noise.1=0,k.noise.2=0,k.noise.3=0,k.noise.4=0,k.nois
                           k.noise.9=0,k.noise.10=0,k.noise.11=0,k.noise.12=0,k.noise.13=0,k.noise.14=0,k.noise.15=0,k.noise.16=0,
                           k.noise.17=0,k.noise.18=0,k.noise.19=0,k.noise.20=0,k.noise.21=0,k.noise.22=0)
 
-#----------------------------------------------------Algorithm Development-------------------------------------------#
+#----------------------------------------Algorithm Development in the Classroom-------------------------------------------#
 Differential.Equation.Algorithms = c("lsoda", "lsode", "lsodes", "lsodar", "vode", "daspk", "euler", "rk4", 
                                      "ode23", "ode45", "radau", "bdf", "bdf_d", "adams", "impAdams", "impAdams_d", "iteration")
 
@@ -68,10 +68,16 @@ output <- c("")
          list(output)
        })
 }
-
 #------------------------------------------------DE Solvers, Optimizers and Algorithms--------------------------------#
-
-
+system.equation.model.test.solution.1 <- Algorithm.1(y = variables.initial.test.A , 
+                                                     times = times, 
+                                                     func = system.equation.model.test, 
+                                                     parms = parameters.test) 
+#-------------------------------------------------Summary of Algorithms-----------------------------------------------#
+options(digits = 3)
+system.1.summary<-summary(system.equation.model.test.solution.1)
+Table.Summary<-xtable(t(system.1.summary));
+Table.Summary
 #------------------------------------------------Network--------------------------------------------------------------#
 Network.A<-c("UV","ATR","ATRp","RPA")
 Network.B<-c("p21","p21CE","DDb2","Rb","Rbp","Cyclin E","EF21")
@@ -85,10 +91,7 @@ Table.3<-xtable::xtable(Table.3.df)
 Table.4<-xtable::xtable(Table.4.df)
 Table.5<-xtable::xtable(Table.5.df)
 Table.6<-xtable::xtable(Table.6.df)
-
-
 #------------------------------------------------Figures-------------------------------------------------------------#
-
 png(file = stringr::str_join("Figures//Example_",1,"_Figure_","1",".png"))
 Figure.1<-plot(system.equation.model.test.solution.1[,2],xlab="T",ylab="Value")
 lines(system.equation.model.test.solution.1[,3],col=2)
@@ -128,7 +131,6 @@ lines(system.equation.model.test.solution.1[,30],col=5)
 lines(system.equation.model.test.solution.1[,31],col=6)
 legend("topleft", legend = Network.D, col = seq(Network.D),lty = 1, cex = .8)
 dev.off()
-
 #-------------------------------------Network A------------------------
 #Network.A<-c("UV","ATR","ATRp","RPA")
 png(file = stringr::str_join("Figures//Example_",1,"_Figure_","5",".png"))
