@@ -34,6 +34,9 @@ noise.test.parameters <-c(k.noise.1=0,k.noise.2=0,k.noise.3=0,k.noise.4=0,k.nois
                           k.noise.17=0,k.noise.18=0,k.noise.19=0,k.noise.20=0,k.noise.21=0,k.noise.22=0)
 
 #----------------------------------------------------Algorithm Development-------------------------------------------
+Differential.Equation.Algorithms = c("lsoda", "lsode", "lsodes", "lsodar", "vode", "daspk", "euler", "rk4", "ode23", "ode45", "radau", "bdf", "bdf_d", "adams", "impAdams", "impAdams_d", 
+           "iteration")
+
 Algorithm.1<-function(X)
 {
   output<-list()
