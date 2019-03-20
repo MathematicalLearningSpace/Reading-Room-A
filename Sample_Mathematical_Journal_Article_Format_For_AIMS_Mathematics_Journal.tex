@@ -138,6 +138,112 @@
 
 \section{Networks}
 
+A sample of one arrangment of four separate networks for the dynamical description of (A) DNA damage repair (B) Cell Cycle Arrest  (C) Oncogene dynamics with PI3K /PTEN/Akt signaling pathway, and (D) Apoptosome Formation for Apoptosis. Figure 1 shows the relationships. 
+
+\begin{figure}[H]
+\begin{tikzpicture}[auto, thick, node distance=1.25cm, >=triangle 45,scale=.15]
+\tiny
+\draw
+	%--------------------------------------------------Drawing of Network A---------------------------------------------%
+	node at (0,0)[right=-3mm]{\small Start}
+	node [input, name=input1] {} 
+	node [block, right of=input1] (UV) {UV}
+	node [block, below of=UV] (ATR) {ATR}
+        node [block, right of=UV] (DNA) {DNA Damage}
+	node[block, left of=ATR](RPA) {RPA}
+        node [block, below of=DNA] (ATRp) {ATRp};
+  	
+	\draw[->] (input1) --(UV);   
+	\draw[->] (UV) --(DNA); 
+	\draw[->] (ATR) --(ATRp); 
+	\draw[->,dashed] (RPA) --(ATR); 
+	\draw[->,dashed] (DNA)--(12,-8);
+	%\draw [color=gray,thick](0,0) rectangle (1,1);
+	\node at (1,3) [above=1mm, right=0mm] {\textsc{Network A}};	
+	%------------------------------------------------Drawing Network B------------------------------------------------%
+	\draw
+	node at (30,1) [block] (p21) {p21}
+    	node [block, right of=p21] (DDb2) {DDb2}
+    	node [block, below of=DDb2] (Rbp) {Rbp}
+    	node [block, below of=Rbp] (Cyce) {Cyce}
+	node [block, right of=Rbp] (RB) {RB}
+	node [block, below of=RB] (EF21) {EF21}
+	node at (30,-5) [block](CC) {Cell Cycle}
+	;
+	\draw[->] (p21) --(CC);  
+	 \draw[->] (RB) --(EF21);
+	 \draw[->] (RB) --(Rbp);
+	 \draw[->] (Rbp) --(RB);
+	 \draw[->] (Rbp) --(EF21);
+	 \draw[->] (DDb2) --(p21);
+	 \draw[->] (EF21) --(Cyce);
+	 \draw[->] (p21) --(Cyce);
+	%\draw [color=gray,thick](5.5,-3) rectangle (12,2);
+	\node at (35,4) [below=5mm, right=0mm] {\textsc{Network B}};
+	%----------------------------------------------- Draw Network C-------------------------------------------------%
+	\draw
+	node at  (0.5,-20) [sum, name=p53] {P53}
+	node [sum, right of=p53] (mdm2n) {Mdm2n}
+	node [block, right of=mdm2n] (mdm2cp) {Mdm2cp}
+	node [block, right of=mdm2cp] (aktp) {Aktp}
+	node [block, below of=p53] (p53p) {p53p}
+    	node [block, right of=p53p] (pten) {Pten}
+	node [block, below of=mdm2cp] (mdm2c) {Mdm2c}
+	node [block, right of=mdm2c] (akt) {Akt}
+	node [block, below of=pten] (pip2) {PIP2}
+	node [block, below of=mdm2c] (pip3) {PIP3}
+	;
+	\draw[->] (p53) --(p53p);  
+	\draw[->,dashed] (p53p) --(p53); 
+	\draw[->] (ATRp) --(mdm2n);  
+	\draw[->,dashed] (p21) --(p53);  
+	 \draw[->] (pip2) --(pip3);
+ 	\draw[->] (pip3) --(pip2);
+ 	\draw[->] (akt) --(aktp);
+	 \draw[->] (aktp) --(akt);
+	\draw[->] (p53p) --(pten);  
+	\draw[->] (mdm2cp) --(mdm2c);  
+	\draw[->] (mdm2c) --(mdm2cp);
+	\draw[->] (pip3) --(akt);
+	\draw[->,dashed] (p53p) --(mdm2c);
+	\draw[->] (mdm2n) --(p53);
+	%\draw [color=gray,thick](-0.5,-9) rectangle (7,-4);
+	\node at (-0.5,-40) [below=5mm, right=0mm] {\textsc{Network C}};
+	%----------------------------------------------Draw Network D-----------------------------------------------%
+	\draw
+	node  at (30, -20) [block] (bax) {BAX}
+	node [block,below of=bax ](cytoc) {CytoC}
+	node [block, right of=bax] (apops) {Apops}
+	node [block, below of=apops] (casp9) {CASP9}
+	node [block, right of=apops] (procasp3) {Procasp3}
+	node [block, below of=cytoc] (apaf1) {Apaf-1}
+	node [block, below  of=casp9] (procasp9) {Procasp9}
+	node [block, below of=procasp3] (casp3) {casp3}
+	node [block, below of=apaf1] (APTX) {APTX}
+	node [block, below of=casp3] (PARP1) {PARP1}
+	node [block, below of=PARP1] (PARP3) {PARP3}
+	node[sum, below of=PARP3] (Apoptosis){Apoptosis}
+	;
+	\draw[->,dashed] (p53) to [controls=+(30:12) and +(30:12)] (bax);
+	\draw[->,dashed] (bax) --(cytoc);
+  	\draw[->,dashed] (cytoc) --(apops);
+	\draw[->,dashed] (apaf1) --(apops);
+	\draw[->,dashed] (apops) --(casp9);
+	\draw[->,dashed] (casp9) --(procasp9);
+	\draw[->,dashed] (procasp9) --(casp9);
+	\draw[->,dashed] (casp3) --(procasp3);
+	\draw[->,dashed] (procasp3) --(casp3);
+	\draw[->,dashed] (casp3) --(casp9);
+	\draw[->] (PARP1) --(APTX); 
+	\draw[->] (PARP1) --(PARP3); 
+	\draw[->] (casp3) --(PARP1); 
+	\draw[->] (bax) --(casp3); 
+	\draw[->] (PARP3) --(Apoptosis);
+	%\draw [color=gray,thick](17.5,-9) rectangle (12.5,-4);
+	\node at (35,-60) [below=5mm, right=0mm] {\textsc{Network D}};
+\end{tikzpicture}
+\end{figure}
+
 \section{Definitions}
 
 \section{Theorems}
