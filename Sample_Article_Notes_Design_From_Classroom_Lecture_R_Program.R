@@ -55,6 +55,9 @@ Algorithm.3<-function(X)
   return(output)
 }
 #------------------------------------------------Parameter Matrix-----------------------------------------------------#
+variables.initial.test.A<-c("")
+parameters.test <- c("")
+parameters.test<-c(parameters.test,noise.test.parameters)
 
 #------------------------------------------------Equation Systems------------------------------------------------------#
 system.equation.model.test<-function(times, variables.intitial.test, parameters.test)
