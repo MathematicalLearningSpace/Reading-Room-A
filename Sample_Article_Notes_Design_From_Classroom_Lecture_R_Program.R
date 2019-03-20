@@ -1,12 +1,11 @@
-#-----------------------------R Program for InClass Lecture---------------------------------------------------------#
-#-------------------------------------------------------------------------------------------------------------------#
-#-------------------------------------------------------------------------------------------------------------------#
-
+#-----------R Program for InClass Lecture For Sample Journal Article Notes---------------------------------------------------------#
+#----------------------------------------------------------------------------------------------------------------------------------#
+#----------------------------------------------------------------------------------------------------------------------------------#
 library(pracma);library(xtable);library(deSolve);library(ReacTran);library(rootSolve);library(fda);library(igraph);library(boot)
 library(sampling);library(PearsonDS);library(KEGGgraph);library(keggorthology);library(KEGGREST);library(Rgraphviz)
 library(igraph);library(jsonlite);library(tsDyn);library(tseriesChaos);library(wavelets);library(waveslim);library(readr);library(randtests)
 library(changepoint);library(car);library(tuneR);library(diffEq);library(phaseR)
-#-------------------------------------------------------------------------------------------------------------------#
+#----------------------------------------------------------------------------------------------------------------------------------#
 
 Table.1.df<-data.frame()
 Table.2.df<-data.frame()
