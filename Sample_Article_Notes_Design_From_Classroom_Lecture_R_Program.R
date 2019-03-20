@@ -133,6 +133,23 @@ dev.off()
 png(file = stringr::str_join("Figures//Example_",1,"_Figure_","8",".png"))
 Figure.1.D<-scatterplot.matrix(system.equation.model.test.solution.1[,26:31])
 dev.off()
+#------------------------------------Histograms and QQ Plots-----------------------------------------------------------#
+for(i in 2:31)
+{
+op <- par(mfrow = c(2, 2))
+png(file = stringr::str_join("Figures//Example_",1,"_Figure_",i+10,".png"))
+Figure<-hist(system.equation.model.test.solution.1[,i],main=stringr::str_c(Networks[i]),xlab=stringr::str_c(Networks[i]),
+                 breaks = 12, col = "green", border = "blue")
+dev.off()
+}
+for(i in 2:31)
+{
+png(file = stringr::str_join("Figures//Example_",1,"_Figure_",i+40,".png"))
+Figure<-qqplot(system.equation.model.test.solution.1[,i], qchisq(ppoints(system.equation.model.test.solution.1[,i]), df = 4),
+                   main=stringr::str_c(Networks[i]),xlab=stringr::str_c(Networks[i])); 
+abline(0, 1, col = 2, lty = 2)
+dev.off()
+}
 
 
 #------------------------------------------------References----------------------------------------------------------#
