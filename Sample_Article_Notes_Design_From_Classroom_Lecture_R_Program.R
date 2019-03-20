@@ -33,3 +33,23 @@ noise.test.parameters <-c(k.noise.1=0,k.noise.2=0,k.noise.3=0,k.noise.4=0,k.nois
                           k.noise.9=0,k.noise.10=0,k.noise.11=0,k.noise.12=0,k.noise.13=0,k.noise.14=0,k.noise.15=0,k.noise.16=0,
                           k.noise.17=0,k.noise.18=0,k.noise.19=0,k.noise.20=0,k.noise.21=0,k.noise.22=0)
 
+#----------------------------------------------------Algorithm Development-------------------------------------------
+Algorithm.1<-function(X)
+{
+  output<-list()
+  return(output)
+}
+  
+Algorithm.2<-function(X)
+{
+   
+  output<-list()
+  return(output)
+}
+  
+Algorithm.3<-function(X)
+{
+  
+  output<-list()
+  return(output)
+}
