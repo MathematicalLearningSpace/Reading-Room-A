@@ -57,7 +57,14 @@ Algorithm.3<-function(X)
 #------------------------------------------------Parameter Matrix-----------------------------------------------------#
 
 #------------------------------------------------Equation Systems------------------------------------------------------#
-
+system.equation.model.test<-function(times, variables.intitial.test, parameters.test)
+{
+  with(as.list(c(parameters.test, variables.intitial.test)), 
+       {
+output <- c("")
+         list(output)
+       })
+}
 
 #------------------------------------------------DE Solvers, Optimizers and Algorithms--------------------------------#
 
