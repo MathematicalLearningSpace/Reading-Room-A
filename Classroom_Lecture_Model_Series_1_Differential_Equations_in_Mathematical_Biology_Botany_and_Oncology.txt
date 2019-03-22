@@ -12,8 +12,8 @@ Title: Differential Equations in Mathematical Biology, Botany and Oncology
 \item Itô Lemma and Calculus
 \item Stochastic Differential Equations Models (SDE)
 \item Fractional Differential Equations Models (FDE)
-\item DDE SDE
-\item FDE DDE SDE
+\item DDE SDE Combination
+\item FDE DDE SDE Combination
 \item SDE Bridges and Diffusion Models
 \item Stochastic Noise Models
 \item Markov Models
@@ -30,7 +30,7 @@ Title: Differential Equations in Mathematical Biology, Botany and Oncology
 \item Milstein Algorithms
 \item Stochastic Search and Integration Algorithms
 \item Baum-Welch and Viterbi Algorithms
-\item Combinatorial Optimization
+\item Multivariate Stochastic Nonlinear Combinatorial Optimization with Linear and Nonlinear Constraints
 \item Heuristic-Metaheuristic Optimization
 \item EigenVector Frequencies, Modes, Harmonics
 \item Distance, Connectivity and Toplogical Metrics for Adjacency Lists and Matrices
