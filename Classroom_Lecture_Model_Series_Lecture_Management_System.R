@@ -2,7 +2,7 @@
 #------------------------------------------------------------------------------------------------------------------------------#
 library(WikipediR);library(textclean);library(xtable);library(readr);library(easyPubMed);library(bio3d);library(CHNOSZ);library(stringr);library(Peptides);library(Biostrings)
 library(seqinr);library(seqLogo);library(msa);library(ape);library(dtw);library(dtwclust);library(odseq)
-library(rphast);library(phaseR);library(plyr);
+library(rphast);library(phaseR);library(plyr);library(aRxiv);
 #-------------Data--------------------------------------#
 
 Folders<-c("Album_Designs",
