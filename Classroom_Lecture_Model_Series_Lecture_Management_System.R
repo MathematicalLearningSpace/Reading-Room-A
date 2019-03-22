@@ -1,9 +1,8 @@
-
-library(WikipediR)
-library(textclean)
-library(xtable)
-library(readr)
-#-------------Lecture Management System-----------------#
+#----------------------Lecture Managements System To Be Used and Updated by Students in the Classroom for Lecture Designs------#
+#------------------------------------------------------------------------------------------------------------------------------#
+library(WikipediR);library(textclean);library(xtable);library(readr);library(easyPubMed);library(bio3d);library(CHNOSZ);library(stringr);library(Peptides);library(Biostrings)
+library(seqinr);library(seqLogo);library(msa);library(ape);library(dtw);library(dtwclust);library(odseq)
+library(rphast);library(phaseR);library(plyr);
 #-------------Data--------------------------------------#
 
 Folders<-c("Album_Designs",
@@ -11,8 +10,6 @@ Folders<-c("Album_Designs",
            "Lecture_Designs",
            "Music_Composition_Designs",
            "Reading_List_Designs")
-
-
 
 Classes<-c("Fractional Stochastic Differential Equation Theory",
            "Biological Signal Transduction Network Theory",
