@@ -19,6 +19,41 @@ data(arxiv_cats)
 #rn 	Report Number
 #id 	Id (use id_list instead)
 #all 	All of the above
+#---Mathematical Categories for Table Designs and Student Classroom Projects and Presentations----#
+\hline 
+math.AG & Mathematics - Algebraic Geometry & \\
+math.AT & Mathematics - Algebraic Topology & \\
+math.AP & Mathematics - Analysis of PDEs & \\
+math.CT & Mathematics - Category Theory & \\
+math.CA & Mathematics - Classical Analysis and ODEs & \\
+math.CO & Mathematics - Combinatorics & \\
+math.AC & Mathematics - Commutative Algebra & \\
+math.CV & Mathematics - Complex Variables & \\
+math.DG & Mathematics - Differential Geometry & \\
+math.DS & Mathematics - Dynamical Systems & \\
+math.FA & Mathematics - Functional Analysis & \\
+math.GM & Mathematics - General Mathematics & \\
+math.GN & Mathematics - General Topology & \\
+math.GT & Mathematics - Geometric Topology & \\
+math.GR & Mathematics - Group Theory & \\
+math.HO & Mathematics - History and Overview & \\
+math.IT & Mathematics - Information Theory & \\
+math.KT & Mathematics - K-Theory and Homology & \\
+math.LO & Mathematics - Logic & \\
+math.MP & Mathematics - Mathematical Physics & \\
+math.MG & Mathematics - Metric Geometry & \\
+math.NT & Mathematics - Number Theory & \\
+math.NA & Mathematics - Numerical Analysis & \\
+math.OA & Mathematics - Operator Algebras & \\
+math.OC & Mathematics - Optimization and Control & \\
+math.PR & Mathematics - Probability & \\
+math.QA & Mathematics - Quantum Algebra & \\
+math.RT & Mathematics - Representation Theory & \\
+math.RA & Mathematics - Rings and Algebras & \\
+math.SP & Mathematics - Spectral Theory & \\
+math.ST & Mathematics - Statistics & \\
+\hline 
+
 #-------------------Pearson Distribution-----------------------------------------#
 Pearson.Type.0<-arxiv_search(query = 'abs:Normal Distribution', limit=100)
 Pearson.Type.I<-arxiv_search(query = 'abs:Beta Distribution',limit=100)
