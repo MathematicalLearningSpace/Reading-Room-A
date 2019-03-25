@@ -29,4 +29,5 @@ Pearson.Type.V<-arxiv_search(query = 'abs: Inverse Gamma Distribution',limit=100
 Pearson.Type.VI<-arxiv_search(query = 'abs: Beta Prime Distribution',limit=100)
 Pearson.Type.VII<-arxiv_search(query = 'abs: Student t Distribution',limit=100)
 
-
+Tikhonov.regularization<-arxiv_search(query = 'abs:Generalized Tikhonov regularization AND cat:math.ST',limit=100)
+Gene.Expression<-arxiv_search(query = 'abs: Gene Expression AND cat:q-bio.BM',limit=100)
