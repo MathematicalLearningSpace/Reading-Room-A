@@ -7,12 +7,12 @@ Title: Classroom Lecture Model Series 3 Oncological Molecular Machine Learning w
 \section{Group 1}
 
 \begin{enumerate}
-\item Ribosome Design, Engineering and Simulation
-\item EndoPlasmic Rectilium Smooth and Rough Design
-\item Translation and Transcription Error Models I
-\item Translation and Transcription Error Models II
-\item Translation and Transcription Error Models III
-\item Tridiagonal Models 
+\item Organelle Model Design - Ribosome Design, Engineering and Simulation
+\item Organelle Model Design - EndoPlasmic Rectilium Smooth and Rough Design
+\item Organelle Model Design - Translation and Transcription Error Models I
+\item Organelle Model Design - Translation and Transcription Error Models II
+\item Organelle Model Design - Translation and Transcription Error Models III
+\item Organelle Model Design - Tridiagonal Models 
 \item Peptide Models I
 \item Peptide Models II
 \item Mitochrondria Models
@@ -23,16 +23,16 @@ Title: Classroom Lecture Model Series 3 Oncological Molecular Machine Learning w
 %-----------------------------------------------------------------------------------------------------------------------%
 \section{Group 2}
 
-\begin{enumerate}
-\item Normal Modal Analysis, Gaussian Network, Force Fields and Hamiltonian Dynamics 
-\item Heat Schock Proteins and Protein Interaction Models
-\item Stochastic Search and Optimization in Compound Discovery
-\item Cheminformatics and Molecular Machine Learning Models
-\item Quantitative Structure Activity Relationship Descriptors Matrix Designs
-\item EigenFrequency Classifiers
-\item WDR Models
-\item Molecular Machines I
-\item Molecular Machines II
+\begin{enumerate} 
+\item Conditional Moment Design -Normal Modal Analysis, Gaussian Network, Force Fields and Hamiltonian Dynamics 
+\item Protein Interaction Models - Heat Schock Proteins and Protein Interaction Models
+\item Drug Discovery Design - Stochastic Search and Optimization in Compound Discovery
+\item Drug Discovery Design - Cheminformatics and Molecular Machine Learning Models
+\item QSAR Feature Matrix Design - Quantitative Structure Activity Relationship Descriptors Matrix Designs
+\item Numerical Linear Algebra - EigenFrequency Classifiers
+\item Protein Models - WDR and G Quadruplexes
+\item Organelle Mode Design - Molecular Machines I
+\item Organelle Mode Design - Molecular Machines II
 \end{enumerate}
 
 %-----------------------------------------------------------------------------------------------------------------------%
@@ -43,23 +43,27 @@ Title: Classroom Lecture Model Series 3 Oncological Molecular Machine Learning w
 
 \begin{enumerate}
 \item Organelle Assembly and Alignment Methodology
-\item Chaperone Design
-\item Chaperone Engineering
-\item Chaperone Simulation
-\item Proteasome Design
-\item Proteasome Engineering
-\item Proteasome Simulation
-\item System  Models: Ribosome, Chaperone, Proteasome I
-\item System  Models: Ribosome, Chaperone, Proteasome II
+\item Organelle Mode Design - Chaperone Design
+\item Organelle Mode Design - Chaperone Engineering
+\item Organelle Mode Design - Chaperone Simulation
+\item Organelle Mode Design - Proteasome Design
+\item Organelle Mode Design - Proteasome Engineering
+\item Organelle Mode Design - Proteasome Simulation
+\item System  Model Design - Ribosome, Chaperone, Proteasome I
+\item System  Model Design - Ribosome, Chaperone, Proteasome II
 \item Course 1 2 3 Review
 \end{enumerate}
 
+%-----------------------------------------------------------------------------------------------------------------------%
+%-------------------------------------------------Group 4---------------------------------------------------------------%
+%-----------------------------------------------------------------------------------------------------------------------%
 \section{Group 4}
 
 \begin{enumerate}
-\item Lecture Test Day 1
-\item Lecture Test Day 2
-\item Lecture Test Day 3
+\item Lecture Test Day 1 Question List I
+\item Lecture Test Day 2 Question List II
+\item Lecture Test Day 3 Question List III
+\iem Assignments
 \end{enumerate}
 
 
