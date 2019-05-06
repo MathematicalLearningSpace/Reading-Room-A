@@ -1,7 +1,7 @@
 %-----------------Review Notes for Research Position Opportunities--------------%
 %-------------------------------------------------------------------------------%
 
-
+\begin{document}
 \section{Introduction}
 
 
@@ -9,10 +9,25 @@
 
 \section{Review Topic}
 
+\begin{table}[H]\centering
+\tiny
+\begin{tabular}{p{1cm}p{4cm}}
+ID & Title \\
+\hline
 
+\hline
+\end{tabular}
+\end{table}
 
 \section{Discussion}
 
 
 
 \section{Bibliography}
+
+\bibliographystyle{plain}
+\begin{thebibliography}{00}
+\footnotesize
+
+\end{thebibliography}
+\end{document}
