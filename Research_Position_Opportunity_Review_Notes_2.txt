@@ -1,6 +1,8 @@
 %-----------------Review Notes for Research Position Opportunities--------------%
 %-------------------------------------------------------------------------------%
 
+%List of Topics search.terms.A<-c("G1 Phase ","G1 S ","Early S ","Late S ","G2 Phase ","Mitosis ")
+%---------------search.terms.B<-" AND (2015[PDAT]:2019[PDAT])"
 
 \section{Introduction}
 
