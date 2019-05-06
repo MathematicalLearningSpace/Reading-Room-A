@@ -8,12 +8,29 @@
 
 
 
-\section{Review Topic}
+\section{Review Topic A:G1 Phase p21}
 
+\begin{table}[H]\centering
+\tiny
+\begin{tabular}{p{1cm}p{4cm}}
+ID & Title \\
+\hline
+\href{https://www.ncbi.nlm.nih.gov//pubmed//31027376}{31027376} & Mortalin (GRP75/HSPA9) Promotes Survival and Proliferation of Thyroid Carcinoma Cells.\cite{key1}
+\hline
+\end{tabular}
+\end{table}
 
+Mortalin (HSPA9/GRP75) with mitochondrial HSP70 chaperone A can be considered to be a therapy target for both tumor cell proliferation and survival in human medullary thyroid carcinoma (MTC) cancer cells.\cite{key1}
 
 \section{Discussion}
 
 
 
 \section{Bibliography}
+
+\bibliographystyle{plain}
+\begin{thebibliography}{00}
+\footnotesize
+\bibitem[1]{key1}\href{https://www.ncbi.nlm.nih.gov//pubmed//31027376}{31027376}-Mortalin (GRP75/HSPA9) Promotes Survival and Proliferation of Thyroid Carcinoma Cells.
+\end{thebibliography}
+\end{document}
