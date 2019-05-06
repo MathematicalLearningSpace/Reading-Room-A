@@ -2,6 +2,7 @@
 %-----------------Review Notes for Research Position Opportunities--------------%
 %-------------------------------------------------------------------------------%
 
+\begin{document}
 
 \section{Introduction}
 
