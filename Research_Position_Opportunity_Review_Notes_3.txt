@@ -1,3 +1,4 @@
+%-------------------------------------------------------------------------------%
 %-----------------Review Notes for Research Position Opportunities--------------%
 %-------------------------------------------------------------------------------%
 
@@ -5,26 +6,29 @@
 
 \section{Introduction}
 
-
-
-
-\section{Review Topic A:}
-
-Disrupted diurnal rhythms cause aging with an increased incidence in both age-related disease and morbidity [109].
-
 \begin{table}[H]\centering
 \tiny
 \begin{tabular}{p{1cm}p{4cm}}
-ID & Title \\
+Section & Number of Articles \\
 \hline
- 30373515-Long non-coding RNAs have age-dependent diurnal expression  that  coincides  with  age-related  changes  in  genome-wide facultative heterochromatin
+A & \\
+B & \\
+C & \\
+D & \\
+E & \\
+F & \\
 \hline
 \end{tabular}
 \end{table}
 
+\section{Review Topic A:}
+\section{Review Topic B:}
+\section{Review Topic C:}
+\section{Review Topic D:}
+\section{Review Topic E:}
+\section{Review Topic F:}
+
 \section{Discussion}
-
-
 
 \section{Bibliography}
 
