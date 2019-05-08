@@ -5,7 +5,18 @@
 \begin{document}
 \section{Introduction}
 
-\section{Review Topic}
+\begin{table}[H]\centering
+\tiny
+\begin{tabular}{p{1cm}p{4cm}}
+Section & Number of Articles \\
+\hline
+A & \\
+\hline
+\end{tabular}
+\end{table}
+
+
+\section{Review Topic A:}
 
 
 \section{Discussion}
