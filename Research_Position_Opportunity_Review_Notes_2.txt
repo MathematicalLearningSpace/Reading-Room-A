@@ -1,29 +1,39 @@
-%-----------------Review Notes for Research Position Opportunities--------------%
-%-------------------------------------------------------------------------------%
-
-%List of Topics search.terms.A<-c("G1 Phase ","G1 S ","Early S ","Late S ","G2 Phase ","Mitosis ")
+%--------------------------------------------------------------------------------------------------------------------%
+%-----------------Review Notes for Research Position Opportunities---------------------------------------------------%
+%--------------------------------------------------------------------------------------------------------------------%
+%--------List of Topics search.terms.A<-c("G1 Phase ","G1 S ","Early S ","Late S ","G2 Phase ","Mitosis ")
 %---------------search.terms.B<-" AND (2015[PDAT]:2019[PDAT])"
 
 \section{Introduction}
 
-
-
-
-\section{Review Topic A:}
-
 \begin{table}[H]\centering
 \tiny
 \begin{tabular}{p{1cm}p{4cm}}
-ID & Title \\
+Section & Number of Articles \\
 \hline
-
+A & \\
+B & \\
+C & \\
+D & \\
+E & \\
+F & \\
 \hline
 \end{tabular}
 \end{table}
 
+\section{Review Topic A: G1 Phase}
+
+\section{Review Topic B: G1 S}
+
+\section{Review Topic C: Early S}
+
+\section{Review Topic D: Late S}
+
+\section{Review Topic E: G2 Phase}
+
+\section{Review Topic F: Mitosis}
 
 \section{Discussion}
-
 
 
 \section{Bibliography}
