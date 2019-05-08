@@ -1,5 +1,6 @@
-
+%-----------------------------------------------------------------------------------------
 Title: List of Algorithms From Function Library for Classroom Lecture Model Series Courses
+%-----------------------------------------------------------------------------------------
 
 \centering
 \begin{table}[H]\footnotesize
@@ -10,6 +11,30 @@ AlgorithmID & MethodID & Description & LectureID & CDF & DataSet & Curated \\
 \hline
 Algorithm.A & Moments.A & First 6 Moments and Ratios for Differential Equation Systems & Course.1.Lecture.1 & Normal & Synthetic & Yes \\
 Algorithm.B & Optimization.A & Optimization for Differential Equation Systems & Course.1.Lecture.1 & Normal, Binomial, Multinomial, Uniform & Synthetic & Yes \\
+Algorithm.C & & & & & & \\
+Algorithm.D & & & & & & \\
+Algorithm.E & & & & & & \\
+Algorithm.F & & & & & & \\
+Algorithm.G & & & & & & \\
+Algorithm.H & & & & & & \\
+Algorithm.I & & & & & & \\
+Algorithm.J & & & & & & \\
+Algorithm.K & & & & & & \\
+Algorithm.L & & & & & & \\
+Algorithm.M & & & & & & \\
+Algorithm.N & & & & & & \\
+Algorithm.O & & & & & & \\
+Algorithm.P & & & & & & \\
+Algorithm.Q & & & & & & \\
+Algorithm.R & & & & & & \\
+Algorithm.S & & & & & & \\
+Algorithm.T & & & & & & \\
+Algorithm.U & & & & & & \\
+Algorithm.V & & & & & & \\
+Algorithm.W & & & & & & \\
+Algorithm.X & & & & & & \\
+Algorithm.Y & & & & & & \\
+Algorithm.Z & & & & & & \\
 \hline
 \end{tabular}
 \end{table}
