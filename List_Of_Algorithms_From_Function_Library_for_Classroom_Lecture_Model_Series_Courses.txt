@@ -1,6 +1,6 @@
-%-----------------------------------------------------------------------------------------
-Title: List of Algorithms From Function Library for Classroom Lecture Model Series Courses
-%-----------------------------------------------------------------------------------------
+%-------------------------------------------------------------------------------------------------------
+Title: List of Algorithms From Function Library for Classroom Lecture Model Series Courses-To Be Updated
+%-------------------------------------------------------------------------------------------------------
 
 \centering
 \begin{table}[H]\footnotesize
