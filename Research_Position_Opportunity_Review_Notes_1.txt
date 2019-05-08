@@ -4,13 +4,11 @@
 %----------------Classroom Example Indian Journal of Cancer---------------------%
 %---------------------http://www.indianjcancer.com/-----------------------------%
 %-----------------https://www.ncbi.nlm.nih.gov/pubmed/26548931------------------%
+%-------------------------------------------------------------------------------%
 
 \begin{document}
 
 \section{Introduction}
-
-
-
 
 \section{Review Topic A:G1 Phase p21}
 
@@ -27,8 +25,6 @@ ID & Title \\
 Mortalin (HSPA9/GRP75) with mitochondrial HSP70 chaperone A can be considered to be a therapy target for both tumor cell proliferation and survival in human medullary thyroid carcinoma (MTC) cancer cells.\cite{key1}
 
 \section{Discussion}
-
-
 
 \section{Bibliography}
 
