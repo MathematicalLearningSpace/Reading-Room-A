@@ -1,4 +1,6 @@
+#--------------------------------------------------------------------------------------------------#
 #---------------Reading List Design from aRXiv for Classroom Student Presentations-----------------#
+#--------------------------------------------------------------------------------------------------#
 library(aRxiv)
 
 #---------------Examples from Lectures-------------------------------------------#
@@ -66,3 +68,16 @@ Pearson.Type.VII<-arxiv_search(query = 'abs: Student t Distribution',limit=100)
 
 Tikhonov.regularization<-arxiv_search(query = 'abs:Generalized Tikhonov regularization AND cat:math.ST',limit=100)
 Gene.Expression<-arxiv_search(query = 'abs: Gene Expression AND cat:q-bio.BM',limit=100)
+
+
+#----------------Student Assignments-----------------------------------------------#
+#----------------To be Designed by Students----------------------------------------#
+Module.1.Search<-function(X)
+{
+  
+  output<-list()
+  output$X<-X
+  return(output)
+}
+test.Module.1.Search("1")
+test.Module.1.Search
