@@ -6,6 +6,27 @@
 
 \section{Introduction}
 
+\begin{table}[H]\centering
+\tiny
+\begin{tabular}{p{1cm}p{4cm}}
+Section & Number of Articles \\
+\hline
+Review: Mathematical Oncology & \\
+Review: MicroRNA & \\
+Review: Network Regulation & \\
+Up Regulation & \\
+Down Regulation & \\
+Review: Treatment & \\
+Treatment: Drug & \\
+Treatment: Chemotherapy & \\
+Treatment: Natural Products & \\
+Treatment: Radiotherapy & \\
+Treatment: Vaccination & \\
+\hline
+\end{tabular}
+\end{table}
+
+
 \section{Review: Mathematical Oncology}
 
 \section{Review: MicroRNA}
