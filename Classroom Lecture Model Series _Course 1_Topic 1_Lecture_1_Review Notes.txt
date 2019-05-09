@@ -170,6 +170,17 @@ Keywords:
 
 \subsection{Treatment: Vaccination}
 
+\subsection{Treatment: Surgery}
+
+\subsection{Treatment Combinations: Chemotherapy and Surgery}
+
+\subsection{Treatment Combinations: Radiotherapy and Chemotherapy and Surgery}
+
+\subsection{Treatment Combinations: Radiotherapy and Surgery}
+
+\subsection{Treatment Combinations: Radiotherapy and Chemotherapy} 
+
+
 \section{Classroom Discussion}
 
 \bibliographystyle{plain}
