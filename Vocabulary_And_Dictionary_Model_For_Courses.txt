@@ -1,3 +1,23 @@
 %------------------------------------------------------------------------------------%
 %--------------Vocabulary and Dictionary Model For Courses---------------------------%
 %------------------------------------------------------------------------------------%
+
+library(tuneR);library(seewave);library(WaveletComp);library(wavelets);library(phonics); 
+library(stringdist);library(Rtts);
+library(syllable);library(soundgen);library(changepoint)
+
+#-----------------------------------------------------------------------------------#
+#--------------------------Example for the Classroom -------------------------------#
+#-----------------------------------------------------------------------------------#
+Alphabet.English <- readWave("English_Alphabet.wav")
+waves<-list();start.1<-0;interval<-1
+for(i in 1:26)
+{
+  waves[[i]] <- cutw(Alphabet.English,f=Alphabet.English@samp.rate,from = start.1, to = i*interval)
+  png(file = stringr::str_join("Figures//Example_",1,"_Figure_",i,".png"))
+  plot(waves[[i]])
+  dev.off()
+  savewav(waves[[i]],f=Alphabet.English@samp.rate,file=stringr::str_c("Letter_",i,".wav"))
+  start.1<-i*interval
+}
+
