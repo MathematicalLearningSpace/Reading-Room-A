@@ -20,13 +20,13 @@ Algorithm.H & Harmonics & & & & & \\
 Algorithm.I & Smile.Parser& & & & & \\
 Algorithm.J & Machine.Learn.1 & & & & & \\
 Algorithm.K & Machine.Learn.2 & & & & & \\
-Algorithm.L & & & & & & \\
-Algorithm.M & & & & & & \\
-Algorithm.N & & & & & & \\
-Algorithm.O & & & & & & \\
-Algorithm.P & & & & & & \\
-Algorithm.Q & & & & & & \\
-Algorithm.R & & & & & & \\
+Algorithm.L & DNA.Model.1 & & & & & \\
+Algorithm.M & Peptide.Model.1 & & & & & \\
+Algorithm.N & Enyzme.Model.1 & & & & & \\
+Algorithm.O & Protien.Model.1 & & & & & \\
+Algorithm.P & Search.1 & & & & & \\
+Algorithm.Q & Search.2 & & & & & \\
+Algorithm.R & Organelle.1 & & & & & \\
 Algorithm.S & & & & & & \\
 Algorithm.T & & & & & & \\
 Algorithm.U & & & & & & \\
