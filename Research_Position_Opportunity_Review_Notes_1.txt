@@ -22,7 +22,14 @@ ID & Title \\
 \end{tabular}
 \end{table}
 
-Mortalin (HSPA9/GRP75) with mitochondrial HSP70 chaperone A can be considered to be a therapy target for both tumor cell proliferation and survival in human medullary thyroid carcinoma (MTC) cancer cells.\cite{key1}
+\begin{table}[H]\centering
+\begin{tabular}{p{1cm}p{10cm}}
+ID & Topic Summary \\
+\hline
+1 & Mortalin (HSPA9/GRP75) with mitochondrial HSP70 chaperone A can be considered to be a therapy target for both tumor cell proliferation and survival in human medullary thyroid carcinoma (MTC) cancer cells.\cite{key1}
+\hline
+\end{tabular}
+\end{table}
 
 \section{Discussion}
 
