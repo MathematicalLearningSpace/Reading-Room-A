@@ -1,7 +1,12 @@
 %-----------------------------------Tables of Patents to Discuss in the Classroom-----------------------------------------------%
 
+
+\begin{table}[H]\centering
+\begin{tabular}{p{1cm}p{2cm}p{2cm}p{2cm}p{2cm}p{2cm}p{2cm}}
 \hline
 Patent & ID & Name & Date & Title & Description & Link \\
 \hline
 USPA & 20160330991 & NISHITANI,Eisei et al. & 11-217-2016 & TEA LEAVES AND PROCESS FOR PRODUCING SAME & Tea leaves possible extract tea for harmony with Japanese-style foods with culinary categories of (a) tastiness and (b) light flowery aroma. Tea leaves ingriedents are:(A) lipid, (B) tannin, (C) hydrophilic low-molecular-weight tea polyphenol, and (D) a semi-hydrophilic low-molecular-weight tea polyphenol & https://pubchem.ncbi.nlm.nih.gov/patent/US2016330991#section=Top \\
 \hline
+\end{tabular}
+\end{table}
