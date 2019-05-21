@@ -23,15 +23,63 @@ F & \\
 
 \section{Review Topic A: G1 Phase}
 
+\begin{table}[H]\centering
+\begin{tabular}{p{1cm}p{8cm}}
+ID & Title \\
+\hline
+\hline
+\end{tabular}
+\end{table}
+
 \section{Review Topic B: G1 S}
+
+\begin{table}[H]\centering
+\begin{tabular}{p{1cm}p{8cm}}
+ID & Title \\
+\hline
+\hline
+\end{tabular}
+\end{table}
 
 \section{Review Topic C: Early S}
 
+\begin{table}[H]\centering
+\begin{tabular}{p{1cm}p{8cm}}
+ID & Title \\
+\hline
+\hline
+\end{tabular}
+\end{table}
+
 \section{Review Topic D: Late S}
+
+\begin{table}[H]\centering
+\begin{tabular}{p{1cm}p{8cm}}
+ID & Title \\
+\hline
+\hline
+\end{tabular}
+\end{table}
 
 \section{Review Topic E: G2 Phase}
 
+\begin{table}[H]\centering
+\begin{tabular}{p{1cm}p{8cm}}
+ID & Title \\
+\hline
+\hline
+\end{tabular}
+\end{table}
+
 \section{Review Topic F: Mitosis}
+
+\begin{table}[H]\centering
+\begin{tabular}{p{1cm}p{8cm}}
+ID & Title \\
+\hline
+\hline
+\end{tabular}
+\end{table}
 
 \section{Discussion}
 
