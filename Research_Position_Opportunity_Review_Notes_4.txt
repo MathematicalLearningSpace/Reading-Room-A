@@ -5,6 +5,10 @@
 \begin{document}
 \section{Introduction}
 
+\begin{enumerate}
+\item A
+\end{enumerate}
+
 \begin{table}[H]\centering
 \tiny
 \begin{tabular}{p{1cm}p{4cm}}
@@ -18,8 +22,19 @@ A & \\
 
 \section{Review Topic A:}
 
+\begin{table}[H]\centering
+\begin{tabular}{p{1cm}p{8cm}}
+ID & Title \\
+\hline
+\hline
+\end{tabular}
+\end{table}
 
 \section{Discussion}
+
+\begin{enumerate}
+\item A
+\end{enumerate}
 
 \section{Bibliography}
 
