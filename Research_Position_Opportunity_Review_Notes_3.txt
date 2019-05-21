@@ -22,11 +22,64 @@ F & \\
 \end{table}
 
 \section{Review Topic A:}
+
+\begin{table}[H]\centering
+\begin{tabular}{p{1cm}p{8cm}}
+ID & Title \\
+\hline
+\hline
+\end{tabular}
+\end{table}
+
 \section{Review Topic B:}
+
+\begin{table}[H]\centering
+\begin{tabular}{p{1cm}p{8cm}}
+ID & Title \\
+\hline
+\hline
+\end{tabular}
+\end{table}
+
 \section{Review Topic C:}
+
+\begin{table}[H]\centering
+\begin{tabular}{p{1cm}p{8cm}}
+ID & Title \\
+\hline
+\hline
+\end{tabular}
+\end{table}
+
 \section{Review Topic D:}
+
+\begin{table}[H]\centering
+\begin{tabular}{p{1cm}p{8cm}}
+ID & Title \\
+\hline
+\hline
+\end{tabular}
+\end{table}
+
 \section{Review Topic E:}
+
+\begin{table}[H]\centering
+\begin{tabular}{p{1cm}p{8cm}}
+ID & Title \\
+\hline
+\hline
+\end{tabular}
+\end{table}
+
 \section{Review Topic F:}
+
+\begin{table}[H]\centering
+\begin{tabular}{p{1cm}p{8cm}}
+ID & Title \\
+\hline
+\hline
+\end{tabular}
+\end{table}
 
 \section{Discussion}
 
