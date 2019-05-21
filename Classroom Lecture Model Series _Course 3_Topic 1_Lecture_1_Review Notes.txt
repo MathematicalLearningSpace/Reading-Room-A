@@ -1,3 +1,31 @@
 %-------------------------------------------------------------------------%
 %--------------------Classroom Lecture Model Series-----------------------%
 %-------------------------------------------------------------------------%
+
+\section{Introduction}
+
+\section{Topic Summary}
+
+\subsection{Topic A:}
+
+\subsection{Topic B:}
+
+\subsection{Topic C:}
+
+\subsection{Topic D:}
+
+\subsection{Topic E:}
+
+\section{Analysis}
+
+\begin{table}[H]\centering
+\begin{tabular}{p{1cm}p{1cm}p{1cm}p{1cm}p{3cm}}
+Topic ID & #Articles & Readability & Vocabulary & Search String  \\
+\hline
+\hline
+\end{tabular}
+\end{table}
+
+\section{Summary of Topics for Classroom}
+
+\section{Bibliography}
