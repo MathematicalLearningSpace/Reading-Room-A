@@ -33,6 +33,10 @@ ID & Topic Summary \\
 
 \section{Discussion}
 
+\begin{enumerate}
+\item Topic 1
+\end{enumerate}
+
 \section{Bibliography}
 
 \bibliographystyle{plain}
