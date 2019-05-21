@@ -150,6 +150,8 @@ Keywords:
 
 \section{Introduction}
 
+\section{Topic Summary}
+
 \section{Review: Mathematical Oncology}
 
 \section{Review: MicroRNA}
@@ -180,8 +182,19 @@ Keywords:
 
 \subsection{Treatment Combinations: Radiotherapy and Chemotherapy} 
 
+\section{Analysis}
 
-\section{Classroom Discussion}
+\begin{table}[H]\centering
+\begin{tabular}{p{1cm}p{1cm}p{1cm}p{1cm}p{3cm}}
+Topic ID & #Articles & Readability & Vocabulary & Search String  \\
+\hline
+\hline
+\end{tabular}
+\end{table}
+
+\section{Summary of Topics for Classroom}
+
+\section{Bibliography}
 
 \bibliographystyle{plain}
 \begin{thebibliography}{00}
