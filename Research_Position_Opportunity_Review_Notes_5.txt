@@ -6,6 +6,10 @@
 
 \section{Introduction}
 
+\begin{enumerate}
+\item A
+\end{enumerate}
+
 \begin{table}[H]\centering
 \tiny
 \begin{tabular}{p{1cm}p{4cm}}
@@ -149,6 +153,9 @@ ID & Title \\
 
 \section{Discussion}
 
+\begin{enumerate}
+\item A
+\end{enumerate}
 
 \section{Bibliography}
 
