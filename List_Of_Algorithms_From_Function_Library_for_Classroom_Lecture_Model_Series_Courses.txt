@@ -11,15 +11,15 @@ AlgorithmID & MethodID & Description & LectureID & CDF & DataSet & Curated \\
 \hline
 Algorithm.A & Moments.A & First 6 Moments and Ratios for Differential Equation Systems & Course.1.Lecture.1 & Normal & Synthetic & Yes \\
 Algorithm.B & Optimization.A & Optimization for Differential Equation Systems & Course.1.Lecture.1 & Normal, Binomial, Multinomial, Uniform & Synthetic & Yes \\
-Algorithm.C & & & & & & \\
-Algorithm.D & & & & & & \\
-Algorithm.E & & & & & & \\
-Algorithm.F & & & & & & \\
-Algorithm.G & & & & & & \\
-Algorithm.H & & & & & & \\
-Algorithm.I & & & & & & \\
-Algorithm.J & & & & & & \\
-Algorithm.K & & & & & & \\
+Algorithm.C & ODE & & & & & \\
+Algorithm.D & DDE & & & & & \\
+Algorithm.E & SDE & & & & & \\
+Algorithm.F & FDE & & & & & \\
+Algorithm.G & Wavelets & & & & & \\
+Algorithm.H & Harmonics & & & & & \\
+Algorithm.I & Smile.Parser& & & & & \\
+Algorithm.J & Machine.Learn.1 & & & & & \\
+Algorithm.K & Machine.Learn.2 & & & & & \\
 Algorithm.L & & & & & & \\
 Algorithm.M & & & & & & \\
 Algorithm.N & & & & & & \\
