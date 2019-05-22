@@ -1,6 +1,96 @@
 %------------------------------------------------------------------------------------%
 %--------------Vocabulary and Dictionary Model For Courses---------------------------%
-%------------------------------------------------------------------------------------%
+%----------------------Work in Progress----------------------------------------------%
+
+\begin{table}[H]\tiny
+	\caption{Dictonary for Lectures}
+	\begin{tabular}{r|>{\tiny}p{1cm}|llll}
+		\hline	
+		ID & Algorithm & Lecture & Comment & \\
+		\hline 
+    A & ODE_1 & 1 & 3 Variable ODE System \\
+    B & ODE_2 & 2 & NonLinear Delayed Differential Equation System & \\
+    C & ODE_3 & 3 & Drift and Diffusion Stochastic Differential Equation Systems & \\
+    D & ODE_4 & 1 & & \\
+    E & ODE_5 & 1 & & \\
+    F & ODE_6 & 1 & & \\
+    G & ODE_7 & 1 & &\\
+    H & ODE_8 & 1 & & \\
+    I & ODE_9 & 1 & & \\
+    J & ODE_10 & 1 & & \\
+    K & ODE_11 & 1 & & \\
+    \hline
+    A & FTDS_1  &  & & \\
+    B & FTDS_2  &  & & \\
+    C & FTDS_3  &  & & \\
+    \hline
+    A & GTLA_1  &  & & \\
+    B & GTLA_2  &  & & \\
+    C & GTLA_3  &  & & \\
+    D & GTLA_4  &  & & \\
+    E & GTLA_5  &  & & \\
+    \hline
+    A & NTA_1  &  & & \\
+    B & NTA_2  &  & & \\
+    C & NTA_3  &  & & \\
+    D & NTA_4  &  & & \\
+    E & NTA_5  &  & & \\
+    F & NTA_6  &  & & \\
+    G & NTA_7  &  & & \\
+    \hline
+    A & PT_1  &  & & \\
+    B & PT_2  &  & & \\
+    C & PT_3  &  & & \\
+    D & PT_4  &  & & \\
+    E & PT_5  &  & & \\
+    \hline
+    A & ST_1  &  & & \\
+    B & ST_2  &  & & \\
+    C & ST_3  &  & & \\
+    D & ST_4  &  & & \\
+    E & ST_5  &  & & \\
+    F & ST_6  &  & & \\
+    G & ST_7  &  & & \\
+    \hline
+    A & TA_1  &  & & \\
+    B & TA_2  &  & & \\
+    C & TA_3  &  & & \\
+    D & TA_4  &  & & \\
+    E & TA_5  &  & & \\
+    F & TA_6  &  & & \\
+    G & TA_7  &  & & \\
+    H & TA_8  &  & & \\
+    I & TA_9  &  & & \\
+    J & TA_10  &  & & \\
+    K & TA_11  &  & & \\
+    L & TA_12  &  & & \\
+    M & TA_13  &  & & \\
+    N & TA_14  &  & & \\
+    \hline
+    A & TCPM_1  &  & & \\
+    B & TCPM_2  &  & & \\
+    C & TCPM_3  &  & & \\
+    D & TCPM_4  &  & & \\
+    E & TCPM_5  &  & & \\
+    F & TCPM_6  &  & & \\
+    G & TCPM_7  &  & & \\
+    \hline
+    A & WT_1  &  & & \\
+    B & WT_2  &  & & \\
+    C & WT_3  &  & & \\
+    \hline
+    A & AGT_1  &  & & \\
+    B & AGT_2  &  & & \\
+    C & AGT_3  &  & & \\
+    D & AGT_4  &  & & \\
+\hline 
+	\end{tabular}
+\end{table}
+
+
+
+#-----------------------------------R Programs----------------------------------------#
+
 
 library(tuneR);library(seewave);library(WaveletComp);library(wavelets);library(phonics); 
 library(stringdist);library(Rtts);
