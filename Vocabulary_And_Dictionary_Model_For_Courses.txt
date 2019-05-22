@@ -83,7 +83,71 @@
     B & AGT_2  &  & & \\
     C & AGT_3  &  & & \\
     D & AGT_4  &  & & \\
-\hline 
+    \hline 
+    CIFO_1 &  & & \\
+    \hline
+    A & GE_1  &  & & \\
+    B & GE_2  &  & & \\
+    C & GE_3  &  & & \\
+    D & GE_4  &  & & \\
+    E & GE_5  &  & & \\
+    F & GE_6  &  & & \\
+    G & GE_7  &  & & \\
+    H & GE_8  &  & & \\
+    I & GE_9  &  & & \\
+    J & GE_10  &  & & \\
+    K & GE_11  &  & & \\
+    L & GE_12  &  & & \\
+    M & GE_13  &  & & \\
+    N & GE_14  &  & & \\
+    O & GE_15  &  & & \\
+    P & GE_16  &  & & \\
+    Q & GE_17  &  & & \\
+    \hline
+    A & GIP_1  &  & & \\
+    B & GIP_2  &  & & \\
+    C & GIP_3  &  & & \\
+    D & GIP_4  &  & & \\
+    E & GIP_5  &  & & \\
+    F & GIP_6  &  & & \\
+    \hline
+   A & MST_1  &  & & \\
+   B & MST_2  &  & & \\
+   C & MST_3  &  & & \\
+   D & MST_4  &  & & \\
+   E & MST_5  &  & & \\
+   F & MST_6  &  & & \\
+   G & MST_7  &  & & \\
+   \hline
+   A & NMT_1  &  & & \\
+   B & NMT_2  &  & & \\
+   C & NMT_3  &  & & \\
+   D & NMT_4  &  & & \\
+   E & NMT_5  &  & & \\
+   F & NMT_6  &  & & \\
+   G & NMT_7  &  & & \\
+   H & NMT_8  &  & & \\
+   I & NMT_9  &  & & \\
+   \hline
+   A & TML_1  &  & & \\
+   B & TML_2  &  & & \\
+   C & TML_3  &  & & \\
+   D & TML_4  &  & & \\
+   E & TML_5  &  & & \\
+   F & TML_6  &  & & \\
+   G & TML_7  &  & & \\
+   H & TML_8  &  & & \\
+   I & TML_9  &  & & \\
+   J & TML_10  &  & & \\
+   K & TML_11  &  & & \\
+   L & TML_12  &  & & \\
+   \hline
+   A & MGI_0  &  & & \\
+   B & MGI_1  &  & & \\
+   C & MGI_2  &  & & \\
+   D & MGI_3  &  & & \\
+   E & MGI_4  &  & & \\
+   F & MGI_5  &  & & \\
 	\end{tabular}
 \end{table}
 
