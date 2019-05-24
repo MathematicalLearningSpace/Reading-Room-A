@@ -28,6 +28,35 @@ Vocabulary Words:
 \subsection{Plan of the Article}
 
 
+\section{Mathematical Background}
+
+\begin{figure}[H]
+%--------------------------------------------------------------------------------------------
+%     Motif A
+%--------------------------------------------------------------------------------------------
+\begin{tikzpicture}[scale=0.5]
+\begin{axis}[width=0.5\textwidth, xlabel={$T-hours$},ylabel={$Y$}]
+\addplot[domain=0:48,color=red] {10};
+\addplot[domain=0:48,color=blue]{10+cos(2^(4)*x)};
+\node[above,red] at (80,0.1) {\footnotesize (A) Y=10};
+\node[above,blue] at(150,180) {\footnotesize (B) Y=$10+sin(2^{4}x)$};
+\end{axis}
+\end{tikzpicture}
+%--------------------------------------------------------------------------------------------
+%     Motif B
+%--------------------------------------------------------------------------------------------
+\begin{tikzpicture}[scale=0.5]
+\begin{axis}[width=0.5\textwidth, xlabel={$T-hours$},ylabel={$Y$}]
+\addplot[domain=0:48,color=red] {5};
+\addplot[domain=0:48,color=blue]{5+sin(2^(6)*x)};
+\node[above,red] at (80,0.1) {\footnotesize Y=5};
+\node[above,blue] at(150,180) {\footnotesize (B) Y=$5+sin(2^{6}x)$};
+\end{axis}
+\end{tikzpicture}
+\caption{}
+\end{figure}
+
+
 \section{Conclusions}
 
 
