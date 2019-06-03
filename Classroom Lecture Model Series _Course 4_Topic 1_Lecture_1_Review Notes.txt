@@ -5,6 +5,17 @@
 
 \section{Introduction}
 
+\section{Classroom Lecture 1-3 Topics: Music Review}
+\section{Classroom Lecture 4-6 Topics: Music Sequences Classification Chord Classification}
+\section{Classroom Lecture 7-9 Topics: Arrangements Polyphonic Melodies}
+\section{Classroom Lecture 10-12 Topics: Wavelet Analysis Multiresolution analysis}
+\section{Classroom Lecture 13-15 Topics: Harmonic Analysis}
+\section{Classroom Lecture 16-18 Topics: Analysis of Modes}
+\section{Classroom Lecture 19-21 Topics: Classical Music I, II and III}
+\section{Classroom Lecture 22-24 Topics: Markov Models}
+\section{Classroom Lecture 25-27 Topics: Composition Model I, II, and III}
+\section{Classroom Lecture 28-30 Topics: Jazz Music I and II, Romantic Music I}
+
 \section{Topic Summary}
 
 \subsection{Topic A:}
