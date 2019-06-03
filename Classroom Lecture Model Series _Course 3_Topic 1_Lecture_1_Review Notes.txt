@@ -4,6 +4,17 @@
 
 \section{Introduction}
 
+\section{Classroom Lecture 1-3 Topics: Ribosome ER Smooth and Rough}
+\section{Classroom Lecture 4-6 Topics:  Translation and Transcription Models}
+\section{Classroom Lecture 7-9 Topics:  Normal Mode Analysis Compound Discovery QSAR Models}
+\section{Classroom Lecture 10-12 Topics: WDR and G Quadruplexes Heat Shock Proteins}
+\section{Classroom Lecture 13-15 Topics: Machine Learning Models I, II and III}
+\section{Classroom Lecture 16-18 Topics:  Ribosome Model}
+\section{Classroom Lecture 19-21 Topics: Chaperonin Model}
+\section{Classroom Lecture 22-24 Topics: Proteasome Model}
+\section{Classroom Lecture 25-27 Topics: Network Models Molecular Machines I and II}
+\section{Classroom Lecture 28-30 Topics: Application Study I, II and III}
+
 \section{Topic Summary}
 
 \subsection{Topic A:}
