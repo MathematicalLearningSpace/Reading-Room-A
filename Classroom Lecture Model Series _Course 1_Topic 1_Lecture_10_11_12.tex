@@ -1,0 +1,268 @@
+%-------------------------------------------------------------------------%
+%--------------------Classroom Lecture Model Series-----------------------%
+%-------------------------------------------------------------------------%
+
+%----------------------Work in Progress-----------------------------------%
+
+\begin{document}
+\addtobeamertemplate{block end}{}{\vspace*{4ex}} 
+\addtobeamertemplate{block alerted end}{}{\vspace*{4ex}} 
+\setlength{\belowcaptionskip}{2ex}
+\setlength\belowdisplayshortskip{2ex}
+\begin{frame}[t]
+\begin{columns}[t]
+\begin{column}{\onecolwid} % The first column
+%----------------------------------------------------------------------------------------
+%	Objectives
+%----------------------------------------------------------------------------------------
+\begin{alertblock}{Abstract and Project Objectives}
+Introduction:
+\begin{itemize}
+\item \textit{Objective 1}: 
+\item \textit{Objective 2}: 
+\item \textit{Objective 3}: 
+\end{itemize}
+Conclusion:
+\end{alertblock}
+%----------------------------------------------------------------------------------------
+%	Keywords
+%----------------------------------------------------------------------------------------
+\begin{block}{Keywords}
+\begin{itemize}
+\item Nonlinear Time Series Models I
+\item Nonlinear Time Series Models II
+\item Markov Models I
+\end{itemize}	
+\end{block}
+%----------------------------------------------------------------------------------------
+%	Introduction
+%----------------------------------------------------------------------------------------
+\begin{alertblock}{Introduction}
+\end{alertblock}
+%----------------------------------------------------------------------------------------
+%	Biology
+%----------------------------------------------------------------------------------------
+\begin{alertblock}{Review: Biology}
+
+\begin{table}[H]
+	\centering
+	\begin{tabular}{r|p{12cm}|l}
+	\hline
+	Article ID  & Summary & Comments \\
+	\hline
+	\hline
+	\end{tabular}
+	\caption{Summary of Literature Review}
+\end{table}		
+
+\centering	
+\begin{table}[H]\tiny
+\caption{Gene/Protein/Enzymes Description and References}	
+	\begin{tabular}{r|p{4cm}|l}
+	\hline	
+	Gene/Protein & Description & Reference \\
+	\hline
+	\hline 
+	\end{tabular}
+\end{table}
+
+\begin{center}
+\begin{tikzpicture}
+	[->,>=stealth',shorten >=2pt,node distance=3cm,
+	thick,main node/.style={circle,draw,scale=0.25,transform canvas={scale=0.75},font=\sffamily\Small\bfseries},
+	blacknode/.style={shape=circle, draw=black, line width=2},
+	bluenode/.style={shape=circle, draw=blue, line width=2},
+	greennode/.style={shape=circle, draw=green, line width=2},
+	rednode/.style={shape=circle, draw=red, line width=2}
+	]
+	%-------Legend ------------------------------------------------------------	
+	\matrix [draw,below left] at (current bounding box.south) {
+		\node [state,label=right:State] {}; Description. \\
+		\node [shapeSquare,label=right:Square-.] {}; \\
+		\node [shapeEllipse,label=right:Ellipse-.] {}; \\
+		\node [shapeTriangle,label=right:Triangle-.] {}; \\
+		\node [shapeHexagon,label=right:Hexagon-.] {}; \\
+	};
+\end{tikzpicture}
+\end{alertblock}
+%----------------------------------------------------------------------------------------
+%	Chemistry
+%----------------------------------------------------------------------------------------
+\begin{alertblock}{Review: Chemistry}
+
+\begin{center} 
+\schemestart
+\chemname{\chemfig{}}{}
+\arrow(.{}--){->[$$][]}[]
+\chemname{\chemfig{}}{}
+\schemestop
+\end{center}
+
+
+\end{alertblock}
+%----------------------------------------------------------------------------------------
+%	Botany
+%----------------------------------------------------------------------------------------
+\begin{alertblock}{Review: Botany}
+\end{alertblock}
+
+\end{column}
+
+\begin{column}{\onecolwid} % The second column
+%----------------------------------------------------------------------------------------
+%	Definitions
+%----------------------------------------------------------------------------------------
+\begin{alertblock}{Definitions}
+\end{alertblock}
+%----------------------------------------------------------------------------------------
+%	Propositions
+%----------------------------------------------------------------------------------------
+\begin{alertblock}{Propositions}
+\end{alertblock}
+%----------------------------------------------------------------------------------------
+%	Lemmas
+%----------------------------------------------------------------------------------------
+\begin{alertblock}{Lemmas}
+\end{alertblock}
+%----------------------------------------------------------------------------------------
+%	Theorems
+%----------------------------------------------------------------------------------------
+\begin{alertblock}{Theorems}
+\end{alertblock}
+%----------------------------------------------------------------------------------------
+%	Mathematics
+%----------------------------------------------------------------------------------------
+\begin{alertblock}{Review: Mathematics}
+\end{alertblock}
+\end{column}
+\begin{column}{\onecolwid} % The Third column
+%----------------------------------------------------------------------------------------
+%	Equation System
+%----------------------------------------------------------------------------------------
+\begin{alertblock}{Equation System}
+
+\begin{equation}
+\begin{bmatrix} 
+	\frac{dx_{1}^{\alpha}}{dt^{\alpha}}\\ 
+	\frac{dx_{2}^{\alpha}}{dt^{\alpha}}\\ 
+	\frac{dx_{3}^{\alpha}}{dt^{\alpha}}
+\end{bmatrix} = 
+\begin{bmatrix}
+1 & 0 & 0\\ 
+0 & 1 & 0\\ 
+0 & 0 & 1
+\end{bmatrix} 
+\begin{bmatrix} 
+	x_{1}\\ 
+	x_{2}\\ 
+	x_{3}
+\end{bmatrix}
+\end{equation}
+
+\end{alertblock}
+%----------------------------------------------------------------------------------------
+%	Parameter Table
+%----------------------------------------------------------------------------------------
+\begin{alertblock}{Parameter Table}
+
+\vspace{4pt}
+\centering
+\begin{table}[h]\footnotesize
+	\caption{Parameter Description and Value}
+	\begin{tabular}{rllp{2cm}l}
+		\hline	
+		Parameter & Value & Interval & Description & Reference \\
+		\hline 
+	\end{tabular}	
+\end{table}
+
+\end{alertblock}
+%----------------------------------------------------------------------------------------
+%	Algorithms
+%----------------------------------------------------------------------------------------
+\begin{alertblock}{Review: Algorithms}
+\begin{algorithm}[H]
+	\begin{algorithmic}[1]
+	\end{algorithmic}
+\caption{Algorithm I}
+\label{Algorithm_1}
+\end{algorithm}
+\begin{itemize}
+	\item Observation 1: \\
+	\item Observation 2:  \\
+	\item Observation 3:  \\
+\end{itemize}	
+
+\end{alertblock}
+\end{column}
+\begin{column}{\onecolwid} % The Fourth column
+%----------------------------------------------------------------------------------------
+%	Results
+%----------------------------------------------------------------------------------------
+\begin{alertblock}{Results}
+\end{alertblock}
+%----------------------------------------------------------------------------------------
+%	Tables
+%----------------------------------------------------------------------------------------
+\begin{alertblock}{Tables}
+
+\vspace{4pt}
+\centering
+\begin{table}[h]\footnotesize
+	\caption{}
+	\begin{tabular}{rllp{2cm}l}
+		\hline	
+		Variable & A & B & C & D \\
+		\hline 
+	\end{tabular}	
+\end{table}
+
+
+\end{alertblock}
+%----------------------------------------------------------------------------------------
+%	Figures
+%----------------------------------------------------------------------------------------
+\begin{alertblock}{Figures}
+\begin{figure}[H]
+	\centering
+	\begin{minipage}[b]{0.5\linewidth}
+		\includegraphics[scale=0.25]{Figure1.png}
+	\end{minipage}\hfill
+	\begin{minipage}[b]{0.5\linewidth}
+		\includegraphics[scale=0.25]{Figure2.png}
+	\end{minipage}\hfill
+	\caption{Figure 1 Model (A), Model (B) and Model (C)}
+	\label{fig:Figure1}
+\end{figure}
+\end{alertblock}
+%----------------------------------------------------------------------------------------
+%	Classroom Discussion Topics
+%----------------------------------------------------------------------------------------
+\begin{alertblock}{Classroom Discussion Topics}
+\end{alertblock}
+%----------------------------------------------------------------------------------------
+%	Additional Resources
+%----------------------------------------------------------------------------------------
+\begin{alertblock}{Additional Resources}
+\begin{enumerate}
+	\item \href{http://www.cancer.gov}{\textbf{National Cancer Institute}}
+	\item \href{http://www.bioconductor.org}{\textbf{Bioconductor}}
+	\item \href{http://www.omim.org}{\textbf{OMIM}}
+	\item \href{http://www.genome.jp/kegg/}{\textbf{KEGG}}
+	\item \href{http://www.rcsb.org}{\textbf{RCSB-Protein Data Bank}}
+	\item \href{http://www.genecards.org}{\textbf{Gene Cards}}
+	\item \href{http://string-db.org}{\textbf{STRING}}
+	\item \href{http://www.ebi.ac.uk/gxa/home}{\textbf{Expression Atlas}}
+\end{enumerate}
+\end{alertblock}
+\bibliographystyle{plain}
+\begin{thebibliography}{00}
+\footnotesize		 		
+\bibitem[1000]{key1000}R Core Team (2015). 
+\newblock R: A language and environment for statistical computing. R Foundation for Statistical Computing, Vienna, Austria.
+\newblock URL https://www.R-project.org/.		
+\end{thebibliography}
+\end{column}
+\end{columns}
+\end{frame}
+\end{document}
