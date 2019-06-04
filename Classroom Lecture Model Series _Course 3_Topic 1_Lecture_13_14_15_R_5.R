@@ -12,7 +12,7 @@ library(seqinr);library(Biostrings);library(Peptides);
 library(PearsonDS);library(xtable)
 library(rcdk);library(BioMedR);library(ChemmineR);
 library(Matrix):library(fingerprint)
-library(igraph);library(readr);library(leaps);library(caret); library(GA) 
+library(readr);library(leaps);library(caret); library(GA) 
 library(ggplot2);library(kohonen);library(pROC)
 #------Scientific  Visualization-----#
 library(corrplot);library(plot3D);library(scatterplot3d);library(rgl)
