@@ -9,10 +9,63 @@
 \section{Classroom Lecture 4-6 Topics:  Signal Transduction and QSAR}
 \section{Classroom Lecture 7-9 Topics: Botany 1 and 2 Shikimate}
 \section{Classroom Lecture 10-12 Topics: MAPK, Calcium cAMP}
+
+\begin{table}[H]
+\tiny
+\begin{tabular}{p{1cm}p{1cm}p{3cm}p{1cm}p{1cm}} 
+  EdgeID & Gene 1 & Gene 2 & Biological Function & Comment \\
+	\hline
+  \hline
+ \end{tabular}
+	\caption{Network}
+	\label{tab:Table1}
+\end{table}
+
+
 \section{Classroom Lecture 13-15 Topics: Fox0 Cell cycle mTOR}
+
+\begin{table}[H]
+\tiny
+\begin{tabular}{p{1cm}p{1cm}p{3cm}p{1cm}p{1cm}} 
+  EdgeID & Gene 1 & Gene 2 & Biological Function & Comment \\
+	\hline
+  \hline
+ \end{tabular}
+	\caption{Network}
+	\label{tab:Table1}
+\end{table}
+
+
 \section{Classroom Lecture 16-18 Topics: Longevity Immune System Wnt Notch Hedgehog TGF-Beta and VGF}
+
+\begin{table}[H]
+\tiny
+\begin{tabular}{p{1cm}p{1cm}p{3cm}p{1cm}p{1cm}} 
+  EdgeID & Gene 1 & Gene 2 & Biological Function & Comment \\
+	\hline
+  \hline
+ \end{tabular}
+	\caption{Network}
+	\label{tab:Table1}
+\end{table}
+
+
 \section{Classroom Lecture 19-21 Topics: Apelin Hippo JakStat Insulin WDR}
+
+\begin{table}[H]
+\tiny
+\begin{tabular}{p{1cm}p{1cm}p{3cm}p{1cm}p{1cm}} 
+  EdgeID & Gene 1 & Gene 2 & Biological Function & Comment \\
+	\hline
+  \hline
+ \end{tabular}
+	\caption{Network}
+	\label{tab:Table1}
+\end{table}
+
+
 \section{Classroom Lecture 22-24 Topics:  Digestion I and II Sugar and Insulin}
+
 \section{Classroom Lecture 25-27 Topics:  Metabolism Obesity Pancreatic Signalling I}
 \section{Classroom Lecture 28-30 Topics:  Application Study I and II}
 
