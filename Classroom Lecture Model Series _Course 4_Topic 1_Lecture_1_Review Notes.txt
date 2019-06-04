@@ -26,7 +26,49 @@
 	\end{tabular}
 \end{table}
 
+\begin{music}
+\smallmusicsize
+\nostartrule    
+\def\Notes{\vnotes4\elemskip}
+\def\NOtes{\vnotes5.5\elemskip}
+\def\NOTes{\vnotes6.2\elemskip}
+\setlength\parindent{0pt}
+\staffbotmarg=3.5\Interligne
+\stafftopmarg=3.5\Interligne
+\instrumentnumber{1} 
+\interinstrument=16\internote
+\generalmeter{\meterfrac44}
+\generalsignature{-1}
+\scale{0.45}
+\setsize 1{1.0}
+%--------A----------------%
+\startextract
+\endextract
+\end{music}
+
+
 \section{Classroom Lecture 7-9 Topics: Arrangements Polyphonic Melodies}
+
+\begin{music}
+\smallmusicsize
+\nostartrule    
+\def\Notes{\vnotes4\elemskip}
+\def\NOtes{\vnotes5.5\elemskip}
+\def\NOTes{\vnotes6.2\elemskip}
+\setlength\parindent{0pt}
+\staffbotmarg=3.5\Interligne
+\stafftopmarg=3.5\Interligne
+\instrumentnumber{1} 
+\interinstrument=16\internote
+\generalmeter{\meterfrac44}
+\generalsignature{-1}
+\scale{0.45}
+\setsize 1{1.0}
+%--------A----------------%
+\startextract
+\endextract
+\end{music}
+
 
 \begin{table}[H]\centering
 	\begin{tabular}{p{1cm}p{4cm}p{3cm}}
@@ -57,6 +99,26 @@
 \end{table}
 
 \section{Classroom Lecture 16-18 Topics: Analysis of Modes}
+
+\begin{music}
+\smallmusicsize
+\nostartrule    
+\def\Notes{\vnotes4\elemskip}
+\def\NOtes{\vnotes5.5\elemskip}
+\def\NOTes{\vnotes6.2\elemskip}
+\setlength\parindent{0pt}
+\staffbotmarg=3.5\Interligne
+\stafftopmarg=3.5\Interligne
+\instrumentnumber{1} 
+\interinstrument=16\internote
+\generalmeter{\meterfrac44}
+\generalsignature{-1}
+\scale{0.45}
+\setsize 1{1.0}
+%--------A----------------%
+\startextract
+\endextract
+\end{music}
 
 \begin{table}[H]\centering
 	\begin{tabular}{p{1cm}p{4cm}p{3cm}}
