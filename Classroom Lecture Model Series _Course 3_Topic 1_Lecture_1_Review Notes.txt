@@ -2,30 +2,160 @@
 %--------------------Classroom Lecture Model Series-----------------------%
 %-------------------------------------------------------------------------%
 
+%-----------------------Work In Progress----------------------------------%
 \section{Introduction}
 
 \section{Classroom Lecture 1-3 Topics: Ribosome ER Smooth and Rough}
+
+\begin{table}[H]\centering
+	\begin{tabular}{p{1cm}p{4cm}p{3cm}}
+		Article ID & Summary & Comments\\
+		\hline
+		\hline
+	\end{tabular}
+\end{table}
+
 \section{Classroom Lecture 4-6 Topics:  Translation and Transcription Models}
+
+\begin{table}[H]\centering
+	\begin{tabular}{p{1cm}p{4cm}p{3cm}}
+		Article ID & Summary & Comments\\
+		\hline
+		\hline
+	\end{tabular}
+\end{table}
+
 \section{Classroom Lecture 7-9 Topics:  Normal Mode Analysis Compound Discovery QSAR Models}
+
+\begin{table}[H]\centering
+	\begin{tabular}{p{1cm}p{4cm}p{3cm}}
+		Article ID & Summary & Comments\\
+		\hline
+		\hline
+	\end{tabular}
+\end{table}
+
 \section{Classroom Lecture 10-12 Topics: WDR and G Quadruplexes Heat Shock Proteins}
+
+\begin{table}[H]\centering
+	\begin{tabular}{p{1cm}p{4cm}p{3cm}}
+		Article ID & Summary & Comments\\
+		\hline
+		\hline
+	\end{tabular}
+\end{table}
+
 \section{Classroom Lecture 13-15 Topics: Machine Learning Models I, II and III}
+
+\begin{table}[H]\centering
+	\begin{tabular}{p{1cm}p{4cm}p{3cm}}
+		Article ID & Summary & Comments\\
+		\hline
+		\hline
+	\end{tabular}
+\end{table}
+
 \section{Classroom Lecture 16-18 Topics:  Ribosome Model}
+
+\begin{table}[H]\centering
+	\begin{tabular}{p{1cm}p{4cm}p{3cm}}
+		Article ID & Summary & Comments\\
+		\hline
+		\hline
+	\end{tabular}
+\end{table}
+
 \section{Classroom Lecture 19-21 Topics: Chaperonin Model}
+
+\begin{table}[H]\centering
+	\begin{tabular}{p{1cm}p{4cm}p{3cm}}
+		Article ID & Summary & Comments\\
+		\hline
+		\hline
+	\end{tabular}
+\end{table}
+
 \section{Classroom Lecture 22-24 Topics: Proteasome Model}
+
+\begin{table}[H]\centering
+	\begin{tabular}{p{1cm}p{4cm}p{3cm}}
+		Article ID & Summary & Comments\\
+		\hline
+		\hline
+	\end{tabular}
+\end{table}
+
 \section{Classroom Lecture 25-27 Topics: Network Models Molecular Machines I and II}
+
+\begin{table}[H]\centering
+	\begin{tabular}{p{1cm}p{4cm}p{3cm}}
+		Article ID & Summary & Comments\\
+		\hline
+		\hline
+	\end{tabular}
+\end{table}
+
 \section{Classroom Lecture 28-30 Topics: Application Study I, II and III}
+
+\begin{table}[H]\centering
+	\begin{tabular}{p{1cm}p{4cm}p{3cm}}
+		Article ID & Summary & Comments\\
+		\hline
+		\hline
+	\end{tabular}
+\end{table}
 
 \section{Topic Summary}
 
 \subsection{Topic A:}
 
+\begin{table}[H]\centering
+	\begin{tabular}{p{1cm}p{4cm}p{3cm}}
+		Article ID & Summary & Comments\\
+		\hline
+		\hline
+	\end{tabular}
+\end{table}
+
 \subsection{Topic B:}
+
+\begin{table}[H]\centering
+	\begin{tabular}{p{1cm}p{4cm}p{3cm}}
+		Article ID & Summary & Comments\\
+		\hline
+		\hline
+	\end{tabular}
+\end{table}
 
 \subsection{Topic C:}
 
+\begin{table}[H]\centering
+	\begin{tabular}{p{1cm}p{4cm}p{3cm}}
+		Article ID & Summary & Comments\\
+		\hline
+		\hline
+	\end{tabular}
+\end{table}
+
 \subsection{Topic D:}
 
+\begin{table}[H]\centering
+	\begin{tabular}{p{1cm}p{4cm}p{3cm}}
+		Article ID & Summary & Comments\\
+		\hline
+		\hline
+	\end{tabular}
+\end{table}
+
 \subsection{Topic E:}
+
+\begin{table}[H]\centering
+	\begin{tabular}{p{1cm}p{4cm}p{3cm}}
+		Article ID & Summary & Comments\\
+		\hline
+		\hline
+	\end{tabular}
+\end{table}
 
 \section{Analysis}
 
