@@ -152,47 +152,181 @@ Keywords:
 
 
 \section{Classroom Lecture 1-3 Topics: ODE, PDE, DDE}
+
+\begin{table}[H]\centering
+	\begin{tabular}{p{1cm}p{4cm}p{3cm}}
+		Article ID & Summary & Comments\\
+		\hline
+		\hline
+	\end{tabular}
+\end{table}
+
 \section{Classroom Lecture 4-6 Topics: Fractional and Stochastic Calculus}
+
+\begin{table}[H]\centering
+	\begin{tabular}{p{1cm}p{4cm}p{3cm}}
+		Article ID & Summary & Comments\\
+		\hline
+		\hline
+	\end{tabular}
+\end{table}
+
 \section{Classroom Lecture 7-9 Topics: Stochastic Differential Equations}
+
+\begin{table}[H]\centering
+	\begin{tabular}{p{1cm}p{4cm}p{3cm}}
+		Article ID & Summary & Comments\\
+		\hline
+		\hline
+	\end{tabular}
+\end{table}
+
 \section{Classroom Lecture 10-12 Topics: Nonlinear Time Series Models}
+
+\begin{table}[H]\centering
+	\begin{tabular}{p{1cm}p{4cm}p{3cm}}
+		Article ID & Summary & Comments\\
+		\hline
+		\hline
+	\end{tabular}
+\end{table}
+
 \section{Classroom Lecture 13-15 Topics: Markov Models}
+
+\begin{table}[H]\centering
+	\begin{tabular}{p{1cm}p{4cm}p{3cm}}
+		Article ID & Summary & Comments\\
+		\hline
+		\hline
+	\end{tabular}
+\end{table}
+
 \section{Classroom Lecture 16-18 Topics: Optimization}
+
+\begin{table}[H]\centering
+	\begin{tabular}{p{1cm}p{4cm}p{3cm}}
+		Article ID & Summary & Comments\\
+		\hline
+		\hline
+	\end{tabular}
+\end{table}
+
 \section{Classroom Lecture 19-21 Topics: GA and DE Algorithms and Fitness Metric}
+
+\begin{table}[H]\centering
+	\begin{tabular}{p{1cm}p{4cm}p{3cm}}
+		Article ID & Summary & Comments\\
+		\hline
+		\hline
+	\end{tabular}
+\end{table}
+
 \section{Classroom Lecture 22-24 Topics: Topology Dynamics and Equilibrium}
+
+\begin{table}[H]\centering
+	\begin{tabular}{p{1cm}p{4cm}p{3cm}}
+		Article ID & Summary & Comments\\
+		\hline
+		\hline
+	\end{tabular}
+\end{table}
+
 \section{Classroom Lecture 25-27 Topics: Phase Space, Global and Local Stability}
+
+\begin{table}[H]\centering
+	\begin{tabular}{p{1cm}p{4cm}p{3cm}}
+		Article ID & Summary & Comments\\
+		\hline
+		\hline
+	\end{tabular}
+\end{table}
+
 \section{Classroom Lecture 28-30 Topics: Application Study 1,2,3}
+
+\begin{table}[H]\centering
+	\begin{tabular}{p{1cm}p{4cm}p{3cm}}
+		Article ID & Summary & Comments\\
+		\hline
+		\hline
+	\end{tabular}
+\end{table}
 
 \section{Topic Summary}
 
 \section{Review: Mathematical Oncology}
 
+\begin{enumerate}
+\end{enumerate}
+
 \section{Review: MicroRNA}
+
+\begin{enumerate}
+\end{enumerate}
 
 \section{Review: Network Regulation}
 
+\begin{enumerate}
+\end{enumerate}
+
 \subsection{Up Regulation}
+
+\begin{enumerate}
+\end{enumerate}
 
 \subsection{Down Regulation}
 
+\begin{enumerate}
+\end{enumerate}
+
 \section{Review: Treatment}
+
+\begin{enumerate}
+\end{enumerate}
 
 \subsection{Treatment: Chemotherapy}
 
+\begin{enumerate}
+\end{enumerate}
+
 \subsection{Treatment: Natural Products}
+
+\begin{enumerate}
+\end{enumerate}
 
 \subsection{Treatment: Radiotherapy}
 
+\begin{enumerate}
+\end{enumerate}
+
 \subsection{Treatment: Vaccination}
+
+\begin{enumerate}
+\end{enumerate}
 
 \subsection{Treatment: Surgery}
 
+\begin{enumerate}
+\end{enumerate}
+
 \subsection{Treatment Combinations: Chemotherapy and Surgery}
+
+\begin{enumerate}
+\end{enumerate}
 
 \subsection{Treatment Combinations: Radiotherapy and Chemotherapy and Surgery}
 
+\begin{enumerate}
+\end{enumerate}
+
 \subsection{Treatment Combinations: Radiotherapy and Surgery}
 
+\begin{enumerate}
+\end{enumerate}
+
 \subsection{Treatment Combinations: Radiotherapy and Chemotherapy} 
+
+\begin{enumerate}
+\end{enumerate}
 
 \section{Analysis}
 
