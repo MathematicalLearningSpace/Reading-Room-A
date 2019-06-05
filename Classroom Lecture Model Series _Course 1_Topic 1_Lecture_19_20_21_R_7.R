@@ -17,7 +17,17 @@ library(NMOF);library(xtable)
 #-----------------------Review Notes----------------------------------#
 #---------------------------------------------------------------------#
 
-
+Literature.Search.Example<-function(Topics,Language.Model)
+  {
+    #-------------------Designed in the Classroom---------------------#
+    output<-list()
+    output$Topics<-Topics
+    output$Review.Notes.Formatted<-Review.Notes.Formatted
+    output$Review.Notes.Unformatted<-Review.Notes.Unformatted
+    return(output)
+  }
+test.Literature.Search.Example<-Literature.Search.Example("Equations","English")
+test.Literature.Search.Example
 #---------------------------------------------------------------------#
 #------------------------------Functions------------------------------#
 #---------------------------------------------------------------------#
