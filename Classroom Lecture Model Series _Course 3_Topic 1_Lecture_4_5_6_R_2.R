@@ -31,6 +31,12 @@ library(corrplot);library(plot3D);library(scatterplot3d);library(rgl)
 #------------------------------Models---------------------------------#
 #---------------------------------------------------------------------#
 
+#---------Translational and Transcriptional Error Models I------------#
+
+#---------Translational and Transcriptional Error Models II-----------#
+
+#---------Translational and Transcriptional Error Models III----------#
+
 #---------------------------------------------------------------------#
 #------------------------------Analysis-------------------------------#
 #---------------------------------------------------------------------#
