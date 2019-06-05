@@ -1,6 +1,8 @@
 #-------------------------------------------------------------------------#
 #--------------------Classroom Lecture Model Series-----------------------#
 #-------------------------------------------------------------------------#
+#----------------------Work In Progress--------------------#
+
 library(deSolve);library(ReacTran);library(rootSolve);
 library(fda);library(phaseR);library(pracma);
 library(xtable);library(GA);library(igraph);library(pracma};library(readr);require(BioMedR)
@@ -35,6 +37,11 @@ base::write(Article.Review,file=title,append=FALSE)
 test.Review.Article.Module.1<-Review.Article.Module.1(Gene_Targets_Patents.df,"cancer","Gene")
 test.Review.Article.Module.2<-Review.Article.Module.1(Protein_Targets_Patents.df,"cancer","Protein")
 test.Review.Article.Module.3<-Review.Article.Module.1(Enzyme_Targets_Patents.df,"cancer","Enzyme")
+                                                    
+#-------------------Parameter Models-----------#
+sequence.time <- seq(0, 10^2, by = 0.1)
+Params.Initial<-c(X<-1)
+Params.Equation<-c(a11<-1)
 
 #----------------------------------Transformations-----------------------------------#
 
