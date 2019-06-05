@@ -12,6 +12,8 @@ library(markovchain);library(HMM);library(adaptMCMC);library(mcmc);library(MCMCp
 library(combinat);library(coda);library(rbenchmark);library(stringi);library(stringr)
 library(Matrix);library(corrplot);library(xtable); library(coda)
 
+library(qgraph);library(qlcMatrix);library(rcrossref);library(PearsonDS);library(catnet)
+
 #---------------------------------------------------------------------#
 #------------------------------Data-----------------------------------#
 #---------------------------------------------------------------------#
@@ -45,6 +47,8 @@ library(Matrix);library(corrplot);library(xtable); library(coda)
 #---------Multinomial Confidence Intervals----------------------------#
 
 #---------Path Probabilities------------------------------------------#
+
+#------------Graph Theory:Connectivity--------------------------------#
 
 #---------------------------------------------------------------------#
 #------------------------------Tables---------------------------------#
