@@ -45,12 +45,12 @@ library(sde);library(yuima);library(MsdeParEst);library(rugarch)
 
 #-------Bayesian Model with MCMC Estimation --------------------------#
 
+#--------------Prior Specification: Probability Density Function------#
+
+
 #---------------------Model Testing-----------------------------------#
 
 #--------Lead - Lag Estimation----------------------------------------#
-
-
-
 
 #---------------------------------------------------------------------#
 #------------------------------Analysis-------------------------------#
