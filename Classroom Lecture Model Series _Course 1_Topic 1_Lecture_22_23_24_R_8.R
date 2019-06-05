@@ -7,7 +7,12 @@
 #------------------------------R API----------------------------------#
 library(deSolve);library(ReacTran);library(rootSolve);
 library(fda);library(phaseR)
-library(pracma);library(GA);library(igraph)
+library(pracma);library(GA);library(igraph);
+library(tseries);library(costat);library(locits);library(wbsts);
+library(forecast);library(tsoutliers);library(jmotif)
+library(TSclust);library(TSMining);library(ggplot2);
+library(tsDyn);library(tseriesChaos);library(yuima);library(DescTools)
+library(xtable);library(PearsonDS);library(fitdistrplus);library(psych)
 
 #---------------------------------------------------------------------#
 #------------------------------Data-----------------------------------#
@@ -29,6 +34,12 @@ library(pracma);library(GA);library(igraph)
 #---------------------------------------------------------------------#
 #------------------------------Analysis-------------------------------#
 #---------------------------------------------------------------------#
+
+#-------------------Topology------------------------------------------#
+
+#-------------------Equilibrium---------------------------------------#
+
+#-------------------Stability-----------------------------------------#
 
 #---------------------------------------------------------------------#
 #------------------------------Tables---------------------------------#
