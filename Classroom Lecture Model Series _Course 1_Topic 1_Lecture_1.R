@@ -53,8 +53,7 @@ Params.Equation<-c(a11<-1)
 
 #----------------------------------Network Designs-----------------------------------#
 #------------------------------------------------------------------------------------#
-
-						    
+					    
 #----------------------------------Equation Systems----------------------------------#
 
 system.equation.model.1<-function(sequence.time,Params.Initial, Params.Equation)
@@ -69,7 +68,7 @@ res <- c(d.1.X.dt.1)
 
 #-------Solutions----------------------------#
 system.equation.model.1.solution<- ode(y = Params.Initial, times = sequence.time, func = system.equation.model.1, parms = Params.Equation)                                                     
-                                                    
+                                             
 #----------------------------------Network Analysis----------------------------------#
 
 #----------------------------------Optimization--------------------------------------#
@@ -82,6 +81,5 @@ system.equation.model.1.solution<- ode(y = Params.Initial, times = sequence.time
 #----------------------------------Figures-------------------------------------------#
 #-----------------------Figure 1-------------------#
 #-----------------------Figure 2-------------------#
-						   
-        
+      
 #----------------------------------Discussion----------------------------------------#
