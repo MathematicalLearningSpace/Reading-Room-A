@@ -2,13 +2,13 @@
 #--------------------Classroom Lecture Model Series-----------------------#
 #-------------------------------------------------------------------------#
 
-
 #--------------------Work In Progress-------------------------------------#
 
 #------------------------------R API----------------------------------#
 library(deSolve);library(ReacTran);library(rootSolve);
 library(fda);library(phaseR)
 library(pracma);library(GA);library(igraph)
+library(sde);library(yuima);library(MsdeParEst);library(rugarch)
 
 #---------------------------------------------------------------------#
 #------------------------------Data-----------------------------------#
