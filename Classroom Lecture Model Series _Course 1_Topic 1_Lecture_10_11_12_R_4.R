@@ -8,7 +8,8 @@ library(tseries);library(costat);library(locits);library(wbsts);
 library(forecast);library(tsoutliers);library(jmotif)
 library(TSclust);library(TSMining);library(ggplot2);library(tsDyn);
 library(tseriesChaos);library(yuima);library(DescTools)
-library(xtable);library(PearsonDS);library(fitdistrplus);library(psych)
+library(xtable);library(PearsonDS);library(fitdistrplus);library(psych);
+library(BNPTSclust)
 
 #---------------------------------------------------------------------#
 #------------------------------Data-----------------------------------#
@@ -39,15 +40,36 @@ library(xtable);library(PearsonDS);library(fitdistrplus);library(psych)
 #------------------------------Tables---------------------------------#
 #---------------------------------------------------------------------#
 
+#----------Table 1-------------#
+#----------Table 2-------------#
+#----------Table 3-------------#
+#----------Table 4-------------#
+#----------Table 5-------------#
+#----------Table 6-------------#
+
+
+
 #---------------------------------------------------------------------#
 #------------------------------Figures--------------------------------#
 #---------------------------------------------------------------------#
 
 #---------Figure Group--A--------------------------------#
 
+#----------Figure 1-------------#
+#----------Figure 2-------------#
+#----------Figure 3-------------#
+
 #---------Figure Group--B--------------------------------#
 
+#----------Figure 1-------------#
+#----------Figure 2-------------#
+#----------Figure 3-------------#
+
 #---------Figure Group--C--------------------------------#
+
+#----------Figure 1-------------#
+#----------Figure 2-------------#
+#----------Figure 3-------------#
 
 
 
