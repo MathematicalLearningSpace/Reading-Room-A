@@ -15,7 +15,11 @@ library(Matrix):library(fingerprint)
 library(readr);library(leaps);library(caret); library(GA) 
 library(ggplot2);library(kohonen);library(pROC)
 #------Scientific  Visualization-----#
-library(corrplot);library(plot3D);library(scatterplot3d);library(rgl)
+library(corrplot);library(plot3);
+library(easyPubMed);library(bio3d);library(readr);library(CHNOSZ);
+library(seqLogo);library(msa);library(ape);
+library(dtw);library(dtwclust);library(odseq);library(rphast)
+library(plyr)D);library(scatterplot3d);library(rgl)
 
 #---------------------------------------------------------------------#
 #------------------------------Data-----------------------------------#
