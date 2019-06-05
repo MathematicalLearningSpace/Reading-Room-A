@@ -17,10 +17,16 @@ library(readr);library(leaps);library(caret); library(GA)
 library(ggplot2);library(kohonen);library(pROC)
 #------Scientific  Visualization-----#
 library(corrplot);library(plot3D);library(scatterplot3d);library(rgl)
-
+library(easyPubMed);library(readr);library(CHNOSZ);
+library(stringr);library(seqinr);library(seqLogo);library(msa);library(ape);
+library(odseq);library(rphast)
+library(plyr)
 #---------------------------------------------------------------------#
 #------------------------------Data-----------------------------------#
 #---------------------------------------------------------------------#
+
+#----------------Review Notes-----------------------#
+Chaperone_xml <- fetch_pubmed_data(get_pubmed_ids("Chaperone"))
 
 #---------------------------------------------------------------------#
 #------------------------------Functions------------------------------#
