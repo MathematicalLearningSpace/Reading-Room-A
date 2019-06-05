@@ -7,7 +7,10 @@
 #------------------------------R API----------------------------------#
 library(deSolve);library(ReacTran);library(rootSolve);
 library(fda);library(phaseR)
-library(pracma);library(GA);library(igraph)
+library(pracma);library(GA);library(igraph);
+library(markovchain);library(HMM);library(adaptMCMC);library(mcmc);library(MCMCpack)
+library(combinat);library(coda);library(rbenchmark);library(stringi);library(stringr)
+library(Matrix);library(corrplot);library(xtable); library(coda)
 
 #---------------------------------------------------------------------#
 #------------------------------Data-----------------------------------#
