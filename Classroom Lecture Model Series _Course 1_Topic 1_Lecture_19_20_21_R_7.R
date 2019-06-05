@@ -19,6 +19,8 @@ library(NMOF);library(xtable)
 
 Literature.Search.Example<-function(Topics,Language.Model)
   {
+    Review.Notes.Formatted<-list()
+    Review.Notes.Unformatted<-list()
     #-------------------Designed in the Classroom---------------------#
     output<-list()
     output$Topics<-Topics
