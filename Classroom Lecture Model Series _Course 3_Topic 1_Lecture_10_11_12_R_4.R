@@ -5,6 +5,11 @@
 #--------------------Work In Progress-------------------------------------#
 #----------------------R API----------------------------------------------#
 library(bio3d);library(xtable);library(Peptides);library(stringi);
+library(gdata);library(igraph);library(sna);library(ips);
+library(phangorn);library(proteomics)
+library(dcGOR);library(MDplot);library(UniProt.ws);
+library(circlize);library(BioPhysConnectoR);library(protr)
+library(seqinr);library(Biostrings);library(Peptides);
 
 WDR<-c(WDR1, WDR5,WDR10, WDR12, WDR13, WDR16, 
        WDR17,WDR18, WDR19, WDR20, WDR21A, 
