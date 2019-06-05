@@ -17,7 +17,10 @@ library(srnadiff);library(RmiR);library(CancerSubtypes);library(GRENITS);
 library(compEpiTools);
 library(trigger);library(CVE);library(qgraph)
 library(sgnesR);library(rcdk);library(sqldf)
-
+library(tm);library(stringi);library(stringr);library(utils);
+library(CHNOSZ);library(PearsonDS);library(xtable)
+library(bio3d);library(Peptides);library(jsonlite);
+library(rjson);library(seqinr)
 #------------------------------------------------------------------------------------#
 #----------------------------------Data----------------------------------------------#
 #------------------------------------------------------------------------------------#
