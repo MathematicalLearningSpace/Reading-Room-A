@@ -10,6 +10,11 @@ library(dcGOR);library(MDplot);library(UniProt.ws);
 library(circlize);library(BioPhysConnectoR);library(protr)
 library(seqinr);library(Biostrings);library(Peptides);
 
+library(easyPubMed);library(readr);library(CHNOSZ);
+library(stringr);library(seqinr);library(seqLogo);library(msa);library(ape);
+library(dtw);library(dtwclust);library(odseq);library(rphast)
+library(plyr)
+
 #------Scientific  Visualization-----#
 library(corrplot);library(plot3D);library(scatterplot3d);library(rgl)
 
