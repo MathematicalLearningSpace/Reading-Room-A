@@ -28,7 +28,7 @@ Oncogenes.Sample.1 <- c("ABL1", "ALK", "BRAF", "CCND1", "CCND3", "CCNE1", "CCNE2
                        "NRAS", "PDGFB", "PDGFRA", "PIK3CA", "PIK3CB", "PIK3CD", 
                        "PIK3CG", "PIM1", "PML", "RAF1", "REL", "RET", "SRC", "STK11", 
                        "TP63")
-Oncogenes.Sample.1 <- c("WNT10B", "WNT4", "WNT2B", "WNT9A", "WNT3", "WNT5A", 
+Oncogenes.Sample.2 <- c("WNT10B", "WNT4", "WNT2B", "WNT9A", "WNT3", "WNT5A", 
                        "WNT5B", "WNT10A", "WNT11", "WNT2", "WNT1", "WNT7B", "WISP1", 
                        "WNT8B", "WNT7A", "WNT16", "WISP2", "WISP3", "FZD5", "FZD1")
 
