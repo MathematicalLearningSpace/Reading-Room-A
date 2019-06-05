@@ -6,7 +6,9 @@
 #------------------------------R API----------------------------------#
 library(deSolve);library(ReacTran);library(rootSolve);
 library(fda);library(phaseR)
-library(pracma);library(GA);library(igraph)
+library(pracma);library(GA);library(igraph);
+library(Sim.DiffProc);library(bvpSolve);library(odeintr);library(scaRabee)
+library(yuima);library(Sim.DiffProc);library(fptdApprox);library(rpgm);
 #---------------------------------------------------------------------#
 #------------------------------Data-----------------------------------#
 #---------------------------------------------------------------------#
