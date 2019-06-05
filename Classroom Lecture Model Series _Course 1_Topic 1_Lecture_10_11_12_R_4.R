@@ -9,6 +9,8 @@ library(TSclust);library(TSMining);library(ggplot2);library(tsDyn);
 library(tseriesChaos);library(yuima);library(DescTools)
 library(xtable);library(PearsonDS);library(fitdistrplus);library(psych);
 library(BNPTSclust)
+library(boot);library(sampling);library(RandomFields);
+library(dtwclust);library(dtw);library(TSMining)
 
 #---------------------------------------------------------------------#
 #------------------------------Data-----------------------------------#
@@ -23,6 +25,10 @@ library(BNPTSclust)
 #---------------------------------------------------------------------#
 
 #----------------------Transformations--------------------------------#
+
+#-----SAX Representations for Motifs----------------------------------#
+
+#-----Hierarchical clustering of time series for Classification-------#
 
 #---------------------------------------------------------------------#
 #------------------------------Models---------------------------------#
