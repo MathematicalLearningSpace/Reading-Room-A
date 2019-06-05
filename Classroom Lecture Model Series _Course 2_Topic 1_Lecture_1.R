@@ -10,7 +10,14 @@
 library(KEGG.db);library(KEGGgraph);library(KEGGprofile);
 library(KEGGREST);library(rentrez)
 library(xtable);library(stringi);library(readr);
-library(readxl);library(Matrix);library(igraph);library(visNetwork)
+library(readxl);library(Matrix);library(igraph);library(visNetwork);
+library(rcellminer);library(rcellminerData);library(bioCancer);
+library(trena);library(ctSGE);library(anamiR) 
+library(srnadiff);library(RmiR);library(CancerSubtypes);library(GRENITS);
+library(compEpiTools);
+library(trigger);library(CVE);library(qgraph)
+library(sgnesR);library(rcdk);library(sqldf)
+
 #------------------------------------------------------------------------------------#
 #----------------------------------Data----------------------------------------------#
 #------------------------------------------------------------------------------------#
@@ -18,6 +25,11 @@ library(readxl);library(Matrix);library(igraph);library(visNetwork)
 KEGG.organisms<-keggList("organism")
 KEGG.Brite<-keggList("brite")
 KEGG.organisms.df<-as.data.frame(KEGG.organisms)
+
+#--------------Cell Lines--------------------------#
+
+
+#--------------Gene Ontology-----------------------#
 
 #------------------------------------------------------------------------------------#
 #----------------------------------Transformations-----------------------------------#
