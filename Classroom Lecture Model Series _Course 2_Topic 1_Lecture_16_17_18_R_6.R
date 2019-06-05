@@ -44,7 +44,8 @@ res <- c(d.1.X.dt.1)
        })
 }
 #-------Solutions----------------------#
-Longevity.system.equation.model.1.solution<- ode(y = Params.Initial, times = sequence.time, func = system.equation.model.1, parms = Params.Equation) 
+Longevity.system.equation.model.1.solution<- ode(y = Params.Initial, times = sequence.time, 
+						 func = Longevity.system.equation.model.1, parms = Params.Equation) 
 
 #------------Immune System-------------#
 #------------Parameter Models----------#
@@ -62,7 +63,8 @@ res <- c(d.1.X.dt.1)
        })
 }
 #-------Solutions----------------------#
-Immune.system.equation.model.1.solution<- ode(y = Params.Initial, times = sequence.time, func = system.equation.model.1, parms = Params.Equation) 
+Immune.system.equation.model.1.solution<- ode(y = Params.Initial, times = sequence.time, 
+					      func = Immune.system.equation.model.1, parms = Params.Equation) 
 
 #------------wNT-----------------------#
 #------------Parameter Models----------#
@@ -80,7 +82,8 @@ res <- c(d.1.X.dt.1)
        })
 }
 #-------Solutions----------------------#
-Wnt.system.equation.model.1.solution<- ode(y = Params.Initial, times = sequence.time, func = system.equation.model.1, parms = Params.Equation) 
+Wnt.system.equation.model.1.solution<- ode(y = Params.Initial, times = sequence.time, 
+					   func = Wnt.system.equation.model.1, parms = Params.Equation) 
 
 #------------Notch---------------------#
 #------------Parameter Models----------#
@@ -98,7 +101,8 @@ res <- c(d.1.X.dt.1)
        })
 }
 #-------Solutions----------------------#
-Notch.system.equation.model.1.solution<- ode(y = Params.Initial, times = sequence.time, func = system.equation.model.1, parms = Params.Equation) 
+Notch.system.equation.model.1.solution<- ode(y = Params.Initial, times = sequence.time, 
+					     func = Notch.system.equation.model.1, parms = Params.Equation) 
 
 #------------HedgeHog------------------#
 #------------Parameter Models----------#
@@ -116,7 +120,8 @@ res <- c(d.1.X.dt.1)
        })
 }
 #-------Solutions----------------------#
-Hedgehog.system.equation.model.1.solution<- ode(y = Params.Initial, times = sequence.time, func = system.equation.model.1, parms = Params.Equation) 
+Hedgehog.system.equation.model.1.solution<- ode(y = Params.Initial, times = sequence.time, 
+						func = Hedgehog.system.equation.model.1, parms = Params.Equation) 
 
 #------------TGF-Beta------------------#
 #------------Parameter Models----------#
@@ -134,7 +139,8 @@ res <- c(d.1.X.dt.1)
        })
 }
 #-------Solutions----------------------#
-TGF.Beta.system.equation.model.1.solution<- ode(y = Params.Initial, times = sequence.time, func = system.equation.model.1, parms = Params.Equation) 
+TGF.Beta.system.equation.model.1.solution<- ode(y = Params.Initial, times = sequence.time, 
+						func = TGF.Beta.system.equation.model.1, parms = Params.Equation) 
 
 #------------VEGF----------------------#
 #------------Parameter Models----------#
@@ -152,7 +158,8 @@ res <- c(d.1.X.dt.1)
        })
 }
 #-------Solutions----------------------#
-VEGF.system.equation.model.1.solution<- ode(y = Params.Initial, times = sequence.time, func = system.equation.model.1, parms = Params.Equation) 
+VEGF.system.equation.model.1.solution<- ode(y = Params.Initial, times = sequence.time, 
+					    func = VEGF.system.equation.model.1, parms = Params.Equation) 
 
 #---------------------------------------------------------------------#
 #------------------------------Analysis-------------------------------#
