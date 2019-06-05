@@ -3,8 +3,7 @@
 #-------------------------------------------------------------------------#
 
 #--------------------Work In Progress-------------------------------------#
-
-library(tseries);library(costat);library(locits);library(wbsts);
+library(TSA);library(tseries);library(costat);library(locits);library(wbsts);
 library(forecast);library(tsoutliers);library(jmotif)
 library(TSclust);library(TSMining);library(ggplot2);library(tsDyn);
 library(tseriesChaos);library(yuima);library(DescTools)
@@ -31,6 +30,9 @@ library(BNPTSclust)
 
 #----------------------Nonlinear Tests--------------------------------#
 
+#---------------------Staionarity-------------------------------------#
+
+#---------------------Prediction--------------------------------------#
 
 #---------------------------------------------------------------------#
 #------------------------------Analysis-------------------------------#
