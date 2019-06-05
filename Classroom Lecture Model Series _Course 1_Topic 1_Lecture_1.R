@@ -1,6 +1,8 @@
 #-------------------------------------------------------------------------#
 #--------------------Classroom Lecture Model Series-----------------------#
 #-------------------------------------------------------------------------#
+library(deSolve);library(ReacTran);library(rootSolve);
+library(fda);library(phaseR);library(pracma);
 library(xtable);library(GA);library(igraph);library(pracma};library(readr);require(BioMedR)
 #----------------------------------R Source Files------------------------------------#
 #----------------------------------Data----------------------------------------------#
