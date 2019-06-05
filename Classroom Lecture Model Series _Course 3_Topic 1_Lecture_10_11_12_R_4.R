@@ -43,7 +43,12 @@ WDR5.pdb<-read.pdb("WDR5_HUMAN_1.pdb")
 
 
 #------------------G Quadruplexes---------------------------#
-
+#-----------------------------G Quadruplexes-------------------------------------------
+Intramolecular.G.Quadruplexes.Basket_xml<-fetch_pubmed_data(get_pubmed_ids("Intramolecular G Quadruplexes Basket"))
+Intramolecular.G.Quadruplexes.Chair_xml<-fetch_pubmed_data(get_pubmed_ids("Intramolecular G Quadruplexes Chair"))
+Intramolecular.G.Quadruplexes.Propeller_xml<-fetch_pubmed_data(get_pubmed_ids("Intramolecular G Quadruplexes Propeller"))
+Intermolecular.G.Quadruplexes.Hairpin.dimmer_xml<-fetch_pubmed_data(get_pubmed_ids("Intermolecular G-Quadruplexes Hairpin dimmer"))
+Intermolecular.G.Quadruplexes.Tetrameric_xml<-fetch_pubmed_data(get_pubmed_ids("Intermolecular G-Quadruplexes Tetrameric")
 
 #-----------------Heat Shock Proteins-----------------------#
 
