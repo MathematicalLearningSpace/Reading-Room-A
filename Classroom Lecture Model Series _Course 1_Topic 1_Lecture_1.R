@@ -51,8 +51,19 @@ Params.Equation<-c(a11<-1)
 
 #----------------------------------Equation Systems----------------------------------#
 
-#----------------------------------Parameter Tables----------------------------------#
+system.equation.model.1<-function(sequence.time,Params.Initial, Params.Equation)
+{
+  with(as.list(c(Params.Equation, Params.Initial)), 
+       {
+	d.1.X.dt.1 = a11*X
+res <- c(d.1.X.dt.1)
+ list(res)
+       })
+}
 
+#-------Solutions----------------------------#
+system.equation.model.1.solution<- ode(y = Params.Initial, times = sequence.time, func = system.equation.model.1, parms = Params.Equation)                                                     
+                                                    
 #----------------------------------Network Analysis----------------------------------#
 
 #----------------------------------Optimization--------------------------------------#
