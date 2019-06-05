@@ -11,6 +11,12 @@ library(dcGOR);library(MDplot);library(UniProt.ws);
 library(circlize);library(BioPhysConnectoR);library(protr)
 library(seqinr);library(Biostrings);library(Peptides);
 
+library(easyPubMed);library(bio3d);library(readr);library(CHNOSZ);
+library(stringr);library(Biostrings)
+library(seqinr);library(seqLogo);library(msa);library(ape);
+library(dtw);library(dtwclust);library(odseq);library(rphast)
+library(plyr)
+
 WDR<-c(WDR1, WDR5,WDR10, WDR12, WDR13, WDR16, 
        WDR17,WDR18, WDR19, WDR20, WDR21A, 
        WDR21C, WDR22, WDR23, WDR24, WDR25, 
