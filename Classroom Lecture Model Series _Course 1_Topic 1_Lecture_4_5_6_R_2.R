@@ -11,6 +11,8 @@ library(Sim.DiffProc);library(bvpSolve);library(odeintr);library(scaRabee)
 library(yuima);library(Sim.DiffProc);library(fptdApprox);library(rpgm);
 #-------------------Combinatorics-------------------------------------#
 library(combinat);library(GeomComb)
+#-------------------Numerical Derivatives-----------------------------#
+library(Deriv);library(numDeriv)
 #---------------------------------------------------------------------#
 #------------------------------Data-----------------------------------#
 #---------------------------------------------------------------------#
