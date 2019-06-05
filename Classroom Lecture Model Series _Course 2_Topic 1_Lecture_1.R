@@ -21,6 +21,12 @@ library(tm);library(stringi);library(stringr);library(utils);
 library(CHNOSZ);library(PearsonDS);library(xtable)
 library(bio3d);library(Peptides);library(jsonlite);
 library(rjson);library(seqinr)
+library(easyPubMed);library(bio3d);library(readr);library(CHNOSZ);
+library(stringr);library(Peptides);library(Biostrings)
+library(seqinr);library(seqLogo);library(msa);library(ape);
+library(dtw);library(dtwclust);library(odseq);library(rphast)
+library(plyr)
+
 #------------------------------------------------------------------------------------#
 #----------------------------------Data----------------------------------------------#
 #------------------------------------------------------------------------------------#
