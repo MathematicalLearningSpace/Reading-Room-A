@@ -44,7 +44,8 @@ res <- c(d.1.X.dt.1)
        })
 }
 #-------Solutions----------------------#
-Fox.system.equation.model.1.solution<- ode(y = Params.Initial, times = sequence.time, func = system.equation.model.1, parms = Params.Equation) 
+Fox.system.equation.model.1.solution<- ode(y = Params.Initial, times = sequence.time, 
+					   func = Fox.system.equation.model.1, parms = Params.Equation) 
 
 #------------Cell Cycle------------#
 #------------Parameter Models----------#
@@ -62,7 +63,8 @@ res <- c(d.1.X.dt.1)
        })
 }
 #-------Solutions----------------------#
-Cell.Cycle.system.equation.model.1.solution<- ode(y = Params.Initial, times = sequence.time, func = system.equation.model.1, parms = Params.Equation) 
+Cell.Cycle.system.equation.model.1.solution<- ode(y = Params.Initial, times = sequence.time, 
+						  func = Cell.Cycle.system.equation.model.1, parms = Params.Equation) 
 
 #------------mTOR------------------#
 #------------Parameter Models----------#
@@ -80,7 +82,8 @@ res <- c(d.1.X.dt.1)
        })
 }
 #-------Solutions----------------------#
-mTOR.system.equation.model.1.solution<- ode(y = Params.Initial, times = sequence.time, func = system.equation.model.1, parms = Params.Equation) 
+mTOR.system.equation.model.1.solution<- ode(y = Params.Initial, times = sequence.time, 
+					    func = mTOR.system.equation.model.1, parms = Params.Equation) 
 
 #---------------------------------------------------------------------#
 #------------------------------Analysis-------------------------------#
