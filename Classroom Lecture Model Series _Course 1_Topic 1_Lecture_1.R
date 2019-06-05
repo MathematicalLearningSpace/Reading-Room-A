@@ -8,6 +8,9 @@ library(fda);library(phaseR);library(pracma);
 library(xtable);library(GA);library(igraph);library(pracma};library(readr);require(BioMedR)
 #----------------------------------R Source Files------------------------------------#
 #----------------------------------Data----------------------------------------------#
+
+#---------------------------Review Notes--------------------------#
+						    
 #---Example from PubChem for the Classroom-------------------------------------------#
 Gene_Targets_Patents.df <- as.data.frame(read_csv("Gene_Targets_Patents.csv"))
 Protein_Targets_Patents.df <- as.data.frame(read_csv("Protein_Targets_Patents.csv"))
@@ -43,6 +46,8 @@ sequence.time <- seq(0, 10^2, by = 0.1)
 Params.Initial<-c(X<-1)
 Params.Equation<-c(a11<-1)
 
+						    
+						    
 #------------------------------------------------------------------------------------#
 #----------------------------------Transformations-----------------------------------#
 #------------------------------------------------------------------------------------#
