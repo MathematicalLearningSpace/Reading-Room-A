@@ -27,7 +27,14 @@ KEGG.Brite<-keggList("brite")
 KEGG.organisms.df<-as.data.frame(KEGG.organisms)
 
 #--------------Cell Lines--------------------------#
+drug.Act <- exprs(getAct(rcellminerData::drugData))
+mol.Data <- getMolDataMatrices()
 
+PlotTypes <- c("drug", "cop", "exp", "xai", "exo", "mut", "mir", "pro", "mda")
+cop.1 <- "cop";exp.1 <- "exp";xai.1 <- "xai";exo.1<- "exo";mut.1 <- "mut";mir.1 <- "mir";pro.1 <- "pro"
+#------Filters------
+cop.data <- mol.Data[[cop.1]];exp.data <- mol.Data[[exp.1]];xai.data <- mol.Data[[xai.1]];exo.data <- mol.Data[[exo.1]]
+mut.data <- mol.Data[[mut.1]]; mir.data <- mol.Data[[mir.1]];pro.data <- mol.Data[[pro.1]]
 
 #--------------Gene Ontology-----------------------#
 
