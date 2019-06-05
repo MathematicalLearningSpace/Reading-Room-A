@@ -8,6 +8,7 @@ library(deSolve);library(ReacTran);library(rootSolve);
 library(fda);library(phaseR)
 library(pracma);library(GA);library(igraph)
 library(NMOF);library(xtable)
+library(tm);library(topicmodels);library(wordcloud);
 
 #---------------------------------------------------------------------#
 #------------------------------Data-----------------------------------#
