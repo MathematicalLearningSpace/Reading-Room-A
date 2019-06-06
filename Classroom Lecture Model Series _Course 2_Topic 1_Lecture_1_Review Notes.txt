@@ -4,11 +4,48 @@
 
 \section{Introduction}
 
+\begin{enumerate}
+\end{enumerate}
 
 \section{Classroom Lecture 1-3 Topics: KEGG Review}
+
+\begin{table}[H]\centering
+	\begin{tabular}{p{1cm}p{4cm}p{3cm}}
+		Article ID & Summary & Comments\\
+		\hline
+		\hline
+	\end{tabular}
+\end{table}
+
 \section{Classroom Lecture 4-6 Topics:  Signal Transduction and QSAR}
+
+\begin{table}[H]\centering
+	\begin{tabular}{p{1cm}p{4cm}p{3cm}}
+		Article ID & Summary & Comments\\
+		\hline
+		\hline
+	\end{tabular}
+\end{table}
+
 \section{Classroom Lecture 7-9 Topics: Botany 1 and 2 Shikimate}
+
+\begin{table}[H]\centering
+	\begin{tabular}{p{1cm}p{4cm}p{3cm}}
+		Article ID & Summary & Comments\\
+		\hline
+		\hline
+	\end{tabular}
+\end{table}
+
 \section{Classroom Lecture 10-12 Topics: MAPK, Calcium cAMP}
+
+\begin{table}[H]\centering
+	\begin{tabular}{p{1cm}p{4cm}p{3cm}}
+		Article ID & Summary & Comments\\
+		\hline
+		\hline
+	\end{tabular}
+\end{table}
 
 \begin{table}[H]
 \tiny
@@ -24,6 +61,14 @@
 
 \section{Classroom Lecture 13-15 Topics: Fox0 Cell cycle mTOR}
 
+\begin{table}[H]\centering
+	\begin{tabular}{p{1cm}p{4cm}p{3cm}}
+		Article ID & Summary & Comments\\
+		\hline
+		\hline
+	\end{tabular}
+\end{table}
+
 \begin{table}[H]
 \tiny
 \begin{tabular}{p{1cm}p{1cm}p{3cm}p{1cm}p{1cm}} 
@@ -37,6 +82,14 @@
 
 
 \section{Classroom Lecture 16-18 Topics: Longevity Immune System Wnt Notch Hedgehog TGF-Beta and VGF}
+
+\begin{table}[H]\centering
+	\begin{tabular}{p{1cm}p{4cm}p{3cm}}
+		Article ID & Summary & Comments\\
+		\hline
+		\hline
+	\end{tabular}
+\end{table}
 
 \begin{table}[H]
 \tiny
@@ -52,6 +105,14 @@
 
 \section{Classroom Lecture 19-21 Topics: Apelin Hippo JakStat Insulin WDR}
 
+\begin{table}[H]\centering
+	\begin{tabular}{p{1cm}p{4cm}p{3cm}}
+		Article ID & Summary & Comments\\
+		\hline
+		\hline
+	\end{tabular}
+\end{table}
+
 \begin{table}[H]
 \tiny
 \begin{tabular}{p{1cm}p{1cm}p{3cm}p{1cm}p{1cm}} 
@@ -66,21 +127,85 @@
 
 \section{Classroom Lecture 22-24 Topics:  Digestion I and II Sugar and Insulin}
 
+\begin{table}[H]\centering
+	\begin{tabular}{p{1cm}p{4cm}p{3cm}}
+		Article ID & Summary & Comments\\
+		\hline
+		\hline
+	\end{tabular}
+\end{table}
+
 \section{Classroom Lecture 25-27 Topics:  Metabolism Obesity Pancreatic Signalling I}
+
+\begin{table}[H]\centering
+	\begin{tabular}{p{1cm}p{4cm}p{3cm}}
+		Article ID & Summary & Comments\\
+		\hline
+		\hline
+	\end{tabular}
+\end{table}
+
 \section{Classroom Lecture 28-30 Topics:  Application Study I and II}
 
+\begin{table}[H]\centering
+	\begin{tabular}{p{1cm}p{4cm}p{3cm}}
+		Article ID & Summary & Comments\\
+		\hline
+		\hline
+	\end{tabular}
+\end{table}
 
 \section{Topic Summary}
 
 \subsection{Topic A:}
 
+\begin{table}[H]\centering
+	\begin{tabular}{p{1cm}p{4cm}p{3cm}}
+		Article ID & Summary & Comments\\
+		\hline
+		\hline
+	\end{tabular}
+\end{table}
+
 \subsection{Topic B:}
+
+\begin{table}[H]\centering
+	\begin{tabular}{p{1cm}p{4cm}p{3cm}}
+		Article ID & Summary & Comments\\
+		\hline
+		\hline
+	\end{tabular}
+\end{table}
 
 \subsection{Topic C:}
 
+\begin{table}[H]\centering
+	\begin{tabular}{p{1cm}p{4cm}p{3cm}}
+		Article ID & Summary & Comments\\
+		\hline
+		\hline
+	\end{tabular}
+\end{table}
+
 \subsection{Topic D:}
 
+\begin{table}[H]\centering
+	\begin{tabular}{p{1cm}p{4cm}p{3cm}}
+		Article ID & Summary & Comments\\
+		\hline
+		\hline
+	\end{tabular}
+\end{table}
+
 \subsection{Topic E:}
+
+\begin{table}[H]\centering
+	\begin{tabular}{p{1cm}p{4cm}p{3cm}}
+		Article ID & Summary & Comments\\
+		\hline
+		\hline
+	\end{tabular}
+\end{table}
 
 \section{Analysis}
 
@@ -93,5 +218,13 @@ Topic ID & #Articles & Readability & Vocabulary & Search String  \\
 \end{table}
 
 \section{Summary of Topics for Classroom}
+
+\begin{table}[H]\centering
+	\begin{tabular}{p{1cm}p{4cm}p{3cm}}
+		Topic ID & Summary & Comments\\
+		\hline
+		\hline
+	\end{tabular}
+\end{table}
 
 \section{Bibliography}
