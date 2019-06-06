@@ -2,6 +2,8 @@
 %--------------------Classroom Lecture Model Series-----------------------%
 %-------------------------------------------------------------------------%
 
+%--------------------Work in Progress for the Classroom-------------------%
+
 \section{Introduction}
 
 \begin{enumerate}
