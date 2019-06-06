@@ -36,6 +36,35 @@ Music.Collection.1.10<-readWave("Composition10.wav")
 #------------------------------Functions------------------------------#
 #---------------------------------------------------------------------#
 
+Acoustic.Index.Prototype<-function(X)
+{
+  #-----------Work in Progress for the Classroom----------#
+  Table.1<-data.frame()
+  X.pspectrum<- powspec(X@left, X@samp.rate)
+  X.duration<- length(X@left/X@samp.rate)
+  X.ACI<-ACI(X, nbwindows=(X/5))
+  X.ACI.B<-acoustic_complexity(X,j=5) # j=5
+  X.AR<-AR(X)
+  X.ADI<-acoustic_diversity(X)
+  X.AEI<-acoustic_evenness(X)
+  X.BAI<-bioacoustic_index(X)
+  X.Entropy<-H(X@left,X@samp.rate)
+  X.spec1<-spec(X,f=22050,at=0.2,plot=TRUE)
+  ## Shannon spectral entropy
+  X.Entropy.Shannon.Spectral<-sh(X.spec1)
+  ## Renyi spectral entropy
+  X.Entropy.Renyi.Spectral.2<-sh(X.spec1, alpha=2)
+  X.Entropy.Renyi.Spectral.3<-sh(X.spec1, alpha=3)
+  X.roughness<-roughness(X.spec1)
+  X.rugosity<-rugo(X@left/max(X@left))
+  Music.Index<-cbind(X.duration,X.ACI.A,X.AR,X.Entropy)
+  output<-list()
+  output$Music.Index<-Music.Index
+  output$Table.1<-Table.1
+  return(output)
+}
+
+
 #---------------------------------------------------------------------#
 #------------------------------Models---------------------------------#
 #---------------------------------------------------------------------#
