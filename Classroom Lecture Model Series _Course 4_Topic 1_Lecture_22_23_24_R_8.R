@@ -12,11 +12,25 @@ library(EbayesThresh);library(HMM);library(markovchain)
 #------------------------Data Processing-----------------------------#
 library(XML);library(xml2);library(XML2R);library(seqinr);
 library(methods);library(dplyr);
-library(Matrix);library(pracma);library(expm)
+library(Matrix);library(pracma);library(expm);
+
+library(seewave);library(tuneR);library(soundecology);library(glogis);
+library(nsRFA)
 
 #---------------------------------------------------------------------#
 #------------------------------Data-----------------------------------#
 #---------------------------------------------------------------------#
+Music_Notes <- read_csv("Music_Notes.txt")
+Music.Collection.1.1<-readWave("Composition1.wav")
+Music.Collection.1.2<-readWave("Composition2.wav")
+Music.Collection.1.3<-readWave("Composition3.wav")
+Music.Collection.1.4<-readWave("Composition4.wav")
+Music.Collection.1.5<-readWave("Composition5.wav")
+Music.Collection.1.6<-readWave("Composition6.wav")
+Music.Collection.1.7<-readWave("Composition7.wav")
+Music.Collection.1.8<-readWave("Composition8.wav")
+Music.Collection.1.9<-readWave("Composition9.wav")
+Music.Collection.1.10<-readWave("Composition10.wav")
 
 #---------------------------------------------------------------------#
 #------------------------------Functions------------------------------#
@@ -35,6 +49,9 @@ library(Matrix);library(pracma);library(expm)
 #---------------------------------------------------------------------#
 #------------------------------Analysis-------------------------------#
 #---------------------------------------------------------------------#
+
+#------------------Music Collection Statistics---------#
+
 
 #---------------------------------------------------------------------#
 #------------------------------Tables---------------------------------#
