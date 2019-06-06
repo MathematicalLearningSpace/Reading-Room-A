@@ -169,4 +169,12 @@ Topic ID & #Articles & Readability & Vocabulary & Search String  \\
 
 \section{Summary of Topics for Classroom}
 
+\begin{table}[H]\centering
+	\begin{tabular}{p{1cm}p{4cm}p{3cm}}
+		Topic ID & Summary & Comments\\
+		\hline
+		\hline
+	\end{tabular}
+\end{table}
+
 \section{Bibliography}
