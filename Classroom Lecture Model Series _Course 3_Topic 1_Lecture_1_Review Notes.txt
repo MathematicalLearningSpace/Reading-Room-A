@@ -178,3 +178,23 @@ Topic ID & #Articles & Readability & Vocabulary & Search String  \\
 \end{table}
 
 \section{Bibliography}
+
+\subsection{Classroom Lecture 1-3 Topics: Ribosome ER Smooth and Rough}
+\subsection{Classroom Lecture 4-6 Topics: Translation and Transcription Models}
+\subsection{Classroom Lecture 7-9 Topics: Normal Mode Analysis Compound Discovery QSAR Models}
+\subsection{Classroom Lecture 10-12 Topics: WDR and G Quadruplexes Heat Shock Proteins}
+\subsection{Classroom Lecture 13-15 Topics: Machine Learning Models I, II and III}
+\subsection{Classroom Lecture 16-18 Topics: Ribosome Model}
+\subsection{Classroom Lecture 19-21 Topics: Chaperonin Model}
+\subsection{Classroom Lecture 22-24 Topics: Proteasome Model}
+\subsection{Classroom Lecture 25-27 Topics: Network Models Molecular Machines I and II}
+\subsection{Classroom Lecture 28-30 Topics: Application Study I, II and III}
+\subsection{Topic A:}
+\subsection{Topic B:}
+\subsection{Topic C:}
+\subsection{Topic D:}
+\subsection{Topic E:}
+
+
+
+
