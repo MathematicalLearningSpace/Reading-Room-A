@@ -14,6 +14,8 @@ library(XML);library(xml2);library(XML2R);library(seqinr);
 library(methods);library(dplyr);
 library(Matrix);library(pracma);library(expm)
 
+library(recommenderlab);library(readr);library(GA)
+
 
 #---------------------------------------------------------------------#
 #------------------------------Data-----------------------------------#
@@ -26,6 +28,8 @@ library(Matrix);library(pracma);library(expm)
 #---------------------------------------------------------------------#
 #------------------------------Models---------------------------------#
 #---------------------------------------------------------------------#
+
+#------------Item-based Collaborative Filtering Recommender Model-----#
 
 #------------Composition Models I------------------#
 
