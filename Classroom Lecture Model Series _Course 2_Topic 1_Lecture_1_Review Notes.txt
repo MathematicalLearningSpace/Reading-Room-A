@@ -197,7 +197,7 @@
 	\end{tabular}
 \end{table}
 
-\subsection{Topic E:}
+\subsection{Topic E: Design Patterns}
 
 \begin{table}[H]\centering
 	\begin{tabular}{p{1cm}p{4cm}p{3cm}}
@@ -243,5 +243,30 @@ Topic ID & #Articles & Readability & Vocabulary & Search String  \\
 \subsection{Topic B:}
 \subsection{Topic C:}
 \subsection{Topic D:}
-\subsection{Topic E:}
+\subsection{Topic E: Design Patterns}
+
+\bibitem[301]{key301} Wikipedia contributors. 
+\newblock Factory method pattern. 
+\newblock Wikipedia, The Free Encyclopedia. 2018. 
+
+\bibitem[302]{key302}Wikipedia contributors. 
+\newblock Decorator pattern.
+\newblock Wikipedia, The Free Encyclopedia.  2018. 
+
+\bibitem[303]{key303}Wikipedia contributors. 
+\newblock Prototype pattern.
+\newblock Wikipedia, The Free Encyclopedia.  2018. 
+
+\bibitem[304]{key304}Wikipedia contributors. 
+\newblock Chain-of-responsibility pattern.
+\newblock Wikipedia, The Free Encyclopedia. 2018. 
+
+\bibitem[305]{key305}Wikipedia contributors. 
+\newblock Strategy pattern. 
+\newblock Wikipedia, The Free Encyclopedia. 2018.
+
+\bibitem[305]{key306}Wikipedia contributors. 
+\newblock Template method pattern.
+\newblock Wikipedia, The Free Encyclopedia. 2018. 
+
 
