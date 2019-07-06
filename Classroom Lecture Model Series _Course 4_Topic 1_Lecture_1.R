@@ -12,7 +12,18 @@ library(jsonlite);library(rjson);library(xtable)
 #----------------------------------Transformations-----------------------------------#
 
 #----------------------------------User Defined Modules and Functions----------------#
-
+Acoustic.Complexity.Index<-function(X,Window.Width)
+  {
+  Acoustic.Complexity.Local<-0
+  Acoustic.Complexity.Global<-0
+ 
+  output<-list()
+ 	output$Acoustic.Complexity.Local<-Acoustic.Complexity.Local
+ 	output$Acoustic.Complexity.Local<-Acoustic.Complexity.Global
+  return(output)
+  }
+test.Acoustic.Complexity.Index<-Acoustic.Complexity.Index(X,3)
+test.Acoustic.Complexity.Index
 
 #-----------------------------------Music Model--------------------------------------#
 Music.Model.1<-function(W,X,Y,Z,Visualization=TRUE)
@@ -79,11 +90,15 @@ test.Music.Model.1
 
 #----------------------------------Tables--------------------------------------------#
 
-#-----------Table 1-------------------#
-#-----------Table 2-------------------#
-#-----------Table 3-------------------#
-#-----------Table 4-------------------#
 
+#-----------Table 1-------------------#
+Table.1.TeX<-xtable::xtable(Table.1.df)
+#-----------Table 2-------------------#
+Table.2.TeX<-xtable::xtable(Table.2.df)
+#-----------Table 3-------------------#
+Table.3.TeX<-xtable::xtable(Table.3.df)
+#-----------Table 4-------------------#
+Table.4.TeX<-xtable::xtable(Table.4.df)
 
 #----------------------------------Figures-------------------------------------------#
 
