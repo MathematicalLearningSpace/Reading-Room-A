@@ -15,7 +15,7 @@ library(jsonlite);library(rjson);library(xtable)
 
 
 #-----------------------------------Music Model--------------------------------------#
-Music_Model<-function(W,X,Y,Z,Visualization=TRUE)
+Music.Model.1<-function(W,X,Y,Z,Visualization=TRUE)
 {
 setwd("Music Model/Music Sequences/XML Data")
 Music.Composition.1<-"";Music.Composition.2<-"";Music.Composition.3<-"";Music.Composition.4<-"";Music.Composition.5<-"";
@@ -37,6 +37,8 @@ Notes.By.Octave<-list();Notes.By.Pitch<-list();Model.1<-list(); Model.Chain.1<-l
   output<-list()
   return(output)
 }
+test.Music.Model.1<-Music.Model.1("1","1","1","1",FALSE)
+test.Music.Model.1
 #----------------------------------Network Designs-----------------------------------#
 
 #----------------------------------Equation Systems----------------------------------#
