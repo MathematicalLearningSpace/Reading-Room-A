@@ -42,7 +42,18 @@ for(i in 1:length(Article.keywords))
     saveXML(Search.Results[[i]],file=stringr::str_c("Search_Results_X_",i,".xml"))
     for(j in 1:10000){}
   }
-
+setwd("Model/Abstracts")
+require(XML);require(xml2);require(seqinr)
+X.Models.Korpus.Files<-list.files()
+X.Models.Korpus.XML<-list();X.Models.Korpus.Titles<-list();X.Models.Korpus.Abstracts<-list();
+X.Models.Dictionary<-data.frame()
+  
+for(i in 1:length(X.Models.Korpus.Files))
+{
+    X.Models.Korpus.XML[[i]]<-read_xml(X.Models.Korpus.Files[i])
+    X.Models.Korpus.Titles[[i]]<-xml_text(xml_find_all(X.Models.Korpus.XML[[i]], "//ArticleTitle"))
+    X.Models.Korpus.Abstracts[[i]]<-xml_text(xml_find_all(X.Models.Korpus.XML[[i]], ".//AbstractText"),trim=TRUE) 
+ }
 
 #---------------------------------------------------------------------#
 #------------------------------Functions------------------------------#
