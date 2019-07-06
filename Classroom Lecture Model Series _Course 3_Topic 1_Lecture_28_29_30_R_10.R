@@ -70,7 +70,37 @@ test.Topic.Model.1
 
 Model.1<-function(X,Visualization=FALSE)
 {
+  require(bio3d);
   Table.1.df<-data.frame();Table.2.df<-data.frame();Table.3.df<-data.frame();
+  setwd("Model/Protein Models")
+  protein.model.files.pdb<-list.files();protein.model.list<-list();N.1<-length(protein.model.files.pdb);
+  for(i in 1:3){protein.model.list[[i]]<-read.pdb(protein.model.files.pdb[i])}
+  bio <- biounit(protein.model.list[[3]]);names(bio)
+  #--------------------------------------------------------------------------------#
+  #-----------------Sequence Modeling Global, Local, Motif Optimization------------#
+  #--------------------------------------------------------------------------------#
+  sequence.Pattern.Recognition<-function(Pattern.1,Y,Visualization=FALSE)
+  {
+    aa.seq<-pdbseq(Y)
+    Search.Result<-motif.find(Pattern.1, aa.seq)
+    #---------------------------------------------------------------------------#
+    #----------------Alignment--------------------------------------------------#
+    #---------------------------------------------------------------------------#
+    Protein.blast <- blast.pdb()
+    Table.1<-Protein.blast$hit.tbl
+    if(Visualization)
+    {
+      top.hits <- plot(Protein.blast)
+    }
+    Table.2<-top.hits$hits
+    output<-list()
+    output$Pattern.1<-Pattern.1
+    output$Model.1<-Y
+    output$Table.1<-Table.1
+    output$Table.2<-Table.2
+    return(output)
+  }
+  
   
   if(Visualization){plot(X)};
   
