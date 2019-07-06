@@ -23,8 +23,26 @@ library(corrplot);library(plot3D);library(scatterplot3d);library(rgl)
 #---------------------------------------------------------------------#
 #------------------------------Data-----------------------------------#
 #---------------------------------------------------------------------#
+setwd("A Model")
+  Table.1.df<-as.data.frame(Table.1);Table.2.df<-as.data.frame(Table.2);Table.3.df<-as.data.frame(Table.3);Table.4.df<-as.data.frame(Table.4)
+  Table.5.df<-as.data.frame(Table.5);Table.6.df<-as.data.frame(Table.6);Table.7.df<-as.data.frame(Table.7);Table.8.df<-as.data.frame(Table.8)
+  Table.9.df<-as.data.frame(Table.9);Table.10.df<-as.data.frame(Table.10)
 
 #--------------Review Notes-------#
+#-------------------------------------------------------#
+#------------Article Keywords for Search----------------#
+#-------------------------------------------------------#
+
+Article.keywords<-c("A","B","C","D");Search.Results<-list();
+require(easyPubMed);
+for(i in 1:length(Article.keywords))
+  {
+    search.string.1<-stringr::str_c(Article.keywords[i],"  AND (2018[PDAT]:2019[PDAT])")
+    Search.Results[[i]]<-fetch_pubmed_data(get_pubmed_ids(search.string.1))
+    saveXML(Search.Results[[i]],file=stringr::str_c("Search_Results_X_",i,".xml"))
+    for(j in 1:10000){}
+  }
+
 
 #---------------------------------------------------------------------#
 #------------------------------Functions------------------------------#
