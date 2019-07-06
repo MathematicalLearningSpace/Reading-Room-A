@@ -88,10 +88,7 @@ Model.1<-function(X,Visualization=FALSE)
     #---------------------------------------------------------------------------#
     Protein.blast <- blast.pdb()
     Table.1<-Protein.blast$hit.tbl
-    if(Visualization)
-    {
-      top.hits <- plot(Protein.blast)
-    }
+    if(Visualization){top.hits <- plot(Protein.blast)}
     Table.2<-top.hits$hits
     output<-list()
     output$Pattern.1<-Pattern.1
@@ -100,8 +97,6 @@ Model.1<-function(X,Visualization=FALSE)
     output$Table.2<-Table.2
     return(output)
   }
-  
-  
   if(Visualization){plot(X)};
   
   output<-list()
