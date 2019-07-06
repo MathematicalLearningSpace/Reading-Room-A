@@ -30,6 +30,19 @@ W<-data.frame();X<-data.frame();Y<-data.frame();Z<-data.frame();
 #---------------------------------------------------------------------#
 
 #------------Item-based Collaborative Filtering Recommender Model-----#
+Recommender.Model.Jazz.1<-function(X)
+ {
+  Table.1.df<-data.frame(); Table.2.df<-data.frame(); Table.3.df<-data.frame();
+  
+  output<-list()
+  output$X<-X
+  output$Table.1<-Table.1.df
+  output$Table.2<-Table.2.df
+  output$Table.3<-Table.3.df
+  return(output)
+ }
+test.Recommender.Model.Jazz.1<-Recommender.Model.Jazz.1("1")
+test.Recommender.Model.Jazz.1
 
 #------------Composition Models I------------------#
 Composition.Model.Jazz.1<-function(X)
