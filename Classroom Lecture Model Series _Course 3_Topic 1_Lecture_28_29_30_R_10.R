@@ -67,6 +67,17 @@ test.Model.1
 #---------------------------------------------------------------------#
 
 #-----------Figure 1-------------------#
+require(circlize)
+for(i in 1:3)
+{
+png(file = stringr::str_c('Figures//Example_',i,'_Figure_',2,'.png'))
+circos.initializeWithIdeogram(plotType = c("labels", "axis"))
+X = generateRandomBed(nr = 10^2, nc = 2^2)
+color.choices = colorRamp2(c(-1, 0, 1), c("blue", "red", "green"))
+circos.genomicHeatmap(X, color.choices, side = "inside", border = "black")
+circos.genomicHeatmap(X, color.choices, side = "outside", line_col = as.numeric(factor(X[[1]])))
+dev.off()
+}
 #-----------Figure 2-------------------#
 #-----------Figure 3-------------------#
 #-----------Figure 4-------------------#
