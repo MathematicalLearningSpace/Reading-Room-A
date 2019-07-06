@@ -99,7 +99,7 @@ Table.1.df<-data.frame();Table.2.df<-data.frame();Table.3.df<-data.frame();
   output$Table.3<-Table.3.df
   return(output)
 }
-test.Analysis.Model.1<-Model.1("1",TRUE)
+test.Analysis.Model.1<-Analysis.Model.1("1",TRUE)
 test.Analysis.Model.1
 #---------------------------------------------------------------------#
 #------------------------------Tables---------------------------------#
