@@ -33,7 +33,22 @@ Notes.By.Octave<-list();Notes.By.Pitch<-list();Model.1<-list(); Model.Chain.1<-l
  Music.Composition.8<-read_xml(Music.files[8])
  Music.Composition.9<-read_xml(Music.files[9])
  Music.Composition.10<-read_xml(Music.files[10])
-#-----------------------Presentation and Organization--------------
+ 
+ music.track.summary<-function(X)
+{
+   #--------------Musical Objects-------------------------------------#
+  music.categories<-c("chord","pitch","step","alter","octave","duration","voice","type","stem","staff")
+  Notes.By.Measure<-list();Notes.Duration<-list();Notes.By.Step<-list();Notes.By.Octave<-list();Notes.By.Pitch<-list()
+  Model.1<-list();Model.Chain.1<-list();notes.series<-list()
+  
+   #-----------------------Presentation and Organization--------------#
+  output<-list()
+  return(output)
+}
+ 
+ 
+ 
+ #-----------------------Presentation and Organization--------------#
   output<-list()
   return(output)
 }
