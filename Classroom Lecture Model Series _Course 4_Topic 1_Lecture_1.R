@@ -57,9 +57,7 @@ Notes.By.Octave<-list();Notes.By.Pitch<-list();Model.1<-list(); Model.Chain.1<-l
   output$X<-X
   return(output)
 }
- 
- 
- 
+
  #-----------------------Presentation and Organization--------------#
 output<-list()
 output$Music.Composition.1<-Music.Composition.1
@@ -77,15 +75,43 @@ output$Music.Composition.10<-Music.Composition.9
 test.Music.Model.1<-Music.Model.1("1","1","1","1",FALSE)
 test.Music.Model.1
 #----------------------------------Network Designs-----------------------------------#
-
+Network.Model.1<-function(X,Visualization=FALSE)
+{
+ 
+  output<-list()
+  return(output)
+}  
+test.Network.Model.1<-Network.Model.1("1",FALSE)
+test.Network.Model.1
 #----------------------------------Equation Systems----------------------------------#
-
+Equation.System.Model.1<-function(X,Visualization=FALSE)
+{
+ 
+  output<-list()
+  return(output)
+}  
+test.Equation.System.Model.1<-Equation.System.Model.1("1",FALSE)
+test.Equation.System.Model.1
 #----------------------------------Parameter Tables----------------------------------#
 
 #----------------------------------Network Analysis----------------------------------#
-
+Network.Model.Analysis.1<-function(X,Visualization=FALSE)
+{
+ 
+  output<-list()
+  return(output)
+}  
+test.Network.Model.Analysis.1<-Network.Model.Analysis.1("1",FALSE)
+test.Network.Model.Analysis.1
 #----------------------------------Optimization--------------------------------------#
-
+Model.Optimization.1<-function(X,Visualization=FALSE)
+{
+ 
+  output<-list()
+  return(output)
+}  
+test.Model.Optimization.1<-Model.Optimization.1("1",FALSE)
+test.Model.Optimization.1
 #----------------------------------Natural Language Description----------------------#
 
 #----------------------------------Tables--------------------------------------------#
