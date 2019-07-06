@@ -74,6 +74,7 @@ test.Model.1
 png(file = stringr::str_c('Figures//Example_',1,'_Figure_',1,'.png'))
 op <- par(mfrow = c(2,2),mar=c(3,3,3,3))
 hist(W, main="Title 1",xlab="X Value")
+text(4, 9, expression(hat(theta) == (W^t))
 legend("topright", legend = paste(seq(1:7),LETTERS[1:7]),lty = 1, cex = .8, y.intersp = 1)
 hist(X, main="Title 2",xlab="Note Value")
 legend("topright", legend = paste(seq(1:7),LETTERS[1:7]),lty = 1, cex = .8, y.intersp = 1)
