@@ -43,13 +43,24 @@ Notes.By.Octave<-list();Notes.By.Pitch<-list();Model.1<-list(); Model.Chain.1<-l
   
    #-----------------------Presentation and Organization--------------#
   output<-list()
+  output$X<-X
   return(output)
 }
  
  
  
  #-----------------------Presentation and Organization--------------#
-  output<-list()
+output<-list()
+output$Music.Composition.1<-Music.Composition.1
+output$Music.Composition.2<-Music.Composition.2
+output$Music.Composition.3<-Music.Composition.3
+output$Music.Composition.4<-Music.Composition.4
+output$Music.Composition.5<-Music.Composition.5
+output$Music.Composition.6<-Music.Composition.6
+output$Music.Composition.7<-Music.Composition.7
+output$Music.Composition.8<-Music.Composition.8
+output$Music.Composition.9<-Music.Composition.9
+output$Music.Composition.10<-Music.Composition.9
   return(output)
 }
 test.Music.Model.1<-Music.Model.1("1","1","1","1",FALSE)
