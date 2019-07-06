@@ -13,7 +13,7 @@ library(plyr)
 
 
 #----------------------------------Data----------------------------------------------#
-<-data.frame();X<-data.frame();Y<-data.frame();Z<-data.frame();
+W<-data.frame();X<-data.frame();Y<-data.frame();Z<-data.frame();
 #----------------------------------Transformations-----------------------------------#
 Transformation.1<-function(X)
  {
