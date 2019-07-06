@@ -71,6 +71,19 @@ test.Model.1
 #-----------Figure 3-------------------#
 #-----------Figure 4-------------------#
 
+png(file = stringr::str_c('Figures//Example_',1,'_Figure_',1,'.png'))
+op <- par(mfrow = c(2,2),mar=c(3,3,3,3))
+hist(W, main="Title 1",xlab="X Value")
+legend("topright", legend = paste(seq(1:7),LETTERS[1:7]),lty = 1, cex = .8, y.intersp = 1)
+hist(X, main="Title 2",xlab="Note Value")
+legend("topright", legend = paste(seq(1:7),LETTERS[1:7]),lty = 1, cex = .8, y.intersp = 1)
+hist(Y, main="Title 3",xlab="Note Value")
+legend("topright", legend = paste(seq(1:7),LETTERS[1:7]),lty = 1, cex = .8, y.intersp = 1)
+hist(Z, main="Title 4",xlab="Note Value")
+legend("topright", legend = paste(seq(1:7),LETTERS[1:7]),lty = 1, cex = .8, y.intersp = 1)
+par(op)
+dev.off()
+
 #-------------------------Application II------------------------------#
 
 #---------------------------------------------------------------------#
@@ -122,7 +135,18 @@ test.Model.2
 #-----------Figure 2-------------------#
 #-----------Figure 3-------------------#
 #-----------Figure 4-------------------#
-
+png(file = stringr::str_c('Figures//Example_',2,'_Figure_',1,'.png'))
+op <- par(mfrow = c(2,2),mar=c(3,3,3,3))
+hist(W, main="Title 1",xlab="X Value")
+legend("topright", legend = paste(seq(1:7),LETTERS[1:7]),lty = 1, cex = .8, y.intersp = 1)
+hist(X, main="Title 2",xlab="Note Value")
+legend("topright", legend = paste(seq(1:7),LETTERS[1:7]),lty = 1, cex = .8, y.intersp = 1)
+hist(Y, main="Title 3",xlab="Note Value")
+legend("topright", legend = paste(seq(1:7),LETTERS[1:7]),lty = 1, cex = .8, y.intersp = 1)
+hist(Z, main="Title 4",xlab="Note Value")
+legend("topright", legend = paste(seq(1:7),LETTERS[1:7]),lty = 1, cex = .8, y.intersp = 1)
+par(op)
+dev.off()
 #-------------------------Application III-----------------------------#
 
 #---------------------------------------------------------------------#
@@ -175,5 +199,16 @@ test.Model.3
 #-----------Figure 2-------------------#
 #-----------Figure 3-------------------#
 #-----------Figure 4-------------------#
-
+png(file = stringr::str_c('Figures//Example_',3,'_Figure_',1,'.png'))
+op <- par(mfrow = c(2,2),mar=c(3,3,3,3))
+hist(W, main="Title 1",xlab="X Value")
+legend("topright", legend = paste(seq(1:7),LETTERS[1:7]),lty = 1, cex = .8, y.intersp = 1)
+hist(X, main="Title 2",xlab="Note Value")
+legend("topright", legend = paste(seq(1:7),LETTERS[1:7]),lty = 1, cex = .8, y.intersp = 1)
+hist(Y, main="Title 3",xlab="Note Value")
+legend("topright", legend = paste(seq(1:7),LETTERS[1:7]),lty = 1, cex = .8, y.intersp = 1)
+hist(Z, main="Title 4",xlab="Note Value")
+legend("topright", legend = paste(seq(1:7),LETTERS[1:7]),lty = 1, cex = .8, y.intersp = 1)
+par(op)
+dev.off()
 
