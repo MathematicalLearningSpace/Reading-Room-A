@@ -34,6 +34,21 @@ library(corrplot);library(plot3D);library(scatterplot3d);library(rgl)
 #------------------------------Models---------------------------------#
 #---------------------------------------------------------------------#
 
+Model.1<-function(X,Visualization=FALSE)
+{
+  Table.1.df<-data.frame();Table.2.df<-data.frame();Table.3.df<-data.frame();
+  
+  if(Visualization){plot(X)};
+  
+  output<-list()
+  output$X<-X
+  output$Table.1<-Table.1.df
+  output$Table.2<-Table.2.df
+  output$Table.3<-Table.3.df
+  return(output)
+} 
+test.Model.1<-Model.1("1",TRUE)
+test.Model.1
 #---------------------------------------------------------------------#
 #------------------------------Analysis-------------------------------#
 #---------------------------------------------------------------------#
@@ -41,6 +56,7 @@ library(corrplot);library(plot3D);library(scatterplot3d);library(rgl)
 #---------------------------------------------------------------------#
 #------------------------------Tables---------------------------------#
 #---------------------------------------------------------------------#
+
 #-----------Table 1-------------------#
 #-----------Table 2-------------------#
 #-----------Table 3-------------------#
@@ -70,7 +86,21 @@ library(corrplot);library(plot3D);library(scatterplot3d);library(rgl)
 #---------------------------------------------------------------------#
 #------------------------------Models---------------------------------#
 #---------------------------------------------------------------------#
-
+Model.2<-function(X,Visualization=FALSE)
+{
+  Table.1.df<-data.frame();Table.2.df<-data.frame();Table.3.df<-data.frame();
+  
+  if(Visualization){plot(X)};
+  
+  output<-list()
+  output$X<-X
+  output$Table.1<-Table.1.df
+  output$Table.2<-Table.2.df
+  output$Table.3<-Table.3.df
+  return(output)
+} 
+test.Model.2<-Model.2("1",TRUE)
+test.Model.2
 #---------------------------------------------------------------------#
 #------------------------------Analysis-------------------------------#
 #---------------------------------------------------------------------#
@@ -108,7 +138,21 @@ library(corrplot);library(plot3D);library(scatterplot3d);library(rgl)
 #---------------------------------------------------------------------#
 #------------------------------Models---------------------------------#
 #---------------------------------------------------------------------#
-
+Model.3<-function(X,Visualization=FALSE)
+{
+  Table.1.df<-data.frame();Table.2.df<-data.frame();Table.3.df<-data.frame();
+  
+  if(Visualization){plot(X)};
+  
+  output<-list()
+  output$X<-X
+  output$Table.1<-Table.1.df
+  output$Table.2<-Table.2.df
+  output$Table.3<-Table.3.df
+  return(output)
+} 
+test.Model.3<-Model.3("1",TRUE)
+test.Model.3
 #---------------------------------------------------------------------#
 #------------------------------Analysis-------------------------------#
 #---------------------------------------------------------------------#
