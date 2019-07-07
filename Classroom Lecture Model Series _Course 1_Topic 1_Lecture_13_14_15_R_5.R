@@ -32,13 +32,37 @@ library(qgraph);library(qlcMatrix);library(rcrossref);library(PearsonDS);library
 #---------------------------------------------------------------------#
 
 #-----------Markov Model Parameters-----------------------------------#
-
+Model.Markov.1<-function(X)
+ {
+  Table.1.df<-data.frame(); Table.2.df<-data.frame(); Table.3.df<-data.frame();
+  
+  output<-list()
+  output$X<-X
+  output$Table.1<-Table.1.df
+  output$Table.2<-Table.2.df
+  output$Table.3<-Table.3.df
+  return(output)
+ }
+test.Model.Markov.1<-Model.Markov.1("1")
+test.Model.Markov.1
 #-----------Generate Matrices-----------------------------------------#
 
 #-----------Dirichlert Prior------------------------------------------#
 
 #-----------Markov Chains---------------------------------------------#
-
+Model.Markov.Chain.1<-function(X)
+ {
+  Table.1.df<-data.frame(); Table.2.df<-data.frame(); Table.3.df<-data.frame();
+  
+  output<-list()
+  output$X<-X
+  output$Table.1<-Table.1.df
+  output$Table.2<-Table.2.df
+  output$Table.3<-Table.3.df
+  return(output)
+ }
+test.Model.Markov.Chain.1<-Model.Markov.Chain.1("1")
+test.Model.Markov.Chain.1
 
 #---------------------------------------------------------------------#
 #------------------------------Analysis-------------------------------#
@@ -49,11 +73,47 @@ library(qgraph);library(qlcMatrix);library(rcrossref);library(PearsonDS);library
 #---------Path Probabilities------------------------------------------#
 
 #------------Graph Theory:Distance------------------------------------#
-
+Graph.Theory.Distance.1<-function(X)
+ {
+  Table.1.df<-data.frame(); Table.2.df<-data.frame(); Table.3.df<-data.frame();
+  
+  output<-list()
+  output$X<-X
+  output$Table.1<-Table.1.df
+  output$Table.2<-Table.2.df
+  output$Table.3<-Table.3.df
+  return(output)
+ }
+test.Graph.Theory.Distance.1<-Graph.Theory.Distance.1("1")
+test.Graph.Theory.Distance.1
 #------------Graph Theory:Connectivity--------------------------------#
-
+Graph.Theory.Connectivity.1<-function(X)
+ {
+  Table.1.df<-data.frame(); Table.2.df<-data.frame(); Table.3.df<-data.frame();
+  
+  output<-list()
+  output$X<-X
+  output$Table.1<-Table.1.df
+  output$Table.2<-Table.2.df
+  output$Table.3<-Table.3.df
+  return(output)
+ }
+test.Graph.Theory.Connectivity.1<-Graph.Theory.Connectivity.1("1")
+test.Graph.Theory.Connectivity.1
 #------------Graph Theory:Spectra-------------------------------------#
-
+Graph.Theory.Spectra.1<-function(X)
+ {
+  Table.1.df<-data.frame(); Table.2.df<-data.frame(); Table.3.df<-data.frame();
+  
+  output<-list()
+  output$X<-X
+  output$Table.1<-Table.1.df
+  output$Table.2<-Table.2.df
+  output$Table.3<-Table.3.df
+  return(output)
+ }
+test.Graph.Theory.Spectra.1<-Graph.Theory.Spectra.1("1")
+test.Graph.Theory.Spectra.1
 #----Correlation Analysis---------------------------------------------#
 
 
