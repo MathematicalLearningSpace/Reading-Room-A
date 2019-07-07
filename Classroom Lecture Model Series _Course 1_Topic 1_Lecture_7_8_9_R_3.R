@@ -208,15 +208,52 @@ Estimation.Bayesian.Prior.1<-function(X)
  }
 test.Estimation.Bayesian.Prior.1<-Estimation.Bayesian.Prior.1("1")
 test.Estimation.Bayesian.Prior.1
-
 #---------------------Model Testing-----------------------------------#
+Testing.Model.1<-function(X)
+ {
+ Table.1.df<-data.frame(); Table.2.df<-data.frame(); Table.3.df<-data.frame();
+  
+  output<-list()
+  output$X<-X
+  output$Table.1<-Table.1.df
+  output$Table.2<-Table.2.df
+  output$Table.3<-Table.3.df
+  return(output)
+ }
+test.Testing.Model.1<-Testing.Model.1("1")
+test.Testing.Model.1
 
 #--------Lead - Lag Estimation----------------------------------------#
+Estimation.Lead.Lag.1<-function(X)
+ {
+ Table.1.df<-data.frame(); Table.2.df<-data.frame(); Table.3.df<-data.frame();
+  
+  output<-list()
+  output$X<-X
+  output$Table.1<-Table.1.df
+  output$Table.2<-Table.2.df
+  output$Table.3<-Table.3.df
+  return(output)
+ }
+test.Estimation.Lead.Lag.1<-Estimation.Lead.Lag.1("1")
+test.Estimation.Lead.Lag.1
 
 #---------------------------------------------------------------------#
 #------------------------------Analysis-------------------------------#
 #---------------------------------------------------------------------#
-
+Analysis.1<-function(X)
+ {
+ Table.1.df<-data.frame(); Table.2.df<-data.frame(); Table.3.df<-data.frame();
+  
+  output<-list()
+  output$X<-X
+  output$Table.1<-Table.1.df
+  output$Table.2<-Table.2.df
+  output$Table.3<-Table.3.df
+  return(output)
+ }
+test.Analysis.1<-Analysis.1("1")
+test.Analysis.1
 #---------------------------------------------------------------------#
 #------------------------------Tables---------------------------------#
 #---------------------------------------------------------------------#
@@ -225,7 +262,13 @@ test.Estimation.Bayesian.Prior.1
 #----------------Table 2---------------------#
 #----------------Table 3---------------------#
 #----------------Table 4---------------------#
-
+Table.1.TeX<-xtable::xtable(Table.1.df)
+#----------Table 2------#
+Table.2.TeX<-xtable::xtable(Table.2.df)
+#----------Table 3------#
+Table.3.TeX<-xtable::xtable(Table.3.df)
+#----------Table 4------#
+Table.4.TeX<-xtable::xtable(Table.4.df)
 #---------------------------------------------------------------------#
 #------------------------------Figures--------------------------------#
 #---------------------------------------------------------------------#
@@ -235,6 +278,18 @@ test.Estimation.Bayesian.Prior.1
 #----------------Figure 3---------------------#
 #----------------Figure 4---------------------#
 
-
+png(file = stringr::str_c('Figures//Example_',1,'_Figure_',1,'.png'))
+op <- par(mfrow = c(2,2),mar=c(3,3,3,3))
+hist(W, main="Title 1",xlab="X Value")
+text(4, 9, expression(hat(theta) == (W^t))
+legend("topright", legend = paste(seq(1:7),LETTERS[1:7]),lty = 1, cex = .8, y.intersp = 1)
+hist(X, main="Title 2",xlab="Note Value")
+legend("topright", legend = paste(seq(1:7),LETTERS[1:7]),lty = 1, cex = .8, y.intersp = 1)
+hist(Y, main="Title 3",xlab="Note Value")
+legend("topright", legend = paste(seq(1:7),LETTERS[1:7]),lty = 1, cex = .8, y.intersp = 1)
+hist(Z, main="Title 4",xlab="Note Value")
+legend("topright", legend = paste(seq(1:7),LETTERS[1:7]),lty = 1, cex = .8, y.intersp = 1)
+par(op)
+dev.off()
 
 
