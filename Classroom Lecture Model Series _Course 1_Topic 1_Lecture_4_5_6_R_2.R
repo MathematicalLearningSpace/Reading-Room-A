@@ -34,13 +34,61 @@ library(Deriv);library(numDeriv)
 #---------------------------------------------------------------------#
 
 #----------------------Drift------------------------------------------#
-
+Drift.Model.1<-function(X)
+ {
+  Table.1.df<-data.frame(); Table.2.df<-data.frame(); Table.3.df<-data.frame();
+  
+  output<-list()
+  output$X<-X
+  output$Table.1<-Table.1.df
+  output$Table.2<-Table.2.df
+  output$Table.3<-Table.3.df
+  return(output)
+ }
+test.Drift.Model.1<-Drift.Model.1("1")
+test.Drift.Model.1
 #----------------------Diffusion--------------------------------------#
-
+Diffusion.Model.1<-function(X)
+ {
+  Table.1.df<-data.frame(); Table.2.df<-data.frame(); Table.3.df<-data.frame();
+  
+  output<-list()
+  output$X<-X
+  output$Table.1<-Table.1.df
+  output$Table.2<-Table.2.df
+  output$Table.3<-Table.3.df
+  return(output)
+ }
+test.Diffusion.Model.1<-Diffusion.Model.1("1")
+test.Diffusion.Model.1
 #--------------------- Boundary Model---------------------------------#
-
+Boundary.Model.1<-function(X)
+ {
+  Table.1.df<-data.frame(); Table.2.df<-data.frame(); Table.3.df<-data.frame();
+  
+  output<-list()
+  output$X<-X
+  output$Table.1<-Table.1.df
+  output$Table.2<-Table.2.df
+  output$Table.3<-Table.3.df
+  return(output)
+ }
+test.Boundary.Model.1<-Boundary.Model.1("1")
+test.Boundary.Model.1
 #----------------------Estimation-------------------------------------#
-
+Estimation.1<-function(X)
+ {
+  Table.1.df<-data.frame(); Table.2.df<-data.frame(); Table.3.df<-data.frame();
+  
+  output<-list()
+  output$X<-X
+  output$Table.1<-Table.1.df
+  output$Table.2<-Table.2.df
+  output$Table.3<-Table.3.df
+  return(output)
+ }
+test.Estimation.1<-Estimation.1("1")
+test.Estimation.1
 #----------------------Joint density----------------------------------#
 
 
