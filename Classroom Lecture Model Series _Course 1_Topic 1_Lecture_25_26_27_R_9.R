@@ -87,11 +87,49 @@ func = Model.1, parms = Parms.1)
 options(digits = 3)
 model.system.1.summary<-summary(model.system.solution.1)
 #-------------------Topology------------------------------------------#
+Topology.1<-function(X)
+ {
+  Table.1.df<-data.frame(); Table.2.df<-data.frame(); Table.3.df<-data.frame();
+  
+  output<-list()
+  output$X<-X
+  output$Table.1<-Table.1.df
+  output$Table.2<-Table.2.df
+  output$Table.3<-Table.3.df
+  return(output)
+ }
+test.Topology.1<-Topology.1("1")
+test.Topology.1
 
 #-------------------Equilibrium---------------------------------------#
+Equilibrium.1<-function(X)
+ {
+  Table.1.df<-data.frame(); Table.2.df<-data.frame(); Table.3.df<-data.frame();
+  
+  output<-list()
+  output$X<-X
+  output$Table.1<-Table.1.df
+  output$Table.2<-Table.2.df
+  output$Table.3<-Table.3.df
+  return(output)
+ }
+test.Equilibrium.1<-Equilibrium.1("1")
+test.Equilibrium.1
 
 #-------------------Stability-----------------------------------------#
-
+Stability.1<-function(X)
+ {
+  Table.1.df<-data.frame(); Table.2.df<-data.frame(); Table.3.df<-data.frame();
+  
+  output<-list()
+  output$X<-X
+  output$Table.1<-Table.1.df
+  output$Table.2<-Table.2.df
+  output$Table.3<-Table.3.df
+  return(output)
+ }
+test.Stability.1<-Stability.1("1")
+test.Stability.1
 
 #---------------------------------------------------------------------#
 #------------------------------Tables---------------------------------#
@@ -131,5 +169,17 @@ dev.off()
 #---------Figure 5---------------------#
 
 #---------Figure 6---------------------#
-
+png(file = stringr::str_c('Figures//Example_',1,'_Figure_',3,'.png'))
+op <- par(mfrow = c(2,2),mar=c(3,3,3,3))
+hist(W, main="Title 1",xlab="X Value")
+text(4, 9, expression(hat(theta) == (W^t))
+legend("topright", legend = paste(seq(1:7),LETTERS[1:7]),lty = 1, cex = .8, y.intersp = 1)
+hist(X, main="Title 2",xlab="Note Value")
+legend("topright", legend = paste(seq(1:7),LETTERS[1:7]),lty = 1, cex = .8, y.intersp = 1)
+hist(Y, main="Title 3",xlab="Note Value")
+legend("topright", legend = paste(seq(1:7),LETTERS[1:7]),lty = 1, cex = .8, y.intersp = 1)
+hist(Z, main="Title 4",xlab="Note Value")
+legend("topright", legend = paste(seq(1:7),LETTERS[1:7]),lty = 1, cex = .8, y.intersp = 1)
+par(op)
+dev.off()
 
