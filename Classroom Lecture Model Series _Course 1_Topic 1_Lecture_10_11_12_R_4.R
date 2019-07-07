@@ -25,11 +25,47 @@ library(dtwclust);library(dtw);library(TSMining)
 #---------------------------------------------------------------------#
 
 #----------------------Transformations--------------------------------#
-
+Transformation.1<-function(X)
+ {
+  Table.1.df<-data.frame(); Table.2.df<-data.frame(); Table.3.df<-data.frame();
+  
+  output<-list()
+  output$X<-X
+  output$Table.1<-Table.1.df
+  output$Table.2<-Table.2.df
+  output$Table.3<-Table.3.df
+  return(output)
+ }
+test.Transformation.1<-Transformation.1("1")
+test.Transformation.1
 #-----SAX Representations for Motifs----------------------------------#
-
+Motif.SAX.1<-function(X)
+ {
+  Table.1.df<-data.frame(); Table.2.df<-data.frame(); Table.3.df<-data.frame();
+  
+  output<-list()
+  output$X<-X
+  output$Table.1<-Table.1.df
+  output$Table.2<-Table.2.df
+  output$Table.3<-Table.3.df
+  return(output)
+ }
+test.Motif.SAX.1<-Motif.SAX.1("1")
+test.Motif.SAX.1
 #-----Hierarchical clustering of time series for Classification-------#
-
+Classifier.Cluster.Hierarchical.1<-function(X)
+ {
+  Table.1.df<-data.frame(); Table.2.df<-data.frame(); Table.3.df<-data.frame();
+  
+  output<-list()
+  output$X<-X
+  output$Table.1<-Table.1.df
+  output$Table.2<-Table.2.df
+  output$Table.3<-Table.3.df
+  return(output)
+ }
+test.Classifier.Cluster.Hierarchical.1<-Classifier.Cluster.Hierarchical.1("1")
+test.Classifier.Cluster.Hierarchical..1
 #---------------------------------------------------------------------#
 #------------------------------Models---------------------------------#
 #---------------------------------------------------------------------#
