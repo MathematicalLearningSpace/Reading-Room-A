@@ -21,7 +21,20 @@ W<-data.frame();X<-data.frame();Y<-data.frame();Z<-data.frame();
 #---------------------------------------------------------------------#
 #-----------------------Review Notes----------------------------------#
 #---------------------------------------------------------------------#
-
+Review.Notes<-function(X)
+ {
+ Table.1.df<-data.frame(); Table.2.df<-data.frame(); Table.3.df<-data.frame();
+  
+  output<-list()
+  output$X<-X
+  output$Table.1<-Table.1.df
+  output$Table.2<-Table.2.df
+  output$Table.3<-Table.3.df
+  return(output)
+ 
+ }
+test.Review.Notes.1<-Review.Notes.1("1")
+test.Review.Notes.1
 
 #---------------------------------------------------------------------#
 #------------------------------Functions------------------------------#
@@ -42,7 +55,20 @@ test.Transformation.1
 #---------------------------------------------------------------------#
 #------------------------------Models---------------------------------#
 #---------------------------------------------------------------------#
-
+Model.1<-function(X)
+ {
+ Table.1.df<-data.frame(); Table.2.df<-data.frame(); Table.3.df<-data.frame();
+  
+  output<-list()
+  output$X<-X
+  output$Table.1<-Table.1.df
+  output$Table.2<-Table.2.df
+  output$Table.3<-Table.3.df
+  return(output)
+ 
+ }
+test.Model.1<-Model.1("1")
+test.Model.1
 #---------------------------------------------------------------------#
 #------------------------------Analysis-------------------------------#
 #---------------------------------------------------------------------#
