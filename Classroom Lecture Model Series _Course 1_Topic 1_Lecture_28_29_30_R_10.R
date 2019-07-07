@@ -102,11 +102,49 @@ search.model.LDA.Topics<-function(X.df,search.term,threshold=0.1, k =3)
 #---------------------------------------------------------------------#
 #------------------------------Models---------------------------------#
 #---------------------------------------------------------------------#
-
+Model.1<-function(X)
+ {
+  Table.1.df<-data.frame(); Table.2.df<-data.frame(); Table.3.df<-data.frame();
+  
+  output<-list()
+  output$X<-X
+  output$Table.1<-Table.1.df
+  output$Table.2<-Table.2.df
+  output$Table.3<-Table.3.df
+  return(output)
+ }
+test.Model.1<-Model.1("1")
+test.Model.1
 #---------------------------------------------------------------------#
 #------------------------------Analysis-------------------------------#
 #---------------------------------------------------------------------#
-
+Analysis.Model.1<-function(X)
+ {
+  Table.1.df<-data.frame(); Table.2.df<-data.frame(); Table.3.df<-data.frame();
+  
+  output<-list()
+  output$X<-X
+  output$Table.1<-Table.1.df
+  output$Table.2<-Table.2.df
+  output$Table.3<-Table.3.df
+  return(output)
+ }
+test.Analysis.Model.1<-Analysis.Model.1("1")
+test.Analysis.Model.1
+#----------------------------------Optimization--------------------------------------#
+Optimization.Model.1<-function(X)
+ {
+  Table.1.df<-data.frame(); Table.2.df<-data.frame(); Table.3.df<-data.frame();
+  
+  output<-list()
+  output$X<-X
+  output$Table.1<-Table.1.df
+  output$Table.2<-Table.2.df
+  output$Table.3<-Table.3.df
+  return(output)
+ }
+test.Optimization.Model.1<-Optimization.Model.1("1")
+test.Optimization.Model.1
 #---------------------------------------------------------------------#
 #------------------------------Tables---------------------------------#
 #---------------------------------------------------------------------#
@@ -188,6 +226,34 @@ model.system.solution.1 <- ode(y = initial.vector, times = Time.Sequence,
 #---------------------------------------------------------------------#
 options(digits = 3)
 model.system.1.summary<-summary(model.system.solution.1)
+Analysis.Model.1<-function(X)
+ {
+  Table.1.df<-data.frame(); Table.2.df<-data.frame(); Table.3.df<-data.frame();
+  
+  output<-list()
+  output$X<-X
+  output$Table.1<-Table.1.df
+  output$Table.2<-Table.2.df
+  output$Table.3<-Table.3.df
+  return(output)
+ }
+test.Analysis.Model.1<-Analysis.Model.1("1")
+test.Analysis.Model.1
+#----------------------------------Optimization--------------------------------------#
+Optimization.Model.1<-function(X)
+ {
+  Table.1.df<-data.frame(); Table.2.df<-data.frame(); Table.3.df<-data.frame();
+  
+  output<-list()
+  output$X<-X
+  output$Table.1<-Table.1.df
+  output$Table.2<-Table.2.df
+  output$Table.3<-Table.3.df
+  return(output)
+ }
+test.Optimization.Model.1<-Optimization.Model.1("1")
+test.Optimization.Model.1                                                          
+                                                          
 #---------------------------------------------------------------------#
 #------------------------------Tables---------------------------------#
 #---------------------------------------------------------------------#
@@ -241,7 +307,19 @@ articles.3.df<-read_csv(article.3.files[1])
 #---------------------------------------------------------------------#
 #------------------------------Models---------------------------------#
 #---------------------------------------------------------------------#
-
+Model.1<-function(X)
+ {
+  Table.1.df<-data.frame(); Table.2.df<-data.frame(); Table.3.df<-data.frame();
+  
+  output<-list()
+  output$X<-X
+  output$Table.1<-Table.1.df
+  output$Table.2<-Table.2.df
+  output$Table.3<-Table.3.df
+  return(output)
+ }
+test.Model.1<-Model.1("1")
+test.Model.1
 #---Model Estimation of Drift and Diffusion Vectors---#
 #---Estimate Model Coefficients-----------------------#
 #---Generate Temporal Sequence Estimated Coefficients---#
@@ -249,7 +327,33 @@ articles.3.df<-read_csv(article.3.files[1])
 #---------------------------------------------------------------------#
 #------------------------------Analysis-------------------------------#
 #---------------------------------------------------------------------#
-
+Analysis.Model.1<-function(X)
+ {
+  Table.1.df<-data.frame(); Table.2.df<-data.frame(); Table.3.df<-data.frame();
+  
+  output<-list()
+  output$X<-X
+  output$Table.1<-Table.1.df
+  output$Table.2<-Table.2.df
+  output$Table.3<-Table.3.df
+  return(output)
+ }
+test.Analysis.Model.1<-Analysis.Model.1("1")
+test.Analysis.Model.1
+#----------------------------------Optimization--------------------------------------#
+Optimization.Model.1<-function(X)
+ {
+  Table.1.df<-data.frame(); Table.2.df<-data.frame(); Table.3.df<-data.frame();
+  
+  output<-list()
+  output$X<-X
+  output$Table.1<-Table.1.df
+  output$Table.2<-Table.2.df
+  output$Table.3<-Table.3.df
+  return(output)
+ }
+test.Optimization.Model.1<-Optimization.Model.1("1")
+test.Optimization.Model.1
 #-------------------Condition Testing----------------#
 
 #---------------------------------------------------------------------#
