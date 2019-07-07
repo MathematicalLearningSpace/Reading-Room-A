@@ -105,8 +105,17 @@ Estimation.1<-function(X)
 test.Estimation.1<-Estimation.1("1")
 test.Estimation.1
 #----------------------Joint density----------------------------------#
-
-
+Density.Joint.1<-function(X)
+{
+ Table.1.df<-data.frame();
+ 
+  output<-list()
+  output$X<-X
+  output$Table.1<-Table.1.df
+  return(output)
+}
+test.Density.Joint.1<-Density.Joint.1(X)
+test.Density.Joint.1
 #---------------------------------------------------------------------#
 #------------------------------Analysis-------------------------------#
 #---------------------------------------------------------------------#
