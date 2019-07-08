@@ -1,7 +1,9 @@
 #-------------------------------------------------------------------------#
 library(XML);library(xml2);library(XML2R);library(seqinr);
 library(methods);library(dplyr);
-library(Matrix);library(pracma);library(expm)
+library(Matrix);library(pracma);library(expm);
+library(dplyr);library(audio);library(seewave)
+library(sound);library(soundecology);library(soundgen)
 #--------------------Classroom Lecture Model Series-----------------------#
 #-------------------------------------------------------------------------#
 
