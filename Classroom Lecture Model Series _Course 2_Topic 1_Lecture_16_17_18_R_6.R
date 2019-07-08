@@ -91,6 +91,62 @@ Longevity.system.equation.model.1.solution<- ode(y = Params.Initial, times = seq
 						 func = Longevity.system.equation.model.1, parms = Params.Equation) 
 
 #------------Immune System-------------#
+
+Immune.System.Model<-function(X)
+{
+ Immune.System.df<-as.data.frame(rbind(c("04640","Hematopoietic cell lineage"),
+                       c("04610","Complement and coagulation cascades"),
+                       c("04611","Platelet activation"),
+                       c("04620","Toll-like receptor signaling pathway"),
+                       c("04624","Toll and Imd signaling pathway"),
+                       c("04621","NOD-like receptor signaling pathway"),
+                       c("04622","RIG-I-like receptor signaling pathway"),
+                       c("04623","Cytosolic DNA-sensing pathway"),
+                       c("04625","C-type lectin receptor signaling pathway"),
+                       c("04612","Antigen processing and presentation"),
+                       c("04660","T cell receptor signaling pathway"),
+                       c("04658","Th1 and Th2 cell differentiation"),
+                       c("04659","Th17 cell differentiation"),
+                       c("04657","IL-17 signaling pathway"),
+                       c("04662","B cell receptor signaling pathway"),
+                       c("04664","Fc epsilon RI signaling pathway"),
+                       c("04666","Fc gamma R-mediated phagocytosis"),
+                       c("04670","Leukocyte transendothelial migration"),
+                       c("04672","Intestinal immune network for IgA production"),
+                       c("04062","Chemokine signaling pathway")))
+
+ setwd("Immune System Model")
+  Immune.System.1.Name=""; Immune.System.1<-xml2::read_xml("hsa04640.xml")
+  Immune.System.2.Name=""; Immune.System.2<-xml2::read_xml("hsa04610.xml")
+  Immune.System.3.Name=""; Immune.System.3<-xml2::read_xml("hsa04620.xml")
+  #Immune.System.4.Name=""; Immune.System.4<-xml2::read_xml("hsa04624.xml")
+  Immune.System.5.Name=""; Immune.System.5<-xml2::read_xml("hsa04621.xml")
+  Immune.System.6.Name=""; Immune.System.6<-xml2::read_xml("hsa04622.xml")
+  Immune.System.7.Name=""; Immune.System.7<-xml2::read_xml("hsa04623.xml")
+  Immune.System.8.Name=""; Immune.System.8<-xml2::read_xml("hsa04625.xml")
+  Immune.System.9.Name=""; Immune.System.9<-xml2::read_xml("hsa04612.xml")
+  Immune.System.10.Name=""; Immune.System.10<-xml2::read_xml("hsa04660.xml")
+  Immune.System.11.Name=""; Immune.System.11<-xml2::read_xml("hsa04658.xml")
+  Immune.System.12.Name=""; Immune.System.12<-xml2::read_xml("hsa04659.xml")
+  Immune.System.13.Name=""; Immune.System.13<-xml2::read_xml("hsa04657.xml")
+  Immune.System.14.Name=""; Immune.System.14<-xml2::read_xml("hsa04662.xml")
+  Immune.System.15.Name=""; Immune.System.15<-xml2::read_xml("hsa04664.xml")
+  Immune.System.16.Name=""; Immune.System.16<-xml2::read_xml("hsa04666.xml")
+  Immune.System.17.Name=""; Immune.System.17<-xml2::read_xml("hsa04670.xml")
+  Immune.System.18.Name=""; Immune.System.18<-xml2::read_xml("hsa04672.xml")
+  Immune.System.19.Name=""; Immune.System.19<-xml2::read_xml("hsa04062.xml")
+  Table.1.df<-data.frame(); Table.2.df<-data.frame(); Table.3.df<-data.frame();
+  
+  output<-list()
+  output$X<-X
+  output$Table.1<-Table.1.df
+  output$Table.2<-Table.2.df
+  output$Table.3<-Table.3.df
+  return(output)
+	
+}	
+
+
 #------------Parameter Models----------#
 sequence.time <- seq(0, 10^2, by = 0.1)
 Params.Initial<-c(X<-1)
