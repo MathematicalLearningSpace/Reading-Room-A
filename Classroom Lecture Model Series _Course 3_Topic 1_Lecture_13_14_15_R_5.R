@@ -21,6 +21,10 @@ library(corrplot);library(plot3D);library(scatterplot3d);library(rgl)
 #------------------------------Data-----------------------------------#
 #---------------------------------------------------------------------#
 W<-data.frame();X<-data.frame();Y<-data.frame();Z<-data.frame();
+Table.1.df<-as.data.frame(Table.1);Table.2.df<-as.data.frame(Table.2);Table.3.df<-as.data.frame(Table.3);
+Table.4.df<-as.data.frame(Table.4)Table.5.df<-as.data.frame(Table.5);Table.6.df<-as.data.frame(Table.6);
+Table.7.df<-as.data.frame(Table.7);Table.8.df<-as.data.frame(Table.8)Table.9.df<-as.data.frame(Table.9);
+Table.10.df<-as.data.frame(Table.10)
 #---------------------------------------------------------------------#
 #------------------------------Functions------------------------------#
 #---------------------------------------------------------------------#
