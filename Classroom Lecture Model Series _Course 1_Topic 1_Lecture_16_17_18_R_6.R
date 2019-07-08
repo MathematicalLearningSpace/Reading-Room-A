@@ -19,6 +19,9 @@ library(HistogramTools)
 #---------------------------------------------------------------------#
 #------------------------------Data-----------------------------------#
 #---------------------------------------------------------------------#
+drugAct <- exprs(getAct(rcellminerData::drugData))
+molData <- getMolDataMatrices()
+plots <- c("mut", "drug", "cop", "xai", "pro")
 
 #---------------------------------------------------------------------#
 #-----------------------Review Notes----------------------------------#
@@ -172,6 +175,11 @@ Table.4.TeX<-xtable::xtable(Table.4.df)
 #---------------------------------------------------------------------#
 #------------------------------Figures--------------------------------#
 #---------------------------------------------------------------------#
+
+png(file = stringr::str_join("Figures//Example_",1,"_Figure_","1",".png"))
+Figure.1<-plotCellMiner(drugAct, molData, plots=plots, nsc="94600", gene="", verbose=TRUE)
+dev.off()
+
 png(file = stringr::str_c('Figures//Example_',1,'_Figure_',3,'.png'))
 op <- par(mfrow = c(2,2),mar=c(3,3,3,3))
 hist(W, main="Title 1",xlab="X Value")
