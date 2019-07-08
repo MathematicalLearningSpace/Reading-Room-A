@@ -160,6 +160,24 @@ Matrix.Parameter.1<-matrix(1,nrow=10,ncol=10)
 Matrix.Parameter.2<-matrix(1,nrow=10,ncol=10)
 Matrix.Parameter.3<-matrix(1,nrow=10,ncol=10)
 #------------------------------------------------------------------------------------#
+#----------------------------------Solution------------------------------------------#
+#------------------------------------------------------------------------------------#
+Model.Solution.1<-function(X)
+ {
+  Table.1.df<-data.frame(); Table.2.df<-data.frame(); Table.3.df<-data.frame();
+  Solution<-matrix(1,nrow=10^2,ncol=10)
+  
+  output<-list()
+  output$X<-X
+  output$Solution<-Solution
+  output$Table.1<-Table.1.df
+  output$Table.2<-Table.2.df
+  output$Table.3<-Table.3.df
+  return(output)
+ }
+test.Model.Solution.1<-Model.Solution.1("1")
+test.Model.Solution.1
+#------------------------------------------------------------------------------------#
 #----------------------------------Network Analysis----------------------------------#
 #------------------------------------------------------------------------------------#
 Analysis.Model.1<-function(X)
@@ -229,11 +247,24 @@ Table.4.TeX<-xtable::xtable(Table.4.df)
 #----------------------------------Figures-------------------------------------------#
 
 #----------Figure 1 Group A---------#
-
+Figure.1<-plot(X.Model.Solution.1$Solution[,2], type="l", lty=1,col="black", ylab="Simulated Value", xlab="Temporal Position")
+lines(X.Model.Solution.1$Solution[,3], lty=2,col="green")
+lines(X.Model.Solution.1$Solution[,4], lty=3,col="blue")
+rug(X.Model.Solution.1$Solution[,2], side=4, col="black")
+rug(X.Model.Solution.1$Solution[,3], side=4, col="green")
+rug(X.Model.Solution.1$Solution[,4], side=4, col="blue")
+legend("bottomleft",c("x1","x2","x3"),inset = .01,col=c("black","green","blue"),lwd=2.cex=0.5)
 #----------Figure 1 Group B---------#
-
+cc <- colors()
+Figure.3<-scatterplot3d(X.Model.Solution.1$Solution[,2], X.Model.Solution.1$Solution[,3], X.Model.Solution.1$Solution[,4], highlight.3d = TRUE, col.axis = "blue",
+              col.grid = "lightblue", main = "Species Trajectories", pch = 20,angle=120,xlab = "x(t)", ylab = "y(t)", zlab = "z(t)")
+rgl.viewpoint(0, 20)
 #----------Figure 1 Group C---------#
-
+Figure.4<-plot3d(X.Model.Solution.1$Solution[,2], X.Model.Solution.1$Solution[,3], X.Model.Solution.1$Solution[,4], pch = 1, cex = 1, xlab = "x(t)", 
+       ylab = "y(t)", zlab = "z(t)")
+png(file = stringr::str_c('Figures//Example_',1,'_Figure_',4,'.png'))
+rgl.snapshot("X_Model_Solution_1.png")
+dev.off()
 #----------Figure 1 Group D---------#
 png(file = stringr::str_c('Figures//Example_',1,'_Figure_',1,'.png'))
 op <- par(mfrow = c(2,2),mar=c(3,3,3,3))
