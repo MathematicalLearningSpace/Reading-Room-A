@@ -25,7 +25,9 @@ library(easyPubMed);library(bio3d);library(readr);library(CHNOSZ);
 library(stringr);library(Peptides);library(Biostrings)
 library(seqinr);library(seqLogo);library(msa);library(ape);
 library(dtw);library(dtwclust);library(odseq);library(rphast)
-library(plyr)
+library(plyr);library(GOsummaries);library(copynumber);library(vegan);library(ggdendro)
+library(seqLogo);
+
 #----------------------Parallel Processing and Benchmarking--------------------------#
 library(parallel);library(microbenchmark);
 
