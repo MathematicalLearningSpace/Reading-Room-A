@@ -484,7 +484,22 @@ Optimization.Model.1<-function(X)
 test.Optimization.Model.1<-Optimization.Model.1("1")
 test.Optimization.Model.1
 #-------------------Condition Testing----------------#
-
+Testing.Condition.1<-function(X)
+ {
+ Table.1.df<-data.frame(); Table.2.df<-data.frame(); Table.3.df<-data.frame();
+  
+ 
+ 
+  output<-list()
+  output$X<-X
+  output$Table.1<-Table.1.df
+  output$Table.2<-Table.2.df
+  output$Table.3<-Table.3.df
+  return(output)
+ 
+ }
+test.Testing.Condition.1<-Testing.Condition.1("1")
+test.Testing.Condition.1
 #---------------------------------------------------------------------#
 #------------------------------Tables---------------------------------#
 #---------------------------------------------------------------------#
