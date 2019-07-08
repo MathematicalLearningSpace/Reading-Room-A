@@ -15,12 +15,10 @@ library(PearsonDS)
 library(rcellminer)
 library(cvxclustr)
 library(HistogramTools)
-
 #---------------------------------------------------------------------#
 #------------------------------Data-----------------------------------#
 #---------------------------------------------------------------------#
-
-selectedOncogenes <- c("ABL1", "ALK", "BRAF", "CCND1", "CCND3", "CCNE1", "CCNE2", 
+Oncogenes.Example <- c("ABL1", "ALK", "BRAF", "CCND1", "CCND3", "CCNE1", "CCNE2", 
                        "CDC25A", "EGFR", "ERBB2", "EZH2", "FOS", "FOXL2", "HRAS", 
                        "IDH1", "IDH2", "JAK2", "KIT", "KRAS", "MET", "MOS", "MYC", 
                        "NRAS", "PDGFB", "PDGFRA", "PIK3CA", "PIK3CB", "PIK3CD", 
@@ -29,10 +27,24 @@ selectedOncogenes <- c("ABL1", "ALK", "BRAF", "CCND1", "CCND3", "CCNE1", "CCNE2"
                        "WNT5B", "WNT10A", "WNT11", "WNT2", "WNT1", "WNT7B", "WISP1", 
                        "WNT8B", "WNT7A", "WNT16", "WISP2", "WISP3", "FZD5", "FZD1")
 
-
 drugAct <- exprs(getAct(rcellminerData::drugData))
 molData <- getMolDataMatrices()
 plots <- c("mut", "drug", "cop", "xai", "pro")
+Genes.cop <- removeMolDataType(rownames(molData[["cop"]]))
+Genes.exp <- removeMolDataType(rownames(molData[["exp"]]))
+Genes.exp.Labels <- paste0("exp", Genes.exp)
+a <- molData[["exp"]][Genes.exp.Labels,]
+genes <- intersect(Genes.cop, Genes.exp)
+Genes.exp.Labels <- paste0("exp", genes)
+Genes.cop.Labels <- paste0("cop", genes)
+a <- molData[["exp"]][Genes.exp.Labels,]
+b <- molData[["cop"]][Genes.cop.Labels,]
+allGenes <- rowCors(a, b) 
+Genes.exp.Labels <- paste0("exp", Oncogenes.Example)
+Genes.cop.Labels <- paste0("cop", Oncogenes.Example)
+a.1 <- molData[["exp"]][Genes.exp.Labels ,]
+b.1 <- molData[["cop"]][Genes.cop.Labels ,]
+Oncogenes.Example.Cor <- rowCors(a.1, b.1)
 
 Data.design.1 <- function(n, K, constant = TRUE, sigma = 2, oFrac = 0.1) 
 {
