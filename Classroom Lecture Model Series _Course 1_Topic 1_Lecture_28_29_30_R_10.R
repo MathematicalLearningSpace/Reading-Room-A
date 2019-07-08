@@ -51,20 +51,26 @@ articles.1.df<-read_csv(article.1.files[1])
 
 #-------------Review Notes-------------------#
 
-Search.terms<-c("low dose radiation induced bystander effect",
-"genomic instability",
-"radiation hypersensitivity", 
-"hormesis",
-"radioadaptive transgenerational responses", 
-"intra signaling",
-"intercellular signaling", 
-"reactive oxygen species transient persistent signaling", 
-"cytokines release bystander effect",
-"epigenetic changes", 
-"translesional responses", 
-"DNA repair capacity",
-"TK6 cells") 
+Search.terms<-c("low dose radiation induced bystander effect","genomic instability","radiation hypersensitivity", "hormesis",
+"radioadaptive transgenerational responses", "intra signaling","intercellular signaling", "reactive oxygen species transient persistent signaling", 
+"cytokines release bystander effect","epigenetic changes", "translesional responses", "DNA repair capacity","TK6 cells") 
 
+Review.Notes<-function(X)
+ {
+ Table.1.df<-data.frame(); Table.2.df<-data.frame(); Table.3.df<-data.frame();
+  
+ 
+ 
+  output<-list()
+  output$X<-X
+  output$Table.1<-Table.1.df
+  output$Table.2<-Table.2.df
+  output$Table.3<-Table.3.df
+  return(output)
+ 
+ }
+test.Review.Notes.1<-Review.Notes.1("1")
+test.Review.Notes.1
 X<-fetch_pubmed_data(get_pubmed_ids(Search.terms[3]))
 #---------------------------------------------------------------------#
 #------------------------------Functions------------------------------#
@@ -225,7 +231,23 @@ Application.2<-function(X)
 test.Application.2<-Application.2("1")
 test.Application.2     
      
-
+#--------------Review Notes-------#
+Review.Notes<-function(X)
+ {
+ Table.1.df<-data.frame(); Table.2.df<-data.frame(); Table.3.df<-data.frame();
+  
+ 
+ 
+  output<-list()
+  output$X<-X
+  output$Table.1<-Table.1.df
+  output$Table.2<-Table.2.df
+  output$Table.3<-Table.3.df
+  return(output)
+ 
+ }
+test.Review.Notes.1<-Review.Notes.1("1")
+test.Review.Notes.1
 #---------------------------------------------------------------------#
 #------------------------------Data-----------------------------------#
 #---------------------------------------------------------------------#
@@ -394,7 +416,23 @@ articles.3.df<-read_csv(article.3.files[1])
 #---------------------------------------------------------------------#
 #------------------------------Functions------------------------------#
 #---------------------------------------------------------------------#
-
+#--------------Review Notes-------#
+Review.Notes<-function(X)
+ {
+ Table.1.df<-data.frame(); Table.2.df<-data.frame(); Table.3.df<-data.frame();
+  
+ 
+ 
+  output<-list()
+  output$X<-X
+  output$Table.1<-Table.1.df
+  output$Table.2<-Table.2.df
+  output$Table.3<-Table.3.df
+  return(output)
+ 
+ }
+test.Review.Notes.1<-Review.Notes.1("1")
+test.Review.Notes.1
 #---------------------------------------------------------------------#
 #------------------------------Models---------------------------------#
 #---------------------------------------------------------------------#
