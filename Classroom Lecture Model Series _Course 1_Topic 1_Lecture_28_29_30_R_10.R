@@ -207,7 +207,25 @@ dev.off()
 #-------------------------Application II------------------------------#
 
 require(PearsonDS);require(stats);require(graphics);require(phaseR)
-require(deSolve);require(car);require(xtable);require(tuneR);require(yuima)                                   
+require(deSolve);require(car);require(xtable);require(tuneR);require(yuima);
+     
+Application.2<-function(X)
+ {
+ Table.1.df<-data.frame(); Table.2.df<-data.frame(); Table.3.df<-data.frame();
+  
+
+  output<-list()
+  output$X<-X
+  output$Table.1<-Table.1.df
+  output$Table.2<-Table.2.df
+  output$Table.3<-Table.3.df
+  return(output)
+ 
+ }
+test.Application.2<-Application.2("1")
+test.Application.2     
+     
+
 #---------------------------------------------------------------------#
 #------------------------------Data-----------------------------------#
 #---------------------------------------------------------------------#
@@ -347,7 +365,25 @@ dev.off()
 
 #-------------------------Application III-----------------------------#
 require(DiffusionRimp);require(Langevin);
-require(HMM);require(markovchain)
+require(HMM);require(markovchain);
+
+Application.3<-function(X)
+ {
+ Table.1.df<-data.frame(); Table.2.df<-data.frame(); Table.3.df<-data.frame();
+  
+ 
+ 
+  output<-list()
+  output$X<-X
+  output$Table.1<-Table.1.df
+  output$Table.2<-Table.2.df
+  output$Table.3<-Table.3.df
+  return(output)
+ 
+ }
+test.Application.3<-Application.3("1")
+test.Application.3     
+     
 #---------------------------------------------------------------------#
 #------------------------------Data-----------------------------------#
 #---------------------------------------------------------------------#
