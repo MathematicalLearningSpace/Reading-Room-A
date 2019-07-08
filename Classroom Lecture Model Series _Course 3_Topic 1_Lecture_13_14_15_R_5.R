@@ -45,18 +45,38 @@ test.Review.Notes.1
 #---------------------------------------------------------------------#
 
 #----------------Machine Learning Models I-----------#
-Machine.Learning.Model.1<-function(X)
+Machine.Learning.Model.1<-function(X,Visualization=FALSE)
  {
   Table.1.df<-data.frame(); Table.2.df<-data.frame(); Table.3.df<-data.frame();
-  
+  require(ggRandomForests)
+  Model.1 <- rfsrc(X$Dependent.1 ~ ., data = X)
+  Model.ROC.1 <- gg_roc(Model.1, which.outcome=1)
+  Model.ROC.2 <- gg_roc(Model.1, which.outcome=2)
+  Model.ROC.3 <- gg_roc(Model.1, which.outcome=3)
+  Model.ROC.4 <- gg_roc(Model.1, which.outcome=4)
+
+Table.1.df<-cbind(Model.ROC.1$sens,Model.ROC.1$spec,Model.ROC.1$pct)
+Table.2.df<-cbind(Model.ROC.2$sens,Model.ROC.2$spec,Model.ROC.2$pct)
+Table.3.df<-cbind(Model.ROC.3$sens,Model.ROC.3$spec,Model.ROC.3$pct)
+Table.4.df<-cbind(Model.ROC.4$sens,Model.ROC.4$spec,Model.ROC.4$pct)
+
+ if(Visualization)
+  {
+   png(file = stringr::str_c('Figures//Example_',"MLM_1",'_Figure_',1,'.png'))
+   op <- par(mfrow = c(2,2),mar=c(1,1,1,1))
+   plot(Model.ROC.1);plot(Model.ROC.2);plot(Model.ROC.3);plot(Model.ROC.4);
+   par(op)
+   dev.off()
+ } 
   output<-list()
   output$X<-X
   output$Table.1<-Table.1.df
   output$Table.2<-Table.2.df
   output$Table.3<-Table.3.df
+  output$Table.4<-Table.4.df
   return(output)
  }
-test.Machine.Learning.Model.1<-Machine.Learning.Model.1("1")
+test.Machine.Learning.Model.1<-Machine.Learning.Model.1("1",TRUE)
 test.Machine.Learning.Model.1
 #----------------Machine Learning Models II----------#
 Machine.Learning.Model.2<-function(X)
@@ -133,10 +153,28 @@ Table.3.TeX<-xtable::xtable(Table.3.df)
 Table.4.TeX<-xtable::xtable(Table.4.df)
 #---------------------------------------------------------------------#
 #------------------------------Figures--------------------------------#
-#---------------------------------------------------------------------#
+#---------------------------Work in Progress--------------------------#
 
 #------------Figure 1---------------------#
+require(circlize)
+for(i in 1:3)
+{
+png(file = stringr::str_c('Figures//Example_',i,'_Figure_',2,'.png'))
+circos.initializeWithIdeogram(plotType = c("labels", "axis"))
+X = generateRandomBed(nr = 10^2, nc = 2^2)
+color.choices = colorRamp2(c(-1, 0, 1), c("blue", "red", "green"))
+circos.genomicHeatmap(X, color.choices, side = "inside", border = "black")
+circos.genomicHeatmap(X, color.choices, side = "outside", line_col = as.numeric(factor(X[[1]])))
+dev.off()
+}
 #------------Figure 2---------------------#
+for(i in 1:3)
+{
+png(file = stringr::str_c('Figures//Example_',i,'_Figure_',3,'.png'))
+heatmap.2(exprs(esetSel), col=topo.colors(75), scale="none", ColSideColors=patientcolors,
+          key=TRUE, symkey=FALSE, density.info="none", trace="none", cexRow=0.5)
+dev.off()
+}
 #------------Figure 3---------------------#
 png(file = stringr::str_c('Figures//Example_',1,'_Figure_',1,'.png'))
 op <- par(mfrow = c(2,2),mar=c(3,3,3,3))
