@@ -63,7 +63,19 @@ test.Transformation.1
 Digestion.Model.1<-function(X)
  {
   Table.1.df<-data.frame(); Table.2.df<-data.frame(); Table.3.df<-data.frame();
-  
+  setwd("Digestion Model")
+ 
+  DGM.1.Name="Salivary secretion";DGM.1<-xml2::read_xml("hsa04970.xml")
+  DGM.2.Name="Gastric acid secretion";DGM.2<-xml2::read_xml("hsa04971.xml")
+  DGM.3.Name="Pancreatic secretion";DGM.3<-xml2::read_xml("hsa04972.xml")
+  DGM.4.Name="Bile secretion";DGM.4<-xml2::read_xml("hsa04976.xml")
+  DGM.5.Name="Carbohydrate digestion and absorption";DGM.5<-xml2::read_xml("hsa04973.xml")
+  DGM.6.Name="Protein digestion and absorption";DGM.6<-xml2::read_xml("hsa04974.xml")
+  DGM.7.Name="Fat digestion and absorption";DGM.7<-xml2::read_xml("hsa04975.xml")
+  DGM.8.Name="Cholesterol metabolism";DGM.8<-xml2::read_xml("hsa04979.xml")
+  DGM.9.Name="Vitamin digestion and absorption";DGM.9<-xml2::read_xml("hsa04977.xml")
+  DGM.10.Name="Mineral absorption";DGM.10<-xml2::read_xml("hsa04978.xml")
+ 
   output<-list()
   output$X<-X
   output$Table.1<-Table.1.df
