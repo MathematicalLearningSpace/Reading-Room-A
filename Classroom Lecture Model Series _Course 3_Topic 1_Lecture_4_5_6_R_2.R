@@ -7,7 +7,7 @@
 
 #------------------------------R API----------------------------------#
 library(gdata);library(bio3d);library(igraph);library(sna);library(ips);
-library(phangorn);library(proteomics)
+library(phangorn);library(proteomics);
 library(dcGOR);library(MDplot);library(UniProt.ws);
 library(circlize);library(BioPhysConnectoR);library(protr)
 library(seqinr);library(Biostrings);library(Peptides);
@@ -22,6 +22,10 @@ library(corrplot);library(plot3D);library(scatterplot3d);library(rgl)
 #---------------------------------------------------------------------#
 #------------------------------Data-----------------------------------#
 #---------------------------------------------------------------------#
+Table.1.df<-as.data.frame(Table.1);Table.2.df<-as.data.frame(Table.2);Table.3.df<-as.data.frame(Table.3);
+Table.4.df<-as.data.frame(Table.4)Table.5.df<-as.data.frame(Table.5);Table.6.df<-as.data.frame(Table.6);
+Table.7.df<-as.data.frame(Table.7);Table.8.df<-as.data.frame(Table.8)Table.9.df<-as.data.frame(Table.9);
+Table.10.df<-as.data.frame(Table.10)
 
 #---------------------------------------------------------------------#
 #------------------------------Functions------------------------------#
@@ -121,7 +125,14 @@ Table.2.TeX<-xtable::xtable(Table.2.df)
 Table.3.TeX<-xtable::xtable(Table.3.df)
 #----------Table 4------#
 Table.4.TeX<-xtable::xtable(Table.4.df)
-
+#----------Table 5------#
+Table.1.TeX<-xtable::xtable(Table.5.df)
+#----------Table 6------#
+Table.2.TeX<-xtable::xtable(Table.6.df)
+#----------Table 7------#
+Table.3.TeX<-xtable::xtable(Table.7.df)
+#----------Table 8------#
+Table.4.TeX<-xtable::xtable(Table.8.df)
 
 #---------------------------------------------------------------------#
 #------------------------------Figures--------------------------------#
