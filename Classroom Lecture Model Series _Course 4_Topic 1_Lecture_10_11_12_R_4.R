@@ -42,7 +42,21 @@ music.track.10<-read_xml(album.1[10])
 #---------------------------------------------------------------------#
 #------------------------------Functions------------------------------#
 #---------------------------------------------------------------------#
-
+#---------------------------------------Transforms---------------------------------------
+x.cwt.1 <- wavCWT( as.ts(experimental.data.1), wavelet="gaussian1")
+x.cwt.2 <- wavCWT( as.ts(experimental.data.1), wavelet="gaussian2")
+x.cwt.3 <- wavCWT( as.ts(experimental.data.1), wavelet="Haar")
+x.cwt.4 <- wavCWT( as.ts(experimental.data.1), wavelet="morlet")
+#-------------------------------------Trees----------------------------------------------
+W.tree.1 <- wavCWTTree(x.cwt.1)
+W.tree.2 <- wavCWTTree(x.cwt.2)
+W.tree.3 <- wavCWTTree(x.cwt.3)
+W.tree.4 <- wavCWTTree(x.cwt.4)
+#-----------------------------------Holder Exponent---------------------------------------
+holder.1 <- holderSpectrum(W.tree.1)
+holder.2 <- holderSpectrum(W.tree.2)
+holder.3 <- holderSpectrum(W.tree.3)
+holder.4 <- holderSpectrum(W.tree.4)
 #---------------------------------------------------------------------#
 #------------------------------Models---------------------------------#
 #---------------------------------------------------------------------#
