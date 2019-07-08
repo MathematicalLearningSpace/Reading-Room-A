@@ -8,7 +8,13 @@
 library(deSolve);library(ReacTran);library(rootSolve);
 library(fda);library(phaseR)
 library(pracma);library(GA);library(igraph)
-library(NMOF);library(xtable)
+library(NMOF);library(xtable);
+
+library(OptimalCutpoints);library(Rsolnp);library(NMOF);
+library(PearsonDS)
+library(rcellminer)
+library(cvxclustr)
+library(HistogramTools)
 
 #---------------------------------------------------------------------#
 #------------------------------Data-----------------------------------#
