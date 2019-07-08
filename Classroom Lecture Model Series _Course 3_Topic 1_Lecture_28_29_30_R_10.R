@@ -19,6 +19,22 @@ library(plyr)
 library(corrplot);library(plot3D);library(scatterplot3d);library(rgl)
 
 #-------------------------Application I-------------------------------#
+Application.1<-function(X)
+ {
+ Table.1.df<-data.frame(); Table.2.df<-data.frame(); Table.3.df<-data.frame();
+  
+ 
+ 
+  output<-list()
+  output$X<-X
+  output$Table.1<-Table.1.df
+  output$Table.2<-Table.2.df
+  output$Table.3<-Table.3.df
+  return(output)
+ 
+ }
+test.Application.1<-Application.1("1")
+test.Application.1
 
 #---------------------------------------------------------------------#
 #------------------------------Data-----------------------------------#
@@ -173,13 +189,43 @@ par(op)
 dev.off()
 
 #-------------------------Application II------------------------------#
-
+Application.2<-function(X)
+ {
+ Table.1.df<-data.frame(); Table.2.df<-data.frame(); Table.3.df<-data.frame();
+  
+ 
+ 
+  output<-list()
+  output$X<-X
+  output$Table.1<-Table.1.df
+  output$Table.2<-Table.2.df
+  output$Table.3<-Table.3.df
+  return(output)
+ 
+ }
+test.Application.2<-Application.2("1")
+test.Application.2
 #---------------------------------------------------------------------#
 #------------------------------Data-----------------------------------#
 #---------------------------------------------------------------------#
 
 #--------------Review Notes-------#
-
+Review.Notes<-function(X)
+ {
+ Table.1.df<-data.frame(); Table.2.df<-data.frame(); Table.3.df<-data.frame();
+  
+ 
+ 
+  output<-list()
+  output$X<-X
+  output$Table.1<-Table.1.df
+  output$Table.2<-Table.2.df
+  output$Table.3<-Table.3.df
+  return(output)
+ 
+ }
+test.Review.Notes.1<-Review.Notes.1("1")
+test.Review.Notes.1
 #---------------------------------------------------------------------#
 #------------------------------Functions------------------------------#
 #---------------------------------------------------------------------#
@@ -255,13 +301,43 @@ legend("topright", legend = paste(seq(1:7),LETTERS[1:7]),lty = 1, cex = .8, y.in
 par(op)
 dev.off()
 #-------------------------Application III-----------------------------#
-
+Application.3<-function(X)
+ {
+ Table.1.df<-data.frame(); Table.2.df<-data.frame(); Table.3.df<-data.frame();
+  
+ 
+ 
+  output<-list()
+  output$X<-X
+  output$Table.1<-Table.1.df
+  output$Table.2<-Table.2.df
+  output$Table.3<-Table.3.df
+  return(output)
+ 
+ }
+test.Application.3<-Application.3("1")
+test.Application.3
 #---------------------------------------------------------------------#
 #------------------------------Data-----------------------------------#
 #---------------------------------------------------------------------#
 
 #--------------Review Notes-------#
-
+Review.Notes<-function(X)
+ {
+ Table.1.df<-data.frame(); Table.2.df<-data.frame(); Table.3.df<-data.frame();
+  
+ 
+ 
+  output<-list()
+  output$X<-X
+  output$Table.1<-Table.1.df
+  output$Table.2<-Table.2.df
+  output$Table.3<-Table.3.df
+  return(output)
+ 
+ }
+test.Review.Notes.1<-Review.Notes.1("1")
+test.Review.Notes.1
 #---------------------------------------------------------------------#
 #------------------------------Functions------------------------------#
 #---------------------------------------------------------------------#
