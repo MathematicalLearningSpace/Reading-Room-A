@@ -23,7 +23,20 @@ drugAct <- exprs(getAct(rcellminerData::drugData))
 molData <- getMolDataMatrices()
 plots <- c("mut", "drug", "cop", "xai", "pro")
 
-#---------------------------------------------------------------------#
+Data.design.1 <- function(n, K, constant = TRUE, sigma = 2, oFrac = 0.1) 
+{
+pIVpars <- list(m=5.1, nu=1, location=0.5, scale=2);
+X <- array(rpearsonIV(n * k,params=pIVpars), dim = c(n, k));
+b <- rpearsonIV(k,params=pIVpars)
+Y<- X %*% b + rpearsonIV(n,params=pIVpars)*0.25 
+ output<-list()
+ output$X<-X
+ output$Y<-Y
+ return(output)
+} 
+test.Data.design.1<-Data.design.1(100,3)
+test.Design.design.1
+ #---------------------------------------------------------------------#
 #-----------------------Review Notes----------------------------------#
 #---------------------------------------------------------------------#
 Review.Notes<-function(X)
