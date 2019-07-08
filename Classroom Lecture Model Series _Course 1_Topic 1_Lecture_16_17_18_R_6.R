@@ -103,15 +103,18 @@ Optimization.GA.Model.1<-function(X)
 test.Optimization.GA.Model.1<-Optimization.GA.Model.1("1")
 test.Optimization.GA.Model.1
 #-----------Differential Evolution Optimization------------------------#
-Optimization.DE.Model.1<-function(X)
+Optimization.DE.Model.1<-function(X,Y)
  {
   n <- 100;k <- 5;
   popsize <- 100;generations <- 500; 
   Table.1.df<-data.frame(); Table.2.df<-data.frame(); Table.3.df<-data.frame();
    de.parms <- list(min = rep(-1,k), max = rep( 1,k), nP = popsize, nG = generations, F = 0.7, 
            CR = 0.9, loopOF = FALSE, printBar = FALSE, printDetail = FALSE) 
+ Solution.DE.1 <- DEopt(OF = Y$Specification.1, algo = de.parms, Data =X) 
+
   output<-list()
   output$X<-X
+  output$Solution.DE<-Solution.DE.1
   output$Table.1<-Table.1.df
   output$Table.2<-Table.2.df
   output$Table.3<-Table.3.df
@@ -120,15 +123,18 @@ Optimization.DE.Model.1<-function(X)
 test.Optimization.DE.Model.1<-Optimization.DE.Model.1("1")
 test.Optimization.DE.Model.1
 #-----------Particle Swarm Optimization-------------------------------#
-Optimization.PS.Model.1<-function(X)
+Optimization.PS.Model.1<-function(X,Y)
  {
  popsize <- 100;generations <- 500; 
  n <- 100;k <- 5;
   Table.1.df<-data.frame(); Table.2.df<-data.frame(); Table.3.df<-data.frame();
   ps.parms <- list(min = rep(-1,k), max = rep( 1,k), c1 = 0.9, c2 = 0.9, iner = 0.9, initV = 1, 
            nP = popsize, nG = generations, maxV = 5, loopOF = FALSE, printBar = FALSE, printDetail = FALSE) 
-  output<-list()
+  Solution.PS.1 <- PSopt(OF = Y$Specification.1, algo = de.parms, Data =X) 
+ 
+ output<-list()
   output$X<-X
+  output$Solution.PS<-Solution.PS.1
   output$Table.1<-Table.1.df
   output$Table.2<-Table.2.df
   output$Table.3<-Table.3.df
