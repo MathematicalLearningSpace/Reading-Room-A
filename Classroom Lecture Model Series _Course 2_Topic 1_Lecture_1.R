@@ -26,10 +26,16 @@ library(stringr);library(Peptides);library(Biostrings)
 library(seqinr);library(seqLogo);library(msa);library(ape);
 library(dtw);library(dtwclust);library(odseq);library(rphast)
 library(plyr)
+#----------------------Parallel Processing and Benchmarking--------------------------#
+library(parallel);library(microbenchmark);
 
 #------------------------------------------------------------------------------------#
 #----------------------------------Data----------------------------------------------#
 #------------------------------------------------------------------------------------#
+Table.1.df<-as.data.frame(Table.1);Table.2.df<-as.data.frame(Table.2);Table.3.df<-as.data.frame(Table.3);
+Table.4.df<-as.data.frame(Table.4)Table.5.df<-as.data.frame(Table.5);Table.6.df<-as.data.frame(Table.6);
+Table.7.df<-as.data.frame(Table.7);Table.8.df<-as.data.frame(Table.8);Table.9.df<-as.data.frame(Table.9);
+Table.10.df<-as.data.frame(Table.10)
 
 Oncogenes.Sample.1 <- c("ABL1", "ALK", "BRAF", "CCND1", "CCND3", "CCNE1", "CCNE2", 
                        "CDC25A", "EGFR", "ERBB2", "EZH2", "FOS", "FOXL2", "HRAS", 
@@ -73,7 +79,20 @@ test.Gene.Ontology.Enrichment.Model.1
 #------------------------------------------------------------------------------------#
 #----------------------------------Transformations-----------------------------------#
 #------------------------------------------------------------------------------------#
-
+Transformations.1<-function(X)
+ {
+ Table.1.df<-data.frame(); Table.2.df<-data.frame(); Table.3.df<-data.frame();
+  
+  output<-list()
+  output$X<-X
+  output$Table.1<-Table.1.df
+  output$Table.2<-Table.2.df
+  output$Table.3<-Table.3.df
+  return(output)
+ 
+ }
+test.Transformations.1<-Transformations.1("1")
+test.Transformations.1
 #------------------------------------------------------------------------------------#
 #----------------------------------User Defined Modules and Functions----------------#
 #------------------------------------------------------------------------------------#
