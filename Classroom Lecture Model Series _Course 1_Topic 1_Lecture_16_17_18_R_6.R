@@ -105,8 +105,11 @@ test.Optimization.GA.Model.1
 #-----------Differential Evolution Optimization------------------------#
 Optimization.DE.Model.1<-function(X)
  {
+  n <- 100;k <- 5;
+  popsize <- 100;generations <- 500; 
   Table.1.df<-data.frame(); Table.2.df<-data.frame(); Table.3.df<-data.frame();
-  
+   de.parms <- list(min = rep(-1,k), max = rep( 1,k), nP = popsize, nG = generations, F = 0.7, 
+           CR = 0.9, loopOF = FALSE, printBar = FALSE, printDetail = FALSE) 
   output<-list()
   output$X<-X
   output$Table.1<-Table.1.df
@@ -119,8 +122,11 @@ test.Optimization.DE.Model.1
 #-----------Particle Swarm Optimization-------------------------------#
 Optimization.PS.Model.1<-function(X)
  {
+ popsize <- 100;generations <- 500; 
+ n <- 100;k <- 5;
   Table.1.df<-data.frame(); Table.2.df<-data.frame(); Table.3.df<-data.frame();
-  
+  ps.parms <- list(min = rep(-1,k), max = rep( 1,k), c1 = 0.9, c2 = 0.9, iner = 0.9, initV = 1, 
+           nP = popsize, nG = generations, maxV = 5, loopOF = FALSE, printBar = FALSE, printDetail = FALSE) 
   output<-list()
   output$X<-X
   output$Table.1<-Table.1.df
