@@ -223,7 +223,16 @@ data(ImmunePathwayLists)
   Immune.System.18.Name=""; Immune.System.18<-xml2::read_xml("hsa04672.xml")
   Immune.System.19.Name=""; Immune.System.19<-xml2::read_xml("hsa04062.xml")
   Table.1.df<-data.frame(); Table.2.df<-data.frame(); Table.3.df<-data.frame();
-  
+ 
+  require(bio3d);
+  setwd("Immune System Model/Protein Models")
+  protein.model.files.pdb<-list.files();protein.model.list<-list();K<-length(protein.model.files.pdb)
+  #----------------------------------------------------------------------------------------------------------------------------#
+  #---------------------------------------PDB Files----------------------------------------------------------------------------#
+  #----------------------------------------------------------------------------------------------------------------------------#
+  for(i in 1:k){protein.model.list[[i]]<-read.pdb(protein.model.files.pdb[i])}
+  bio.Unit.1 <- biounit(protein.model.list[[3]]);names(bio.Unit.1)	
+
   output<-list()
   output$X<-X
   output$Table.1<-Table.1.df
