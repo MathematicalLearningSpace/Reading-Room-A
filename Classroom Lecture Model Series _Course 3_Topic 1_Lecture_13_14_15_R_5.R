@@ -88,7 +88,7 @@ Machine.Learning.Model.2<-function(X)
 require(rcdk);require(BioMedR);require(ChemmineR);require(Matrix);require(fingerprint)
 require(igraph);require(readr);require(leaps);require(caret);require(GA) 
 Table.1.df<-data.frame(); Table.2.df<-data.frame(); Table.3.df<-data.frame();
-  
+ #--------------------------Molecular Descriptors-------------------#
  Molecular.Categories <- get.desc.categories()
  dcn.1<-get.desc.names(Molecular.Categories[1])
  dcn.2<-get.desc.names(Molecular.Categories[2])
@@ -96,7 +96,13 @@ Table.1.df<-data.frame(); Table.2.df<-data.frame(); Table.3.df<-data.frame();
  dcn.4<-get.desc.names(Molecular.Categories[4])
  dcn.5<-get.desc.names(Molecular.Categories[5])
  Molecular.Categories.Names<- unique(unlist(sapply(get.desc.categories(), get.desc.names)))
-
+ 
+ Z.mols.ids<-c("")
+ Z<-BMgetDrugSmiKEGG(Z.mols.ids[1])
+ Z.mols <- parse.smiles(Z)
+ Z.mols.1 <- eval.desc(Z.mols, dcn.1)
+ #-----------------Topological Metrics------------------------------#
+ Z.Complexity<-extrDrugFragmentComplexity(Z.mols, silent = TRUE)
  
   output<-list()
   output$X<-X
