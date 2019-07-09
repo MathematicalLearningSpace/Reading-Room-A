@@ -224,6 +224,15 @@ data(ImmunePathwayLists)
   Immune.System.19.Name=""; Immune.System.19<-xml2::read_xml("hsa04062.xml")
   Table.1.df<-data.frame(); Table.2.df<-data.frame(); Table.3.df<-data.frame();
  
+  #----------------------------------------------------------------------------#
+  #-------------Differential Gene Expression-----------------------------------#
+  #----------------------------------------------------------------------------#
+  Expression.Data.Set<-"";
+  setwd(stringr::str_c("Gene Expression/",Expression.Data.Set)	
+  x <- hgu219GENENAME
+  #----------------------------------------------------------------------------#
+  #-------------Protein Model--------------------------------------------------#
+  #----------------------------------------------------------------------------#
   require(bio3d);
   setwd("Immune System Model/Protein Models")
   protein.model.files.pdb<-list.files();protein.model.list<-list();K<-length(protein.model.files.pdb)
