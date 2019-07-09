@@ -227,9 +227,23 @@ data(ImmunePathwayLists)
   #----------------------------------------------------------------------------#
   #-------------Differential Gene Expression-----------------------------------#
   #----------------------------------------------------------------------------#
+  require(hgu219.db);
   Expression.Data.Set<-"";
   setwd(stringr::str_c("Gene Expression/",Expression.Data.Set)	
   x <- hgu219GENENAME
+  DGE.Sample.Files <- list.celfiles(full.names=TRUE)
+  DGE.Sample<-list();DGE.Sample.Expression<-list();
+  DGE.Sample.Genes<-list()
+  N<-length(DGE.Sample.Files);Samples<-3
+  for(i in 1:Samples)
+  {
+    DGE.Sample[[i]]<- ReadAffy(filenames=DGE.Sample.Files[i])
+    DGE.Sample.Expression[[i]] <- expresso(DGE.Sample[[i]], bgcorrect.method="rma",
+					   normalize.method="constant",
+					   pmcorrect.method="pmonly",summary.method="avgdiff")
+    DGE.Sample.Genes[[i]]<-unlist(as.list(x[geneNames(DGE.Sample[[i]])]))
+    
+  }
   #----------------------------------------------------------------------------#
   #-------------Protein Model--------------------------------------------------#
   #----------------------------------------------------------------------------#
