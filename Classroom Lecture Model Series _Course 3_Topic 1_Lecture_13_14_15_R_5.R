@@ -85,8 +85,19 @@ test.Machine.Learning.Model.1
 #----------------Machine Learning Models II----------#
 Machine.Learning.Model.2<-function(X)
  {
-  Table.1.df<-data.frame(); Table.2.df<-data.frame(); Table.3.df<-data.frame();
+require(rcdk);require(BioMedR);require(ChemmineR);require(Matrix);require(fingerprint)
+require(igraph);require(readr);require(leaps);require(caret);require(GA) 
+Table.1.df<-data.frame(); Table.2.df<-data.frame(); Table.3.df<-data.frame();
   
+ Molecular.Categories <- get.desc.categories()
+ dcn.1<-get.desc.names(Molecular.Categories[1])
+ dcn.2<-get.desc.names(Molecular.Categories[2])
+ dcn.3<-get.desc.names(Molecular.Categories[3])
+ dcn.4<-get.desc.names(Molecular.Categories[4])
+ dcn.5<-get.desc.names(Molecular.Categories[5])
+ Molecular.Categories.Names<- unique(unlist(sapply(get.desc.categories(), get.desc.names)))
+
+ 
   output<-list()
   output$X<-X
   output$Table.1<-Table.1.df
