@@ -15,6 +15,8 @@ library(methods);library(dplyr);
 library(Matrix);library(pracma);library(expm)
 #-----------------------Signal Processing----------------------------#
 library(audio);library(tuneR);library(dtw);library(wavelets);
+library(dplyr);library(seewave)
+library(sound);library(soundecology);library(soundgen)
 library(dtwclust);library(TSclust);library(TSdist)
 library(wavethresh);library(waveslim);library(wavemulcor)
 library(PearsonDS);library(xtable);library(psych);library(adwave);
