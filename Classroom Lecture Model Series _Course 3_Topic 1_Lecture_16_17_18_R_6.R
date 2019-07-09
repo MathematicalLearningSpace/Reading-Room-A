@@ -110,7 +110,7 @@ Ribosome.Model.1<-function(X,Visualization=FALSE)
   return(output)
  
  }
-test.Ribosome.Model.1<-Ribosome.Model.1("1")
+test.Ribosome.Model.1<-Ribosome.Model.1("1",TRUE)
 test.Ribosome.Model.1
 
 Ribosome.Model.2<-function(X)
