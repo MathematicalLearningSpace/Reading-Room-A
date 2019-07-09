@@ -20,6 +20,8 @@ library(corrplot);library(plot3D);library(scatterplot3d);library(rgl)
 #------------------------------Data-----------------------------------#
 #---------------------------------------------------------------------#
 W<-data.frame();X<-data.frame();Y<-data.frame();Z<-data.frame();
+A.list()<-list();B.list()<-list();C.list()<-list();D.list()<-list();E.list()<-list();
+F.list()<-list();G.list()<-list();H.list()<-list();I.list()<-list();J.list()<-list();
 #---------------------------------------------------------------------#
 #-----------------------Review Notes----------------------------------#
 #-----------------Work In Progress------------------------------------#
@@ -402,7 +404,19 @@ Table.4.TeX<-xtable::xtable(Table.4.df)
 #---------------------------------------------------------------------#
 
 #----------Figure 1 Group A---------#
-
+ png(file = stringr::str_c('Figures//Example_',2,'_Figure_',1,'.png'))
+  op <- par(mfrow = c(3,3),mar=c(3,3,3,3))
+  hist(unlist(A.list),main="(A) Graph Eccentricity",xlab="Eccentricity") 
+  hist(unlist(B.list),main="(B) Degree Distribution",xlab="Degree Distribution") 
+  hist(unlist(C.list),main="(C) Graph Density",xlab="Graph Density") 
+  hist(unlist(D.list),main="(D) Average nearest neighbor degree",xlab="average nearest neighbor degree") 
+  hist(unlist(E.list),main="(E) Hub Score Eigenvalue",xlab="Hub Score Eigenvalue") 
+  hist(unlist(F.list),main="(F) Authority Score Eigenvalue",xlab="Authority Score Eigenvalue") 
+  hist(unlist(G.list),main="(G) Eigen Centrality Eigenvalue",xlab="Eigen Centrality Eigenvalue") 
+  hist(unlist(H.list),main="(H) Girth",xlab="Length of Shortest Circle") 
+  hist(unlist(I.list),main="(I) Graph Size",xlab="Number of Edges") 
+  par(op)
+  dev.off()
 #----------Figure 1 Group B---------#
 
 #----------Figure 1 Group C---------#
