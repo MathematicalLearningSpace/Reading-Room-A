@@ -25,7 +25,7 @@ F.list()<-list();G.list()<-list();H.list()<-list();I.list()<-list();J.list()<-li
 #---------------------------------------------------------------------#
 #-----------------------Review Notes----------------------------------#
 #-----------------Work In Progress------------------------------------#
-Review.Notes<-function(X)
+Review.Notes<-function(X,Visualization=FALSE)
  {
  Table.1.df<-data.frame(); Table.2.df<-data.frame(); Table.3.df<-data.frame();
   setwd("Immune System Model/Abstracts")
@@ -126,7 +126,7 @@ test.Review.Notes.1
 #---------------------------------------------------------------------#
 #------------------------------Functions------------------------------#
 #---------------------------------------------------------------------#
-Transformation.1<-function(X)
+Transformation.1<-function(X,Visualization=FALSE)
  {
   Table.1.df<-data.frame(); Table.2.df<-data.frame(); Table.3.df<-data.frame();
   
@@ -142,7 +142,7 @@ test.Transformation.1
 #---------------------------------------------------------------------#
 #------------------------------Models---------------------------------#
 #---------------------------------------------------------------------#
-Signal.Transduction.Model.1<-function(X)
+Signal.Transduction.Model.1<-function(X,Visualization=FALSE)
  {
   Table.1.df<-data.frame(); Table.2.df<-data.frame(); Table.3.df<-data.frame();
   
@@ -176,7 +176,7 @@ Longevity.system.equation.model.1.solution<- ode(y = Params.Initial, times = seq
 
 #------------Immune System-------------#
 
-Immune.System.Model<-function(X)
+Immune.System.Model<-function(X,Visualization=FALSE)
 {
 require(WGCNA)
 data(ImmunePathwayLists)
@@ -419,7 +419,7 @@ VEGF.system.equation.model.1.solution<- ode(y = Params.Initial, times = sequence
 #---------------------------------------------------------------------#
 #------------------------------Analysis-------------------------------#
 #---------------------------------------------------------------------#
-Analysis.Model.1<-function(X)
+Analysis.Model.1<-function(X,Visualization=FALSE)
  {
   Table.1.df<-data.frame(); Table.2.df<-data.frame(); Table.3.df<-data.frame();
   
@@ -433,7 +433,7 @@ Analysis.Model.1<-function(X)
 test.Analysis.Model.1<-Analysis.Model.1("1")
 test.Analysis.Model.1
 #----------------------------------Optimization--------------------------------------#
-Optimization.Model.1<-function(X)
+Optimization.Model.1<-function(X,Visualization=FALSE)
  {
   Table.1.df<-data.frame(); Table.2.df<-data.frame(); Table.3.df<-data.frame();
   
