@@ -47,9 +47,13 @@ test.Review.Notes.1
 #---------------------------------------------------------------------#
 #------------------------------Models---------------------------------#
 #---------------------------------------------------------------------#
-Ribosome.Model.1<-function(X)
+Ribosome.Model.1<-function(X,Visualization=FALSE)
  {
  Table.1.df<-data.frame(); Table.2.df<-data.frame(); Table.3.df<-data.frame();
+ Table.4.df<-as.data.frame(Table.4)
+ Table.5.df<-as.data.frame(Table.5);Table.6.df<-as.data.frame(Table.6);Table.7.df<-as.data.frame(Table.7);Table.8.df<-as.data.frame(Table.8)
+ Table.9.df<-as.data.frame(Table.9);Table.10.df<-as.data.frame(Table.10)
+ 
   setwd("Ribosome Model")
   protein.model.files.pdb<-list.files();protein.model.list<-list();K<-length(protein.model.files.pdb)
   #----------------------------------------------------------------------------------------------------------------------------#
@@ -67,8 +71,12 @@ Ribosome.Model.1<-function(X)
  
   #---------------------------------------#
   #-------Network Dependency Modeling-----#
-  #---------------------------------------#	
-
+  #---------------------------------------#
+  Protein.X.modes<-list()
+  for(i in 1:length(protein.model.list))
+  {
+    Protein.X.modes[[i]] <- nma(protein.model.list[[i]])
+  }
   #---------------------------------------#
   #-------Deformation energies------------# 
   #---------------------------------------#	
@@ -88,8 +96,12 @@ Ribosome.Model.1<-function(X)
   #---------------------------------------------#
   #---------------Graph Theory Analysis---------#
 #---------------------------------------------#
- 
- 
+ if(Visualization)
+	 {
+	 png(file = stringr::str_c('Figures//Example_',1,'_Figure_',1,'.png'))
+	 Figure.1<-plot(Protein.X.modes[[1]], spread=TRUE)
+	 dev.off()
+ 	}
   output<-list()
   output$X<-X
   output$Table.1<-Table.1.df
