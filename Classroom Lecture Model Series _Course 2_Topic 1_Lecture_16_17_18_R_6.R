@@ -20,16 +20,98 @@ library(corrplot);library(plot3D);library(scatterplot3d);library(rgl)
 #------------------------------Data-----------------------------------#
 #---------------------------------------------------------------------#
 W<-data.frame();X<-data.frame();Y<-data.frame();Z<-data.frame();
-
 #---------------------------------------------------------------------#
 #-----------------------Review Notes----------------------------------#
-#---------------------------------------------------------------------#
+#-----------------Work In Progress------------------------------------#
 Review.Notes<-function(X)
  {
  Table.1.df<-data.frame(); Table.2.df<-data.frame(); Table.3.df<-data.frame();
+  setwd("Immune System Model/Abstracts")
+  require(XML);require(xml2);require(seqinr)
+  Immune.Models.Korpus.Files<-list.files()
+  Immune.Models.Korpus.XML<-list();Immune.Models.Korpus.Titles<-list();Immune.Models.Korpus.Abstracts<-list();
+  Immune.Models.Dictionary<-data.frame()
+  for(i in 1:length(Immune.Models.Korpus.Files))
+  {
+    Immune.Models.Korpus.XML[[i]]<-read_xml(Immune.Models.Korpus.Files[i])
+    Immune.Models.Korpus.Titles[[i]]<-xml_text(xml_find_all(Immune.Models.Korpus.XML[[i]], "//ArticleTitle"))
+    Immune.Models.Korpus.Abstracts[[i]]<-xml_text(xml_find_all(Immune.Models.Korpus.XML[[i]], ".//AbstractText"),trim=TRUE)
+  }	
+#--------------------------------------------------------------------------------#
+#-----------------------Literature NLP Topic Modeling----------------------------#
+#--------------------------------------------------------------------------------#
+  require(tm);require(topicmodels);require(slam);require(lattice)
+  Immune.System.Model.Dictionary<-c("cell","cancer");
+  Immune.System.Model.Dictionary.Correlation.Limit<-c(0.9,0.9)
+  strsplit_space_tokenizer <- function(x) unlist(strsplit(as.character(x), "[[:space:]]+"))
+  #-----------------------------Titles---------------------------------------#
+  Immune.System.Models.Korpus<-Corpus(VectorSource(Immune.Models.Korpus.Titles[1:3]))
+  #-----------------------------Abstracts------------------------------------#
+  Immune.System.Models.Abstracts.Korpus<-Corpus(VectorSource(Immune.Models.Korpus.Abstracts[1:3]))
+  Immune.System.Models.Korpus.DTM <- DocumentTermMatrix(Immune.System.Models.Korpus, control = list(tokenize = strsplit_space_tokenizer,
+                                                                                                    stemming = TRUE, 
+                                                                                                    stopwords = union(stopwords("en"),c("and")),
+                                                                                                    removeWords=c("and"),
+                                                                                                    minWordLength = 3,
+                                                                                                    removeNumbers = TRUE,
+                                                                                                    bounds=NULL,
+                                                                                                    dictionary=NULL,
+                                                                                                    weighting =function(x) weightTfIdf(x, normalize =FALSE),
+                                                                                                    removePunctuation = TRUE))
+  Immune.System.Models.Korpus.DTM
+  Immune.System.Models.Korpus.TDM<-TermDocumentMatrix(Immune.System.Models.Korpus)
+  Feature.1<-Docs(Immune.System.Models.Korpus.TDM)
+  Feature.2<-nDocs(Immune.System.Models.Korpus.TDM)
+  Feature.3<-nTerms(Immune.System.Models.Korpus.TDM)
+  Feature.4<-Terms(Immune.System.Models.Korpus.TDM)
+  word.Letter.1<-NULL;word.dictionary<-list();j<-1;words<-list()
+  for(i in 1:length(Feature.4))
+  {word.Letter.1<-s2c(Feature.4[i])
+    for(k in 1:26){
+    if(word.Letter.1[1]==letters[k] || word.Letter.1[1]==LETTERS[k] ){word.dictionary[[k]]<-Feature.4[i];j<-length(word.dictionary[[k]])+1;}
+    }
+  }
+ Features<-list(Feature.1,Feature.2,Feature.3,Feature.4)
+ Immune.System.Models.Korpus.TDM.tf <- termFreq(PlainTextDocument(Immune.Models.Korpus.Titles[1:3]))
+ Immune.System.Models.Korpus.TDM.Most.Frequent<-findMostFreqTerms(Immune.System.Models.Korpus.TDM.tf)
+ Immune.System.Models.Korpus.TDM.Most.Frequent
+ Immune.System.Models.Korpus.TDM.Associations<-findAssocs(Immune.System.Models.Korpus.TDM,Immune.System.Model.Dictionary,
+                                                           Immune.System.Model.Dictionary.Correlation.Limit)
+Immune.System.Models.Korpus.TDM.Associations
+Immune.System.Models.Korpus.DTM.Summary<-summary(col_sums(Immune.System.Models.Korpus.DTM))
+  term_tfidf <- tapply(Immune.System.Models.Korpus.DTM$v/row_sums(Immune.System.Models.Korpus.DTM)[Immune.System.Models.Korpus.DTM$i], 
+                       Immune.System.Models.Korpus.DTM$j, mean) *log2(nDocs(Immune.System.Models.Korpus.DTM)/col_sums(Immune.System.Models.Korpus.DTM > 0))
+  Immune.System.Models.Korpus.DTM.Summary.1<-summary(term_tfidf)
+  Immune.System.Models.Korpus.DTM <- Immune.System.Models.Korpus.DTM[,term_tfidf >= 0.1]
+  Immune.System.Models.Korpus.DTM <- Immune.System.Models.Korpus.DTM[row_sums(Immune.System.Models.Korpus.DTM) > 0,]
+  Immune.System.Models.Korpus.DTM.Summary.3<-summary(col_sums(Immune.System.Models.Korpus.DTM))
+  k <- 30;SEED <- 2010
+  Immune.System.Models.TM<- list(VEM = LDA(Immune.System.Models.Korpus.DTM, k = k, control = list(seed = SEED)),
+                                 VEM_fixed = LDA(Immune.System.Models.Korpus.DTM, k = k, control = list(estimate.alpha = FALSE, seed = SEED)),
+                                 Gibbs = LDA(Immune.System.Models.Korpus.DTM, k = k, method = "Gibbs",control = list(seed = SEED, burnin = 1000, thin = 100, iter = 1000)),
+                                 CTM = CTM(Immune.System.Models.Korpus.DTM, k = k, control = list(seed = SEED, var = list(tol = 10^-4), 
+                                                                                                  em = list(tol = 10^-3))))
   
+  methods <- c("VEM", "VEM_fixed", "Gibbs", "CTM")
+  Immune.System.Models.TM.DF <- data.frame(posterior = unlist(lapply(Immune.System.Models.TM, function(x) apply(posterior(x)$topics, 1, max))),
+                                           method = factor(rep(methods,each = nrow(posterior(Immune.System.Models.TM$VEM)$topics)), methods))
+  sapply(Immune.System.Models.TM, function(x) mean(apply(posterior(x)$topics, 1, function(z) - sum(z * log(z)))))
+  Immune.System.Models.TM.Topic <- topics(Immune.System.Models.TM[["VEM"]], 1)
+  Immune.System.Models.TM.Terms <- terms(Immune.System.Models.TM[["VEM"]], 10)
+  Immune.System.Models.Most.Frequent<- which.max(tabulate(Immune.System.Models.TM.Topic))
+  Immune.System.Models.Most.Frequent.Terms<-terms(Immune.System.Models.TM[["VEM"]], 10)[,Immune.System.Models.Most.Frequent]
+  Immune.System.Models.Most.Frequent.Terms	
   output<-list()
   output$X<-X
+  output$Article.keywords<-Article.keywords
+  output$Immune.Models.Korpus.Titles<-Immune.Models.Korpus.Titles
+  output$Immune.System.Model.Dictionary<-Immune.System.Model.Dictionary
+  output$Immune.System.Models.Korpus.DTM<-Immune.System.Models.Korpus.DTM
+  output$Immune.System.Models.Korpus.TDM.Associations<-Immune.System.Models.Korpus.TDM.Associations
+  output$Immune.System.Models.TM.Terms<-Immune.System.Models.TM.Terms
+  output$Immune.System.Models.TM.Topic<-Immune.System.Models.TM.Topic
+  output$Immune.System.Models.Most.Frequent.Terms<-Immune.System.Models.Most.Frequent.Terms
+  output$Immune.System<-Immune.System.df							 
   output$Table.1<-Table.1.df
   output$Table.2<-Table.2.df
   output$Table.3<-Table.3.df
@@ -94,6 +176,9 @@ Longevity.system.equation.model.1.solution<- ode(y = Params.Initial, times = seq
 
 Immune.System.Model<-function(X)
 {
+require(WGCNA)
+data(ImmunePathwayLists)
+	
  Immune.System.df<-as.data.frame(rbind(c("04640","Hematopoietic cell lineage"),
                        c("04610","Complement and coagulation cascades"),
                        c("04611","Platelet activation"),
@@ -142,6 +227,9 @@ Immune.System.Model<-function(X)
   output$Table.1<-Table.1.df
   output$Table.2<-Table.2.df
   output$Table.3<-Table.3.df
+  output$Table.4<-Table.4.df
+  output$Table.5<-Table.5.df
+  output$Table.6<-Table.6.df
   return(output)
 	
 }	
