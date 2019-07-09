@@ -51,6 +51,21 @@ music.track.10<-read_xml(album.1[10])
 #---------------------------------------------------------------------#
 #------------------------------Models---------------------------------#
 #---------------------------------------------------------------------#
+Note.Alphabet.Value<-c(A=0,B=2); Sequence.Note<-"A B A B A B"; Sequence.Duration<-c(1,1,1,1,1,1)
+compose.wave.sine<-function(frequency,duration,tempo)
+{
+  amplitude<-1;sample.rate <- 44100;  fade <- seq(0, 1, 50 / sample.rate)
+  wave <- amplitude*sin(seq(0, duration / tempo * 60, 1 / sample.rate) *frequency * 2 * pi)
+  wave.sine.1<-wave*c(fade,rep(1, length(wave) - 2 * length(fade)), rev(fade))
+  return(wave.sine.1)
+}
+Track.Synthetic.1<-Track.Synthetic.1 %>%
+mutate(Track.octave = substring(Sequence.Note, nchar(Sequence.Note)) %>% ifelse(is.na(.), 4, .),
+         Track.note = Note.Alphabet.Value[substr(Sequence.Note, 1, 1)],
+         Track.note = Track.note + grepl("#", Sequence.Note) - grepl("b", Sequence.Note) + Track.octave * 12 + 12 * (Track.note < 3),
+         freq = 2 ^ ((Track.note - 60) / 12) * 440)
+
+Track.1.wav<-mapply(compose.wave.sine, Track.1$freq, Track.1$Seq.Duration,120) 
 
 Composition.Model.Classical.1<-function(X)
  {
@@ -114,9 +129,12 @@ Table.4.TeX<-xtable::xtable(Table.4.df)
 #---------------------------------------------------------------------#
 
 #--------------Figure 1----------------------------#
+png(file = stringr::str_c('Figures//Example_',1,'_Figure_',1,'.png'))
+plot(Track.1.wav[1000:3000,1])
+dev.off()
 #--------------Figure 2----------------------------#
 #--------------Figure 3----------------------------#
-png(file = stringr::str_c('Figures//Example_',1,'_Figure_',1,'.png'))
+png(file = stringr::str_c('Figures//Example_',1,'_Figure_',2,'.png'))
 op <- par(mfrow = c(2,2),mar=c(3,3,3,3))
 hist(W, main="Title 1",xlab="X Value")
 text(4, 9, expression(hat(theta) == (W^t))
