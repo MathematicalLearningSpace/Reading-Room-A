@@ -227,10 +227,13 @@ data(ImmunePathwayLists)
   #----------------------------------------------------------------------------#
   #-------------Differential Gene Expression-----------------------------------#
   #----------------------------------------------------------------------------#
-  require(hgu219.db);
+  require(hgu219.db);require(hgu95av2.db)
   Expression.Data.Set<-"";
   setwd(stringr::str_c("Gene Expression/",Expression.Data.Set)	
-  x <- hgu219GENENAME
+  x <- hgu219GENENAME;z<-hgu219SYMBOL;Y<-hgu95av2GENENAME;L<-hgu95av2SYMBOL
+  mapped_probes.1 <- mappedkeys(z);Gene.Symbols.1 <- as.list(z[mapped_probes.1])
+  mapped_probes.2 <- mappedkeys(L);Gene.Symbols.2<- as.list(L[mapped_probes.2])
+
   DGE.Sample.Files <- list.celfiles(full.names=TRUE)
   DGE.Sample<-list();DGE.Sample.Expression<-list();
   DGE.Sample.Genes<-list()
