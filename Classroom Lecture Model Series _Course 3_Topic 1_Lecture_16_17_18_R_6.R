@@ -64,6 +64,23 @@ Ribosome.Model.1<-function(X)
 test.Ribosome.Model.1<-Ribosome.Model.1("1")
 test.Ribosome.Model.1
 
+Ribosome.Model.2<-function(X)
+ {
+ Table.1.df<-data.frame(); Table.2.df<-data.frame(); Table.3.df<-data.frame();
+  
+ 
+ 
+  output<-list()
+  output$X<-X
+  output$Table.1<-Table.1.df
+  output$Table.2<-Table.2.df
+  output$Table.3<-Table.3.df
+  return(output)
+ 
+ }
+test.Ribosome.Model.2<-Ribosome.Model.2("1")
+test.Ribosome.Model.2
+
 #---------Signal Model-------------#
 Signal.Model.1<-function(X)
  {
