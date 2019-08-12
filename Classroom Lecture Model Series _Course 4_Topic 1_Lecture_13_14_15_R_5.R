@@ -40,6 +40,21 @@ music.track.7<-read_xml(album.1[7])
 music.track.8<-read_xml(album.1[8])
 music.track.9<-read_xml(album.1[9])
 music.track.10<-read_xml(album.1[10])
+
+#---------Group A
+Track.1.wave<-readWave("Composition_1_Test_Wave.wav")
+Track.2.wave<-readWave("Composition_2_Test_Wave.wav")
+Track.3.wave<-readWave("Composition_3_Test_Wave.wav")
+Track.4.wave<-readWave("Composition_4_Test_Wave.wav")
+Track.5.wave<-readWave("Composition_5_Test_Wave.wav")
+#---------Group B
+Track.6.wave<-readWave("Composition_6_Test_Wave.wav")
+Track.7.wave<-readWave("Composition_7_Test_Wave.wav")
+Track.8.wave<-readWave("Composition_8_Test_Wave.wav")
+Track.9.wave<-readWave("Composition_9_Test_Wave.wav")
+Track.10.wave<-readWave("Composition_10_Test_Wave.wav")
+
+
 #------------------------Wave Files---------------#
 Waves<-list.files()
 Tracks<-list()
