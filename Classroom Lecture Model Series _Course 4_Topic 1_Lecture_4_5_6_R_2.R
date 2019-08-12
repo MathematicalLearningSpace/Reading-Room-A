@@ -11,9 +11,7 @@ library(sound);library(soundecology);library(soundgen)
 require(HMM);require(msm);require(ggraph);require(RJaCGH);
 require(SemiMarkov);require(surveillance);require(depmixS4)
 require(markovchain);require(XML);require(xml2)
-
 #----------------------------------R Source Files------------------------------------#
-
 #----------------------------------Data----------------------------------------------#
 W<-data.frame();X<-data.frame();Y<-data.frame();Z<-data.frame();
  #---------------------Data Files in Music XML------------------------#
@@ -32,9 +30,7 @@ W<-data.frame();X<-data.frame();Y<-data.frame();Z<-data.frame();
   music.track.8<-read_xml(album.1[8])
   music.track.9<-read_xml(album.1[9])
   music.track.10<-read_xml(album.1[10])
-  
 #----------------------------------Transformations-----------------------------------#
-
 #----------------------------------User Defined Modules and Functions----------------#
 Module.Music.1<-function(music.track)
 {
@@ -57,6 +53,38 @@ Module.Music.1<-function(music.track)
 }
 test.Module.Music.1<-Module.Music.1(music.track.1)
 test.Module.Music.1
+
+Motif.Design.1<-function(X)
+{
+
+  #---------------------------------------------------------#
+  #-----------------------Tables----------------------------#
+  #---------------------------------------------------------#
+  #Table.1<-table(notes)
+  #-----------------------Presentation and Organization--------------
+  output<-list()
+  #output$Table.1.TeX<-xtable::xtable(as.data.frame(Table.1))
+  #output$Transition.Matrix.Table.1<-xtable::xtable(as.data.frame(Model.Chain.1.Overall))
+  #output$Table.1.df<-Table.1.df
+  #output$Nbr.Measures<-Nbr.Measures
+  #output$Nbr.Notes<-Nbr.Notes
+  #output$Notes.By.Measure<-Notes.By.Measure
+  #output$Notes.Duration<-Notes.Duration
+  #output$Note.Duration.Time.Series<-unlist(Notes.Duration)
+  #output$Notes.By.Step<-Notes.By.Step
+  #output$Notes.By.Octave<-Notes.By.Octave
+  #output$Notes.By.Octave<-Notes.By.Pitch
+  #output$Notes.Time.Series<-as.numeric(unlist(Notes.By.Step))
+  #output$Notes.Octave.Time.Series<-as.numeric(unlist(Notes.By.Octave))
+  #output$Notes.Pitch.Time.Series<-unlist(Notes.By.Pitch)
+  #output$Model.Chain.1<-Model.Chain.1
+  #output$Piano.Keys.Time.Series<-piano.keys
+  #output$Piano.Frequencies<-piano.frequencies
+  return(output)
+}
+test.Motif.Design.1<-Motif.Design.1(music.track.1)
+test.Motif.Design.1
+#
 #----------------------------------Network Designs-----------------------------------#
 Network.Model.1<-function(X)
  {
