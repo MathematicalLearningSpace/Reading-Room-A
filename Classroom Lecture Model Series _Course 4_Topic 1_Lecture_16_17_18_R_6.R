@@ -1,9 +1,7 @@
 #-------------------------------------------------------------------------#
 #--------------------Classroom Lecture Model Series-----------------------#
 #-------------------------------------------------------------------------#
-
 #--------------------Work In Progress-------------------------------------#
-
 #--------------------------R API-------------------------------------#
 #--------------------------Deep Learning-----------------------------#
 library(deepnet);library(darch);library(FCNN4R);
@@ -13,7 +11,9 @@ library(EbayesThresh);library(HMM);library(markovchain)
 library(XML);library(xml2);library(XML2R);library(seqinr);
 library(methods);library(dplyr);
 library(Matrix);library(pracma);library(expm)
-
+library(tuneR);library(seewave)
+library(music); library(tabr)
+library(wavelets)
 #---------------------------------------------------------------------#
 #------------------------------Data-----------------------------------#
 #---------------------------------------------------------------------#
@@ -107,7 +107,19 @@ Table.4.TeX<-xtable::xtable(Table.4.df)
 #---------------------------------------------------------------------#
 #------------------------------Figures--------------------------------#
 #---------------------------------------------------------------------#
-png(file = stringr::str_c('Figures//Example_',1,'_Figure_',1,'.png'))
+
+png(file = stringr::str_c('Figures/8/Example_',1,'_Figure_',1,'.png'))
+par(mfrow = c(2, 2))
+plot(Track.1.midi.Notes$note)
+hist(Track.2.midi.Notes$note)
+hist(Track.3.midi.Notes$note)
+hist(Track.4.midi.Notes$note)
+par(mfrow = c(1, 1))
+dev.off()
+
+
+
+png(file = stringr::str_c('Figures//Example_',1,'_Figure_',2,'.png'))
 op <- par(mfrow = c(2,2),mar=c(3,3,3,3))
 hist(W, main="Title 1",xlab="X Value")
 text(4, 9, expression(hat(theta) == (W^t))
