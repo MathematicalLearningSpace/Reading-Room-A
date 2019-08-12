@@ -69,7 +69,7 @@ mutate(Track.octave = substring(Sequence.Note, nchar(Sequence.Note)) %>% ifelse(
 
 Track.1.wav<-mapply(compose.wave.sine, Track.1$freq, Track.1$Seq.Duration,120) 
 
-Composition.Model.Classical.1<-function(X,Design.Pattern,Nbr.Measures,Note.Model,Duration.Model,Instruments)
+Composition.Model.Classical.1<-function(X,Design.Pattern,Nbr.Measures,Note.Model,Duration.Model,Model.Instruments)
  {
   Table.1.df<-data.frame(); Table.2.df<-data.frame(); Table.3.df<-data.frame();
   k<-4
@@ -87,9 +87,11 @@ Composition.Model.Classical.1<-function(X,Design.Pattern,Nbr.Measures,Note.Model
 test.Composition.Model.Classical.1<-Composition.Model.Classical.1("1")
 test.Composition.Model.Classical.1
 
-Composition.Model.Jazz.1<-function(X,Design.Pattern,Nbr.Measures,Note.Model,Duration.Model,Instruments)
+Composition.Model.Jazz.1<-function(X,Design.Pattern,Nbr.Measures,Note.Model,Duration.Model,Model.Instruments)
  {
   Table.1.df<-data.frame(); Table.2.df<-data.frame(); Table.3.df<-data.frame();
+  k<-4
+  Composition.Matrix.1.df<-as.data.frame(matrix(0,nrow=10^k,col=length(Model.Instruments)))
   
   for(i in 1:Nbr.Measures){}
   
