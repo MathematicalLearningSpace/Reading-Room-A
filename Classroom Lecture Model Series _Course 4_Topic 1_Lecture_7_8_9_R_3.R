@@ -19,6 +19,22 @@ library(sound);library(soundecology);library(soundgen)
 #------------------------------Data-----------------------------------#
 #---------------------------------------------------------------------#
 W<-data.frame();X<-data.frame();Y<-data.frame();Z<-data.frame();
+#---------------------Data Files in Music XML------------------------#
+album.1<-c("Composition 1.xml","Composition 2.xml","Composition 3.xml","Composition 4.xml","Composition 5.xml",
+            "Composition 6.xml","Composition 7.xml","Composition 8.xml","Composition 9.xml","Composition 10.xml")
+ #-------------------------------------------------#
+  #---Individual Tracks of Music Compositions---#
+  #-------------------------------------------------#
+  music.track.1<-read_xml(album.1[1])
+  music.track.2<-read_xml(album.1[2])
+  music.track.3<-read_xml(album.1[3])
+  music.track.4<-read_xml(album.1[4])
+  music.track.5<-read_xml(album.1[5])
+  music.track.6<-read_xml(album.1[6])
+  music.track.7<-read_xml(album.1[7])
+  music.track.8<-read_xml(album.1[8])
+  music.track.9<-read_xml(album.1[9])
+  music.track.10<-read_xml(album.1[10])
 #---------------------------------------------------------------------#
 #------------------------------Functions------------------------------#
 #---------------------------------------------------------------------#
