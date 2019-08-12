@@ -143,8 +143,15 @@ png(file = stringr::str_c('Figures//Example_',1,'_Figure_',1,'.png'))
 plot(Track.1.wav[1000:3000,1])
 dev.off()
 #--------------Figure 2----------------------------#
-#--------------Figure 3----------------------------#
 png(file = stringr::str_c('Figures//Example_',1,'_Figure_',2,'.png'))
+op <- par(mfrow = c(2,2),mar=c(3,3,3,3))
+plot(Composition.1[100:300,1])
+plot(Composition.2[100:300,1])
+plot(Composition.3[100:300,1])
+plot(Composition.4[100:300,1])
+dev.off()
+#--------------Figure 3----------------------------#
+png(file = stringr::str_c('Figures//Example_',1,'_Figure_',3,'.png'))
 op <- par(mfrow = c(2,2),mar=c(3,3,3,3))
 hist(W, main="Title 1",xlab="X Value")
 text(4, 9, expression(hat(theta) == (W^t))
