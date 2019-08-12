@@ -69,8 +69,22 @@ Table.4.TeX<-xtable::xtable(Table.4.df)
 #---------------------------------------------------------------------#
 #------------------------------Figures--------------------------------#
 #---------------------------------------------------------------------#
-
 png(file = stringr::str_c('Figures//Example_',1,'_Figure_',1,'.png'))
+op <- par(mfrow = c(3,3),mar=c(3,3,3,3))
+  plot(chain.1A,main="Markov Chain 1");legend("topright", legend = paste(seq(1:7),LETTERS[1:7]),lty = 1, cex = .8, y.intersp = 1)
+  plot(chain.2A,main="Markov Chain 2");legend("topright", legend = paste(seq(1:7),LETTERS[1:7]),lty = 1, cex = .8, y.intersp = 1)
+  plot(chain.3A,main="Markov Chain 3");legend("topright", legend = paste(seq(1:7),LETTERS[1:7]),lty = 1, cex = .8, y.intersp = 1)
+  plot(chain.4A,main="Markov Chain 4");legend("topright", legend = paste(seq(1:7),LETTERS[1:7]),lty = 1, cex = .8, y.intersp = 1)
+  plot(chain.5A,main="Markov Chain 5");legend("topright", legend = paste(seq(1:7),LETTERS[1:7]),lty = 1, cex = .8, y.intersp = 1)
+  plot(chain.6A,main="Markov Chain 6");legend("topright", legend = paste(seq(1:7),LETTERS[1:7]),lty = 1, cex = .8, y.intersp = 1)
+  plot(chain.7A,main="Markov Chain 7");legend("topright", legend = paste(seq(1:7),LETTERS[1:7]),lty = 1, cex = .8, y.intersp = 1)
+  plot(chain.8A,main="Markov Chain 8");legend("topright", legend = paste(seq(1:7),LETTERS[1:7]),lty = 1, cex = .8, y.intersp = 1)
+  plot(chain.9A,main="Markov Chain 9");legend("topright", legend = paste(seq(1:7),LETTERS[1:7]),lty = 1, cex = .8, y.intersp = 1)
+  plot(chain.10A,main="Markov Chain 9");legend("topright", legend = paste(seq(1:7),LETTERS[1:7]),lty = 1, cex = .8, y.intersp = 1)
+ par(op)
+dev.off()
+
+png(file = stringr::str_c('Figures//Example_',1,'_Figure_',2,'.png'))
 op <- par(mfrow = c(2,2),mar=c(3,3,3,3))
 hist(W, main="Title 1",xlab="X Value")
 text(4, 9, expression(hat(theta) == (W^t))
