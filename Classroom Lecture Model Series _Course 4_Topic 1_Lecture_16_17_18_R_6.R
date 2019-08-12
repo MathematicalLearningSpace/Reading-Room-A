@@ -18,6 +18,32 @@ library(Matrix);library(pracma);library(expm)
 #------------------------------Data-----------------------------------#
 #---------------------------------------------------------------------#
 W<-data.frame();X<-data.frame();Y<-data.frame();Z<-data.frame();
+#---------Introduction
+Track.1.midi<-readMidi("Composition_1.mid")
+#---------Part I
+Track.2.midi<-readMidi("Composition_2.mid")
+Track.3.midi<-readMidi("Composition_3.mid")
+Track.4.midi<-readMidi("Composition_4.mid")
+#---------Part II
+Track.5.midi<-readMidi("Composition_5.mid")
+Track.6.midi<-readMidi("Composition_6.mid")
+Track.7.midi<-readMidi("Composition_7.mid")
+#---------Part III
+Track.8.midi<-readMidi("Composition_8.mid")
+Track.9.midi<-readMidi("Composition_9.mid")
+#----------Conclusion
+Track.10.midi<-readMidi("Composition_10.mid")
+#----------------------------------Midi Processing
+Track.1.midi.Notes<-getMidiNotes(Track.1.midi)
+Track.2.midi.Notes<-getMidiNotes(Track.2.midi)
+Track.3.midi.Notes<-getMidiNotes(Track.3.midi)
+Track.4.midi.Notes<-getMidiNotes(Track.4.midi)
+Track.5.midi.Notes<-getMidiNotes(Track.5.midi)
+Track.6.midi.Notes<-getMidiNotes(Track.6.midi)
+Track.7.midi.Notes<-getMidiNotes(Track.7.midi)
+Track.8.midi.Notes<-getMidiNotes(Track.8.midi)
+Track.9.midi.Notes<-getMidiNotes(Track.9.midi)
+Track.10.midi.Notes<-getMidiNotes(Track.10.midi)
 #---------------------------------------------------------------------#
 #------------------------------Functions------------------------------#
 #---------------------------------------------------------------------#
