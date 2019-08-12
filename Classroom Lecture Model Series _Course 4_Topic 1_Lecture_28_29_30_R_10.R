@@ -1,7 +1,6 @@
 #-------------------------------------------------------------------------#
 #--------------------Classroom Lecture Model Series-----------------------#
 #-------------------------------------------------------------------------#
-
 #--------------------Work In Progress-------------------------------------#
 
 #--------------------------R API-------------------------------------#
@@ -30,10 +29,12 @@ W<-data.frame();X<-data.frame();Y<-data.frame();Z<-data.frame();
 
 #-----------Composition.Jazz.1------------------#
 
-Composition.Model.Jazz.1<-function(X)
+Composition.Model.Jazz.1<-function(X,NBR.Measures,Note.Model,Duration.Model)
  {
   Table.1.df<-data.frame(); Table.2.df<-data.frame(); Table.3.df<-data.frame();
   
+  for(i in 1:NBR.Measures}{}
+ 
   output<-list()
   output$X<-X
   output$Table.1<-Table.1.df
@@ -45,10 +46,12 @@ test.Composition.Model.Jazz.1<-Composition.Model.Jazz.1("1")
 test.Composition.Model.Jazz.1
 
 #-----------Composition.Jazz.2------------------#
-Composition.Model.Jazz.2<-function(X)
+Composition.Model.Jazz.2<-function(X,NBR.Measures,Note.Model,Duration.Model)
  {
   Table.1.df<-data.frame(); Table.2.df<-data.frame(); Table.3.df<-data.frame();
   
+  for(i in 1:NBR.Measures}{}
+ 
   output<-list()
   output$X<-X
   output$Table.1<-Table.1.df
@@ -59,10 +62,12 @@ Composition.Model.Jazz.2<-function(X)
 test.Composition.Model.Jazz.2<-Composition.Model.Jazz.2("1")
 test.Composition.Model.Jazz.2
 #-----------Composition.Romantic.1--------------#
-Composition.Model.Romantic.1<-function(X)
+Composition.Model.Romantic.1<-function(X,NBR.Measures,Note.Model,Duration.Model)
  {
   Table.1.df<-data.frame(); Table.2.df<-data.frame(); Table.3.df<-data.frame();
-  
+ 
+  for(i in 1:NBR.Measures}{}
+ 
   output<-list()
   output$X<-X
   output$Table.1<-Table.1.df
@@ -70,7 +75,7 @@ Composition.Model.Romantic.1<-function(X)
   output$Table.3<-Table.3.df
   return(output)
  }
-test.Composition.Model.Romantic.1<-Composition.Model.Romantic.1("1")
+test.Composition.Model.Romantic.1<-Composition.Model.Romantic.1("1",32,sample(c("A","B"),128,replace=TRUE),rep(1,128))
 test.Composition.Model.Romantic.1
 #---------------------------------------------------------------------#
 #------------------------------Analysis-------------------------------#
