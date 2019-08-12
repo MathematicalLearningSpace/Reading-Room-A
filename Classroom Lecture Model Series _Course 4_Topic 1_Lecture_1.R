@@ -20,7 +20,6 @@ library(PearsonDS);library(xtable);library(psych);library(adwave);
 library(biwavelet)
 #----------------------Parallel Processing---------------------------#
 library(parallel);library(microbenchmark)
-
 #----------------------------------Data------------------------------#
 #---------------------Data Files in Music XML------------------------#
 album.1<-c("A.xml","B.xml","C.xml","D.xml","E.xml","F.xml","G.xml","H.xml","I.xml","J.xml")
@@ -37,22 +36,47 @@ music.track.7<-read_xml(album.1[7])
 music.track.8<-read_xml(album.1[8])
 music.track.9<-read_xml(album.1[9])
 music.track.10<-read_xml(album.1[10])
-
-#----------------------------------Transformations-----------------------------------#
+#------------------------Wave Files---------------#
+  Waves<-list.files()
+  Tracks<-list()
+  for(i in 1:length(Waves))
+  {
+    Tracks[[i]]<-readWave(Waves[[i]])
+  }
+#-Transformations-----------------------------------#
+Transformations.1<-function(Tracks)
+{
+  #------------------------Functions
+  X.ACI.1<-lapply(Tracks,function(x) ACI(x, nbwindows=4))
+  X.Duration.1<-lapply(Tracks,function(x) duration(x))
+  X.ZCR.1<-lapply(Tracks,function(x) zcr(x,plot=FALSE))
+  X.Entropy.1<-lapply(Tracks,function(x) {y<-env(x,plot=FALSE); th(y)})
+  X.OSCillo.1<-lapply(Tracks,function(x) {oscillo(x,plot=FALSE)})
+  X.TKEO.1<-lapply(Tracks,function(x) {TKEO(x,plot=FALSE)})
+  X.dFreq.1<-lapply(Tracks,function(x) {dfreq(x,plot=FALSE)})
+  X.Curve.1<-lapply(Tracks, function(x){x<-meanspec(x,f=44100,plot=FALSE);roughness(x)})
+  Ratio.Designs.df<-as.data.frame(cbind(unlist(X.ACI.1),unlist(X.Entropy.1),unlist(X.Curve.1)))
+  output<-list()
+ 	output$X<-X
+ 	output$Table.1.TeX<-Table.1.Tex<-xtable::xtable(Ratio.Designs.df)
+  return(output)
+}
+test.Transformations.1<-Transformations.1(Tracks)
+test.Transformations.1
 
 #----------------------------------User Defined Modules and Functions----------------#
 Acoustic.Complexity.Index<-function(X,Window.Width)
   {
   Acoustic.Complexity.Local<-0
   Acoustic.Complexity.Global<-0
- 
+  X.ACI.1<-lapply(X,function(x) ACI(x, nbwindows=Window.Width))
   output<-list()
+  output$ACI.4<-X.ACI.1
  	output$Acoustic.Complexity.Local<-Acoustic.Complexity.Local
  	output$Acoustic.Complexity.Local<-Acoustic.Complexity.Global
   return(output)
   }
-
-test.Acoustic.Complexity.Index<-Acoustic.Complexity.Index(X,3)
+test.Acoustic.Complexity.Index<-Acoustic.Complexity.Index(Tracks,3)
 test.Acoustic.Complexity.Index
 
 #-----------------------------------Music Model--------------------------------------#
@@ -107,8 +131,10 @@ test.Music.Model.1
 #----------------------------------Network Designs-----------------------------------#
 Network.Model.1<-function(X,Visualization=FALSE)
 {
- 
+  Table.1.df<-data.frame()
+  
   output<-list()
+  output$Table.1.TeX<-xtable::xtable(Table.1.df)
   return(output)
 }  
 test.Network.Model.1<-Network.Model.1("1",FALSE)
@@ -116,8 +142,10 @@ test.Network.Model.1
 #----------------------------------Equation Systems----------------------------------#
 Equation.System.Model.1<-function(X,Visualization=FALSE)
 {
- 
+  Table.1.df<-data.frame()
+  
   output<-list()
+  output$Table.1.TeX<-xtable::xtable(Table.1.df)
   return(output)
 }  
 test.Equation.System.Model.1<-Equation.System.Model.1("1",FALSE)
@@ -127,8 +155,10 @@ test.Equation.System.Model.1
 #----------------------------------Network Analysis----------------------------------#
 Network.Model.Analysis.1<-function(X,Visualization=FALSE)
 {
- 
+ Table.1.df<-data.frame()
+  
   output<-list()
+  output$Table.1.TeX<-xtable::xtable(Table.1.df)
   return(output)
 }  
 test.Network.Model.Analysis.1<-Network.Model.Analysis.1("1",FALSE)
@@ -136,8 +166,10 @@ test.Network.Model.Analysis.1
 #----------------------------------Optimization--------------------------------------#
 Model.Optimization.1<-function(X,Visualization=FALSE)
 {
- 
+ Table.1.df<-data.frame()
+  
   output<-list()
+  output$Table.1.TeX<-xtable::xtable(Table.1.df)
   return(output)
 }  
 test.Model.Optimization.1<-Model.Optimization.1("1",FALSE)
