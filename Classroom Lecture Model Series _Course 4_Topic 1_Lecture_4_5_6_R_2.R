@@ -147,7 +147,7 @@ test.Language.Natural.Model.1<-Language.Natural.Model.1("1")
 test.Language.Natural.Model.1
 #----------------------------------Tables--------------------------------------------#
 #----------Table 1------#
-Table.1.df<-as.data.frame(matrix(0,nrow=3,ncol=3)
+Table.1.df<-as.data.frame(matrix(0,nrow=3,ncol=3))
 colnames(Table.1.df)<-Letters[1:3]
 
 Table.1.TeX<-xtable::xtable(Table.1.df)
