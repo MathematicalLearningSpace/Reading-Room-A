@@ -40,10 +40,31 @@ music.track.7<-read_xml(album.1[7])
 music.track.8<-read_xml(album.1[8])
 music.track.9<-read_xml(album.1[9])
 music.track.10<-read_xml(album.1[10])
+#------------------------Wave Files---------------#
+Waves<-list.files()
+Tracks<-list()
+for(i in 1:length(Waves))
+{
+Tracks[[i]]<-readWave(Waves[[i]])
+}
+
 
 #---------------------------------------------------------------------#
 #------------------------------Functions------------------------------#
 #---------------------------------------------------------------------#
+
+Spec.1<-spectrum(Tracks[[1]]@left[1:100])
+Spec.2<-spectrum(Tracks[[2]]@left[1:100])
+Spec.3<-spectrum(Tracks[[3]]@left[1:100])
+Spec.4<-spectrum(Tracks[[4]]@left[1:100])
+Spec.5<-spectrum(Tracks[[5]]@left[1:100])
+Spec.6<-spectrum(Tracks[[6]]@left[1:100])
+Spec.7<-spectrum(Tracks[[7]]@left[1:100])
+Spec.8<-spectrum(Tracks[[8]]@left[1:100])
+Spec.9<-spectrum(Tracks[[9]]@left[1:100])
+Spec.10<-spectrum(Tracks[[10]]@left[1:100])
+
+
   Z.dwt.1 <- wavelets::dwt(as.numeric(Z), filter = "la8")
   Z.dwt.2 <- wavelets::dwt(as.numeric(Z), filter = "d4")
   Z.dwt.3 <- wavelets::dwt(as.numeric(Z), filter = "haar")
@@ -139,11 +160,11 @@ Table.4.TeX<-xtable::xtable(Table.4.df)
 #---------------------------------------------------------------------#
 
 #--------------Figure 1----------------------------#
-png(file = stringr::str_c('Figures//Example_',1,'_Figure_',1,'.png'))
+png(file = stringr::str_c('Figures/1/Example_',1,'_Figure_',1,'.png'))
 plot(Track.1.wav[1000:3000,1])
 dev.off()
 #--------------Figure 2----------------------------#
-png(file = stringr::str_c('Figures//Example_',1,'_Figure_',2,'.png'))
+png(file = stringr::str_c('Figures/1/Example_',1,'_Figure_',2,'.png'))
 op <- par(mfrow = c(2,2),mar=c(3,3,3,3))
 plot(Composition.1[100:300,1])
 plot(Composition.2[100:300,1])
@@ -151,7 +172,7 @@ plot(Composition.3[100:300,1])
 plot(Composition.4[100:300,1])
 dev.off()
 #--------------Figure 3----------------------------#
-png(file = stringr::str_c('Figures//Example_',1,'_Figure_',3,'.png'))
+png(file = stringr::str_c('Figures/1/Example_',1,'_Figure_',3,'.png'))
 op <- par(mfrow = c(2,2),mar=c(3,3,3,3))
 hist(W, main="Title 1",xlab="X Value")
 text(4, 9, expression(hat(theta) == (W^t))
@@ -164,5 +185,33 @@ hist(Z, main="Title 4",xlab="Note Value")
 legend("topright", legend = paste(seq(1:7),LETTERS[1:7]),lty = 1, cex = .8, y.intersp = 1)
 par(op)
 dev.off()
+#--------------Figure 4----------------------------#
+png(file = stringr::str_c('Figures/1/Example_',2,'_Figure_',1,'.png'))
+par(mfrow = c(2, 2))
+Spec.1<-spectrum(Track.1.wave@left[1:100])
+Spec.2<-spectrum(Track.2.wave@left[1:100])
+Spec.3<-spectrum(Track.3.wave@left[1:100])
+Spec.4<-spectrum(Track.4.wave@left[1:100])
+par(mfrow = c(1, 1))
+dev.off()
+#--------------Figure 5----------------------------#
+png(file = stringr::str_c('Figures/1/Example_',3,'_Figure_',1,'.png'))
+par(mfrow = c(2, 2))
+phaseplot2(Track.1.wave, tau=1)
+phaseplot2(Track.1.wave, tau=2)
+phaseplot2(Track.1.wave, tau=3)
+phaseplot2(Track.1.wave, tau=4)
+par(mfrow = c(1, 1))
+dev.off()
+#--------------Figure 6----------------------------#
+png(file = stringr::str_c('Figures/1/Example_',4,'_Figure_',1,'.png'))
+par(mfrow = c(2, 2))
+plot(mra.out@D$D1)
+plot(mra.out@D$D2)
+plot(mra.out@D$D3)
+plot(mra.out@D$D3)
+par(mfrow = c(1, 1))
+dev.off()
+
 
 
