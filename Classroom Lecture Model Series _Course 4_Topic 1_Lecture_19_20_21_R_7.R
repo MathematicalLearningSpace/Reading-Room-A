@@ -20,6 +20,14 @@ library(sound);library(soundecology);library(soundgen);
 W<-data.frame();X<-data.frame();Y<-data.frame();Z<-data.frame();
 Table.1<-data.frame();Table.2<-data.frame();Table.3<-data.frame();Table.4<-data.frame();
 Table.5<-data.frame();Table.6<-data.frame();Table.7<-data.frame();Table.8<-data.frame();
+#------------------------Wave Files---------------#
+ Waves<-list.files()
+ Tracks<-list()
+ for(i in 1:length(Waves))
+ {
+    Tracks[[i]]<-readWave(Waves[[i]])
+ }
+
 #---------------------------------------------------------------------#
 #------------------------------Functions------------------------------#
 #---------------------------------------------------------------------#
