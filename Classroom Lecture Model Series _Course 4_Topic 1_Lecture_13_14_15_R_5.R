@@ -79,13 +79,16 @@ Spec.8<-spectrum(Tracks[[8]]@left[1:100])
 Spec.9<-spectrum(Tracks[[9]]@left[1:100])
 Spec.10<-spectrum(Tracks[[10]]@left[1:100])
 
+Z.dwt.1 <- wavelets::dwt(as.numeric(Z), filter = "la8")
+Z.dwt.2 <- wavelets::dwt(as.numeric(Z), filter = "d4")
+Z.dwt.3 <- wavelets::dwt(as.numeric(Z), filter = "haar")
+Z.dwt.4 <- wavelets::dwt(as.numeric(Z), filter = "c6")
 
-  Z.dwt.1 <- wavelets::dwt(as.numeric(Z), filter = "la8")
-  Z.dwt.2 <- wavelets::dwt(as.numeric(Z), filter = "d4")
-  Z.dwt.3 <- wavelets::dwt(as.numeric(Z), filter = "haar")
-  Z.dwt.4 <- wavelets::dwt(as.numeric(Z), filter = "c6")
-  Z.dwt.list <- list( Z.dwt.1,  Z.dwt.2,  Z.dwt.3,  Z.dwt.4)
-  mra.out <- wavelets::mra(as.numeric(Z), n.levels=3, boundary="reflection")
+Z.dwt.list <- list( Z.dwt.1,  Z.dwt.2,  Z.dwt.3,  Z.dwt.4)
+
+mra.out <- wavelets::mra(as.numeric(Z), n.levels=3, boundary="reflection")
+mra.out <- mra(as.ts(Track.1.wave@left[1:100]), n.levels=3, boundary="reflection")
+
 #---------------------------------------------------------------------#
 #------------------------------Models---------------------------------#
 #---------------------------------------------------------------------#
