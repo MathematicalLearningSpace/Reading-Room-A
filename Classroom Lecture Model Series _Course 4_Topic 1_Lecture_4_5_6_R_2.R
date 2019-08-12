@@ -1,21 +1,62 @@
+#--------------------Classroom Lecture Model Series-----------------------#
+#-------------------------------------------------------------------------#
+#--------------------Work In Progress-------------------------------------#
 #-------------------------------------------------------------------------#
 library(XML);library(xml2);library(XML2R);library(seqinr);
 library(methods);library(dplyr);
 library(Matrix);library(pracma);library(expm);
 library(dplyr);library(audio);library(seewave)
 library(sound);library(soundecology);library(soundgen)
-#--------------------Classroom Lecture Model Series-----------------------#
-#-------------------------------------------------------------------------#
+#-----------------------------------Design Matrix---------------------
+require(HMM);require(msm);require(ggraph);require(RJaCGH);
+require(SemiMarkov);require(surveillance);require(depmixS4)
+require(markovchain);require(XML);require(xml2)
 
-#--------------------Work In Progress-------------------------------------#
 #----------------------------------R Source Files------------------------------------#
 
 #----------------------------------Data----------------------------------------------#
 W<-data.frame();X<-data.frame();Y<-data.frame();Z<-data.frame();
+ #---------------------Data Files in Music XML------------------------#
+ album.1<-c("Composition 1.xml","Composition 2.xml","Composition 3.xml","Composition 4.xml","Composition 5.xml",
+            "Composition 6.xml","Composition 7.xml","Composition 8.xml","Composition 9.xml","Composition 10.xml")
+ #-------------------------------------------------#
+  #---Individual Tracks of Music Compositions---#
+  #-------------------------------------------------#
+  music.track.1<-read_xml(album.1[1])
+  music.track.2<-read_xml(album.1[2])
+  music.track.3<-read_xml(album.1[3])
+  music.track.4<-read_xml(album.1[4])
+  music.track.5<-read_xml(album.1[5])
+  music.track.6<-read_xml(album.1[6])
+  music.track.7<-read_xml(album.1[7])
+  music.track.8<-read_xml(album.1[8])
+  music.track.9<-read_xml(album.1[9])
+  music.track.10<-read_xml(album.1[10])
+  
 #----------------------------------Transformations-----------------------------------#
 
 #----------------------------------User Defined Modules and Functions----------------#
-
+Module.Music.1<-function(music.track)
+{
+  tag.remove <- function(tag) {
+    return(gsub("<.*?>", "", tag))
+  }
+  notes.1<-tag.remove(xml_find_all(music.track, ".//note//step"))
+  output<-list()
+  #output$Model.1<-Model.1
+  #output$Model.1A<-Model.2
+  #output$Chain.1<-chain.1
+  #output$Chain.1A<-chain.1A
+  #output$Model.1.LogLikelihood<-Model.1$logLikelihood
+  #output$Transition.Matrix<-Transition.Matrix
+  #output$Table.1<-xtable::xtable(as.data.frame(Table.1))
+  #output$Transition.Matrix.Table.1<-xtable::xtable(as.data.frame(Model.1$estimate@transitionMatrix))
+  #output$Transition.Matrix.Table.1A<-xtable::xtable(as.data.frame(Model.1A$estimate@transitionMatrix))
+  #output$Transition.Matrix.Table.2<-xtable::xtable(as.data.frame(Transition.Matrix))
+  return(output)
+}
+test.Module.Music.1<-Module.Music.1(music.track.1)
+test.Module.Music.1
 #----------------------------------Network Designs-----------------------------------#
 Network.Model.1<-function(X)
  {
