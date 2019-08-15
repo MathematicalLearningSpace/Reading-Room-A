@@ -201,7 +201,28 @@ Table.4.TeX<-xtable::xtable(Table.4.df)
 #----------------------------------Figures-------------------------------------------#
 
 #----------Figure 1 Group A---------#
-
+#png(file = stringr::str_join("Figures//1//Example_",1,"_Figure_","0A",".png"))
+plot(system.equation.model.test.solution.1[,2], type="l", main="Time and Phase")
+lines(system.equation.model.test.solution.1[,3],lty = 1)
+lines(system.equation.model.test.solution.1[,4],lty = 2)
+lines(system.equation.model.test.solution.1[,5],lty = 3)
+lines(system.equation.model.test.solution.1[,6],lty = 4)
+lines(system.equation.model.test.solution.1[,7],lty = 5)
+lines(system.equation.model.test.solution.1[,8],lty = 6)
+legend("bottomleft", legend = paste(seq(1:8),Model.Names[2:9]),lty = 1:8, cex = .5, y.intersp = 1)
+#dev.off()
+#png(file = stringr::str_join("Figures//1//Example_",2,"_Figure_","0A",".png"))
+plot(Model.Optimization.GA.Summary$solution, type="l", main="Optimal Path")
+legend("bottomleft", legend = paste("A-","Phase"),lty = 1:8, cex = .5, y.intersp = 1)
+#dev.off()
+#png(file = stringr::str_join("Figures//1//Example_",3,"_Figure_","0A",".png"))
+plot(Model.1, type="l", main="Time Variation")
+legend("bottomleft", legend = paste("A-","Time"),lty = 1:1, cex = .5, y.intersp = 1)
+#dev.off()
+#------------------------Correlation Matrix ------------------------------------
+#png(file = stringr::str_join("Figures//1//Example_",4,"_Figure_","0A",".png"))
+#car::scatterplotMatrix(system.equation.model.test.solution.1[,4:8])
+#dev.off()
 #----------Figure 2 Group B---------#
 
 #----------Figure 3 Group C---------#
