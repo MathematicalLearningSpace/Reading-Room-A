@@ -1,9 +1,7 @@
 #-------------------------------------------------------------------------#
 #--------------------Classroom Lecture Model Series-----------------------#
 #-------------------------------------------------------------------------#
-
 #--------------------Work In Progress-------------------------------------#
-
 #------------------------------R API----------------------------------#
 library(deSolve);library(ReacTran);library(rootSolve);
 library(fda);library(phaseR)
@@ -27,6 +25,14 @@ F.Dysplasia.Path.2<-c(PI3K, PIP3, AKT, mTOR, p53, S6K, BCL2)
 G.Dysplasia.Path.3<-c(TGF.Beta,TGF.BetaRI,TGF.BetaRII, SMAD.2, SMAD.4, p15, p21)
 H.Normal.Gastic.Muscosa.1<-c(HGF, c.MET, GRB2, SOS, RAS, RAF, MEK, ERK.1)
 I.Normal.Gastic.Muscosa.Survival.Path.1<-c(FGF, FGFR2, GAB1, PI3K, PIP3, AKT, mTOR, GSK.3Beta)
+
+#------------------------------Noise----------------------------------#
+noise.white<- noise(kind = c("white"))
+noise.pink<-noise(kind = c("pink"))
+noise.5.4<-noise(kind = c("power"), alpha=(5/4))
+noise.7.4<-noise(kind=c("power"),alpha=(7/4))
+noise.red<-noise(kind = c("red"))
+noise.8.4<-noise(kind=c("power"),alpha=(8/4))
 
 #---------------------------------------------------------------------#
 #-----------------------Review Notes----------------------------------#
