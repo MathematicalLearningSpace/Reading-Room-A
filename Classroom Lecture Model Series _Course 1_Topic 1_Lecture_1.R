@@ -2,7 +2,6 @@
 #--------------------Classroom Lecture Model Series-----------------------#
 #-------------------------------------------------------------------------#
 #----------------------Work In Progress--------------------#
-
 library(deSolve);library(ReacTran);library(rootSolve);
 library(fda);library(phaseR);library(pracma);
 library(xtable);library(GA);library(igraph);library(pracma};library(readr);require(BioMedR)
@@ -32,9 +31,7 @@ params.1<-c(a11=0.1,a12=0.1,a13=0.1,a14=0.1,a15=0.1,a16=0.1,
             a61=0.1,a62=0.1,a63=0.1,a64=0.1,a65=0.1,a66=0.1)
 
 params.epsilon.1<-c(epsilon1,epsilon2,epsilon3)
-					    
-						    
-						    
+					    					    
 #---------------------------Review Notes--------------------------#
 						    
 #---Example from PubChem for the Classroom-------------------------------------------#
