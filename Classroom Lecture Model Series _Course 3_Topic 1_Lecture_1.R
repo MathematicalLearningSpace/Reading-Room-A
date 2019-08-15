@@ -1,17 +1,13 @@
 #-------------------------------------------------------------------------#
 #--------------------Classroom Lecture Model Series-----------------------#
 #-------------------------------------------------------------------------#
-
 #----------------------------------R Source Files------------------------------------#
-
 #-------------------------R API----------------------#
 library(easyPubMed);library(bio3d);library(readr);library(CHNOSZ);
 library(stringr);library(Peptides);library(Biostrings)
 library(seqinr);library(seqLogo);library(msa);library(ape);
 library(dtw);library(dtwclust);library(odseq);library(rphast)
 library(plyr)
-
-
 #----------------------------------Data----------------------------------------------#
 W<-data.frame();X<-data.frame();Y<-data.frame();Z<-data.frame();
 #----------------------------------Transformations-----------------------------------#
@@ -29,7 +25,10 @@ Transformation.1<-function(X)
 test.Transformation.1<-Transformation.1("1")
 test.Transformation.1
 #----------------------------------User Defined Modules and Functions----------------#
-
+F.1<-function(x)
+ {
+   return(x)
+ }
 #----------------Ribosomes-----------------#
 Ribosome.Model.1<-function(X)
  {
@@ -161,8 +160,16 @@ test.Analysis.Model.1
 #----------------------------------Optimization--------------------------------------#
 Optimization.Model.1<-function(X)
  {
-  Table.1.df<-data.frame(); Table.2.df<-data.frame(); Table.3.df<-data.frame();
-  
+Table.1.df<-data.frame(); Table.2.df<-data.frame(); Table.3.df<-data.frame();
+Model.Optimization.GA.2 <- ga(type = "real-valued", fitness =  function(x) - F.1(x[1]),min = 0, max =1, popSize = 10, maxiter = 3)
+Model.Optimization.GA.Summary<-summary(Model.Optimization.GA.2)
+Model.Optimization.GA.Summary$popSize
+Model.Optimization.GA.Summary$maxiter
+Model.Optimization.GA.Summary$elitism
+Model.Optimization.GA.Summary$pcrossover
+Model.Optimization.GA.Summary$pmutation
+Model.Optimization.GA.Summary$fitness
+Model.Optimization.GA.Summary$solution
   output<-list()
   output$X<-X
   output$Table.1<-Table.1.df
