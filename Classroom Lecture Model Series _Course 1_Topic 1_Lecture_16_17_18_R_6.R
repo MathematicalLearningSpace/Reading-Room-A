@@ -1,15 +1,12 @@
 #-------------------------------------------------------------------------#
 #--------------------Classroom Lecture Model Series-----------------------#
 #-------------------------------------------------------------------------#
-
 #--------------------Work In Progress-------------------------------------#
-
 #------------------------------R API----------------------------------#
 library(deSolve);library(ReacTran);library(rootSolve);
 library(fda);library(phaseR)
 library(pracma);library(GA);library(igraph)
 library(NMOF);library(xtable);
-
 library(OptimalCutpoints);library(Rsolnp);library(NMOF);
 library(PearsonDS)
 library(rcellminer)
@@ -27,6 +24,18 @@ Oncogenes.Example <- c("ABL1", "ALK", "BRAF", "CCND1", "CCND3", "CCNE1", "CCNE2"
                        "WNT5B", "WNT10A", "WNT11", "WNT2", "WNT1", "WNT7B", "WISP1", 
                        "WNT8B", "WNT7A", "WNT16", "WISP2", "WISP3", "FZD5", "FZD1")
 
+
+#-----------------------------Parameter Model-------------------------#
+params.1<-c(a11=0.1,a12=0.1,a13=0.1,a14=0.1,a15=0.1,a16=0.1,
+            a21=0.1,a22=0.1,a23=0.1,a24=0.1,a25=0.1,a26=0.1,
+            a31=0.1,a32=0.1,a33=0.1,a34=0.1,a35=0.1,a36=0.1,
+            a41=0.1,a42=0.1,a43=0.1,a44=0.1,a45=0.1,a46=0.1,
+            a51=0.1,a52=0.1,a53=0.1,a54=0.1,a55=0.1,a56=0.1,
+            a61=0.1,a62=0.1,a63=0.1,a64=0.1,a65=0.1,a66=0.1)
+
+params.epsilon.1<-c(epsilon1,epsilon2,epsilon3)
+
+#-------------------------------NCI-60 Data--------------#
 drugAct <- exprs(getAct(rcellminerData::drugData))
 molData <- getMolDataMatrices()
 plots <- c("mut", "drug", "cop", "xai", "pro")
