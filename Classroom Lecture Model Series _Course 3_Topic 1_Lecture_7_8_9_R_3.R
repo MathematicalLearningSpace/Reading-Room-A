@@ -46,10 +46,17 @@ test.Review.Notes.1
 #---------------------------------------------------------------------#
 
 #--------Normal Mode Analysis-----------------#
-NMA.Model.1<-function(X)
+NMA.Model.1<-function(X,visualization=FALSE)
  {
   Table.1.df<-data.frame(); Table.2.df<-data.frame(); Table.3.df<-data.frame();
   
+  if(visualization)
+   {
+   #------------------------Correlation Matrix ------------------------------------
+    #png(file = stringr::str_join("Figures//1//Example_",1,"_Figure_","A",".png"))
+    #car::scatterplotMatrix(Feature.Matrix.1[,k1:k2])
+    #dev.off()
+   }
   output<-list()
   output$X<-X
   output$Table.1<-Table.1.df
@@ -60,10 +67,17 @@ NMA.Model.1<-function(X)
 test.NMA.Model.1<-NMA.Model.1("1")
 test.NMA.Model.1
 #--------Compound Discovery Design------------#
-CCD.Model.1<-function(X)
+CCD.Model.1<-function(X,visualization=FALSE)
  {
   Table.1.df<-data.frame(); Table.2.df<-data.frame(); Table.3.df<-data.frame();
   
+  if(visualization)
+   {
+   #------------------------Correlation Matrix ------------------------------------
+    #png(file = stringr::str_join("Figures//1//Example_",1,"_Figure_","A",".png"))
+    #car::scatterplotMatrix(Feature.Matrix.1[,k1:k2])
+    #dev.off()
+   }
   output<-list()
   output$X<-X
   output$Table.1<-Table.1.df
@@ -74,10 +88,19 @@ CCD.Model.1<-function(X)
 test.CCD.Model.1<-CCD.Model.1("1")
 test.CCD.Model.1
 #--------QSAR Models--------------------------#
-QSAR.Model.1<-function(X)
+QSAR.Model.1<-function(X,visualization=FALSE)
  {
   Table.1.df<-data.frame(); Table.2.df<-data.frame(); Table.3.df<-data.frame();
-  
+  Feature.Matrix.1<-X 
+ 
+  if(visualization)
+   {
+   #------------------------Correlation Matrix ------------------------------------
+    #png(file = stringr::str_join("Figures//1//Example_",1,"_Figure_","A",".png"))
+    #car::scatterplotMatrix(Feature.Matrix.1[,k1:k2])
+    #dev.off()
+   }
+ 
   output<-list()
   output$X<-X
   output$Table.1<-Table.1.df
