@@ -24,11 +24,31 @@ library(corrplot);library(plot3D);library(scatterplot3d);library(rgl)
 library(koRpus);library(topicmodels);library(tm);library(XML);library(slam)
 library(lattice);library(dplyr);library(tidyr);require(ggplot2);require(igraph)
 
-Application.1<-function(X)
+Cancer.Application.1<-function(X,visualization=FALSE,ODE.TYPE)
  {
  Table.1.df<-data.frame(); Table.2.df<-data.frame(); Table.3.df<-data.frame();
-  
- 
+ Model.1<-function(parms.1,initial.1,timeline.1)
+  {
+     if(ODE.Type=="ODE")
+     {}
+    
+   list(c())
+  }
+ if(visualization}
+    {
+     png(file = stringr::str_c('Figures/1/Example_',1,'_Figure_',1,'.png'))
+     plot(solution.1[,-1], type = "l")
+     dev.off()
+     png(file = stringr::str_c('Figures/1/Example_',2,'_Figure_',2,'.png'))
+     plot(solution.1[,-1], type = "l")
+     dev.off()
+     png(file = stringr::str_c('Figures/1/Example_',3,'_Figure_',3,'.png'))
+     plot(solution.1[,-1], type = "l")
+     dev.off()
+     png(file = stringr::str_c('Figures/1/Example_',4,'_Figure_',4,'.png'))
+     plot(solution.1[,-1], type = "l")
+     dev.off()
+    }
  
   output<-list()
   output$X<-X
@@ -38,8 +58,8 @@ Application.1<-function(X)
   return(output)
  
  }
-test.Application.1<-Application.1("1")
-test.Application.1
+test.Cancer.Application.1<-Cancer.Application.1("1",FALSE)
+test.Cancer.Application.1
 #---------------------------------------------------------------------#
 #------------------------------Data-----------------------------------#
 #---------------------------------------------------------------------#
@@ -215,10 +235,31 @@ dev.off()
 require(PearsonDS);require(stats);require(graphics);require(phaseR)
 require(deSolve);require(car);require(xtable);require(tuneR);require(yuima);
      
-Application.2<-function(X)
+Cancer.Application.2<-function(X,visualization=FALSE,ODE.TYPE="ODE")
  {
  Table.1.df<-data.frame(); Table.2.df<-data.frame(); Table.3.df<-data.frame();
-  
+   Model.1<-function(parms.1,initial.1,timeline.1)
+  {
+     if(ODE.Type=="ODE")
+     {}
+    
+   list(c())
+  }
+ if(visualization}
+    {
+     png(file = stringr::str_c('Figures/1/Example_',1,'_Figure_',1,'.png'))
+     plot(solution.1[,-1], type = "l")
+     dev.off()
+     png(file = stringr::str_c('Figures/1/Example_',2,'_Figure_',2,'.png'))
+     plot(solution.1[,-1], type = "l")
+     dev.off()
+     png(file = stringr::str_c('Figures/1/Example_',3,'_Figure_',3,'.png'))
+     plot(solution.1[,-1], type = "l")
+     dev.off()
+     png(file = stringr::str_c('Figures/1/Example_',4,'_Figure_',4,'.png'))
+     plot(solution.1[,-1], type = "l")
+     dev.off()
+    }
 
   output<-list()
   output$X<-X
@@ -228,15 +269,14 @@ Application.2<-function(X)
   return(output)
  
  }
-test.Application.2<-Application.2("1")
-test.Application.2     
+test.Cancer.Application.2<-Cancer.Application.2("1",FALSE)
+test.Cancer.Application.2     
      
 #--------------Review Notes-------#
 Review.Notes<-function(X)
  {
  Table.1.df<-data.frame(); Table.2.df<-data.frame(); Table.3.df<-data.frame();
   
- 
  
   output<-list()
   output$X<-X
@@ -389,10 +429,31 @@ dev.off()
 require(DiffusionRimp);require(Langevin);
 require(HMM);require(markovchain);
 
-Application.3<-function(X)
+Cancer.Application.3<-function(X,visualization=FALSE,ODE.TYPE="ODE")
  {
  Table.1.df<-data.frame(); Table.2.df<-data.frame(); Table.3.df<-data.frame();
-  
+   Model.1<-function(parms.1,initial.1,timeline.1)
+  {
+     if(ODE.Type=="ODE")
+     {}
+    
+   list(c())
+  }
+ if(visualization}
+    {
+     png(file = stringr::str_c('Figures/1/Example_',1,'_Figure_',1,'.png'))
+     plot(solution.1[,-1], type = "l")
+     dev.off()
+     png(file = stringr::str_c('Figures/1/Example_',2,'_Figure_',2,'.png'))
+     plot(solution.1[,-1], type = "l")
+     dev.off()
+     png(file = stringr::str_c('Figures/1/Example_',3,'_Figure_',3,'.png'))
+     plot(solution.1[,-1], type = "l")
+     dev.off()
+     png(file = stringr::str_c('Figures/1/Example_',4,'_Figure_',4,'.png'))
+     plot(solution.1[,-1], type = "l")
+     dev.off()
+    }
  
  
   output<-list()
@@ -403,8 +464,8 @@ Application.3<-function(X)
   return(output)
  
  }
-test.Application.3<-Application.3("1")
-test.Application.3     
+test.Cancer.Application.3<-Cancer.Application.3("1",FALSE)
+test.Cancer.Application.3     
      
 #---------------------------------------------------------------------#
 #------------------------------Data-----------------------------------#
