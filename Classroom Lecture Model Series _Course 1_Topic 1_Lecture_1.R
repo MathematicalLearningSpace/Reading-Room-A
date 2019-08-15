@@ -86,9 +86,25 @@ return(output)
 #------------------------------------------------------------------------------------#
 Module.1<-function(X)
 {
+	F.1<-function(X){output<-list();output$X<-X; return(output)}
+	F.2<-function(X){output<-list();output$X<-X; return(output)}
+	F.3<-function(X){output<-list();output$X<-X; return(output)}
+	F.4<-function(X){output<-list();output$X<-X; return(output)}
+	F.5<-function(X){output<-list();output$X<-X; return(output)}
+	
+	Z1<-F.1(X)$X
+	Z2<-F.2(Z1)$X
+	Z3<-F.3(Z2)$X
+	Z4<-F.4(Z3)$X
+	Z5<-F.5(Z4)$X
+	
 output<-list()
+output$X<-X
+output$Z5<-Z5
 return(output)
 }
+test.Module.1<-Module.1(c(1,1))
+test.Module.1
 #------------------------------------------------------------------------------------#
 #----------------------------------Network Designs-----------------------------------#
 #------------------------------------------------------------------------------------#
