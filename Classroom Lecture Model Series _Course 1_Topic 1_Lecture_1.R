@@ -20,15 +20,6 @@ G.Dysplasia.Path.3<-c(TGF.Beta,TGF.BetaRI,TGF.BetaRII, SMAD.2, SMAD.4, p15, p21)
 H.Normal.Gastic.Muscosa.1<-c(HGF, c.MET, GRB2, SOS, RAS, RAF, MEK, ERK.1)
 I.Normal.Gastic.Muscosa.Survival.Path.1<-c(FGF, FGFR2, GAB1, PI3K, PIP3, AKT, mTOR, GSK.3Beta)
 
-Gastric.Cancer.Genes<-c("CDX2", "MUC2", "REG4", "CDH17", "MDR1", "SHH","p53", "p21", 
-                        "BAX", "p48", "GADD45", "BAK", "POLK","Retinoic.Acid", "RAR.Beta", "RXR",
-                        "DV1", "GSK.3Beta", "Beta.Catenin", "Axin", "APC", "CK1.alpha","GBP","EFG", 
-                        "ERBB2", "SHC", "GRB2", "SOS", "RAS", "RAF", "MEK", "ERK.1","PI3K", "PIP3", 
-                        "AKT", "mTOR", "p53", "S6K", "BCL2","TGF.Beta","TGF.BetaRI","TGF.BetaRII", "SMAD.2", "SMAD.4", "p15", "p21",
-                        "HGF", "c.MET", "GRB2", "SOS", "RAS", "RAF", "MEK", "ERK.1",
-                        "FGF", "FGFR2", "GAB1", "PI3K", "PIP3", "AKT", "mTOR", "GSK.3Beta")
-
-
 Cancer.Models.<-c("Nutrition Model","Cancer Model","Stomach Model","Intestine Model","Digestion Model","Protein Model","Carbohydrates Model","Fats Model",
 "Metabolism Model","Signal Transduction Model","Ribosome Model","Chaperonin Model","Proteasome Model")
 						    
@@ -76,19 +67,31 @@ test.Review.Article.Module.1<-Review.Article.Module.1(Gene_Targets_Patents.df,"c
 test.Review.Article.Module.2<-Review.Article.Module.1(Protein_Targets_Patents.df,"cancer","Protein")
 test.Review.Article.Module.3<-Review.Article.Module.1(Enzyme_Targets_Patents.df,"cancer","Enzyme")
 
-#-------------------Gene/Protein/Enzyme Study--#
-						    
-
-						    
-						    
+#-------------------Gene/Protein/Enzyme Study--#					   
+Gastric.Cancer.Genes<-c("CDX2", "MUC2", "REG4", "CDH17", "MDR1", "SHH","p53", "p21", 
+                        "BAX", "p48", "GADD45", "BAK", "POLK","Retinoic.Acid", "RAR.Beta", "RXR",
+                        "DV1", "GSK.3Beta", "Beta.Catenin", "Axin", "APC", "CK1.alpha","GBP","EFG", 
+                        "ERBB2", "SHC", "GRB2", "SOS", "RAS", "RAF", "MEK", "ERK.1","PI3K", "PIP3", 
+                        "AKT", "mTOR", "p53", "S6K", "BCL2","TGF.Beta","TGF.BetaRI","TGF.BetaRII", "SMAD.2", "SMAD.4", "p15", "p21",
+                        "HGF", "c.MET", "GRB2", "SOS", "RAS", "RAF", "MEK", "ERK.1",
+                        "FGF", "FGFR2", "GAB1", "PI3K", "PIP3", "AKT", "mTOR", "GSK.3Beta")
+					    
 #------------------------------------------------------------------------------------#
 #----------------------------------Transformations-----------------------------------#
 #------------------------------------------------------------------------------------#
-
+Transformation.1<-function(X)
+{
+output<-list()
+return(output)
+}
 #------------------------------------------------------------------------------------#						    
 #----------------------------------User Defined Modules and Functions----------------
 #------------------------------------------------------------------------------------#
-
+Module.1<-function(X)
+{
+output<-list()
+return(output)
+}
 #------------------------------------------------------------------------------------#
 #----------------------------------Network Designs-----------------------------------#
 #------------------------------------------------------------------------------------#
@@ -106,17 +109,31 @@ res <- c(d.1.X.dt.1)
 }
 
 #-------Solutions----------------------------#
-system.equation.model.1.solution<- ode(y = Params.Initial, times = sequence.time, func = system.equation.model.1, parms = Params.Equation)                                                     
-                                             
+system.equation.model.1.solution<- ode(y = Params.Initial, times = sequence.time, func = system.equation.model.1, parms = Params.Equation)                                                                      
 #----------------------------------Network Analysis----------------------------------#
-
+Analysis.Graph.1<-function(X)
+{
+output<-list()
+return(output)
+}	
 #----------------------------------Optimization--------------------------------------#
-
+Optimization.Model.1<-function(X)
+{
+output<-list()
+return(output)
+}	
 #----------------------------------Natural Language Description----------------------#
+Language.Natural.1<-function(X)
+{
 
+output<-list()
+return(output)
+}
 #----------------------------------Tables--------------------------------------------#
 #--------------Table 1----------#
+						    
 #--------------Table 2----------#
+						    
 #--------------Table 3----------#	
 
 #----------------------------------Figures-------------------------------------------#
