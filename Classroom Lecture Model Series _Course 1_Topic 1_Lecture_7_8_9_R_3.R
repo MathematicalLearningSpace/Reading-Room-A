@@ -56,6 +56,8 @@ MLE.Model.1<-function(X)
  {
  Table.1.df<-data.frame(); Table.2.df<-data.frame(); Table.3.df<-data.frame();
   
+           
+            
   output<-list()
   output$X<-X
   output$Table.1<-Table.1.df
@@ -67,13 +69,20 @@ MLE.Model.1<-function(X)
 MLE.Model.1<-MLE.Model.1("1")
 test.MLE.Model.1
 
-LASSO.Model.1<-function(X)
+LASSO.Model.1<-function(X,p,k)
  {
  Table.1.df<-data.frame(); Table.2.df<-data.frame(); Table.3.df<-data.frame();
-  
- 
+ p<-nrow(X)
+ k<-ncol(X)           
+ Y<-matrix(1,nrow=10^p,ncol=1) 
+ I<-diag(10^k)           
+ beta.1<-solve(t(X)%*%X+lambda.1*I)%*%t(X)%*%Y
+ Y.Pred.1<-t(X)%*%beta.1     
   output<-list()
   output$X<-X
+  output$Y<-Y
+  output$beta.1<-beta.1
+  output$Y.Pred.1<-Y.Pred.1
   output$Table.1<-Table.1.df
   output$Table.2<-Table.2.df
   output$Table.3<-Table.3.df
