@@ -44,12 +44,21 @@ Review.Notes<-function(X)
  }
 test.Review.Notes.1<-Review.Notes.1("1")
 test.Review.Notes.1
-
-
 #---------------------------------------------------------------------#
 #------------------------------Functions------------------------------#
 #---------------------------------------------------------------------#
-
+F.1<-function(X)
+ {
+  Table.1.df<-data.frame(); Table.2.df<-data.frame(); Table.3.df<-data.frame();
+  output<-list()
+  output$X<-X
+  output$Table.1<-Table.1.df
+  output$Table.2<-Table.2.df
+  output$Table.3<-Table.3.df
+  return(output)
+ }
+test.F.1<-F.1("1")
+test.F.1
 #---------------------------------------------------------------------#
 #------------------------------Models---------------------------------#
 #---------------------------------------------------------------------#
@@ -104,6 +113,24 @@ Model.Markov.Semi.1<-function(X,p,k,visualization=FALSE)
 }
 test.Model.Markov.Semi.1<-Model.Markov.Semi.1("1",10,1,FALSE)
 test.Model.Markov.Semi.1
+
+#-------------------Model Graph Exponential-------------------------#
+Model.Graph.Exponential.1<-function(X,p,k,visualization=FALSE)
+{
+  A<-matrix(0,nrow=10^p,ncol=10^k)
+  B<-matrix(0,nrow=10^p,ncol=10^k)
+  C<-matrix(0,nrow=10^p,ncol=10^k)
+  I<-diag(10^k)
+  Table.1.df<-data.frame(X)
+  if(visualization){Figure.1<-plot(X)}
+  Table.1.TEX<-xtable::xtable(Table.1.df)
+  output<-list()
+  output$Table.1<-Table.1.df
+  output$Table.1.TEX<-Table.1.TEX
+  return(output)
+}
+test.Model.Graph.Exponential.1<-Model.Graph.Exponential.1("1",10,1,FALSE)
+test.Model.Graph.Exponential.1
 
 
 #-----------Generate Matrices-----------------------------------------#
