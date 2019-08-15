@@ -85,12 +85,35 @@ test.Loss.Model.1
 Optimization.GA.Model.1<-function(X)
  {
   Table.1.df<-data.frame(); Table.2.df<-data.frame(); Table.3.df<-data.frame();
-  
+  operator.population<-function(x){ 
+    #-----------------------------Dynamics-----------#
+  rate.survival<-0;rate.birth<-0;rate.migration<-0
+    #--------------Birth rates
+    #--------------Survival rates
+    #--------------Migration rates
+    
+    return(x)}
+  operator.mutation<-function(x){return(x)}
+  operator.crossover<-function(x){return(x)}
+  operator.selection<-function(x){return(x)}
+  operator.fitness<-function(x){return(x)}
+  operator.sensitivity<-function(x){return(x)}
+  operator.stability<-function(x){return(x)}
   output<-list()
   output$X<-X
   output$Table.1<-Table.1.df
   output$Table.2<-Table.2.df
   output$Table.3<-Table.3.df
+  output$Selection<-operator.selection
+  output$Crossover<-operator.crossover
+  output$Mutation<-operator.mutation
+  output$Fitness<-operator.fitness
+  output$Sensitivity<-operator.sensitivity
+  output$Stability<-operator.stability
+  output$Population<-population
+  output$Rates.Survival<-rate.survival
+  output$Rates.Birth<-rate.birth
+  output$Rates.Migration<-rate.migration
   return(output)
  }
 test.Optimization.GA.Model.1<-Optimization.GA.Model.1("1")
