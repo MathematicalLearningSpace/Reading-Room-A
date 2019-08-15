@@ -18,6 +18,15 @@ library(xtable);library(PearsonDS);library(fitdistrplus);library(psych)
 #---------------------------------------------------------------------#
 #------------------------------Data-----------------------------------#
 #---------------------------------------------------------------------#
+A.Drug.Resistance<-c(CDX2, MUC2, REG4, CDH17, MDR1, SHH)
+B.Genomic.Instability<-c(p53, p21, BAX, p48, GADD45, BAK, POLK)
+C.Tumor.Progression<-c(Retinoic.Acid, RAR.Beta, RXR)
+D.Intestinal.Metaplasia<-c(DV1, GSK.3Beta, Beta.Catenin, Axin,APC, CK1.alpha,GBP)
+E.Dysplasia.Path.1<-c(EFG, ERBB2, SHC, GRB2, SOS, RAS, RAF, MEK, ERK.1)
+F.Dysplasia.Path.2<-c(PI3K, PIP3, AKT, mTOR, p53, S6K, BCL2)
+G.Dysplasia.Path.3<-c(TGF.Beta,TGF.BetaRI,TGF.BetaRII, SMAD.2, SMAD.4, p15, p21)
+H.Normal.Gastic.Muscosa.1<-c(HGF, c.MET, GRB2, SOS, RAS, RAF, MEK, ERK.1)
+I.Normal.Gastic.Muscosa.Survival.Path.1<-c(FGF, FGFR2, GAB1, PI3K, PIP3, AKT, mTOR, GSK.3Beta)
 
 #---------------------------------------------------------------------#
 #-----------------------Review Notes----------------------------------#
