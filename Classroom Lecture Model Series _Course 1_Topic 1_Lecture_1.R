@@ -7,8 +7,30 @@ library(deSolve);library(ReacTran);library(rootSolve);
 library(fda);library(phaseR);library(pracma);
 library(xtable);library(GA);library(igraph);library(pracma};library(readr);require(BioMedR)
 #----------------------------------R Source Files------------------------------------#
-#----------------------------------Data-------------------------------------------
-	
+#----------------------------------Data-------------------------------------------#
+#----------------------------------Cancer Example: Gastric Cancer----------------#
+						    
+A.Drug.Resistance<-c(CDX2, MUC2, REG4, CDH17, MDR1, SHH)
+B.Genomic.Instability<-c(p53, p21, BAX, p48, GADD45, BAK, POLK)
+C.Tumor.Progression<-c(Retinoic.Acid, RAR.Beta, RXR)
+D.Intestinal.Metaplasia<-c(DV1, GSK.3Beta, Beta.Catenin, Axin,APC, CK1.alpha,GBP)
+E.Dysplasia.Path.1<-c(EFG, ERBB2, SHC, GRB2, SOS, RAS, RAF, MEK, ERK.1)
+F.Dysplasia.Path.2<-c(PI3K, PIP3, AKT, mTOR, p53, S6K, BCL2)
+G.Dysplasia.Path.3<-c(TGF.Beta,TGF.BetaRI,TGF.BetaRII, SMAD.2, SMAD.4, p15, p21)
+H.Normal.Gastic.Muscosa.1<-c(HGF, c.MET, GRB2, SOS, RAS, RAF, MEK, ERK.1)
+I.Normal.Gastic.Muscosa.Survival.Path.1<-c(FGF, FGFR2, GAB1, PI3K, PIP3, AKT, mTOR, GSK.3Beta)
+
+Gastric.Cancer.Genes<-c("CDX2", "MUC2", "REG4", "CDH17", "MDR1", "SHH","p53", "p21", 
+                        "BAX", "p48", "GADD45", "BAK", "POLK","Retinoic.Acid", "RAR.Beta", "RXR",
+                        "DV1", "GSK.3Beta", "Beta.Catenin", "Axin", "APC", "CK1.alpha","GBP","EFG", 
+                        "ERBB2", "SHC", "GRB2", "SOS", "RAS", "RAF", "MEK", "ERK.1","PI3K", "PIP3", 
+                        "AKT", "mTOR", "p53", "S6K", "BCL2","TGF.Beta","TGF.BetaRI","TGF.BetaRII", "SMAD.2", "SMAD.4", "p15", "p21",
+                        "HGF", "c.MET", "GRB2", "SOS", "RAS", "RAF", "MEK", "ERK.1",
+                        "FGF", "FGFR2", "GAB1", "PI3K", "PIP3", "AKT", "mTOR", "GSK.3Beta")
+
+
+Cancer.Models.<-c("Nutrition Model","Cancer Model","Stomach Model","Intestine Model","Digestion Model","Protein Model","Carbohydrates Model","Fats Model",
+"Metabolism Model","Signal Transduction Model","Ribosome Model","Chaperonin Model","Proteasome Model")
 						    
 #-------------------Parameter Models						    
 params.1<-c(a11=0.1,a12=0.1,a13=0.1,a14=0.1,a15=0.1,a16=0.1,
