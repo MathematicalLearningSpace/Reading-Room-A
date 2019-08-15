@@ -1,9 +1,7 @@
 #-------------------------------------------------------------------------#
 #--------------------Classroom Lecture Model Series-----------------------#
 #-------------------------------------------------------------------------#
-
 #--------------------Work In Progress-------------------------------------#
-
 #------------------------------R API----------------------------------#
 library(deSolve);library(ReacTran);library(rootSolve);
 library(fda);library(phaseR)
@@ -70,6 +68,44 @@ Model.Markov.1<-function(X)
  }
 test.Model.Markov.1<-Model.Markov.1("1")
 test.Model.Markov.1
+
+#-------------------Semi-Markov Models-------------------------#
+Model.Markov.Semi.1<-function(X,p,k,visualization=FALSE)
+{
+  X1<-matrix(0,nrow=10^p,ncol=10^k)
+  X2<-matrix(0,nrow=10^p,ncol=10^k)
+  X3<-matrix(0,nrow=10^p,ncol=10^k)
+  I<-diag(10^k)
+  Table.1.df<-data.frame(X1)
+  for(i in 1:nrow(X1))
+  {
+    X<-t(X) 
+  }
+  
+  if(visualization){
+    png(file = stringr::str_c('Figures/1/Example_',1,'_Figure_',1,'.png'))
+    plot(yout[,-1], type = "l")
+    dev.off()
+    png(file = stringr::str_c('Figures/1/Example_',2,'_Figure_',2,'.png'))
+    plot(yout[,-1], type = "l")
+    dev.off()
+    png(file = stringr::str_c('Figures/1/Example_',3,'_Figure_',3,'.png'))
+    plot(yout[,-1], type = "l")
+    dev.off()
+    png(file = stringr::str_c('Figures/1/Example_',4,'_Figure_',4,'.png'))
+    plot(yout[,-1], type = "l")
+    dev.off()
+  }
+  Table.1.TEX<-xtable::xtable(Table.1.df)
+  output<-list()
+  output$Table.1<-Table.1.df
+  output$Table.1.TEX<-Table.1.TEX
+  return(output)
+}
+test.Model.Markov.Semi.1<-Model.Markov.Semi.1("1",10,1,FALSE)
+test.Model.Markov.Semi.1
+
+
 #-----------Generate Matrices-----------------------------------------#
 
 #-----------Dirichlert Prior------------------------------------------#
@@ -108,7 +144,7 @@ test.Analysis.1<-Analysis.1("1")
 test.Analysis.1
 
 #---------Multinomial Confidence Intervals----------------------------#
-Confindence.Intervals.Multinomial.1<-function(X)
+Confidence.Intervals.Multinomial.1<-function(X)
  {
  Table.1.df<-data.frame(); Table.2.df<-data.frame(); Table.3.df<-data.frame();
   
