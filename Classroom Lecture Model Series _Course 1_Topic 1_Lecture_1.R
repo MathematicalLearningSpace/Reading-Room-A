@@ -137,19 +137,27 @@ system.equation.model.1.solution<- ode(y = Params.Initial, times = sequence.time
 #----------------------------------Network Analysis----------------------------------#
 Analysis.Graph.1<-function(X)
 {
+x<-matrix(runif(100),nrow=10,ncol=10)
+y<-matrix(runif(100),nrow=10,ncol=10)
+z<-matrix(runif(100),nrow=10,ncol=10)
+
 output<-list()
+output$x<-x
+output$y<-y
+output$z<-z
 return(output)
 }	
 #----------------------------------Optimization--------------------------------------#
 Optimization.Model.1<-function(X)
 {
+
+	
 output<-list()
 return(output)
 }	
 #----------------------------------Natural Language Description----------------------#
 Language.Natural.1<-function(X)
 {
-
 output<-list()
 return(output)
 }
