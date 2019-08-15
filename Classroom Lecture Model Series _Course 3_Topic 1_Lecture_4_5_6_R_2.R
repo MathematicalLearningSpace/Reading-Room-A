@@ -51,7 +51,20 @@ test.Review.Notes.1
 Error.Translation.Transcriptional.Model.1<-function(X)
  {
   Table.1.df<-data.frame(); Table.2.df<-data.frame(); Table.3.df<-data.frame();
-  
+ 
+  system.equation.model.test<-function(times, variables.intitial.test, parameters.test)
+{
+  with(as.list(c(parameters.test, variables.intitial.test)), 
+       {
+#--------------Group 1---------------------
+d.1.X1.d.t.1<--a11*X1 + a12*X2
+#--------------Group 2---------------------
+d.1.X2.d.t.1<-a72*X2 - a81*X1
+res <- c(d.1.X1.d.t.1,d.1.X2.d.t.1)
+list(res)
+})
+}
+
   output<-list()
   output$X<-X
   output$Table.1<-Table.1.df
@@ -66,6 +79,21 @@ Error.Translation.Transcriptional.Model.2<-function(X)
  {
   Table.1.df<-data.frame(); Table.2.df<-data.frame(); Table.3.df<-data.frame();
   
+ system.equation.model.test<-function(times, variables.intitial.test, parameters.test)
+{
+  with(as.list(c(parameters.test, variables.intitial.test)), 
+       {
+
+#--------------Group 1---------------------
+d.1.X1.d.t.1<--a11*X1 + a12*X2
+#--------------Group 2---------------------
+d.1.X2.d.t.1<-a72*X2 - a81*X1
+res <- c(d.1.X1.d.t.1,d.1.X2.d.t.1)
+list(res)
+})
+}
+
+ 
   output<-list()
   output$X<-X
   output$Table.1<-Table.1.df
@@ -80,6 +108,21 @@ Error.Translation.Transcriptional.Model.3<-function(X)
  {
   Table.1.df<-data.frame(); Table.2.df<-data.frame(); Table.3.df<-data.frame();
   
+ system.equation.model.test<-function(times, variables.intitial.test, parameters.test)
+{
+  with(as.list(c(parameters.test, variables.intitial.test)), 
+       {
+
+#--------------Group 1---------------------
+d.1.X1.d.t.1<--a11*X1 + a12*X2
+#--------------Group 2---------------------
+d.1.X2.d.t.1<-a72*X2 - a81*X1
+res <- c(d.1.X1.d.t.1,d.1.X2.d.t.1)
+list(res)
+})
+}
+
+ 
   output<-list()
   output$X<-X
   output$Table.1<-Table.1.df
