@@ -1,13 +1,38 @@
 #-------------------------------------------------------------------------#
 #--------------------Classroom Lecture Model Series-----------------------#
-#-------------------------------------------------------------------------#
-#----------------------------------R Source Files------------------------------------#
+#-------------------Work in Progress August 2019--------------------------#
+#-------------------R Source Files------------------------------------#
 #-------------------------R API----------------------#
 library(easyPubMed);library(bio3d);library(readr);library(CHNOSZ);
 library(stringr);library(Peptides);library(Biostrings)
 library(seqinr);library(seqLogo);library(msa);library(ape);
 library(dtw);library(dtwclust);library(odseq);library(rphast)
 library(plyr)
+
+Gastric.Cancer.Genes<-c("CDX2", "MUC2", "REG4", "CDH17", "MDR1", "SHH","p53", "p21", 
+                        "BAX", "p48", "GADD45", "BAK", "POLK","Retinoic.Acid", "RAR.Beta", "RXR",
+                        "DV1", "GSK.3Beta", "Beta.Catenin", "Axin", "APC", "CK1.alpha","GBP","EFG", 
+                        "ERBB2", "SHC", "GRB2", "SOS", "RAS", "RAF", "MEK", "ERK.1","PI3K", "PIP3", 
+                        "AKT", "mTOR", "p53", "S6K", "BCL2","TGF.Beta","TGF.BetaRI","TGF.BetaRII", "SMAD.2", "SMAD.4", "p15", "p21",
+                        "HGF", "c.MET", "GRB2", "SOS", "RAS", "RAF", "MEK", "ERK.1",
+                        "FGF", "FGFR2", "GAB1", "PI3K", "PIP3", "AKT", "mTOR", "GSK.3Beta")
+
+Cancer.Models.<-c("Nutrition Model","Cancer Model","Stomach Model","Intestine Model","Digestion Model","Protein Model","Carbohydrates Model","Fats Model",
+                  "Metabolism Model","Signal Transduction Model","Ribosome Model","Chaperonin Model","Proteasome Model")
+
+A.Drug.Resistance<-c(CDX2, MUC2, REG4, CDH17, MDR1, SHH)
+B.Genomic.Instability<-c(p53, p21, BAX, p48, GADD45, BAK, POLK)
+C.Tumor.Progression<-c(Retinoic.Acid, RAR.Beta, RXR)
+D.Intestinal.Metaplasia<-c(DV1, GSK.3Beta, Beta.Catenin, Axin,APC, CK1.alpha,GBP)
+E.Dysplasia.Path.1<-c(EFG, ERBB2, SHC, GRB2, SOS, RAS, RAF, MEK, ERK.1)
+F.Dysplasia.Path.2<-c(PI3K, PIP3, AKT, mTOR, p53, S6K, BCL2)
+G.Dysplasia.Path.3<-c(TGF.Beta,TGF.BetaRI,TGF.BetaRII, SMAD.2, SMAD.4, p15, p21)
+H.Normal.Gastic.Muscosa.1<-c(HGF, c.MET, GRB2, SOS, RAS, RAF, MEK, ERK.1)
+I.Normal.Gastic.Muscosa.Survival.Path.1<-c(FGF, FGFR2, GAB1, PI3K, PIP3, AKT, mTOR, GSK.3Beta)
+
+
+
+
 #----------------------------------Data----------------------------------------------#
 W<-data.frame();X<-data.frame();Y<-data.frame();Z<-data.frame();
 #----------------------------------Transformations-----------------------------------#
