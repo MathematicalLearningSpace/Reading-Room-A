@@ -1,9 +1,7 @@
 #-------------------------------------------------------------------------#
 #--------------------Classroom Lecture Model Series-----------------------#
 #-------------------------------------------------------------------------#
-
 #--------------------Work In Progress-------------------------------------#
-
 #------------------------------R API----------------------------------#
 library(deSolve);library(ReacTran);library(rootSolve);
 library(fda);library(phaseR)
@@ -13,6 +11,14 @@ library(sde);library(yuima);library(MsdeParEst);library(rugarch)
 #---------------------------------------------------------------------#
 #------------------------------Data-----------------------------------#
 #---------------------------------------------------------------------#
+
+Gastric.Cancer.Genes<-c("CDX2", "MUC2", "REG4", "CDH17", "MDR1", "SHH","p53", "p21", 
+                        "BAX", "p48", "GADD45", "BAK", "POLK","Retinoic.Acid", "RAR.Beta", "RXR",
+                        "DV1", "GSK.3Beta", "Beta.Catenin", "Axin", "APC", "CK1.alpha","GBP","EFG", 
+                        "ERBB2", "SHC", "GRB2", "SOS", "RAS", "RAF", "MEK", "ERK.1","PI3K", "PIP3", 
+                        "AKT", "mTOR", "p53", "S6K", "BCL2","TGF.Beta","TGF.BetaRI","TGF.BetaRII", "SMAD.2", "SMAD.4", "p15", "p21",
+                        "HGF", "c.MET", "GRB2", "SOS", "RAS", "RAF", "MEK", "ERK.1",
+                        "FGF", "FGFR2", "GAB1", "PI3K", "PIP3", "AKT", "mTOR", "GSK.3Beta")
 
 
 #-----------------------------Parameter Model-------------------------#
