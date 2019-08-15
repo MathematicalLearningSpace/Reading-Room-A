@@ -56,11 +56,6 @@ test.Review.Article.Module.3<-Review.Article.Module.1(Enzyme_Targets_Patents.df,
 
 #-------------------Gene/Protein/Enzyme Study--#
 						    
-						    
-#-------------------Parameter Models-----------#
-sequence.time <- seq(0, 10^2, by = 0.1)
-Params.Initial<-c(X<-1)
-Params.Equation<-c(a11<-1)
 
 						    
 						    
@@ -104,6 +99,18 @@ system.equation.model.1.solution<- ode(y = Params.Initial, times = sequence.time
 
 #----------------------------------Figures-------------------------------------------#
 #-----------------------Figure 1-------------------#
+png(file = stringr::str_c('Figures/1/Example_',1,'_Figure_',1,'.png'))
+#plot(yout[,-1], type = "l")
+dev.off()
+png(file = stringr::str_c('Figures/1/Example_',1,'_Figure_',2,'.png'))
+#plot(yout[,-1], type = "l")
+dev.off()
+png(file = stringr::str_c('Figures/1/Example_',1,'_Figure_',3,'.png'))
+#plot(yout[,-1], type = "l")
+dev.off()
+png(file = stringr::str_c('Figures/1/Example_',1,'_Figure_',4,'.png'))
+#plot(yout[,-1], type = "l")
+ dev.off()
 #-----------------------Figure 2-------------------#
       
 #----------------------------------Discussion----------------------------------------#
