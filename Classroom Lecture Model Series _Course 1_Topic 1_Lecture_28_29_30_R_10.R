@@ -97,11 +97,7 @@ Search.terms<-c("low dose radiation induced bystander effect","genomic instabili
 Review.Notes<-function(X)
  {
  Table.1.df<-data.frame(); Table.2.df<-data.frame(); Table.3.df<-data.frame();
- Search.terms<-c("low dose radiation induced bystander effect","genomic instability","radiation hypersensitivity", "hormesis",
-"radioadaptive transgenerational responses", "intra signaling","intercellular signaling", "reactive oxygen species transient persistent signaling", 
-"cytokines release bystander effect","epigenetic changes", "translesional responses", "DNA repair capacity","TK6 cells") 
-
- 
+  
   output<-list()
   output$X<-X
   output$Table.1<-Table.1.df
