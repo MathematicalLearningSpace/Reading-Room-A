@@ -66,33 +66,53 @@ Chaperonin.Model.1<-function(X)
   #-------Chain Sequence Modeling---------#
   #---------------------------------------#
   
+  Sequence.Chain.Model.1<-function(X){output<-list();return(output)}
+  
   #-----------------------------------------------------#
   #-----------------------Residue Selection-------------#
   #-----------------------------------------------------#
+  
+  Operator.Selector.Residue<-function(X){ output<-list(); return(output)}
  
   #---------------------------------------#
   #-------Network Dependency Modeling-----#
   #---------------------------------------#	
 
+  Graph.Dependent.Model<-function(X){ output<-list(); return(output)}
+  
   #---------------------------------------#
   #-------Deformation energies------------# 
   #---------------------------------------#	
-
+  Energy.Defomration.Model<-function(X){ output<-list(); return(output)}
+  
   #---------------------------------------#
   #----------Fluctuations-----------------# 
   #---------------------------------------#
-	
+  
+  Energy.Fluctuations.Model<-function(X){ output<-list(); return(output)}
+
   #---------------------------------------#
   #-------Torsion Analysis By Chain-------#
   #---------------------------------------#
+  
+  Chain.Torsion.Analysis.Model<-function(X){ output<-list(); return(output)}
 
   #---------------------------------------#
   #---cross-correlations------------------#
   #---------------------------------------#
   
+  Moment.1<-function(X){output<-list(); return(output)}
+  Moment.2<-function(X){output<-list(); return(output)}
+  Moment.3<-function(X){output<-list(); return(output)}
+  Moment.4<-function(X){output<-list(); return(output)}
+
   #---------------------------------------------#
   #---------------Graph Theory Analysis---------#
   #---------------------------------------------#
+  
+Graph.Analysis.1<-function(X){output<-list(); return(output)}
+  
+	
   output<-list()
   output$X<-X
   output$Table.1<-Table.1.df
