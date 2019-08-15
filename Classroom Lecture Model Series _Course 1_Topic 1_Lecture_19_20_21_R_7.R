@@ -49,6 +49,15 @@ OF.Model.1<-function(X)
  }
 test.OF.Model.1<-OF.Model.1("1")
 test.OF.Model.1
+
+#-------Fitness, Distance Metrics and Loss Functions I, II,III--------#
+
+Metric.Fitness.1<-function(X){return(X)}
+Metric.Fitness.2<-function(X){return(X)}
+Metric.Fitness.3<-function(X){return(X)}
+Metric.Fitness.4<-function(X){return(X)}
+
+
 #--------------------------Fitness Metrics----------------------------#
 FM.Model.1<-function(X)
  {
@@ -81,6 +90,7 @@ test.Loss.Model.1
 #------------------------------Models---------------------------------#
 #---------------------------------------------------------------------#
 
+
 #-----------Genetic Algorithm Optimization----------------------------#
 Optimization.GA.Model.1<-function(X)
  {
@@ -99,8 +109,25 @@ Optimization.GA.Model.1<-function(X)
   operator.fitness<-function(x){return(x)}
   operator.sensitivity<-function(x){return(x)}
   operator.stability<-function(x){return(x)}
+  
+  if(visualization){
+     png(file = stringr::str_c('Figures/1/Example_',1,'_Figure_',1,'.png'))
+    plot(solution.1[,-1], type = "l")
+    dev.off()
+    png(file = stringr::str_c('Figures/1/Example_',2,'_Figure_',2,'.png'))
+    plot(solution.1[,-1], type = "l")
+    dev.off()
+    png(file = stringr::str_c('Figures/1/Example_',3,'_Figure_',3,'.png'))
+    plot(solution.1[,-1], type = "l")
+    dev.off()
+    png(file = stringr::str_c('Figures/1/Example_',4,'_Figure_',4,'.png'))
+    plot(solution.1[,-1], type = "l")
+    dev.off()
+    }
+  
   output<-list()
   output$X<-X
+  output$Solution.1<-solution.1
   output$Table.1<-Table.1.df
   output$Table.2<-Table.2.df
   output$Table.3<-Table.3.df
@@ -123,8 +150,24 @@ Optimization.DE.Model.1<-function(X)
  {
   Table.1.df<-data.frame(); Table.2.df<-data.frame(); Table.3.df<-data.frame();
   
+  
+   if(visualization){
+    png(file = stringr::str_c('Figures/1/Example_',1,'_Figure_',1,'.png'))
+    plot(solution.1[,-1], type = "l")
+    dev.off()
+    png(file = stringr::str_c('Figures/1/Example_',2,'_Figure_',2,'.png'))
+    plot(solution.1[,-1], type = "l")
+    dev.off()
+    png(file = stringr::str_c('Figures/1/Example_',3,'_Figure_',3,'.png'))
+    plot(solution.1[,-1], type = "l")
+    dev.off()
+    png(file = stringr::str_c('Figures/1/Example_',4,'_Figure_',4,'.png'))
+    plot(solution.1[,-1], type = "l")
+    dev.off()
+    }
   output<-list()
   output$X<-X
+  output$Solution.1<-solution.1
   output$Table.1<-Table.1.df
   output$Table.2<-Table.2.df
   output$Table.3<-Table.3.df
