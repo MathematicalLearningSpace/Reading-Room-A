@@ -2,7 +2,7 @@
 #--------------------Classroom Lecture Model Series-----------------------#
 #-------------------------------------------------------------------------#
 
-#--------------------Work In Progress-------------------------------------#
+#--------------------Work In Progress-----------August 2019---------------#
 #------------------------------R API----------------------------------#
 library(gdata);library(bio3d);library(igraph);library(sna);library(ips);
 library(phangorn);library(proteomics)
@@ -19,11 +19,28 @@ library(plyr)
 library(corrplot);library(plot3D);library(scatterplot3d);library(rgl)
 
 #-------------------------Application I-------------------------------#
-Application.1<-function(X)
+Cancer.Application.1<-function(X)
  {
  Table.1.df<-data.frame(); Table.2.df<-data.frame(); Table.3.df<-data.frame();
   
- 
+ system.equation.model.test<-function(times, variables.intitial.test, parameters.test)
+{
+  with(as.list(c(parameters.test, variables.intitial.test)), 
+       {
+
+#--------------Group 1---------------------
+d.1.X1.d.t.1<--a11*X1 + a12*X2
+#--------------Group 2---------------------
+d.1.X2.d.t.1<-a21*X2
+#--------------Group 3---------------------
+d.1.X3.d.t.1<-a72*X2 - a81*X1
+res <- c(d.1.X1.d.t.1,
+         d.1.X2.d.t.1,
+         d.1.X3.d.t.1)
+list(res)
+})
+}
+
  
   output<-list()
   output$X<-X
@@ -33,8 +50,8 @@ Application.1<-function(X)
   return(output)
  
  }
-test.Application.1<-Application.1("1")
-test.Application.1
+test.Cancer.Application.1<-Cancer.Application.1("1")
+test.Cancer.Application.1
 
 #---------------------------------------------------------------------#
 #------------------------------Data-----------------------------------#
@@ -189,11 +206,27 @@ par(op)
 dev.off()
 
 #-------------------------Application II------------------------------#
-Application.2<-function(X)
+Cancer.Application.2<-function(X)
  {
  Table.1.df<-data.frame(); Table.2.df<-data.frame(); Table.3.df<-data.frame();
   
- 
+ system.equation.model.test<-function(times, variables.intitial.test, parameters.test)
+{
+  with(as.list(c(parameters.test, variables.intitial.test)), 
+       {
+
+#--------------Group 1---------------------
+d.1.X1.d.t.1<--a11*X1 + a12*X2
+#--------------Group 2---------------------
+d.1.X2.d.t.1<-a21*X2
+#--------------Group 3---------------------
+d.1.X3.d.t.1<-a72*X2 - a81*X1
+res <- c(d.1.X1.d.t.1,
+         d.1.X2.d.t.1,
+         d.1.X3.d.t.1)
+list(res)
+})
+}
  
   output<-list()
   output$X<-X
@@ -203,8 +236,8 @@ Application.2<-function(X)
   return(output)
  
  }
-test.Application.2<-Application.2("1")
-test.Application.2
+test.Cancer.Application.2<-Cancer.Application.2("1")
+test.Cancer.Application.2
 #---------------------------------------------------------------------#
 #------------------------------Data-----------------------------------#
 #---------------------------------------------------------------------#
@@ -301,11 +334,27 @@ legend("topright", legend = paste(seq(1:7),LETTERS[1:7]),lty = 1, cex = .8, y.in
 par(op)
 dev.off()
 #-------------------------Application III-----------------------------#
-Application.3<-function(X)
+Cancer.Application.3<-function(X)
  {
  Table.1.df<-data.frame(); Table.2.df<-data.frame(); Table.3.df<-data.frame();
   
- 
+ system.equation.model.test<-function(times, variables.intitial.test, parameters.test)
+{
+  with(as.list(c(parameters.test, variables.intitial.test)), 
+       {
+
+#--------------Group 1---------------------
+d.1.X1.d.t.1<--a11*X1 + a12*X2
+#--------------Group 2---------------------
+d.1.X2.d.t.1<-a21*X2
+#--------------Group 3---------------------
+d.1.X3.d.t.1<-a72*X2 - a81*X1
+res <- c(d.1.X1.d.t.1,
+         d.1.X2.d.t.1,
+         d.1.X3.d.t.1)
+list(res)
+})
+}
  
   output<-list()
   output$X<-X
@@ -315,8 +364,8 @@ Application.3<-function(X)
   return(output)
  
  }
-test.Application.3<-Application.3("1")
-test.Application.3
+test.Cancer.Application.3<-Cancer.Application.3("1")
+test.Cancer.Application.3
 #---------------------------------------------------------------------#
 #------------------------------Data-----------------------------------#
 #---------------------------------------------------------------------#
