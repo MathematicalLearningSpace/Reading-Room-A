@@ -76,11 +76,22 @@ Gastric.Cancer.Genes<-c("CDX2", "MUC2", "REG4", "CDH17", "MDR1", "SHH","p53", "p
 #------------------------------------------------------------------------------------#
 #----------------------------------Transformations-----------------------------------#
 #------------------------------------------------------------------------------------#
-Transformation.1<-function(X)
+Transformation.1<-function(X,T.Category)
 {
+if(T.Category==LETTERS[1]){Y<-X}
+if(T.Category==LETTERS[2]){Y<-1}
+if(T.Category==LETTERS[3]){Y<-2}
+if(T.Category==LETTERS[4]){Y<-3}
+	
 output<-list()
+output$X<-X
+output$Y<-Y
+output$T.Category<-T.Category
 return(output)
 }
+test.Transformation.1<-Transformation.1(c(1,1),"A")
+test.Transformation.1			    
+						    
 #------------------------------------------------------------------------------------#						    
 #----------------------------------User Defined Modules and Functions----------------
 #------------------------------------------------------------------------------------#
