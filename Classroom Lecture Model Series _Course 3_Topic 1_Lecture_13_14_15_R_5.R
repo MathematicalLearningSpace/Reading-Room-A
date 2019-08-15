@@ -1,7 +1,7 @@
 #-------------------------------------------------------------------------#
 #--------------------Classroom Lecture Model Series-----------------------#
 #-------------------------------------------------------------------------#
-#--------------------Work In Progress-------------------------------------#
+#--------------------Work In Progress----August 2019----------------------#
 
 #------------------------------R API----------------------------------#
 library(gdata);library(bio3d);library(igraph);library(sna);library(ips);
@@ -117,12 +117,32 @@ test.Machine.Learning.Model.2
 Machine.Learning.Model.3<-function(X)
  {
   Table.1.df<-data.frame(); Table.2.df<-data.frame(); Table.3.df<-data.frame();
-  
-  output<-list()
-  output$X<-X
-  output$Table.1<-Table.1.df
-  output$Table.2<-Table.2.df
-  output$Table.3<-Table.3.df
+  require("protr");require("randomForest");require("pROC")
+ # calculate APseAAC descriptors
+ #x1 <- t(sapply(Y.df$Y.FASTA[1:100], extractAPAAC))
+ #x2 <- t(sapply(Y.df$Y.FASTA[100:200], extractAPAAC))
+X.Feature.1<-X[1:50,]
+X.Feature.2<-X[51:100,]
+x <- rbind(X.Feature.1, X.Feature.2)
+labels.1 <- as.factor(c(rep(0, nrow(X.Feature.1)), rep(1, nrow(X.Feature.2))))
+train.idx <- c(
+  sample(1:nrow(X.Feature.1), round(nrow(X.Feature.1) * 0.75)),
+  sample(nrow(X.Feature.1) + 1:nrow(X.Feature.2), round(nrow(X.Feature.2) * 0.75))
+)
+test.idx <- setdiff(1:nrow(x), train.idx)
+x.train <- x[train.idx, ]
+x.test <- x[test.idx, ]
+y.train <- labels.1[train.idx]
+y.test <- labels.1[test.idx]
+model.rf.fit <- randomForest(x.train, y.train, cv.fold = 5)
+model.rf.pred <- predict(model.rf.fit, newdata = x.test, type = "prob")[, 1]
+plot.roc(y.te, rf.pred, grid = TRUE, print.auc = TRUE)
+ output<-list()
+ output$X<-X
+ output$Model.Predictions<-model.rf.pred
+ output$Table.1<-Table.1.df
+ output$Table.2<-Table.2.df
+ output$Table.3<-Table.3.df
   return(output)
  }
 test.Machine.Learning.Model.3<-Machine.Learning.Model.3("1")
