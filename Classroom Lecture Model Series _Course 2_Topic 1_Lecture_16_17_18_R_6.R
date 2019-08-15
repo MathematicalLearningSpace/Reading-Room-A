@@ -257,38 +257,42 @@ data(ImmunePathwayLists)
   #---------------------------------------PDB Files----------------------------------------------------------------------------#
   #----------------------------------------------------------------------------------------------------------------------------#
   for(i in 1:k){protein.model.list[[i]]<-read.pdb(protein.model.files.pdb[i])}
-  bio.Unit.1 <- biounit(protein.model.list[[3]]);names(bio.Unit.1)	
-  #---------------------------------------#
-  #-------Chain Sequence Modeling---------#
-  #---------------------------------------#
-  
+  bio.Unit.1 <- biounit(protein.model.list[[3]]);names(bio.Unit.1)
+  Sequence.Chain.Model.1<-function(X){output<-list();return(output)}
   #-----------------------------------------------------#
   #-----------------------Residue Selection-------------#
   #-----------------------------------------------------#
- 
+  Operator.Selector.Residue<-function(X){ output<-list(); return(output)}
   #---------------------------------------#
   #-------Network Dependency Modeling-----#
-  #---------------------------------------#	
-
+  #---------------------------------------#
+  Graph.Dependent.Model<-function(X){ output<-list(); return(output)}
   #---------------------------------------#
   #-------Deformation energies------------# 
   #---------------------------------------#	
-
+  Energy.Defomration.Model<-function(X){ output<-list(); return(output)}
   #---------------------------------------#
   #----------Fluctuations-----------------# 
   #---------------------------------------#
-	
+  Energy.Fluctuations.Model<-function(X){ output<-list(); return(output)}
   #---------------------------------------#
   #-------Torsion Analysis By Chain-------#
   #---------------------------------------#
-
+  Chain.Torsion.Analysis.Model<-function(X){ output<-list(); return(output)}
   #---------------------------------------#
   #---cross-correlations------------------#
   #---------------------------------------#
   
-  #---------------------------------------------#
-  #---------------Graph Theory Analysis---------#
-  #---------------------------------------------#
+  Moment.1<-function(X){output<-list(); return(output)}
+  Moment.2<-function(X){output<-list(); return(output)}
+  Moment.3<-function(X){output<-list(); return(output)}
+  Moment.4<-function(X){output<-list(); return(output)}
+
+#---------------------------------------------#
+#---------------Graph Theory Analysis---------#
+#---------------------------------------------#
+  
+Graph.Analysis.1<-function(X){output<-list(); return(output)}
 	
   output<-list()
   output$X<-X
