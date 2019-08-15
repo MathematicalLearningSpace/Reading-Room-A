@@ -32,8 +32,6 @@ Review.Notes<-function(X)
  {
  Table.1.df<-data.frame(); Table.2.df<-data.frame(); Table.3.df<-data.frame();
   
- 
- 
   output<-list()
   output$X<-X
   output$Table.1<-Table.1.df
@@ -61,41 +59,60 @@ Ribosome.Model.1<-function(X,Visualization=FALSE)
   #----------------------------------------------------------------------------------------------------------------------------#
   for(i in 1:k){protein.model.list[[i]]<-read.pdb(protein.model.files.pdb[i])}
   bio.Unit.1 <- biounit(protein.model.list[[3]]);names(bio.Unit.1)	
-  #---------------------------------------#
-  #-------Chain Sequence Modeling---------#
-  #---------------------------------------#
-  
-  #-----------------------------------------------------#
-  #-----------------------Residue Selection-------------#
-  #-----------------------------------------------------#
  
-  #---------------------------------------#
-  #-------Network Dependency Modeling-----#
-  #---------------------------------------#
   Protein.X.modes<-list()
   for(i in 1:length(protein.model.list))
   {
     Protein.X.modes[[i]] <- nma(protein.model.list[[i]])
   }
   #---------------------------------------#
-  #-------Deformation energies------------# 
+  #-------Chain Sequence Modeling---------#
+  #---------------------------------------#
+  
+  Sequence.Chain.Model.1<-function(X){output<-list();return(output)}
+  
+  #-----------------------------------------------------#
+  #-----------------------Residue Selection-------------#
+  #-----------------------------------------------------#
+  
+  Operator.Selector.Residue<-function(X){ output<-list(); return(output)}
+ 
+  #---------------------------------------#
+  #-------Network Dependency Modeling-----#
   #---------------------------------------#	
 
+  Graph.Dependent.Model<-function(X){ output<-list(); return(output)}
+  
+  #---------------------------------------#
+  #-------Deformation energies------------# 
+  #---------------------------------------#	
+  Energy.Defomration.Model<-function(X){ output<-list(); return(output)}
+  
   #---------------------------------------#
   #----------Fluctuations-----------------# 
   #---------------------------------------#
-	
+  
+  Energy.Fluctuations.Model<-function(X){ output<-list(); return(output)}
+
   #---------------------------------------#
   #-------Torsion Analysis By Chain-------#
   #---------------------------------------#
+  
+  Chain.Torsion.Analysis.Model<-function(X){ output<-list(); return(output)}
 
   #---------------------------------------#
   #---cross-correlations------------------#
   #---------------------------------------#
   
+  Moment.1<-function(X){output<-list(); return(output)}
+  Moment.2<-function(X){output<-list(); return(output)}
+  Moment.3<-function(X){output<-list(); return(output)}
+  Moment.4<-function(X){output<-list(); return(output)}
+
   #---------------------------------------------#
   #---------------Graph Theory Analysis---------#
-#---------------------------------------------#
+  #---------------------------------------------#
+Graph.Analysis.1<-function(X){output<-list(); return(output)}
  if(Visualization)
 	 {
 	 png(file = stringr::str_c('Figures//Example_',1,'_Figure_',1,'.png'))
