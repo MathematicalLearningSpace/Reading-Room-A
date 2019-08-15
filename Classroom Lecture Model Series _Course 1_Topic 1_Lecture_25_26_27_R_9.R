@@ -126,12 +126,23 @@ test.Equilibrium.1<-Equilibrium.1("1")
 test.Equilibrium.1
 
 #-------------------Stability-----------------------------------------#
-Stability.1<-function(X)
+Stability.1<-function(X,Point.Vector.Collection)
  {
-  Table.1.df<-data.frame(); Table.2.df<-data.frame(); Table.3.df<-data.frame();
-  
+  Table.1.df<-data.frame(); Table.2.df<-data.frame(); Table.3.df<-data.frame();Z<-NULL
+  Path.Matrix.df<-as.data.frame(X)
+  Jacobian.List<-list()
+  Hessian.List<-list()
+  for(j in 1:nrow(Point.Vector.Collection))
+  {
+    Z[j]<-Point.Vector.Collection[j,]
+    J[[j]]<-jacobian(Z[j])
+    H[[j]]<-hessian(Z[j])
+  }
   output<-list()
   output$X<-X
+  output$Z<-Z
+  output$J<-J
+  output$H<-H
   output$Table.1<-Table.1.df
   output$Table.2<-Table.2.df
   output$Table.3<-Table.3.df
