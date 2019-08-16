@@ -178,12 +178,40 @@ Analysis.Model.1<-function(X)
 test.Analysis.Model.1<-Analysis.Model.1("1")
 test.Analysis.Model.1
 #----------------------------------Optimization--------------------------------------#
-Optimization.Model.1<-function(X)
+Optimization.Model.1<-function(X.df)
  {
   Table.1.df<-data.frame(); Table.2.df<-data.frame(); Table.3.df<-data.frame();
+   X <- X.df$X; 
+   y <- X.df$y
+ 
+OF.1 <- function(param, Z.1) {
+    X <- Z.1$X; 
+    y <- Z.1$y
+    e.1 <- y - X %*% param
+    e.1 <- e.1 * e.1
+    e.1 <- apply(e.1, 2, sort, partial = Z.1$h)
+    colSums(e.1[1:Z.1$h, ])
+}
+n<-10^2;p<-10^1
+popsize <- 100; generations <- 500; h=75;
+Optimize.Model.Algorithm.PS.1 <- list(min = rep(-10^1,p),max = rep( 10^1,p),c1 = 0.9,
+           c2 = 0.9,iner = 0.9,initV = 1,
+           nP = popsize,nG = generations,maxV = (10^1/2),
+	   loopOF = FALSE)
+Optimize.Model.Algorithm.DE.1 <- list(min = rep(-10^1,p),max = rep( 10^1,p),
+           nP = popsize,nG = generations,F = 0.7,CR = 0.9,
+           loopOF = FALSE)
+
+Model.1.st<-system.time(solution.1.PS <- PSopt(OF = OF.1, algo = Optimize.Model.Algorithm.PS.1, Data = X.df))
+Model.2.st<-system.time(solution.2.DE <- DEopt(OF = OF.1, algo = Optimize.Model.Algorithm.DE.1, Data = X.df))
+g<-2
+solution.1.PS.res1 <- sort((y - X %*% as.matrix(solution.1.PS$xbest))^g)[h]
+solution.1.DE.res1 <- sort((y - X %*% as.matrix(solution.1.DE$xbest))^g)[h]
+
+Table.1.df<-as.data.frame(cbind(solution.1.PS.res1,solution.1.DE.res1))
   
   output<-list()
-  output$X<-X
+  output$X<-X.df
   output$Table.1<-Table.1.df
   output$Table.2<-Table.2.df
   output$Table.3<-Table.3.df
