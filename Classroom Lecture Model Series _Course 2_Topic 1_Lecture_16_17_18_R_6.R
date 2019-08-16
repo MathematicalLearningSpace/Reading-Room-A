@@ -22,6 +22,27 @@ library(corrplot);library(plot3D);library(scatterplot3d);library(rgl)
 W<-data.frame();X<-data.frame();Y<-data.frame();Z<-data.frame();
 A.list()<-list();B.list()<-list();C.list()<-list();D.list()<-list();E.list()<-list();
 F.list()<-list();G.list()<-list();H.list()<-list();I.list()<-list();J.list()<-list();
+
+setwd("Cancer Models")
+#Cancer.Model.1.Name<-c("Colorectal cancer");Cancer.Model.1<-xml2::read_xml("hsa05210.xml")
+Cancer.Model.2.Name<-c("Pancreatic cancer");Cancer.Model.2<-xml2::read_xml("hsa05212.xml")
+#Cancer.Model.3.Name<-c("Hepatocellular carcinoma");Cancer.Model.3<-xml2::read_xml("hsa05225.xml")
+Cancer.Model.4.Name<-c("Gastric cancer");Cancer.Model.4<-xml2::read_xml("hsa05226.xml")
+#Cancer.Model.5.Name<-c("Glioma");Cancer.Model.5<-xml2::read_xml("hsa05214.xml")
+#Cancer.Model.6.Name<-c("Thyroid cancer");Cancer.Model.6<-xml2::read_xml("hsa05216.xml")
+#Cancer.Model.7.Name<-c("Acute myeloid leukemia");Cancer.Model.7<-xml2::read_xml("hsa05221.xml")
+#Cancer.Model.8.Name<-c("Chronic myeloid leukemia");Cancer.Model.8<-xml2::read_xml("hsa05220.xml")
+#Cancer.Model.9.Name<-c("Basal cell carcinoma");Cancer.Model.9<-xml2::read_xml("hsa05217.xml")
+#Cancer.Model.10.Name<-c("Melanoma");Cancer.Model.10<-xml2::read_xml("hsa05218.xml")
+#Cancer.Model.11.Name<-c("Renal cell carcinoma");Cancer.Model.11<-xml2::read_xml("hsa05211.xml")
+Cancer.Model.12.Name<-c("Bladder cancer");Cancer.Model.12<-xml2::read_xml("hsa05219.xml")
+#Cancer.Model.13.Name<-c("Prostate cancer");Cancer.Model.13<-xml2::read_xml("hsa05215.xml")
+#Cancer.Model.14.Name<-c("Endometrial cancer");Cancer.Model.14<-xml2::read_xml("hsa05213.xml")
+#Cancer.Model.15.Name<-c("Breast cancer");Cancer.Model.15<-xml2::read_xml("hsa05224.xml")
+#Cancer.Model.16.Name<-c("Small cell lung cancer");Cancer.Model.16<-xml2::read_xml("hsa05222.xml")
+#Cancer.Model.17.Name<-c("Non-small cell lung cancer");Cancer.Model.17<-xml2::read_xml("hsa05223.xml")
+
+
 #---------------------------------------------------------------------#
 #-----------------------Review Notes----------------------------------#
 #-----------------Work In Progress------------------------------------#
