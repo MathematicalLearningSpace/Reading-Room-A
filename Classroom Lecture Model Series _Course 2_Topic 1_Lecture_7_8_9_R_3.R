@@ -118,6 +118,14 @@ test.Transformation.1
 #---------------------------------------------------------------------#
 Model.Botany.1<-function(X,p,k,visualization=FALSE)
 {
+ 
+ #Logit Model
+ #Multinomial Probit Model
+ #Multinomial Logit Model
+ #Dirchlet-Multinomial Mixture
+ #Markov Chain Monte Carlo Algorithm 1
+ #Markov Chain Monte Carlo Algorithm 2
+ 
   A<-matrix(0,nrow=10^p,ncol=10^k)
   B<-matrix(0,nrow=10^p,ncol=10^k)
   C<-matrix(0,nrow=10^p,ncol=10^k)
