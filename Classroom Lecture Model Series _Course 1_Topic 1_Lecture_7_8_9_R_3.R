@@ -67,6 +67,35 @@ test.Review.Notes.1
 #---------------------------------------------------------------------#
 #------------------------------Models---------------------------------#
 #---------------------------------------------------------------------#
+
+Model.SDE.1<-function(X,s = 1,point.vector=c(x=2,y=-2,z=-2))
+{
+drift.Model.1 <- expression(x*y , 
+                            y , 
+                            z*y) 
+diffusion.Model.1 <- rep(expression(10^(-1),3)
+SDE.1 <- Sim.DiffProc::snssde3d(x0=point.vector,drift=drift.Model.1,diffusion=diffusion.Model.1,M=10^4)
+Model.Summary.1<-summary.1(SDE.1, at = s)
+output<-list()
+output$Model.Summary<-Model.Summary.1  
+  return(output)
+}  
+
+Model.SDE.2<-function(X)
+{
+  output<-list()
+  
+  return(output)
+}  
+
+Model.SDE.3<-function(X)
+{
+  output<-list()
+  
+  return(output)
+}  
+
+
 #--------MLE, Lasso  and Bayesian Models------------------------------#
 MLE.Model.1<-function(X)
  {
