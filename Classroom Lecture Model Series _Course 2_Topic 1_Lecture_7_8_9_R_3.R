@@ -273,13 +273,25 @@ test.Analysis.Model.1
 #----------------------------------Optimization--------------------------------------#
 Optimization.Model.1<-function(X)
  {
-  Table.1.df<-data.frame(); Table.2.df<-data.frame(); Table.3.df<-data.frame();
-  
-  output<-list()
-  output$X<-X
-  output$Table.1<-Table.1.df
-  output$Table.2<-Table.2.df
-  output$Table.3<-Table.3.df
+Table.1.df<-data.frame(); Table.2.df<-data.frame(); Table.3.df<-data.frame();
+#------Evolutionary Learning of Globally Optimal Classification and Regression Trees 
+X1 <- rep(seq(0.25, 1.75, 0.5), each = 8)
+X2 <- rep(seq(0.25, 1.75, 0.5), 8)
+Y.1 <- rep(1, 32)
+#----------------Rule 1
+Y.1[(X1 < 1 & X2 < 1) | (X1 > 1 & X2 > 1)] <- 2
+#----------------Labels of Factors
+Y.1 <- factor(Y.1, labels = c("A", "not A"))
+Z.df <- data.frame(Y.1, X1, X2)
+#----------------Learning Space
+Tree.Model.1<-evtree::evtree(Y.1 ~ ., data = Z.df, minbucket = 1, minsplit = 2)
+#----------------Presentation
+output<-list()
+output$X<-X
+output$Tree.Model.1<-Tree.Model.1
+output$Table.1<-Table.1.df
+output$Table.2<-Table.2.df
+output$Table.3<-Table.3.df
   return(output)
  }
 test.Optimization.Model.1<-Optimization.Model.1("1")
