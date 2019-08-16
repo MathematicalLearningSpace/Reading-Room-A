@@ -122,7 +122,41 @@ test.Module.1
 					    
 #----------------------------------Equation Systems----------------------------------#
 
-system.equation.model.1<-function(sequence.time,Params.Initial, Params.Equation)
+model.DDE.1 <- function(t, y, parms, tau,k) {
+  
+  tlag.1 <- t - tau
+  #------------------Rule 1
+  if (tlag <= 0){ylag <- 0.5}else {ylag <- deSolve::lagvalue(tlag.1)}
+  
+  #-----------------Equation 1
+  dy <- 0.2 * ylag * 0.75*y^k/(0.75+ylag^k) - 0.1 * y
+  
+  #-----------------Presentation
+  list(dy = dy, ylag = ylag)
+}
+system.equation.model.1<-function(f.1,visualization=TRUE)
+{
+yinit <- 0.5;model.DDE.1.solution.1<-list();model.DDE.1.solution.2<-list();
+times <- seq(from = 0, to = 300, by = 0.1)
+#-----------------------------------Solution----------------------------
+	
+model.DDE.1.solution.1[[1]]<- deSolve::dede(y = yinit, times = times, func = f.1, parms = NULL, tau = 1,k=6)
+model.DDE.1.solution.2[[1]] <- deSolve::dede(y = yinit, times = times, func = f.1, parms = NULL, tau = 4,k=6)
+	
+if(visualization){
+op <- par(mfrow = c(2,2),mar=c(3,3,3,3))
+plot(model.DDE.1.solution.1[[1]], lwd = 2, main = "tau=1",ylab = "y", which = 1)
+#plot(model.DDE.1.solution.1[[1]][,-1], type = "l", lwd = 2, xlab = "y") 
+plot(model.DDE.1.solution.2[[1]], lwd = 2, main = "tau=4",ylab = "y", which = 1)
+#plot(model.DDE.1.solution.2[[1]], type = "l", lwd = 2, xlab = "y") 
+par(op)
+}
+output<-list()
+return(output)
+}	
+						    
+						    
+system.equation.model.2<-function(sequence.time,Params.Initial, Params.Equation)
 {
   with(as.list(c(Params.Equation, Params.Initial)), 
        {
@@ -133,7 +167,7 @@ res <- c(d.1.X.dt.1)
 }
 
 #-------Solutions----------------------------#
-system.equation.model.1.solution<- ode(y = Params.Initial, times = sequence.time, func = system.equation.model.1, parms = Params.Equation)                                                                      
+system.equation.model.1.solution<- ode(y = Params.Initial, times = sequence.time, func = system.equation.model.2, parms = Params.Equation)                                                                      
 #----------------------------------Network Analysis----------------------------------#
 Analysis.Graph.1<-function(X)
 {
