@@ -74,6 +74,24 @@ holder.4 <- holderSpectrum(W.tree.4)
 #---------------------------------------------------------------------#
 #------------------------------Models---------------------------------#
 #---------------------------------------------------------------------#
+
+Model.Wavelet.Analysis.1<-function(X,visualization=TRUE)
+ {
+Z<-as.matrix(rnorm(10000),nrow=10000,ncol=1)
+scales <- seq(1, 64, 3)
+W.1.Coefs <- MassSpecWavelet::cwt(X[1:10000], scales=scales, wavelet='mexh')
+W.1.Coefs.localMax <- MassSpecWavelet::getLocalMaximumCWT(W.1.Coefs)
+if(visualization){Figure.1<-MassSpecWavelet::plotLocalMax(W.1.Coefs.localMax)}
+
+ output<-list()
+ output$W.1.Coefs<-W.1.Coefs
+ output$W.1.Coefs.localMax<-W.1.Coefs.LocalMax
+ return(output)
+}
+X.1<-as.matrix(rnorm(10000),nrow=10000,ncol=1)
+test.Model.Wavelet.Analysis.1<-Model.Wavelet.Analysis.1(X.1)
+test.Model.Wavelet.Analysis.1
+
 Composition.Model.Jazz.1<-function(X)
  {
   Table.1.df<-data.frame(); Table.2.df<-data.frame(); Table.3.df<-data.frame();
