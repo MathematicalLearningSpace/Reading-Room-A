@@ -284,11 +284,11 @@ Y.1[(X1 < 1 & X2 < 1) | (X1 > 1 & X2 > 1)] <- 2
 Y.1 <- factor(Y.1, labels = c("A", "not A"))
 Z.df <- data.frame(Y.1, X1, X2)
 #----------------Learning Space
-Tree.Model.1<-evtree::evtree(Y.1 ~ ., data = Z.df, minbucket = 1, minsplit = 2)
+Plant.Model.1<-evtree::evtree(Y.1 ~ ., data = Z.df, minbucket = 1, minsplit = 2)
 #----------------Presentation
 output<-list()
 output$X<-X
-output$Tree.Model.1<-Tree.Model.1
+output$Plant.Model.1<-Plant.Model.1
 output$Table.1<-Table.1.df
 output$Table.2<-Table.2.df
 output$Table.3<-Table.3.df
