@@ -16,6 +16,34 @@ library(fuzzyjoin);library(tidytext);library(dplyr);library(tm)
 #------------------------------Data-----------------------------------#
 #---------------------------------------------------------------------#
 W<-data.frame();X<-data.frame();Y<-data.frame();Z<-data.frame();
+#-----------------Phytochemicals----------------------
+Phytochemicals.Quantity.80.g<-0 
+Phytochemicals.Calories.(kcal)<-0
+Phytochemicals.Protein.(g)<-0 
+Phytochemicals.Fat.(g)<-0 
+Phytochemicals.Fibre.(g)<-0
+Phytochemicals.Beta.carotene.(mcg)<-0 
+Phytochemicals.Vitamin.A.equivalent.(mcg)<-0 
+Phytochemicals.Vitamin.B1.(mg)<-0 
+Phytochemicals.Vitamin.B6.(mg)<-0 
+Phytochemicals.Vitamin.C.(mg)<-0 
+Phytochemicals.Vitamin.E.(mg)<-0 
+Phytochemicals.Folate.(mcg)<-0
+Phytochemicals.Vitamin.K.(mcg)<-0 
+#----------------Mineral Compositions------------------
+Mineral.composition.Quantity.80g<-0 
+Mineral.composition.Calcium.(mg)<-0 
+Mineral.composition.Iodine.(mcg)<-0 
+Mineral.composition.Iron.(mg)<-0
+Mineral.composition.Magnesium.(mg)<-0 
+Mineral.composition.Manganese.(mg)<-0 
+Mineral.composition.Phosphorus.(mg)<-0
+Mineral.composition.Potassium.(mg)<-0 
+Mineral.composition.Zinc.(mg)<-0
+Mineral.composition.Selenium.(mcg)<-0
+Mineral.composition.Sodium.(mg.100g)<-0 
+Mineral.composition.Copper.(mg.100g)<-0
+
 #---------------------------------------------------------------------#
 #-----------------------Review Notes----------------------------------#
 #---------------------------------------------------------------------#
