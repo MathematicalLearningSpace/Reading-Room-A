@@ -80,6 +80,85 @@ test.Transformation.1
 #---------------------------------------------------------------------#
 #------------------------------Models---------------------------------#
 #---------------------------------------------------------------------#
+Model.Botany.1<-function(X,p,k,visualization=FALSE)
+{
+  A<-matrix(0,nrow=10^p,ncol=10^k)
+  B<-matrix(0,nrow=10^p,ncol=10^k)
+  C<-matrix(0,nrow=10^p,ncol=10^k)
+  I<-diag(10^k)
+if(visualization){
+    
+    Figure.1<-plot(X.Model.Solution.1$Solution[,2], type="l", lty=1,col="black", ylab="Simulated Value", xlab="Temporal Position")
+    lines(X.Model.Solution.1$Solution[,3], lty=2,col="green")
+    lines(X.Model.Solution.1$Solution[,4], lty=3,col="blue")
+    rug(X.Model.Solution.1$Solution[,2], side=4, col="black")
+    rug(X.Model.Solution.1$Solution[,3], side=4, col="green")
+    rug(X.Model.Solution.1$Solution[,4], side=4, col="blue")
+    legend("bottomleft",c("x1","x2","x3"),inset = .01,col=c("black","green","blue"),lwd=2,cex=0.5)
+    
+    png(file = stringr::str_c('Figures/1/Example_',1,'_Figure_',1,'.png'))
+    plot(yout[,-1], type = "l")
+    dev.off()
+    png(file = stringr::str_c('Figures/1/Example_',2,'_Figure_',2,'.png'))
+    plot(yout[,-1], type = "l")
+    dev.off()
+    png(file = stringr::str_c('Figures/1/Example_',3,'_Figure_',3,'.png'))
+    plot(yout[,-1], type = "l")
+    dev.off()
+    png(file = stringr::str_c('Figures/1/Example_',4,'_Figure_',4,'.png'))
+    plot(yout[,-1], type = "l")
+    dev.off()
+  }
+  Table.1.TEX<-xtable::xtable(Table.1.df)
+  output<-list()
+  output$Table.1<-Table.1.df
+  output$Table.1.TEX<-Table.1.TEX
+  return(output)
+  
+}
+test.Model.Botany.1<-Model.Botany.1("1",10,1,FALSE)
+test.Model.Botany.1
+  
+Model.Botany.2<-function(X,p,k,visualization=FALSE)
+{
+  A<-matrix(0,nrow=10^p,ncol=10^k)
+  B<-matrix(0,nrow=10^p,ncol=10^k)
+  C<-matrix(0,nrow=10^p,ncol=10^k)
+  I<-diag(10^k)
+if(visualization){
+    
+    Figure.1<-plot(X.Model.Solution.1$Solution[,2], type="l", lty=1,col="black", ylab="Simulated Value", xlab="Temporal Position")
+    lines(X.Model.Solution.1$Solution[,3], lty=2,col="green")
+    lines(X.Model.Solution.1$Solution[,4], lty=3,col="blue")
+    rug(X.Model.Solution.1$Solution[,2], side=4, col="black")
+    rug(X.Model.Solution.1$Solution[,3], side=4, col="green")
+    rug(X.Model.Solution.1$Solution[,4], side=4, col="blue")
+    legend("bottomleft",c("x1","x2","x3"),inset = .01,col=c("black","green","blue"),lwd=2,cex=0.5)
+    
+    png(file = stringr::str_c('Figures/1/Example_',1,'_Figure_',1,'.png'))
+    plot(yout[,-1], type = "l")
+    dev.off()
+    png(file = stringr::str_c('Figures/1/Example_',2,'_Figure_',2,'.png'))
+    plot(yout[,-1], type = "l")
+    dev.off()
+    png(file = stringr::str_c('Figures/1/Example_',3,'_Figure_',3,'.png'))
+    plot(yout[,-1], type = "l")
+    dev.off()
+    png(file = stringr::str_c('Figures/1/Example_',4,'_Figure_',4,'.png'))
+    plot(yout[,-1], type = "l")
+    dev.off()
+  }
+  Table.1.TEX<-xtable::xtable(Table.1.df)
+  output<-list()
+  output$Table.1<-Table.1.df
+  output$Table.1.TEX<-Table.1.TEX
+  return(output)
+}
+test.Model.Botany.2<-Model.Botany.2("1",10,1,FALSE)
+test.Model.Botany.2
+  
+
+
 Model.1<-function(X)
  {
   Table.1.df<-data.frame(); Table.2.df<-data.frame(); Table.3.df<-data.frame();
