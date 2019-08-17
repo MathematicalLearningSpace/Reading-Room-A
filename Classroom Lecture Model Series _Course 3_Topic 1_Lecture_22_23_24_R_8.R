@@ -193,6 +193,25 @@ Proteasome.Model.2<-function(X)
 test.Proteasome.Model.2<-Proteasome.Model.2("1")
 test.Proteasome.Model.2
 #----------------Proteasome Model - III---------#
+#--------Immunoproteasome-----
+
+Immunoproteasome.20s.df<-data.frame()
+Immunoproteasome.20s.core.Regulatory.Particle<-c("PA28.alpha","PA28.beta") # hetro hexamer or heptamer
+Immunoproteasome.20s.core.Regulatory.Particle.1<-c("PA28.gamma") #, homo hexamer
+Immunoproteasome.20s.core.particle.beta<-c("beta.5i","beta.2i","beta.1i")
+Immunoproteasome.20s.core.Regulatory.Particle.reverse<-c("PA28.alpha","PA28.beta")
+Immunoproteasome.20s.core.particle.beta.reverse<-c("beta.1i","beta.2i","beta.5i")
+
+Immunoproteasome.20s.Assembled.df<-as.data.frame(c(Immunoproteasome.20s.core.Regulatory.Particle,
+                                                   Immunoproteasome.20s.core.particle.beta,
+                                                   Proteasome.20s.Middle,
+                                                   Immunoproteasome.20s.core.particle.beta.reverse,
+                                                   Immunoproteasome.20s.core.Regulatory.Particle.reverse))
+
+Thymoproteasome.df<-data.frame()
+Thymoproteasome.core.particle.beta<-c("beta.5t")
+Thymoproteasome.Assembled.df<-as.data.frame(c(Proteasome.26s.Top,Proteasome.20s.Middle,Proteasome.26s.Bottom))
+
 Proteasome.Model.3<-function(X)
  {
   Table.1.df<-data.frame(); Table.2.df<-data.frame(); Table.3.df<-data.frame();
