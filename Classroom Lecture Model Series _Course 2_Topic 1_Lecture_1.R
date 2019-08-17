@@ -63,7 +63,49 @@ cop.1 <- "cop";exp.1 <- "exp";xai.1 <- "xai";exo.1<- "exo";mut.1 <- "mut";mir.1 
 #------Filters------
 cop.data <- mol.Data[[cop.1]];exp.data <- mol.Data[[exp.1]];xai.data <- mol.Data[[xai.1]];exo.data <- mol.Data[[exo.1]]
 mut.data <- mol.Data[[mut.1]]; mir.data <- mol.Data[[mir.1]];pro.data <- mol.Data[[pro.1]]
-
+#-------------NCI-60-------------------------------#
+f.1<-function(gene.1,gene.2,Visualization=FALSE)
+{
+  acceptablePlotTypes <- c("drug", "cop", "exp", "xai", "exo", "mut", "mir", "pro", "mda")
+  copPrefix <- "cop";expPrefix <- "exp";xaiPrefix <- "xai";exoPrefix <- "exo";mutPrefix <- "mut";mirPrefix <- "mir"
+  proPrefix <- "pro"
+  #------Filters------
+  Data.1 <- molData[[copPrefix]];Data.2 <- molData[[expPrefix]];Data.3 <- molData[[xaiPrefix]]
+  Data.4 <- molData[[exoPrefix]];Data.5 <- molData[[mutPrefix]];Data.6 <- molData[[mirPrefix]];Data.7 <- molData[[proPrefix]]
+  gene.1<-gene.1;gene.2<-gene.2
+  gene<-c(gene.1,gene.2)
+  # Get the cell lines names for cell lines meeting particular thresholds
+  copKnockdown <- names(which(molData[["cop"]][paste0("cop", gene), ] < -1))
+  expKnockdown <- names(which(molData[["exp"]][paste0("exp", gene), ] < -1.5))
+  mutKnockdown <- names(which(molData[["mut"]][paste0("mut", gene), ] == 1))
+  # Make composite pattern
+  pattern <- rep(0, length(molData[["cop"]][paste0("cop", gene), ]))
+  names(pattern) <- names(molData[["cop"]][paste0("cop", gene), ])
+  tmp <- Reduce(union, list(copKnockdown, expKnockdown, mutKnockdown))
+  pattern[tmp] <- 1
+  #-----Summarize-----
+  Table.1<-NULL
+  #-----Visualize-----
+  if(Visualization)
+  {
+    #------------------Profile Visualization------
+    plots <- c("exp","exp") 
+    plotCellMiner(drugAct, molData, plots, NULL, gene)
+    # Composite plot data
+    extraPlot <- list()
+    extraPlot[["title"]] <- "Composite Pattern"
+    extraPlot[["label"]] <- "Knockdown Composite (Binary)"
+    extraPlot[["values"]] <- pattern
+    plotCellMiner(molData=molData, plots=c("cop", "exp", "mut"), gene=gene, extraPlot=extraPlot)
+  }
+  #-----------Object Model Presentation
+  output<-list()
+  output$Genes<-gene
+  output$Table.1<-Table.1
+  return(output)
+}
+test.f.1<-f.1("TP53","MDM2",Visualization=TRUE)
+test.f.1
 #--------------Gene Ontology-----------------------#
 Gene.Ontology.Enrichment.Model.1<-function(X)
  {
