@@ -24,6 +24,26 @@ Table.4.df<-as.data.frame(Table.4)Table.5.df<-as.data.frame(Table.5);Table.6.df<
 Table.7.df<-as.data.frame(Table.7);Table.8.df<-as.data.frame(Table.8)Table.9.df<-as.data.frame(Table.9);
 Table.10.df<-as.data.frame(Table.10)
 
+pearson.N<-10^2
+#-------------------------------------Moment Parameters for the Distributions-------------------------------------------------
+p0pars <- list(mean=1, sd=1)
+pIpars <- list(a=1, b=1, location=1, scale=1) 
+pIIpars <- list(a=1, location=1, scale=1) 
+pIIIpars <- list(shape=1, location=1, scale=1)
+pIVpars <- list(m=3, nu=1, location=1, scale=1)
+pVpars <- list(shape=1, location=1, scale=1) 
+pVIpars <- list(a=1, b=1, location=1, scale=1) 
+pVIIpars <- list(df=10, location=1, scale=1)
+#-------------------------------------Generate Random variables from the Distributions----------------------------------------
+error.pearson.0<-rpearson0(pearson.N,params=p0pars)
+error.pearson.1<-rpearsonI(pearson.N,params=pIpars)
+error.pearson.2<-rpearsonII(pearson.N,params=pIIpars)
+error.pearson.3<-rpearsonIII(pearson.N,params=pIIIpars)
+error.pearson.4<-rpearsonIV(pearson.N,params=pIVpars)
+error.pearson.5<-rpearsonV(pearson.N,params=pVpars)
+error.pearson.6<-rpearsonVI(pearson.N,params=pVIpars)
+error.pearson.7<-rpearsonVII(pearson.N,params=pVIIpars)
+
 strand.types<-c("Parallel-First-0","Parallel-First-1",
                 "Parallel-Second-2","Parallel-Second-3",
                 "AntiParallel-Second-4", "AntiParallel-Second-5",
@@ -103,8 +123,25 @@ test.Error.Translation.Transcriptional.Model.0
 
 Error.Translation.Transcriptional.Model.1<-function(X)
  {
-  Table.1.df<-data.frame(); Table.2.df<-data.frame(); Table.3.df<-data.frame();
- 
+ require(seqinr);require(ape);require(protr);require(Peptides)
+ Table.1.df<-data.frame(); Table.2.df<-data.frame(); Table.3.df<-data.frame();
+#---------------Generate Theoretical Data Set Based on Alphabet--------------------------------------------------------
+nucleotides <- c("A", "C", "G", "T")
+probabilities.1 <-c(0.2, 0.3, 0.3, 0.2) 
+probabilities.2<- c(0.2, 0.3, 0.3, 0.2)
+probabilities.3<- c(0.2, 0.3, 0.3, 0.2)
+probabilities.4<- c(0.2, 0.3, 0.3, 0.2)
+seqlength <- 100
+DNA.Sequence.1<-sample(nucleotides, seqlength, rep=TRUE, prob=probabilities.1)
+DNA.Sequence.2<-sample(nucleotides, seqlength, rep=TRUE, prob=probabilities.2)
+DNA.Sequence.3<-sample(nucleotides, seqlength, rep=TRUE, prob=probabilities.3)
+DNA.Sequence.4<-sample(nucleotides, seqlength, rep=TRUE, prob=probabilities.4)
+#----------------------Translate Data to Amino Acids Data Type----------------------------------------------------
+AA.DNA.Sequence.1<-c2s(translate(as.character(DNA.Sequence.1),frame=0,sens='F',numcode=1))
+AA.DNA.Sequence.2<-c2s(translate(as.character(DNA.Sequence.2),frame=0,sens='F',numcode=1))
+AA.DNA.Sequence.3<-c2s(translate(as.character(DNA.Sequence.3),frame=0,sens='F',numcode=1))
+AA.DNA.Sequence.4<-c2s(translate(as.character(DNA.Sequence.4),frame=0,sens='F',numcode=1))
+
   system.equation.model.test<-function(times, variables.intitial.test, parameters.test)
 {
   with(as.list(c(parameters.test, variables.intitial.test)), 
