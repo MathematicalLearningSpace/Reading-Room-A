@@ -55,6 +55,9 @@ KEGG.Brite<-keggList("brite")
 KEGG.organisms.df<-as.data.frame(KEGG.organisms)
 
 #--------------Cell Lines--------------------------#
+data(p53DataSet) #p53 Dataset of the NCI-60 Cell Lines
+data(c2BroadSets) #C2 collection of canonical pathways from MSigDB 3.0
+data(leukemia) #Leukemia Data by Armstrong et al. (2002) from the Broad Institute
 drug.Act <- exprs(getAct(rcellminerData::drugData))
 mol.Data <- getMolDataMatrices()
 
