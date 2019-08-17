@@ -11,12 +11,17 @@ library(xtable);library(PearsonDS);library(fitdistrplus);library(psych);
 library(BNPTSclust)
 library(boot);library(sampling);library(RandomFields);
 library(dtwclust);library(dtw);library(TSMining)
-
+library(HDMD);library(xtable);library(pdc);library(lattice);library(fracdiff);library(tseriesEntropy)
 #---------------------------------------------------------------------#
 #------------------------------Data-----------------------------------#
 #---------------------------------------------------------------------#
 W<-data.frame();X<-data.frame();Y<-data.frame();Z<-data.frame();
-
+TS.grp.1 <- replicate(10, arima.sim(n = 48, list(ar = c(0.8, -0.4), ma = c(-0.22, 0.2)),sd = sqrt(0.1)) )
+TS.grp.2 <- replicate(10, arima.sim(n = 48, list(ar = c(-0.7, 0.1), ma = c(0.9, -0.1)),sd = sqrt(0.09)) )
+#--------------------long tailed distribution
+TS.grp.3 <- replicate(10, arima.sim(n = 48, list(ar = c(-0.5, 0.25), ma = c(0.5, 0.25)),rand.gen = function(n, ...) sqrt(0.1) * rt(n, df = 10 ))
+#--------------------fractional 
+TS.grp.4<-replicate(10,fracdiff.sim(48, ar = .2, ma = .4, d = .3))
 #-----------------------------Parameter Model-------------------------#
 params.1<-c(a11=0.1,a12=0.1,a13=0.1,a14=0.1,a15=0.1,a16=0.1,
             a21=0.1,a22=0.1,a23=0.1,a24=0.1,a25=0.1,a26=0.1,
@@ -52,10 +57,18 @@ test.Review.Notes.1
 #---------------------------------------------------------------------#
 
 #----------------------Transformations--------------------------------#
-Transformation.1<-function(X)
+Transformation.1<-function(X,grp1,grp2,grp3,grp4)
  {
   Table.1.df<-data.frame(); Table.2.df<-data.frame(); Table.3.df<-data.frame();
-  
+  #--------------------------------Minimum Entropic Heuristic-----------------------------
+            heuristic.1 <-  entropyHeuristic(grp1[,1] )
+            heuristic.delay.1 <-  entropyHeuristic(grp1[,1], t.min=1, t.max=6 )
+            heuristic.2 <-  entropyHeuristic(grp2[,1] )
+            heuristic.delay.2 <-  entropyHeuristic(grp2[,1], t.min=1, t.max=6 )
+            heuristic.3 <-  entropyHeuristic(grp3[,1] )
+            heuristic.delay.3 <-  entropyHeuristic(grp3[,1], t.min=1, t.max=6 )
+            heuristic.4 <-  entropyHeuristic(grp4[,1]$series )
+            heuristic.delay.4 <-  entropyHeuristic(grp4[,1]$series, t.min=1, t.max=6 )
   output<-list()
   output$X<-X
   output$Table.1<-Table.1.df
@@ -63,7 +76,7 @@ Transformation.1<-function(X)
   output$Table.3<-Table.3.df
   return(output)
  }
-test.Transformation.1<-Transformation.1("1")
+test.Transformation.1<-Transformation.1("1",TS.grp.1,TS.grp.2,TS.grp.3,TS.grp.4)
 test.Transformation.1
 #-----SAX Representations for Motifs----------------------------------#
 Motif.SAX.1<-function(X)
