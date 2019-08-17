@@ -64,7 +64,8 @@ test.Review.Notes.1
 WDR.Model.1<-function(X)
  {
   Table.1.df<-data.frame(); Table.2.df<-data.frame(); Table.3.df<-data.frame();
-  
+  Transformations<-c("translocations","inversions","deletions","duplications")
+	
   output<-list()
   output$X<-X
   output$Table.1<-Table.1.df
