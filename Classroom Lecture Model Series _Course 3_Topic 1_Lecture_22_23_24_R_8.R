@@ -33,13 +33,26 @@ KEGG.Ubiquitin.System<-keggGet("br:ko04121")
 KEGG.Ubiquitin.System.1<-keggGet("path:pxb04120")
 KEGG.Ubiquitin.System.2<-keggGet("path:pxb03420")
 
-#----------------------------------------Load the force fields-----------------------------------
+#------------Load the force fields with Variations-----------------------------------
 ff.1 <- load.enmff('calpha')
 ff.2 <- load.enmff('anm')
 ff.3 <- load.enmff('pfanm')
 ff.4 <- load.enmff('sdenm')
 ff.5 <- load.enmff('reach')
 
+ff.1.1<-function (r, rmin = 2.9, ...) 
+{
+  if (!is.null(rmin)) 
+    r[(r < rmin)] = rmin
+  a <- 128 * 10^4
+  b <- 8.6 * 10^2
+  c <- 2.39 * 10
+  ifelse(r < 4, b * (r) - c, a * (r)^(-6))
+}
+ff.1.2<-function(r,p)
+{
+  ifelse( r>8, 0, r^(-p) )
+}
 #--------------Review Notes--------------#
 Proteasome_xml <- fetch_pubmed_data(get_pubmed_ids("Proteasome"))
 
