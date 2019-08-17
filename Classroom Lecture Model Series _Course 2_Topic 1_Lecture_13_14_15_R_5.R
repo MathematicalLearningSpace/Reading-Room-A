@@ -123,11 +123,21 @@ res <- c(d.1.X.dt.1)
 Fox.system.equation.model.1.solution<- ode(y = Params.Initial, times = sequence.time, 
 					   func = Fox.system.equation.model.1, parms = Params.Equation) 
 
-#------------Cell Cycle------------#
+#------------Cell Cycle States---------#
+
+#-------------(a) phase (0-4 h)- (b) entered G2 phase (5-6 h)-synchronous mitosis at (c) 7-8 h, 
+#-------------(d) S phase, (e) full cell cycle at 14-16 h -------------------------------------
+#-------------(f) three cell cycles for 48 hours---------------------------------------------------- 
+GeneExpression <- read.delim("dataPlusScores_all5.txt")
+Gene.Description<-as.array(GeneExpression[,2])
+#-----------RNA collected for points (typically every 1-2 h) for 30 h (Thy-Thy1),------------------ 
+#-----------44 h (Thy-Thy2), 46 h (Thy-Thy3), 36 h (Thy-Noc), or 14 h (Shake) '--------------------
+P53.Description<-Gene.Description[grep('P53',Gene.Description)]
 #------------Parameter Models----------#
 sequence.time <- seq(0, 10^2, by = 0.1)
 Params.Initial<-c(X<-1)
 Params.Equation<-c(a11<-1)
+
 #------------Equation Systems----------#
 Cell.Cycle.system.equation.model.1<-function(sequence.time,Params.Initial, Params.Equation)
 {
