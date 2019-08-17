@@ -15,7 +15,7 @@ library(readr);library(leaps);library(caret); library(GA)
 library(ggplot2);library(kohonen);library(pROC)
 #------Scientific  Visualization-----#
 library(corrplot);library(plot3D);library(scatterplot3d);library(rgl)
-
+library(triplex);library(BSgenome.Hsapiens.UCSC.hg19);library(heatmaps);library(BSgenome);library(GenomeGraphs);library(biomaRt)
 #---------------------------------------------------------------------#
 #------------------------------Data-----------------------------------#
 #---------------------------------------------------------------------#
@@ -24,6 +24,11 @@ Table.4.df<-as.data.frame(Table.4)Table.5.df<-as.data.frame(Table.5);Table.6.df<
 Table.7.df<-as.data.frame(Table.7);Table.8.df<-as.data.frame(Table.8)Table.9.df<-as.data.frame(Table.9);
 Table.10.df<-as.data.frame(Table.10)
 
+strand.types<-c("Parallel-First-0","Parallel-First-1",
+                "Parallel-Second-2","Parallel-Second-3",
+                "AntiParallel-Second-4", "AntiParallel-Second-5",
+                "AntiParallel-First-6", "AntiParallel-First-7")
+genome <- BSgenome.Hsapiens.UCSC.hg19
 #---------------------------------------------------------------------#
 #------------------------------Functions------------------------------#
 #---------------------------------------------------------------------#
