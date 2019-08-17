@@ -93,10 +93,86 @@ Motif.SAX.1<-function(X)
 test.Motif.SAX.1<-Motif.SAX.1("1")
 test.Motif.SAX.1
 #-----Hierarchical clustering of time series for Classification-------#
-Classifier.Cluster.Hierarchical.1<-function(X)
+Classifier.Cluster.Hierarchical.1<-function(X,grp1,grp2,grp3,grp4,visualization=TRUE)
  {
   Table.1.df<-data.frame(); Table.2.df<-data.frame(); Table.3.df<-data.frame();
-  
+ #----------Permutation Distribution Clustering for time series---------------------------
+Group.X <- cbind(grp1,grp2,grp3)
+D <- pdcDist(Group.X,3)
+clustering <- pdclust(Group.X)
+x <- codebook(grp2[,1],m=4)
+y <- codebook(grp4[,1]$series,m=4)
+D.hellinger<-hellingerDistance(x,y)
+D.hellinger.squared<-squaredHellingerDistance(x,y)
+Divergence<-symmetricAlphaDivergence(x,y)
+  #----------Hierarchical cluster analysis for time series---------------------------
+hc.1<-hclust(dist(Group.X))
+memb.1 <- cutree(hc.1, k = 20)
+memb.2 <- cutree(hc.1, k = 15)
+memb.3 <- cutree(hc.1, k = 10)
+cent <- NULL
+for(k in 1:20){cent <- rbind(cent, colMeans(Group.X[memb.1 == k, , drop = FALSE]))}
+hc.2 <- hclust(dist(cent)^2, method = "cen", members = table(memb.1))
+cent <- NULL
+for(k in 1:15){cent <- rbind(cent, colMeans(Group.X[memb.2 == k, , drop = FALSE]))}
+hc.3 <- hclust(dist(cent)^2, method = "cen", members = table(memb.2))
+cent <- NULL
+for(k in 1:10){cent <- rbind(cent, colMeans(Group.X[memb.3 == k, , drop = FALSE]))}
+hc.4 <- hclust(dist(cent)^2, method = "cen", members = table(memb.3))
+#----------KMeans clustering------------------------------------------------------
+clustering.Kmeans<-kmeans(Group.X,3)
+metric.1<- function(x) sum(scale(x, scale = FALSE)^2)
+clustering.Kmeans.fitted <- fitted(clustering.Kmeans)
+head(clustering.Kmeans.fitted)
+clustering.Kmeans.resid<- Group.X - fitted(clustering.Kmeans)
+diagnostics.df<-cbind(clustering.Kmeans[c("betweenss", "tot.withinss", "totss")],
+      c(metric.1(clustering.Kmeans.fitted), metric.ss(clustering.Kmeans.resid), metric.1(Group.X)))
+  Table.1<-xtable(diagnostics.df)
+ if(visualization)
+    {  
+#-----Additional Table Designs provided by students--------------------------------------                                 
+#---------------Figures to be presented in the Classroom----------------------------------------------
+par(mfrow = c(2,1))
+Figure.1<-plot(grp1[,1], type="l", lty=1,col="black",ylab="Simulated Value", xlab="Temporal Position")
+lines(grp1[,2], lty=2,col="red")
+lines(grp1[,3], lty=3,col="blue")
+lines(grp2[,1], lty=4,col="green")
+lines(grp2[,2], lty=5,col="yellow")
+lines(grp2[,3], lty=6,col="orange")
+
+Figure.2<-plot(grp3[,1], type="l", lty=1,col="black",ylab="Simulated Value", xlab="Temporal Position")
+lines(grp3[,2], lty=2,col="red")
+lines(grp3[,3], lty=3,col="blue")
+lines(grp3[,4], lty=4,col="green")
+lines(grp3[,5], lty=5,col="yellow")
+lines(grp3[,6], lty=6,col="orange")
+#----------------------------------Figure Groups 1------------------------------------
+par(mfrow = c(2,2))
+Figure.3A<-plot(heuristic.1)
+Figure.3B<-plot(heuristic.2)
+Figure.3C<-plot(heuristic.3)
+Figure.3D<-plot(heuristic.4)
+#----------------------------------Figure Groups 2------------------------------------			
+par(mfrow = c(2,2))
+Figure.4A<-plot(heuristic.delay.1)
+Figure.4B<-plot(heuristic.delay.2)
+Figure.4C<-plot(heuristic.delay.3)
+Figure.4D<-plot(heuristic.delay.4)
+Figure.5<-levelplot(as.matrix(D), col.regions=grey.colors(20,start=0.1, end=0.95))
+#----------------------------------Figure Groups 4------------------------------------	
+par(mfrow = c(1,2))
+Figure.6<-plot(clustering, labels=1:30, cols=c(rep("red",10),rep("blue",10),rep("green",10)))
+Figure.6A<-plot(clustering, cols=c(rep("red",10),rep("blue",10),("green",10)))
+#----------------------------------Figure Groups 4------------------------------------	
+par(mfrow = c(2,2))
+Figure.7A<-plot(hc.1)
+Figure.7B<-plot(hc.2)
+Figure.7C<-plot(hc.3)
+Figure.7D<-plot(hc.4)
+Figure.8<-plot(Group.X, col = clustering.Kmeans$cluster)
+points(clustering.Kmeans$centers, col = 1:3, pch = 8, cex = 2)         
+            } 
+            
   output<-list()
   output$X<-X
   output$Table.1<-Table.1.df
@@ -104,7 +180,7 @@ Classifier.Cluster.Hierarchical.1<-function(X)
   output$Table.3<-Table.3.df
   return(output)
  }
-test.Classifier.Cluster.Hierarchical.1<-Classifier.Cluster.Hierarchical.1("1")
+test.Classifier.Cluster.Hierarchical.1<-Classifier.Cluster.Hierarchical.1("1",TS.grp.1,TS.grp.2,TS.grp.3,TS.grp.4)
 test.Classifier.Cluster.Hierarchical..1
 #---------------------------------------------------------------------#
 #------------------------------Models---------------------------------#
