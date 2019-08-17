@@ -7,7 +7,7 @@ library(easyPubMed);library(bio3d);library(readr);library(CHNOSZ);
 library(stringr);library(Peptides);library(Biostrings)
 library(seqinr);library(seqLogo);library(msa);library(ape);
 library(dtw);library(dtwclust);library(odseq);library(rphast)
-library(plyr)
+library(plyr);library(protr);library(randomForest);library(pROC);library(caret)
 
 Gastric.Cancer.Genes<-c("CDX2", "MUC2", "REG4", "CDH17", "MDR1", "SHH","p53", "p21", 
                         "BAX", "p48", "GADD45", "BAK", "POLK","Retinoic.Acid", "RAR.Beta", "RXR",
@@ -29,12 +29,12 @@ F.Dysplasia.Path.2<-c(PI3K, PIP3, AKT, mTOR, p53, S6K, BCL2)
 G.Dysplasia.Path.3<-c(TGF.Beta,TGF.BetaRI,TGF.BetaRII, SMAD.2, SMAD.4, p15, p21)
 H.Normal.Gastic.Muscosa.1<-c(HGF, c.MET, GRB2, SOS, RAS, RAF, MEK, ERK.1)
 I.Normal.Gastic.Muscosa.Survival.Path.1<-c(FGF, FGFR2, GAB1, PI3K, PIP3, AKT, mTOR, GSK.3Beta)
-
-
-
-
 #----------------------------------Data----------------------------------------------#
 W<-data.frame();X<-data.frame();Y<-data.frame();Z<-data.frame();
+data(AAindex)
+head(AAindex,20)
+#--------------------------------------------Read FASTA Data Sets------------------------
+fasta.files <- list.files(patt='*.*fasta$')
 #----------------------------------Transformations-----------------------------------#
 Transformation.1<-function(X)
  {
