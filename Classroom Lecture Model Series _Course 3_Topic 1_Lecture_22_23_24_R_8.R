@@ -60,6 +60,43 @@ test.Review.Notes.1
 #---------------------------------------------------------------------#
 
 #----------------Proteasome Model - I----------#
+
+#---------------------------------------------B: Standard 20s Proteasome AT----------------------------------
+
+KEGG.Proteasome.20s<-keggGet("path:pxb03050")
+
+KEGG.Proteasome.20s.Description<-KEGG.Proteasome.20s[[1]]$DESCRIPTION
+KEGG.Proteasome.20s.Gene<-KEGG.Proteasome.20s[[1]]$GENE
+KEGG.Proteasome.20s.Articles<-KEGG.Proteasome.20s[[1]]$REFERENCE
+
+number.even.1<-seq(0,length(KEGG.Proteasome.20s[[1]]$GENE),2)
+KEGG.Proteasome.20s.Gene<-KEGG.Proteasome.20s[[1]]$GENE[number.even.1]
+
+KEGG.Proteasome.20s.Articles.References<-NULL
+for(i in 1:length(KEGG.Proteasome.20s.Articles))
+{
+  KEGG.Proteasome.20s.Articles.References[i]<-stri_join(KEGG.Proteasome.20s.Articles[[i]]$REFERENCE,";",
+                                                        KEGG.Proteasome.20s.Articles[[i]]$AUTHORS,";",
+                                                        KEGG.Proteasome.20s.Articles[[i]]$TITLE,";",
+                                                        KEGG.Proteasome.20s.Articles[[i]]$JOURNAL)
+}
+KEGG.Proteasome.20s.Articles.References.df<-as.data.frame(KEGG.Proteasome.20s.Articles.References)
+colnames(KEGG.Proteasome.20s.Articles.References.df)<-c("Reference")
+
+Proteasome.20s.df<-data.frame()
+Protesome.core.particle.alpha<-c("alpha.1","alpha.2","alpha.3","alpha.4","alpha.5","alpha.6","alpha.7")
+Protesome.core.particle.beta<-c("beta.1","beta.2","beta.3","beta.4","beta.5","beta.6","beta.7")
+#Reverse the sequence
+Protesome.core.particle.alpha.reverse<-c("alpha.7","alpha.6","alpha.5","alpha.4","alpha.3","alpha.6","alpha.7")
+Protesome.core.particle.beta.reverse<-c("beta.7","beta.6","beta.5","beta.4","beta.3","beta.2","beta.1")
+Proteasome.20s.Middle<-c(Protesome.core.particle.alpha,
+                         Protesome.core.particle.beta,
+                         Protesome.core.particle.beta.reverse,
+                         Protesome.core.particle.alpha.reverse)
+Proteasome.20s.Assembled.df<-as.data.frame(c(Proteasome.20s.Middle))
+
+
+
 Proteasome.Model.1<-function(X)
  {
   Table.1.df<-data.frame(); Table.2.df<-data.frame(); Table.3.df<-data.frame();
