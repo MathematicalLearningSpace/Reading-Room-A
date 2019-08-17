@@ -53,6 +53,15 @@ ff.1.2<-function(r,p)
 {
   ifelse( r>8, 0, r^(-p) )
 }
+r<-seq(0,10,by=0.1)
+par(mfcol = c(2, 3))
+Figure.1<-plot(r,ff.1(r), col="Blue")
+Figure.2<-plot(r,ff.1.1(r),col="red")
+Figure.3<-plot(r,ff.2(r),col="black")
+Figure.4<-plot(r,ff.3(r),col="green")
+Figure.4A<-plot(r,ff.1.2(r,0.5),col="purple")
+
+
 #--------------Review Notes--------------#
 Proteasome_xml <- fetch_pubmed_data(get_pubmed_ids("Proteasome"))
 
