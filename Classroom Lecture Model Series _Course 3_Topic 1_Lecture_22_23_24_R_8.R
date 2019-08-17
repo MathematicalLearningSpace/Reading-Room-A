@@ -168,6 +168,17 @@ Graph.Analysis.1<-function(X){output<-list(); return(output)}
 test.Proteasome.Model.1<-Proteasome.Model.1("1")
 test.Proteasome.Model.1
 #----------------Proteasome Model - II----------#
+#--------26s Proteasome Assembly-----------------
+
+KEGG.Proteasome.26s.RPN.13.publications<-entrez_search(db="pubmed", term="26S proteasome regulatory subunit RPN13-like", retmax=40)
+Proteasome.26s.df<-data.frame()
+Proteasome.26s.lid<-c("RPN.3","RPN.5","RPN.6","RPN.7","RPN.8","RPN.9","RPN.11","RPN.12","RPN.15")
+Proteasome.26s.base<-c("RPN.1","RPN.2","RPN.13","RPT.1","RPT.2","RPT.6","RPT.4","RPT.5","RPT.3")
+Proteasome.26s.Top<-c(Proteasome.26s.lid,Proteasome.26s.base)
+Proteasome.26s.Bottom<-c(Proteasome.26s.base,Proteasome.26s.lid)
+Proteasome.26s.Assembled.df<-as.data.frame(c(Proteasome.26s.Top,Proteasome.20s.Middle,Proteasome.26s.Bottom))
+
+
 Proteasome.Model.2<-function(X)
  {
   Table.1.df<-data.frame(); Table.2.df<-data.frame(); Table.3.df<-data.frame();
