@@ -51,8 +51,56 @@ test.Review.Notes.1
 #---------------------------------------------------------------------#
 #------------------------------Models---------------------------------#
 #---------------------------------------------------------------------#
-
 #---------Translational and Transcriptional Error Models I------------#
+Error.Translation.Transcriptional.Model.0<-function(X)
+ {
+require(sysBio)
+Model.1 <- newModel("Translation Example") 
+addMAreaction(Model.1, "DNA -> DNA + mRNA", r1="v1", name="Transcription")
+addMAreaction(Model.1, "mRNA -> mRNA + protein", r1="v2", name="Translation")
+addMAreaction(Model.1, "DNA + protein -> DNA_protein", r1="v3", name="Binding")
+addMAreactRate(Model.1, "v1", "assigned", "a11*DNA")
+addMAreactRate(Model.1, "v2", "assigned", "a21*mRNA")
+addMAreactRate(Model.1, "v3", "assigned", "a31*DNA*protein")
+addMAreactRate(Model.1, "v4", "assigned", "a41*DNA_protein")
+addMAreactRate(Model.1, "v5", "assigned", "a51*mRNA")
+addSpecies(Model.1, "DNA", 50)
+addSpecies(Model.1, "mRNA", 0)
+addSpecies(Model.1, "protein", 0)
+addSpecies(Model.1, "DNA_protein", 0)
+addParameters(Model.1, "a11", 0.2)
+addParameters(Model.1, "a21", 20)
+addParameters(Model.1, "a32", 0.2)
+addParameters(Model.1, "a41", 1)
+addParameters(Model.1, "a51", 1.5)
+addParameters(Model.1, "a61", 1)
+#------------Biology Rules
+#------------Botany Rules
+#------------Chemistry Rules
+addRule(Model.1, "rule 1","ODEs","DNA_protein=0.5*DNA")
+makeModel(Model.1)
+#----------------------Simulate the Model in the Classroom-------------------------------------------
+simResults.1 <-simulateModel(Model.1, times = seq(0, 100, by = 0.1)) 
+simResults.1.stoch <- solveStoch(Model.1,10,method = "D", simName = "", tau = 0.3,f = 10, epsilon = 0.03, nc = 10) 
+distribution.moments.1.df<-data.frame()
+distribution.moments.1.df<-rbind(c("ES_1","Protein",empMoments(simResults.1$protein)),
+                                 c("ES_1 Stochastic","Protein",empMoments(simResults.1.stoch$protein)))
+colnames(distribution.moments.1.df)<-c("Equation","Variable","Moment 1", "Moment 2","Moment 3","Moment 4")
+Table.1<-xtable(distribution.moments.1.df)
+if(visualization)
+  {
+Figure.1<-plotResults(simResults.1, title="Model 1") 
+Figure.2<-plotResults(simResults.1.stoch, title="Model 1 Stochastic")
+  }
+ output<-list()
+  output$X<-X
+  output$Table.1<-Table.1
+  return(output)
+ }
+test.Error.Translation.Transcriptional.Model.0<-Error.Translation.Transcriptional.Model.0("1")
+test.Error.Translation.Transcriptional.Model.0
+
+
 Error.Translation.Transcriptional.Model.1<-function(X)
  {
   Table.1.df<-data.frame(); Table.2.df<-data.frame(); Table.3.df<-data.frame();
