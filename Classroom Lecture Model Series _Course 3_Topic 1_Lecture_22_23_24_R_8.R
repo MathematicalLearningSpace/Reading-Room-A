@@ -301,6 +301,12 @@ test.Optimization.Model.1
 #------------------------------Tables---------------------------------#
 #---------------------------------------------------------------------#
 
+Table.1<-xtable(Genetic.Information.Processing.df)
+Table.2<-xtable(Proteasome.26s.Assembled.df)
+Table.3<-xtable(Proteasome.20s.Assembled.df)
+Table.4<-xtable(Immunoproteasome.20s.Assembled.df)
+Table.5<-xtable(Thymoproteasome.Assembled.df)
+
 #----------Table 1 Group A---------#
 
 #----------Table 2 Group B---------#
