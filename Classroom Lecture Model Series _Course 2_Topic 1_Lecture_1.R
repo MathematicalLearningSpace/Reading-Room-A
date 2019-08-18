@@ -39,6 +39,21 @@ Table.4.df<-as.data.frame(Table.4)Table.5.df<-as.data.frame(Table.5);Table.6.df<
 Table.7.df<-as.data.frame(Table.7);Table.8.df<-as.data.frame(Table.8);Table.9.df<-as.data.frame(Table.9);
 Table.10.df<-as.data.frame(Table.10)
 
+#----------------------------------Cancer Example: Gastric Cancer----------------#
+						    
+A.Drug.Resistance<-c(CDX2, MUC2, REG4, CDH17, MDR1, SHH)
+B.Genomic.Instability<-c(p53, p21, BAX, p48, GADD45, BAK, POLK)
+C.Tumor.Progression<-c(Retinoic.Acid, RAR.Beta, RXR)
+D.Intestinal.Metaplasia<-c(DV1, GSK.3Beta, Beta.Catenin, Axin,APC, CK1.alpha,GBP)
+E.Dysplasia.Path.1<-c(EFG, ERBB2, SHC, GRB2, SOS, RAS, RAF, MEK, ERK.1)
+F.Dysplasia.Path.2<-c(PI3K, PIP3, AKT, mTOR, p53, S6K, BCL2)
+G.Dysplasia.Path.3<-c(TGF.Beta,TGF.BetaRI,TGF.BetaRII, SMAD.2, SMAD.4, p15, p21)
+H.Normal.Gastic.Muscosa.1<-c(HGF, c.MET, GRB2, SOS, RAS, RAF, MEK, ERK.1)
+I.Normal.Gastic.Muscosa.Survival.Path.1<-c(FGF, FGFR2, GAB1, PI3K, PIP3, AKT, mTOR, GSK.3Beta)
+
+Cancer.Models.<-c("Nutrition Model","Cancer Model","Stomach Model","Intestine Model","Digestion Model","Protein Model","Carbohydrates Model","Fats Model",
+"Metabolism Model","Signal Transduction Model","Ribosome Model","Chaperonin Model","Proteasome Model")
+
 Oncogenes.Sample.1 <- c("ABL1", "ALK", "BRAF", "CCND1", "CCND3", "CCNE1", "CCNE2", 
                        "CDC25A", "EGFR", "ERBB2", "EZH2", "FOS", "FOXL2", "HRAS", 
                        "IDH1", "IDH2", "JAK2", "KIT", "KRAS", "MET", "MOS", "MYC", 
