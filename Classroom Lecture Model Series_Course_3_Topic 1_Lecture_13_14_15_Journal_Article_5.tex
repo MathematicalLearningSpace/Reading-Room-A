@@ -1,14 +1,12 @@
-%-------------------------------------------------------------------------%
-%--------------------Classroom Lecture Model Series-----------------------%
-%-------------------------------------------------------------------------%
-
-%---------Work in Progress for the Classroom------------------------------%
-
+%-------------------------------------------------------------------------------------------------------------------%
+%--------------------Classroom Lecture Model Series-----------------------------------------------------------------%
+%-------------------------------------------------------------------------------------------------------------------%
+%-----------------Sample Article in Progress for the Classroom and Journal Publication------------------------------%
 \begin{document}
 \twocolumn
 \scriptsize
 \begin{frontmatter}
-		\title{}
+		\title{A Design Pattern for Feature Matrix Assembly Using Algorithms for Classical Molecular Statistical Learning Applied to Cell Cycle Proteins, Genomic Instability and Gastric Cancer }
 		\author{\corref{cor1}\fnref{fn1}}
 		\cortext[cor1]{Corresponding author}
 		\address{The Mathematical Learning Space}
@@ -23,7 +21,7 @@ Introduction:
 \end{enumerate}
 Conclusion:
 
-Keywords: Machine Learning, Deep learning, Parallel Programming, ROC Analysis 
+Keywords: Feature Matrix Design, Molecular Machine Learning, Cell Cycle Proteins, Gastric and Stomach Cancer, Pennsylvania cancer survival rates, Statistical learning, Supervised Classification, Random Forest, Variable Importance 
 Vocabulary Words:
 
 \section{Introduction}
@@ -36,228 +34,280 @@ Vocabulary Words:
 	\end{tabular}
 \end{table}
 
+
+\subsection{Gastric/Stomach Cancer}
+
+\begin{table}[H]\tiny
+	\caption{Genes/proteins that are basic to the analysis of gastric cancer \cite{key400},\cite{key401},\cite{key402}}	
+	\begin{tabular}{p{3cm}p{3cm}p{1cm}}
+		\hline
+		Stage & List of Gene & \\
+		\hline 
+		Drug Resistance & CDX2, MUC2, REG4, CDH17, MDR1, SHH \\
+		Genomic Instability & p53, p21, BAX, p48, GADD45, BAK, POLK \\
+		Tumor Progression & Retinoic.Acid, RAR.Beta, RXR \\
+		Intestinal Metaplasia & DV1, GSK.3Beta, Beta.Catenin, Axin, APC, CK1.alpha,GBP \\
+		Dysplasia Path 1 & EFG, ERBB2, SHC, GRB2, SOS, RAS, RAF, MEK, ERK.1 \\
+		Dysplasia Path 2 & PI3K, PIP3, AKT, mTOR, p53, S6K, BCL2 \\
+		Dysplasia Path 3 & TGF.Beta,TGF.BetaRI,TGF.BetaRII, SMAD.2, SMAD.4, p15, p21 \\
+		Normal Gastic Muscosa 1 & HGF, c.MET, GRB2, SOS, RAS, RAF, MEK, ERK.1 \\
+		Normal Gastic Muscosa Survival Path 1 & FGF, FGFR2, GAB1, PI3K, PIP3, AKT, mTOR, GSK.3Beta \\
+		\hline  
+	\end{tabular}
+\end{table} 
+
+\begin{table}[H]\tiny
+	\caption{State Changes in Signal Transduction for Gastric Cancer Pathways \cite{key400},\cite{key401},\cite{key402}}	
+	\begin{tabular}{p{1cm}p{2cm}p{4cm}p{0.1cm}}
+		\hline	
+		Category &State Change Category & Pathway &  \\
+		\hline
+		A & Amplified & FGFR to RAS-ERK signaling pathway &  \\
+		A & Amplified & FGFR to PI3K signaling pathway &  \\
+		A & Amplified & ERBB2 to RAS-ERK signaling pathway &  \\
+		A & Amplified & ERBB2 to PI3K signaling pathway &  \\
+		A & Amplified & MET to RAS-ERK signaling pathway &  \\
+		A & Amplified & MET to PI3K signaling pathway &  \\
+		A & Amplified & CCNE to cell cycle G1/S &  \\
+		\hline
+		B & Mutation-activated & KRAS/NRAS to ERK signaling pathway &  \\
+		B & Mutation-inactivated & APC to Wnt signaling pathway &  \\
+		B & Mutation-inactivated & TP53 to transcription &  \\
+		B & Mutation-inactivated & CDH1 to beta-catenin signaling pathway &  \\
+		\hline
+		C & Over expression & TERT to telomerase activity &  \\
+		C & Over expression & CDX2 to transcriptional activation &  \\
+		C & Over expression & CDX2 to transcriptional repression &  \\
+		\hline
+		D & Reduced expression & CDKN1B to p27-cell cycle G1/S &  \\
+		D & Reduced expression & TGFBR1 to TGF-beta signaling pathway &  \\
+		E & Loss & of CDH1 to beta-catenin signaling pathway &  \\
+		\hline 
+	\end{tabular}
+\end{table}
+
 \subsection{Plan of the Article}
 
 \begin{enumerate}
 \end{enumerate}
 
-\section{Mathematical Background}
 
-\subsection{Topic Review: Machine Learning}
+\section{Cell Cycle Proteins}
 
-\begin{table}[H]\centering
-	\begin{tabular}{p{1cm}p{4cm}p{3cm}}
-		Article ID & Summary & Comments\\
-		\hline
-		\hline
-	\end{tabular}
+\begin{table}[H]\tiny
+\caption{Sample Cell Cycle Proteins Group 1 from Fabregat et al. 2018 PMID: 29145629}	
+\begin{tabular}{p{0.5cm}p{1.5cm}p{1.5cm}p{1.5cm}p{1.5cm}}
+\hline
+ID &&&&\\ 
+\hline   
+  1 & Q9Y6D9.MD1L1N &  Q2NKX8.ERC6LN &  Q7L7X3.TAOK1N &  P43034.LIS1\\   
+  5 & O95229.ZWINTN &  P46060.RAGP1N &  P53350.PLK1N &  O75122.CLAP2\\  
+  9 & Q562F6.SGO2N &  Q15691.MARE1N &  P36873.PP1GN &  Q8WYP5.ELYS\\   
+ 13 & Q02224.CENPEN &  Q9P258.RCC2N &  O00139.KIF2AN &  P30153.2AAA\\   
+ 17 & P30154.2AABN &  Q15173.2A5BN &  Q13362.2A5GN &  Q15172.2A5A\\   
+ 21 & Q14738.2A5DN &  Q16537.2A5EN &  P67775.PP2AAN &  P62714.PP2AB\\  
+ 25 & Q8NI77.KI18AN &  P42677.RS27N &  Q12834.CDC20N &  Q5FBB7.SGO1\\   
+ 29 & O43683.BUB1N &  Q7Z460.CLAP1N &  Q8WVK7.SKA2N &  O14980.XPO1\\   
+ 33 & Q96BD8.SKA1N &  P49454.CENPFN &  Q13257.MD2L1N &  O43684.BUB3\\   
+ 37 & O60566.BUB1BN &  P52948.5.NUP98 & Q96EE3.1.SEH1 & P57740.NU107\\  
+ 41 & Q8NFH3.NUP43N &  Q12769.NU160N &  Q8NFH4.NUP37N &  Q9BW27.NUP85\\  
+ 45 & Q8WUM0.NU133N &  P55735.SEC13N &  P50748.KNTC1N &  O43264.ZW10\\   
+ 49 & Q9H900.ZWILCN &  Q9BZD4.NUF2N &  Q8NBT2.SPC24N &  O14777.NDC80\\  
+ 53 & Q9HBM1.SPC25N &  Q9H081.MIS12N &  Q96IY1.NSL1N &  Q9H410.DSN1\\   
+ 57 & Q6P1K2.PMF1N &  Q8NG31.KNL1N &  O15392.BIRC5N &  Q96GD4.AURKB\\  
+ 61 & Q9NQS7.INCEN &  Q53HL2.BOREAN &  P49450.CENPAN &  Q96BT3.CENPT\\  
+ 65 & Q03188.CENPCN &  Q9BS16.CENPKN &  Q92674.CENPIN &  Q9H3R5.CENPH\\  
+ 69 & Q8N0S6.CENPLN &  Q8N2Z9.CENPSN &  Q9BU64.CENPON &  Q6IPU0.CENPP\\  
+ 73 & Q71F23.CENPUN &  Q7L2Z9.CENPQN &  Q13352.CENPRN &  Q9NSP4.CENPM\\  
+ 77 & Q96H22.CENPNN &  Q9BPU9.B9D2N &  Q13409.DC1I2N &  O14576.DC1I1\\  
+ 81 & Q14204.DYHC1N &  Q9Y6G9.DC1L1N &  O43237.DC1L2N &  P63167.DYL1\\   
+ 85 & Q96FJ2.DYL2N &  Q9GZM8.NDEL1N &  Q9Y266.NUDCN &  Q8N4N8.KIF2B\\  
+ 89 & P49792.RBP2N &  Q99661.KIF2CN &  Q14008.CKAP5N &  Q9NXR1.NDE1\\   
+ 93 & P30622.CLIP1N &  Q96EA4.SPDLYN &  Q9UJX3.APC7N &  Q9UJX4.APC5\\   
+ 97 & Q8NHZ8.CDC26N &  O00762.UBE2CN &  Q9NYG5.APC11N &  Q13042.CDC16\\  
+\hline 
+\end{tabular}
 \end{table}
 
-\subsection{Machine Learning Models : Classifiers}
+\section{Feature Matrix Design}
 
-\begin{table}[H]\centering
-	\begin{tabular}{p{1cm}p{4cm}p{3cm}}
-		Article ID & Summary & Comments\\
-		\hline
-		\hline
-	\end{tabular}
+\begin{table}[H]\tiny
+ \caption{Examples of Molecular Descriptors and Categories }
+\begin{tabular}{p{1cm}p{1cm}p{6cm}}
+		\hline	
+Letter & Category & Description \\
+\hline
+& sequence & sequences of Uniprot Peptides \\
+A & group  & group code "0" for A and "1" and not A \\
+B & length & length of the amino acid sequence \\
+C & mw & molecular weight of the amino acid sequence \\
+D & tinyAA & fraction percent of tiny amino acids for the sequence \\
+E & smallAA & fraction percent of small amino acids for the sequence \\
+F & aliphaticAA & fraction percent of aliphatic amino acids for sequence \\
+G & aromaticAA & fraction percent of aromatic amino acids for sequence \\
+H & nonpolarAA & fraction percent of non-polar amino acids for sequence \\
+I & polarAA & fraction percent of polar amino acids for sequence \\
+J & chargedAA & fraction percent of charged amino acids for sequence \\
+K & basicAA & fraction percent of basic amino acids for sequence \\
+L & acidicAA & fraction percent of acid amino acids for sequence \\
+M & charge & charge of the amino acid sequence \\
+N & pI & isoelectric point of the amino acid sequence \\
+O & aindex & aliphatic index of the amino acid sequence \\
+P & instaindex & instability index of the amino acid sequence \\
+Q & boman & potential peptide-interaction index of the amino acid sequence \\
+R & hydrophobicity & hydrophobicity index of the amino acid sequence \\
+S & hmoment & hydrophobic moment of the amino acid sequence \\
+T & transmembrane & fraction of Transmembrane windows of N amino acids for sequence \\
+U & surface & fraction of Surface windows of N1 amino acids for sequence \\
+V & globular & fraction of Globular windows of N2 amino acids for sequence \\
+  \hline
+\end{tabular}
 \end{table}
 
-\subsection{Machine Learning Models : Clusters}
+Based on this collection the following were selected for a feature matrix in Table 1.
 
-\centering
-\begin{table}[H]\footnotesize
-	\caption{}
-	\begin{tabular}{rp{1cm}p{2cm}p{3cm}p{1cm}}
-		\hline
-		ID & A & B & C & Reference \\
-		\hline
-		\hline
-	\end{tabular}
-\end{table}
-\raggedright
-
-
-\subsection{Resampling Strategies}
-
-\centering
-\begin{table}[H]\footnotesize
-	\caption{}
-	\begin{tabular}{rp{1cm}p{2cm}p{3cm}p{1cm}}
-		\hline
-		ID & A & B & C & Reference \\
-		\hline
-		\hline
-	\end{tabular}
-\end{table}
-\raggedright
-
-
-\subsection{Support Vector Models}
-
-\centering
-\begin{table}[H]\footnotesize
-	\caption{}
-	\begin{tabular}{rp{1cm}p{2cm}p{3cm}p{1cm}}
-		\hline
-		ID & A & B & C & Reference \\
-		\hline
-		\hline
-	\end{tabular}
-\end{table}
-\raggedright
-
-
-\subsection{Deep Learning Models}
-
-\centering
-\begin{table}[H]\footnotesize
-	\caption{}
-	\begin{tabular}{rp{1cm}p{2cm}p{3cm}p{1cm}}
-		\hline
-		ID & A & B & C & Reference \\
-		\hline
-		\hline
-	\end{tabular}
-\end{table}
-\raggedright
-
-
-\section{Machine Learning Algorithms}
-
-\subsection{Algorithm A}
-
-\subsection{Parallel Programming}
-
-\begin{table}[H]\centering
-	\begin{tabular}{p{1cm}p{4cm}p{3cm}}
-		Article ID & Summary & Comments\\
-		\hline
-		\hline
-	\end{tabular}
+\begin{table}[H]\tiny
+  \caption{1D Index Function Design for Proteins }
+\begin{tabular}{p{1cm}p{1cm}p{5cm}}
+\hline 
+Feature & Scalar Relation & Parameters \\
+\hline 
+Feature.1 & instaIndex & x \\
+Feature.2 & lengthpep & x \\
+Feature.3 & boman & x \\
+\hline 
+Feature.4 & charge & x,pH=5 \\
+Feature.5 & charge & x,pH=7 \\
+Feature.6 & charge & x,pH=9 \\
+\hline 
+Feature.7 & aIndex & x \\
+Feature.8 & pI & x \\
+Feature.9 & mw & x \\
+\hline 
+Feature.10 & hmoment & x angle=100 window=11 \\
+Feature.11 & hmoment & x angle=160 window=11 \\
+\hline
+\end{tabular}
 \end{table}
 
+\section{Molecular Machine/Statistical Learning}
 
-\subsection{Tables}
+\section{Algorithms}
 
-\centering
-\begin{table}[H]\footnotesize
-	\caption{}
-	\begin{tabular}{rp{1cm}p{2cm}p{3cm}p{1cm}}
-		\hline
-		ID & A & B & C & Reference \\
-		\hline
-		\hline
-	\end{tabular}
+The following algorithm presented the methodology for the classical statistical learning.
+\footnotesize
+\begin{algorithm}[H]
+\begin{algorithmic}[1]
+\State Categorize the Proteins Based On Residue Functional Equilvalence Relations
+\State Assemble the Collection into A Feature Matrix for Machine Learning Models
+\State Fit a Multivariate Mixture Model to the Feature Matrix
+\State Choose a Dependent Vector from the Columns for Multinomial Classification 
+\State Select a Machine Learning Model for Prediction from a Group of Classification Models
+\State Based on Predictions, Examine the Accuracy and Specificity Relationship with ROC Analysis
+\State Compute the AUC and Variable Importance
+\end{algorithmic}
+\caption{ Mulitvariate Mixture Distributions }
+\label{Multivariate_Distrib}
+\end{algorithm}
+
+\section{Supervised Classification Models}
+
+\begin{table}[H]\tiny
+ \caption{Model Design Patterns for Optimal Control of the AUC}
+\begin{tabular}{p{1cm}p{3cm}p{1cm}p{1cm}}
+\hline 
+Model ID & Description & Parameters & Reference \\ 
+\hline
+\hline 
+\end{tabular}
 \end{table}
-\raggedright
 
-\centering
-\begin{table}[H]\footnotesize
-	\caption{}
-	\begin{tabular}{rp{1cm}p{2cm}p{3cm}p{1cm}}
-		\hline
-		ID & A & B & C & Reference \\
-		\hline
-		\hline
-	\end{tabular}
-\end{table}
-\raggedright
-
-
-\subsubsection{Prediction Probability Matrix}
-
-\centering
-\begin{table}[H]\footnotesize
-	\caption{}
-	\begin{tabular}{rp{1cm}p{2cm}p{3cm}p{1cm}}
-		\hline
-		ID & A & B & C & Reference \\
-		\hline
-		\hline
-	\end{tabular}
-\end{table}
-\raggedright
-
-
-\subsubsection{Performance Measures}
-
-\centering
-\begin{table}[H]\footnotesize
-	\caption{}
-	\begin{tabular}{rp{1cm}p{2cm}p{3cm}p{1cm}}
-		\hline
-		ID & A & B & C & Reference \\
-		\hline
-		\hline
-	\end{tabular}
-\end{table}
-\raggedright
-
-
-\subsection{Figures}
-
-\subsubsection{Learning Curves}
+\section{Results}
 
 \begin{figure}[H]
 	\centering
-	\begin{minipage}[b]{0.5\linewidth}
-	%\includegraphics[scale=0.25]{Example_1_Figure_1.png}
+	\begin{minipage}[b]{0.3\linewidth}
+		\includegraphics[scale=0.15]{Example_1_Figure_1.png}
 	\end{minipage}\hfill
-	\begin{minipage}[b]{0.5\linewidth}
-	%\includegraphics[scale=0.25]{Example_1_Figure_2.png}
+	\begin{minipage}[b]{0.3\linewidth}
+		\includegraphics[scale=0.15]{Example_1_Figure_2.png}
 	\end{minipage}\hfill	
-	\begin{minipage}[b]{0.5\linewidth}
-	%\includegraphics[scale=0.25]{Example_1_Figure_3.png}
+	\begin{minipage}[b]{0.3\linewidth}
+		\includegraphics[scale=0.15]{Example_1_Figure_3.png}
 	\end{minipage}\hfill
-	\begin{minipage}[b]{0.5\linewidth}
-	%\includegraphics[scale=0.25]{Example_1_Figure_4.png}
+	\begin{minipage}[b]{0.3\linewidth}
+		\includegraphics[scale=0.15]{Example_1_Figure_4.png}
 	\end{minipage}\hfill
-	\caption{1, 2, 3 and 4}
+	\begin{minipage}[b]{0.3\linewidth}
+		\includegraphics[scale=0.15]{Example_1_Figure_5.png}
+	\end{minipage}\hfill	
+	\begin{minipage}[b]{0.3\linewidth}
+		\includegraphics[scale=0.15]{Example_1_Figure_6.png}
+	\end{minipage}\hfill
+	\begin{minipage}[b]{0.3\linewidth}
+		\includegraphics[scale=0.15]{Example_1_Figure_7.png}
+	\end{minipage}\hfill
+	\begin{minipage}[b]{0.3\linewidth}
+		\includegraphics[scale=0.15]{Example_1_Figure_8.png}
+	\end{minipage}\hfill	
+	\begin{minipage}[b]{0.3\linewidth}
+		\includegraphics[scale=0.15]{Example_1_Figure_9.png}
+	\end{minipage}\hfill
+	\caption{(a) Receiver Operating Characteristic Curve (b) Marginal distribution Feature 1, (c) Marginal distribution Feature 2, (d) Marginal distribution Feature 3, (e) Marginal distribution Feature 4,
+(f) Marginal distribution Feature 5, (g) Marginal distribution Feature 6, (h) Marginal distribution Feature 7, and (i) Marginal distribution Feature 8}
 	\label{fig:Figure1}
 \end{figure} 
 
-\subsubsection{ROC Curves}
+\subsection{Variable Importance}
 
-\begin{figure}[H]
-	\centering
-	\begin{minipage}[b]{0.5\linewidth}
-	%\includegraphics[scale=0.25]{Example_1_Figure_4.png}
-	\end{minipage}\hfill
-	\begin{minipage}[b]{0.5\linewidth}
-	%\includegraphics[scale=0.25]{Example_1_Figure_5.png}
-	\end{minipage}\hfill	
-	\begin{minipage}[b]{0.5\linewidth}
-	%\includegraphics[scale=0.25]{Example_1_Figure_6.png}
-	\end{minipage}\hfill
-	\begin{minipage}[b]{0.5\linewidth}
-	%\includegraphics[scale=0.25]{Example_1_Figure_7.png}
-	\end{minipage}\hfill
-	\caption{4, 5, 6 and 7}
-	\label{fig:Figure2}
-\end{figure} 
-
-\section{Model Comparisons}
-
-\section{Conclusions and Topics for Discussion}
-
-\begin{table}[H]\centering
-	\begin{tabular}{p{1cm}p{4cm}p{3cm}}
-		Topic ID & Summary & Comments\\
-		\hline
-		\hline
-	\end{tabular}
+\begin{table}[H]\tiny
+  \caption{Feature Matrix Combinations of Variable Importance}
+\begin{tabular}{p{1cm}p{2cm}p{1cm}p{2cm}p{1cm}}
+\hline 
+Feature & Model 1 & Model 2 & Model 3 & Model 4\\
+\hline 
+\hline 
+\end{tabular}
 \end{table}
 
-\section{R Application Programming Interfaces (APIs)}
+Figures 1 - 3 present the variable importance for each of the models. 
 
+\begin{figure}[H]
+	\begin{minipage}[b]{0.7\linewidth}
+		\includegraphics[scale=0.5]{Example_2_Figure_1.png}
+	\end{minipage}\hfill
+	\caption{(a) Variable Importance Model 1 }
+	\label{fig:Figure1}
+\end{figure} 
+
+
+\section{Conclusion}
 
 \bibliographystyle{plain}
 \begin{thebibliography}{00}
 
+\bibitem[1]{key1}U.S. Cancer Statistics Working Group. U.S. Cancer Statistics Data Visualizations Tool, based on November 2018 submission data (1999-2016): 
+\newblock U.S. Department of Health and Human Services, Centers for Disease Control and Prevention and National Cancer Institute; 
+\newblock www.cdc.gov/cancer/dataviz, June 2019.
+
+\bibitem[400]{key400} Kanehisa, Furumichi, M., Tanabe, M., Sato, Y., and Morishima, K.; 
+\newblock KEGG: new perspectives on genomes, pathways, diseases and drugs. 
+\newblock Nucleic Acids Res. 45, D353-D361 (2017).
+
+\bibitem[401]{key401} Kanehisa, M., Sato, Y., Kawashima, M., Furumichi, M., and Tanabe, M.; 
+\newblock KEGG as a reference resource for gene and protein annotation. 
+\newblock Nucleic Acids Res. 44, D457-D462 (2016).
+
+\bibitem[402]{key402} Kanehisa, M. and Goto, S.; 
+\newblock KEGG: Kyoto Encyclopedia of Genes and Genomes. 
+\newblock Nucleic Acids Res. 28, 27-30 (2000). 
+
 \subsection{Machine Learning}
 
 \subsection{Machine Learning Models : Classifiers}
+\bibitem[1]{key1}Breiman, L. (2001). 
+\newblock Random forests
+\newblock Machine Learning, 45:5-32.
 
 \subsection{Machine Learning Models : Clusters}
 
@@ -269,19 +319,11 @@ Vocabulary Words:
 
 \section{Machine Learning Algorithms}
 
-\subsection{Parallel Programming}
+\section{Variable Importance}
 
-
-\bibitem[500]{key500}Michael Hahsler (2016). 
-\newblock recommenderlab: A Framework for Developing and Testing Recommendation Algorithms, 
-\newblock R package. https://CRAN.R-project.org/package=recommenderlab recommenderlab reference manual
-
-\bibitem[501]{key501}Suresh K. Gorakala and Michele Usuelli (2015) 
-\newblock Building a Recommendation System with R features the package recommenderlab.
-
-\bibitem[502]{key502}Wikipedia contributors. 
-\newblock "Metabolic engineering." 
-\newblock Wikipedia, The Free Encyclopedia.  
+\bibitem[12]{key12}Ishwaran, H. (2007). 
+\newblock Variable importance in binary regression trees and forests. 
+\newblock Electronic J. Statist., 1, 519-537.
 
 \bibitem[1000]{key1000}R Core Team (2015). 
 \newblock R: A language and environment for statistical computing. R Foundation for Statistical Computing, Vienna, Austria.
@@ -289,3 +331,5 @@ Vocabulary Words:
 
 \end{thebibliography}
 \end{document}
+
+
