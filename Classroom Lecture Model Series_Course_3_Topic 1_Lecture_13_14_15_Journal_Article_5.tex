@@ -166,6 +166,8 @@ V & globular & fraction of Globular windows of N2 amino acids for sequence \\
 
 Based on this collection the following were selected for a feature matrix in Table 1.
 
+Response.Vector=ifelse(Feature.1>= 40, 1, 0)
+
 \begin{table}[H]\tiny
   \caption{1D Index Function Design for Proteins }
 \begin{tabular}{p{1cm}p{1cm}p{5cm}}
@@ -213,10 +215,10 @@ The following algorithm presented the methodology for the classical statistical 
 \section{Supervised Classification Models}
 
 \begin{table}[H]\tiny
- \caption{Model Design Patterns for Optimal Control of the AUC}
-\begin{tabular}{p{1cm}p{3cm}p{1cm}p{1cm}}
+ \caption{Model Design Patterns for the AUC Maximization}
+\begin{tabular}{p{1cm}p{3cm}p{1cm}p{1cm}p{1cm}}
 \hline 
-Model ID & Description & Parameters & Reference \\ 
+Model ID & Description & Parameters & AUC & Reference \\ 
 \hline
 \hline 
 \end{tabular}
