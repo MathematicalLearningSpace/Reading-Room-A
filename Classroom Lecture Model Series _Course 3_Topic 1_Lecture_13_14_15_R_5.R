@@ -25,15 +25,14 @@ Table.1.df<-as.data.frame(Table.1);Table.2.df<-as.data.frame(Table.2);Table.3.df
 Table.4.df<-as.data.frame(Table.4)Table.5.df<-as.data.frame(Table.5);Table.6.df<-as.data.frame(Table.6);
 Table.7.df<-as.data.frame(Table.7);Table.8.df<-as.data.frame(Table.8)Table.9.df<-as.data.frame(Table.9);
 Table.10.df<-as.data.frame(Table.10)
+
+Cell.Cycle.df<- as.data.frame(read_delim("Participating Molecules [R-HSA-1640170].tsv", "\t", escape_double = FALSE, trim_ws = TRUE))
 #---------------------------------------------------------------------#
 #------------------------------Functions------------------------------#
 #---------------------------------------------------------------------#
 Review.Notes<-function(X)
  {
  Table.1.df<-data.frame(); Table.2.df<-data.frame(); Table.3.df<-data.frame();
-  
- 
- 
   output<-list()
   output$X<-X
   output$Table.1<-Table.1.df
@@ -44,6 +43,34 @@ Review.Notes<-function(X)
  }
 test.Review.Notes.1<-Review.Notes.1("1")
 test.Review.Notes.1
+
+#------------------------Feature Matrix Design-----------------------#
+Feature.1<-unlist(lapply(Z.2.df,function(x){Peptides::instaIndex(x)}))
+Feature.2<-unlist(lapply(Z.2.df,function(x){Peptides::lengthpep(x)}))
+Feature.3<-unlist(lapply(Z.2.df,function(x){Peptides::boman(x)}))
+Feature.4<-unlist(lapply(Z.2.df,function(x){Peptides::charge(x,pH=5)}))
+Feature.5<-unlist(lapply(Z.2.df,function(x){Peptides::charge(x,pH=7)}))
+Feature.6<-unlist(lapply(Z.2.df,function(x){Peptides::charge(x,pH=9)}))
+Feature.7<-unlist(lapply(Z.2.df,function(x){Peptides::aIndex(x)}))
+Feature.8<-unlist(lapply(Z.2.df,function(x){Peptides::pI(x)}))
+Feature.9<-unlist(lapply(Z.2.df,function(x){Peptides::mw(x)}))
+Feature.10<-unlist(lapply(Z.2.df,function(x){Peptides::hmoment(x,angle=100,window=11)}))
+Feature.11<-unlist(lapply(Z.2.df,function(x){Peptides::hmoment(x,angle=160,window=11)}))
+#----------------------Feature Design Matrix
+Response.Vector<-ifelse(Feature.1>= 40, 1, 0)
+Matrix.Feature<-cbind(Matrix.Label,
+                      Feature.1,
+                      Feature.2,
+                      Feature.3,
+                      Feature.4,
+                      Feature.5,
+                      Feature.6,
+                      Feature.7,
+                      Feature.8,
+                      Feature.9,
+                      Feature.10,
+                      Feature.11)
+Matrix.Feature
 #---------------------------------------------------------------------#
 #------------------------------Models---------------------------------#
 #---------------------------------------------------------------------#
