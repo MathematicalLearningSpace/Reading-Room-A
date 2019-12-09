@@ -6,8 +6,17 @@ library(deSolve);library(ReacTran);library(rootSolve);
 library(fda);library(phaseR);library(pracma);
 library(xtable);library(GA);library(igraph);library(pracma};library(readr);require(BioMedR)
 #----------------------------------R Source Files------------------------------------#
-#----------------------------------Data-------------------------------------------#
-#----------------------------------Cancer Example: Gastric Cancer----------------#
+#----------------------------------Data-------------------------------------------#					   
+Enrichment.RCTM <- as.data.frame(read_csv("enrichment.RCTM.tsv"))
+Enrichment.Process <- as.data.frame(read_csv("enrichment.Process.tsv"))
+Enrichment.PMID <- as.data.frame(read_csv("enrichment.PMID.tsv"))
+Enrichment.KEGG <- as.data.frame(read_csv("enrichment.KEGG.tsv"))
+Enrichment.Function <- as.data.frame(read_csv("enrichment.Function.tsv"))
+Enrichment.Component <- as.data.frame(read_csv("enrichment.Component.tsv"))
+Interactions.1 <- as.data.frame(read_delim("string_interactions.tsv",
+                                           "\t", escape_double = FALSE, col_names = TRUE, trim_ws = TRUE))
+Annotations<-as.data.frame(read_delim("string_protein_annotations.tsv",
+                                      "\t", escape_double = FALSE, col_names = TRUE, trim_ws = TRUE))
 						    
 A.Drug.Resistance<-c(CDX2, MUC2, REG4, CDH17, MDR1, SHH)
 B.Genomic.Instability<-c(p53, p21, BAX, p48, GADD45, BAK, POLK)
