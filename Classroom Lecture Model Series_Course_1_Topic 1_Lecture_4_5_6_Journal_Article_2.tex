@@ -122,6 +122,39 @@ Keywords: Fractional Calculus, Stochastic Calculus, Fractional Differential Equa
 
 \subsection{Fractional Derivative Operators}
 
+\begin{equation}
+D^{\alpha} y = \frac{1}{\Gamma (\alpha - n)} \int_{0}^{t} \frac{y^n * x}{(t - x)^{\alpha+1-n}} dx
+\end{equation}
+
+where $\alpha \in (n,n+1) $.  
+
+Here the ratio of Gamma functions and the ratio of polynomials
+
+\begin{equation}	
+D^{\alpha} y x^{u} = \frac{\Gamma(u +1)}{\Gamma(u + 1 - \alpha)} x^{u-\alpha}
+\end{equation}
+
+\begin{equation}
+\begin{cases}
+I_{a}^{\alpha} f(t) = \int_{a}^{t} \frac{(t-\tau)^{a-1}}{\Gamma(\alpha)} f(\tau) d \tau \\
+D_{a}^{\alpha} f(t) = \frac{d}{dt} \int_{a}^{t} \frac{(t-\tau)^{a-1}}{\Gamma(1-\alpha)} f(\tau) d \tau \\
+\end{cases}
+\end{equation}
+
+\begin{equation}
+cD^{\alpha} f(t) = \frac{1}{\Gamma(n - \mu)} \int_{0}^{t} \frac{f^{(n)} (\epsilon)}{(t-\epsilon(^{\mu - n + 1})} d\epsilon 
+\end{equation}
+
+\begin{equation}
+J = \frac{1}{2} || E_{j} ||_{2}^{2} = \frac{1}{2} \sum_{k=1}^{N} (e_j (k))^2 
+\end{equation}
+
+$E_j =(e_{j}(1),e_{j}(2),...,e_{j}(N))^{T}$ and
+
+\begin{equation}
+e_{j}(k) = f(x_{k},y_{j}(x_{k})) - D_{0}^{\alpha} y_{j}(x_{k})
+\end{equation}
+
 \begin{table}[H]\centering
 	\begin{tabular}{p{1cm}p{4cm}p{3cm}}
 		Operator ID & Description & Comments\\
