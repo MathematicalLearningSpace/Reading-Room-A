@@ -38,10 +38,29 @@ Vocabulary Words:
 \begin{enumerate}
 \end{enumerate}
 
-
 \section{Mathematical Review Topic: Semi-Markov Models}
 
 \subsection{Definitions}
+
+Let X be a N x N matrix with non-zero elements represented by 
+
+\begin{equation}
+X=
+\begin{bmatrix}
+a_{11} & a_{12} & ... & a_{1N} \\
+a_{11} & a_{12} & ... & a_{2N} \\
+.
+.
+.
+a_{N1} & a_{N2} & ... & a_{NN} \\
+\end{bmatrix}
+\end{equation}
+
+Here the representation of X is (a) a matrix of derivatives of k orders (b) a Markov Chain or (c) an adjacency matrix A where each entry $a_{i,j}$ is an edge weight with ith node to the jth node represented by the graph G with $G=(N,E,W)$ where N= nodes, E=edges and W=weights on the edge relationships.  Here the set of node relationships from the set $E={C_{1}, C_{2},...,C_{k}}$ where $C_{1}$ is no relationship,  $C_{2}$ is a directed relationship between node i and j with either left, right or bidirectional in the relationship.  These are represented by $C_{2}$, $C_{3}$ and $C_{4}$ considered to be a subset of E and represented in the adjacency matrix $A=T(X)$ where $T(*)$ is the transformation operator and 1,-1 represent the direction for $C_{2}$, $C_{3}$ and $C_{1}$ for no association between the ith and jth node. 
+
+In the case of a matrix of derivatives with first and second order derivatives of (a) Jacobian and (b) Hessian  for the matrix, the entries for each $a_{i,j}$ can be obtained by (a) forward, (b) central and (c) and backward combinations of step size specified difference operators. 
+
+The same matrix can be used for Feature Matrix Representation where each column is a scalar based ratio design on some interval I.
 
 \centering
 \begin{table}[H]\footnotesize
@@ -57,7 +76,37 @@ Vocabulary Words:
 
 \section{Markov Chains}
 
+Let X be a N x N fully symmetric matrix with non-zero elements represented by 
+
+\begin{equation}
+X=
+\begin{bmatrix}
+a_{11} & a_{12} & ... & a_{1N} \\
+a_{11} & a_{12} & ... & a_{2N} \\
+.
+.
+.
+a_{N1} & a_{N2} & ... & a_{NN} \\
+\end{bmatrix}
+\end{equation}
+
+
 \section{Hidden Markov Models}
+
+Let X be a N x N fully symmetric matrix with non-zero elements represented by 
+
+\begin{equation}
+X=
+\begin{bmatrix}
+a_{11} & a_{12} & ... & a_{1N} \\
+a_{11} & a_{12} & ... & a_{2N} \\
+.
+.
+.
+a_{N1} & a_{N2} & ... & a_{NN} \\
+\end{bmatrix}
+\end{equation}
+
 
 \centering
 \begin{table}[H]\footnotesize
