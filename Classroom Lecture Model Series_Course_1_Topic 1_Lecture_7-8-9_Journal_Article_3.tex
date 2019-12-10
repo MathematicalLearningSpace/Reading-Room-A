@@ -96,6 +96,24 @@ Gene/Protein & Description & Reference \\
 
 \section{Mathematical Background}
 
+\subsection{Stochastic Differential Equation System}
+
+The Itô interpretation is:
+\begin{equation}
+int(f(s)*dw(s),t0,T) = sum(f(t(i-1)) * (W(t(i)) - W(t(i-1))),i=1,…,N)
+\end{equation}
+
+The Stratonovich interpretation is:
+
+\begin{equation}
+int(f(s) o dw(s),t0,T) = sum(f((t(i)+t(i-1))/2) * (W(t(i)) - W(t(i-1))),i=1,…,N)
+\end{equation}
+
+\begin{equation}\label{eds01}
+dX_t = \mu(t,X_t) dt + \sigma(t,X_t) dW_t,\quad X_{t_{0}}=x_{0}
+\end{equation}
+
+
 \begin{enumerate}
 \end{enumerate}
 
