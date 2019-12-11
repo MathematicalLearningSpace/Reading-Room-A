@@ -71,6 +71,49 @@
 	\end{tabular}
 \end{table}
 
+\subsection{DNA Base Excision Repair}
+
+\begin{table}[H]\centering
+	\begin{tabular}{p{1cm}p{4cm}p{3cm}}
+		Article ID & Summary & Comments\\
+		\hline
+22336916 & Telomere proteins \textbf{POT1, TRF1 and TRF2} augment long-patch base excision repair in vitro.  & \\
+9765279 & Replication protein A stimulates long patch DNA base excision repair.  & \\
+10559260 & Long patch base excision repair with purified human proteins. \textbf{DNA ligase I} as patch size mediator for DNA polymerases delta and epsilon.  & \\
+11923315 & Repair of clustered DNA lesions. Sequence-specific inhibition of long-patch base excision repair be 8-oxoguanine.  & \\
+15871698 & The human checkpoint sensor and alternative DNA clamp Rad9-Rad1-Hus1 modulates the activity of DNA ligase I, a component of the long-patch base excision repair machinery.  & \\
+20123074 & HMGB1: roles in base excision repair and related function.  & \\
+11601988 & Interaction of human AP endonuclease 1 with flap endonuclease 1 and proliferating cell nuclear antigen involved in long-patch base excision repair.  & \\
+9214649  & Second pathway for completion of human DNA base excision-repair: reconstitution with purified proteins and requirement for \textbf{DNase IV (FEN1)}.  & \\
+10460157 & Replication protein A stimulates proliferating cell nuclear \textbf{antigen-dependent repair of abasic sites} in DNA by human cell extracts.  & \\
+18541666 & Removal of oxidative DNA damage via FEN1-dependent long-patch base excision repair in human cell mitochondria.  & \\
+11250913 & Human DNA polymerase beta initiates DNA synthesis during long-patch repair of reduced AP sites in DNA.  & \\
+20006562 & DNA polymerase beta-dependent long patch base excision repair in living cells.  & \\
+11092888 & Human homolog of the \textbf{MutY repair protein (hMYH)} physically interacts with proteins involved in long patch DNA base excision repair.  & \\
+12673357 & \textbf{Poly(ADP-ribose) polymerase} in base excision repair: always engaged, but not essential for DNA damage processing.  & \\
+19674974 & Coordination between \textbf{polymerase beta and FEN1} can modulate CAG repeat expansion.  & \\
+20581465 & BRCA1 regulation of base excision repair pathway.  & \\
+17176113 & Mechanism of adenomatous polyposis coli (APC)-mediated blockage of long-patch base excision repair.  & \\
+15561706 & \textbf{DNA polymerase beta and flap endonuclease 1 enzymatic} specificities sustain DNA synthesis for long patch base excision repair.  & \\
+16442856 & Roles of \textbf{DNA ligase III and XRCC1} in regulating the switch between short patch and long patch BER.  & \\
+DNA Repair (Amst). 2006 May 10;5(5):544-55. Epub 2006 Jan 26.
+12200445 & AP endonuclease 1 coordinates flap endonuclease 1 and DNA ligase I activity in long patch base excision repair.  & \\
+19703477 & \textbf{Poly(ADP-ribose) polymerase 1 }regulates activity of DNA polymerase beta in long patch base excision repair.  & \\
+16814252 & The \textbf{Rad9 protein enhances survival and promotes DNA repair} following exposure to ionizing radiation.  & \\
+18995831 & Human DNA2 is a mitochondrial nuclease/helicase for efficient processing of DNA replication and repair intermediates.  & \\
+15548520 & Tumor suppressor APC blocks DNA polymerase beta-dependent strand displacement synthesis during long patch but not short patch base excision repair and increases sensitivity to methylmethane sulfonate.  & \\
+15731342 & Human base excision repair enzymes \textbf{apurinic/apyrimidinic endonuclease1 (APE1)}, \textbf{DNA polymerase beta} and \textbf{poly(ADP-ribose) polymerase 1}: interplay between strand-displacement DNA synthesis and proofreading exonuclease activity.  & \\
+16188889 & Long-patch base excision \textbf{DNA repair of 2-deoxyribonolactone} prevents the formation of DNA-protein cross-links with DNA polymerase beta.  & \\
+11937636 & A quantitative model of human DNA base excision repair. I. Mechanistic insights.  & \\
+12065902 & Stimulation of human flap endonuclease 1 by human immunodeficiency virus type 1 integrase: possible role for flap endonuclease 1 in 5'-end processing of human immunodeficiency virus type 1 integration intermediates.  & \\
+16449207 & The Werner syndrome protein operates in base excision repair and cooperates with DNA polymerase beta.  & \\
+20399152 & Genetic interactions between \textbf{HNT3/Aprataxin} and \textbf{RAD27/FEN1} suggest parallel pathways for 5' end processing during base excision repair.  & \\
+ \hline
+ \end{tabular}
+	\caption{DNA Base Excision Repair}
+	\label{tab:Table1}
+\end{table}
+
 \begin{table}[H]
 \tiny
 \begin{tabular}{p{1cm}p{1cm}p{3cm}p{1cm}p{1cm}} 
