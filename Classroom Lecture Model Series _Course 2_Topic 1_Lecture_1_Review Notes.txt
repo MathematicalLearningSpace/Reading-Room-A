@@ -31,6 +31,27 @@
 
 \section{Classroom Lecture 7-9 Topics: Botany 1 and 2 Shikimate}
 
+\subsection{Apiaceae}
+\subsection{Araceae}
+\subsection{Arecaceae}
+\subsection{Asteraceae}
+\subsection{Brassicaceae}
+\subsection{Commelinaceae}
+\subsection{Ericaceae}
+\subsection{Liliaceae}
+\subsection{Amaryllidoideae}
+\subsection{Clusiaceae}
+\subsection{Euphorbiaceae}
+\subsection{Phyllanthaceae}
+\subsection{Picrodendraceae}
+\subsection{Apocynaceae}
+\subsection{Orchidaceae}
+\subsection{Poaceae}
+\subsection{Rosaceae}
+\subsection{Rubiaceae}
+\subsection{Rutaceae}
+\subsection{Sapindaceae}
+
 \begin{table}[H]\centering
 	\begin{tabular}{p{1cm}p{6cm}}
 		Article ID & Title\\
