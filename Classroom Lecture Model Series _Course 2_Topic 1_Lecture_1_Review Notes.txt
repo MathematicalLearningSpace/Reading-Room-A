@@ -143,6 +143,84 @@ DNA Repair (Amst). 2006 May 10;5(5):544-55. Epub 2006 Jan 26.
 	\label{tab:Table1}
 \end{table}
 
+\subsection{DNA: Non-Homologous End Joining}
+
+\begin{table}[H]
+	\centering
+	\begin{tabular}{r|p{12cm}|l}
+		\hline
+		PubmedID  & Title & Summary \\
+		\hline
+	20496270 & Analysis of the polymorphisms in non-homologous DNA end joining (NHEJ) \textbf{gene Ku70 and Ligase IV} in sporadic breast cancer in women. & \\
+	17504121 & Non-homologous DNA end joining in anticancer therapy. & \\
+	17963495 & Extensive ssDNA end formation at \textbf{DNA double-strand breaks in non-homologous end-joining deficient cells} during the S phase.  & \\
+	11470886 & The role of DNA polymerase activity in human non-homologous end joining.  & \\
+	20700465 &	\textbf{Involvement of Caveolin-1 in repair of DNA damage} through both homologous recombination and non-homologous end joining.  & \\
+	21070772 &	Coilin interacts with Ku proteins and inhibits in vitro non-homologous DNA end joining.  & \\
+	12220643 &	End-joining of reconstituted histone H2AX-containing chromatin in vitro by soluble nuclear proteins from human cells.  & \\
+	12032095 &	Involvement of \textbf{human polynucleotide kinase} in double-strand break repair by non-homologous end joining.  & \\
+	25485590 &	The checkpoint clamp protein Rad9 facilitates DNA-end resection and prevents alternative non-homologous end joining.  & \\
+	15258142 &	Non-homologous end joining requires that the \textbf{DNA-PK complex} undergo an \textit{autophosphorylation-dependent rearrangement} at DNA ends.  & \\
+	25294876 &	Structural maintenance of \textbf{chromosomes flexible hinge domain containing 1 (SMCHD1)} promotes non-homologous end joining and inhibits homologous recombination repair upon DNA damage.  & \\
+	23344954 &	\textbf{BRCA1-Ku80 protein interaction} enhances end-joining fidelity of chromosomal double-strand breaks in the G1 phase of the cell cycle.  & \\
+	17097754 &	Transient depletion of Ku70 and Xrcc4 by RNAi as a means to manipulate the non-homologous end-joining pathway.  & \\
+	25905708 &	\textbf{KAP1 Deacetylation by SIRT1 }Promotes Non-Homologous End-Joining Repair.  & \\
+	26578561 &	Control of alternative end joining by the chromatin remodeler p400 ATPase.  & \\
+	11406603 &	Role of the non-homologous DNA end joining pathway in the early steps of retroviral infection.  & \\
+	21593745 &	LCR-initiated rearrangements at the IDS locus, completed with \textbf{Alu-mediated recombination} or non-homologous end joining. & \\
+	19763083 &\textbf{	Human RAP1} inhibits non-homologous end joining at telomeres.  & \\
+	25661488 &	\textbf{Akt-mediated phosphorylation of XLF impairs} non-homologous end-joining DNA repair.  & \\
+	21079684 &	ATM limits incorrect end utilization during non-homologous end joining of multiple chromosome breaks.  & \\
+	17962814 &	Proliferative potential after DNA damage and non-homologous end joining are affected by loss of securin.  & \\
+	26990988 & 	Two-Stage Synapsis of DNA Ends during Non-homologous End Joining.  & \\
+	23275568 &	\textbf{Ribonucleotides and manganese ions }improve non-homologous end joining by human Pol?.  & \\
+	15177040 &	\textbf{AHNAK interacts with the DNA ligase IV-XRCC4 complex }and stimulates DNA ligase IV-mediated double-stranded ligation.  & \\
+	21936820 &	Non-homologous end-joining partners in a helical dance: structural studies of \textbf{XLF-XRCC4 interactions}.  & \\
+	25670504 &	Interactome analysis identifies a new paralogue of \textbf{XRCC4} in non-homologous end joining DNA repair pathway.  & \\
+	23677788 &	Lytic infection of Kaposi's sarcoma-associated herpesvirus induces DNA double-strand breaks and impairs non-homologous end joining.  & \\
+		\hline
+	\end{tabular}
+	\caption{Summary of Literature Review for Non-Homologous End Joining}
+\end{table}		
+
+\subsection{DNA: Homologous Recombination}
+
+\begin{table}[H]
+	\centering
+	\begin{tabular}{r|p{12cm}|l}
+		\hline
+		PubmedID  & Title & Summary \\
+		\hline
+		22274865 & \textbf{Methotrexate-mediated inhibition} of RAD51 expression and homologous recombination in cancer cells. & \\
+		22579622 & High levels of wild-type BRCA2 suppress homologous recombination. & \\
+		19020614 & Identification of Holliday junction resolvases from humans and yeast.  & \\
+		20040574 & The human Holliday junction \textbf{resolvase GEN1} rescues the meiotic phenotype of a Schizosaccharomyces pombe mus81 mutant.  & \\
+		11741546 & Human \textbf{Mus81-associated endonuclease} cleaves Holliday junctions in vitro.  & \\
+		18310322 & Cleavage mechanism of human Mus81-Eme1 acting on Holliday-junction structures.  & \\
+		16260474 & Identification of RecQL1 as a Holliday junction processing enzyme in human cell lines.  & \\
+		21736299 & The Werner and Bloom syndrome proteins help resolve replication blockage by converting (regressed) holliday junctions to functional replication forks. & \\
+		17728255 & Holliday junction processing activity of the \textbf{BLM-Topo IIIalpha-BLAP75 complex}. & \\
+		12441335 & Holliday junction binding activity of the human Rad51B protein.  & \\
+		12374758 & Holliday junction resolution in human cells: two junction endonucleases with distinct substrate specificities.  & \\
+		17101150 & Resolution of Holliday junction substrates by \textbf{human topoisomerase I}.  & \\
+		15709766 & Modulation of p53 binding to Holliday junctions and \textbf{3-cytosine bulges by phosphorylation events}.  & \\
+		15990871 & The HRDC domain of \textbf{BLM} is required for the dissolution of double Holliday junctions.  & \\
+		14716019 & RAD51C is required for Holliday junction processing in mammalian cells.  & \\
+		17823411 & Activation of Holliday junction recognizing protein involved in the chromosomal stability and immortality of cancer cells.  & \\
+		26578604 & \textbf{GEN1 promotes Holliday junction resolution} by a coordinated nick and counter-nick mechanism.  & \\
+		20236180 & Holliday junction-binding activity of human SPF45.  & \\
+		18596042 & The Werner syndrome protein binds replication fork and holliday junction DNAs as an oligomer.  & \\
+		18206976 & The \textbf{Fanconi anemia protein FANCM} can promote branch migration of Holliday junctions and replication forks.  & \\
+		10823897 & The Bloom's syndrome gene product promotes branch migration of holliday junctions.  & \\
+		20634321 & Mechanism of Holliday junction resolution by the human \textbf{GEN1 protein}.  & \\
+		19596236 & Human \textbf{SLX4} is a Holliday junction resolvase subunit that binds multiple DNA repair/recombination endonucleases.  & \\
+		\hline
+	\end{tabular}
+	\caption{Summary of Literature Review for Homologous Recombination}
+\end{table}		
+
+
+
 \begin{table}[H]
 \tiny
 \begin{tabular}{p{1cm}p{1cm}p{3cm}p{1cm}p{1cm}} 
