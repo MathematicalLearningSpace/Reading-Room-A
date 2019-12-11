@@ -71,6 +71,35 @@
 	\end{tabular}
 \end{table}
 
+\subsection{DNA MisMatch Repair}
+
+\begin{table}[H]
+	\centering
+	\begin{tabular}{r|p{12cm}|l}
+		\hline
+		PubmedID  & Title & Summary \\
+		\hline
+		8666228 & Biochemistry and genetics of eukaryotic mismatch repair. & \\
+		16873053 & \textbf{MutLalpha}: at the cutting edge of mismatch repair.  & \\
+		16981255 & Mutation screening of mismatch repair gene \textbf{Mlh3} in familial esophageal cancer.  & \\
+		11474654 & Hereditary and somatic DNA mismatch repair gene mutations in sporadic endometrial carcinoma.  & \\
+		21640116 & \textbf{BMPR1A mutations }in hereditary nonpolyposis colorectal cancer without mismatch repair deficiency.  & \\
+		26062774 & Mismatch repair deficiency predicts benefit of anti-PD-1 therapy.  & \\
+		8533151 & Mismatch repair: mechanisms and relationship to cancer susceptibility.  & \\
+		20015892 & Constitutional mismatch repair deficiency and childhood leukemia/lymphoma--report on a novel biallelic MSH6 mutation.  & \\
+		16143102 & Reconstitution of 5'-directed human mismatch repair in a purified system.  & \\
+		18355840 & Mismatch repair gene \textbf{MSH3 polymorphism }is associated with the risk of sporadic prostate cancer.  & \\
+		11017067 & \textbf{Mutations in AXIN2} cause colorectal cancer with defective mismatch repair by activating beta-catenin/TCF signalling.  & \\
+		24072394 & Germline mutation and protein expression analysis of mismatch repair genes \textbf{MSH6 and PMS2} in Malaysian Lynch syndrome patients.  & \\
+		20336543 & Mismatch repair gene \textbf{hMLH1 A655G/A polymorphism} and colorectal cancer.  & \\
+		21182953 & Hepatic adenomas caused by \textbf{somatic HNF1A mutations} in children with biallelic mismatch repair gene mutations.  & \\
+		24800948 & Molecular patterns in deficient mismatch repair colorectal tumours: results from a French prospective multicentric biological and genetic study.  & \\
+		10459502 & Expression of DNA mismatch repair genes in naevi. & \\
+		\hline
+	\end{tabular}
+	\caption{Summary of Literature Review for Mismatch Repair}
+\end{table}	
+
 \subsection{DNA Base Excision Repair}
 
 \begin{table}[H]\centering
