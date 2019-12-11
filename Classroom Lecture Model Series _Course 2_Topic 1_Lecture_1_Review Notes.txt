@@ -52,8 +52,47 @@
 		\href{https://www.ncbi.nlm.nih.gov//pubmed//30823479}{30823479} & Electrochemical Screening and Evaluation of Lamiaceae Plant Species from South Africa with Potential Tyrosinase Activity. \\
 		\href{https://www.ncbi.nlm.nih.gov//pubmed//30792999}{30792999} & Antimicrobial Efficiency of Essential Oils from Traditional Medicinal Plants of Asir Region \\ 
 		\href{https://www.ncbi.nlm.nih.gov//pubmed//30791451}{30791451} & Medicinal Potentialities of Plant Defensins: A Review with Applied Perspectives. \\  
-		\href{https://www.ncbi.nlm.nih.gov//pubmed//30759795}{30759795} & A Traditional Medicine Plant \\ 
+		\href{https://www.ncbi.nlm.nih.gov//pubmed//30759795}{30759795} & A Traditional Medicine Plant \\
 		\hline
+		\href{https://www.ncbi.nlm.nih.gov//pubmed//31057648}{31057648} & Ethnobotanical Study of Medicinal Plants Used in Central Macedonia \\ 
+\href{https://www.ncbi.nlm.nih.gov//pubmed//31050184}{31050184} & Editorial for the Special Issue: Bioactive Natural Products from the Medicinal Plants in the Lingnan Region of China. \\ 
+\href{https://www.ncbi.nlm.nih.gov//pubmed//31024752}{31024752} & Mauritian Endemic Medicinal Plant Extracts Induce G2/M Phase Cell Cycle Arrest and Growth Inhibition of Oesophageal Squamous Cell Carcinoma in Vitro. \\ 
+\href{https://www.ncbi.nlm.nih.gov//pubmed//30988997}{30988997} & Opuntia dillenii: A Forgotten Plant with Promising Pharmacological Properties. \\ 
+\href{https://www.ncbi.nlm.nih.gov//pubmed//30988992}{30988992} & Control of Anthracnose and Gray Mold in Pepper Plants Using Culture Extract of White \\ 
+\href{https://www.ncbi.nlm.nih.gov//pubmed//30987216}{30987216} & Sequencing and Structural Analysis of the Complete Chloroplast Genome of the Medicinal Plant Lyciumchinense Mill. \\ 
+\href{https://www.ncbi.nlm.nih.gov//pubmed//30984118}{30984118} & Bioactive Products From Plant \\ 
+\href{https://www.ncbi.nlm.nih.gov//pubmed//30968350}{30968350} & Ethnomedicinal Investigation of Medicinal Plants of Chakrata Region (Uttarakhand) Used in the Traditional Medicine for Diabetes by Jaunsari Tribe. \\ 
+\href{https://www.ncbi.nlm.nih.gov//pubmed//30942656}{30942656} & Medicinal Plant Extracts and Their Use As Wound Closure Inducing Agents. \\ 
+\href{https://www.ncbi.nlm.nih.gov//pubmed//30935155}{30935155} & Antifungal Activity in Compounds from the Australian Desert Plant Eremophila alternifolia with Potency Against Cryptococcus spp. \\ 
+\href{https://www.ncbi.nlm.nih.gov//pubmed//30867404}{30867404} & Chemical Composition and Biological Activities of Lebanese Pentapera Plant. \\ 
+\href{https://www.ncbi.nlm.nih.gov//pubmed//30854016}{30854016} & Local Knowledge and Conservation Priorities of Medicinal Plants near a Protected Area in Brazil. \\ 
+\href{https://www.ncbi.nlm.nih.gov//pubmed//30830783}{30830783} & Potential Anticancer Agents Characterized from Selected Tropical Plants. \\ 
+\href{https://www.ncbi.nlm.nih.gov//pubmed//30823479}{30823479} & Electrochemical Screening and Evaluation of Lamiaceae Plant Species from South Africa with Potential Tyrosinase Activity. \\
+\href{https://www.ncbi.nlm.nih.gov//pubmed//30792999}{30792999} & Antimicrobial Efficiency of Essential Oils from Traditional Medicinal Plants of Asir Region \\ 
+\href{https://www.ncbi.nlm.nih.gov//pubmed//30791451}{30791451} & Medicinal Potentialities of Plant Defensins: A Review with Applied Perspectives. \\ 
+\href{https://www.ncbi.nlm.nih.gov//pubmed//30778367}{30778367} & Corrigendum: Modification of Barley Plant Productivity Through Regulation of Cytokinin Content by Reverse \ 
+\href{https://www.ncbi.nlm.nih.gov//pubmed//30759795}{30759795} & A Traditional Medicine Plant \\ 
+\href{https://www.ncbi.nlm.nih.gov//pubmed//31057648}{31057648} & Ethnobotanical Study of Medicinal Plants Used in Central Macedonia \\ 
+\href{https://www.ncbi.nlm.nih.gov//pubmed//31055002}{31055002} & Medicinal plants in homegardens of four ethnic groups in Thailand. \\ 
+\href{https://www.ncbi.nlm.nih.gov//pubmed//31050184}{31050184} & Editorial for the Special Issue: Bioactive Natural Products from the Medicinal Plants in the Lingnan Region of China. \\ 
+\href{https://www.ncbi.nlm.nih.gov//pubmed//31024752}{31024752} & Mauritian Endemic Medicinal Plant Extracts Induce G2/M Phase Cell Cycle Arrest and Growth Inhibition of Oesophageal Squamous Cell Carcinoma in Vitro. \\ 
+\href{https://www.ncbi.nlm.nih.gov//pubmed//31008814}{31008814} & Medicinal plants and reproduction. \\ 
+\href{https://www.ncbi.nlm.nih.gov//pubmed//30987216}{30987216} & Sequencing and Structural Analysis of the Complete Chloroplast Genome of the Medicinal Plant Lyciumchinense Mill. \\ 
+\href{https://www.ncbi.nlm.nih.gov//pubmed//30977452}{30977452} & Medicinal chemistry of Alternative therapeutics: Novelty and hopes with genus Ammannia. \\ 
+\href{https://www.ncbi.nlm.nih.gov//pubmed//30968350}{30968350} & Ethnomedicinal Investigation of Medicinal Plants of Chakrata Region (Uttarakhand) Used in the Traditional Medicine for Diabetes by Jaunsari Tribe. \\ 
+\href{https://www.ncbi.nlm.nih.gov//pubmed//30942656}{30942656} & Medicinal Plant Extracts and Their Use As Wound Closure Inducing Agents. \\ 
+\href{https://www.ncbi.nlm.nih.gov//pubmed//30937310}{30937310} & Comparative Study on the Influence of Some Medicinal Plants on Diabetes Induced by Streptozotocin in Male Rats. \\ 
+\href{https://www.ncbi.nlm.nih.gov//pubmed//30934961}{30934961} & Metabolomic Profiling of the Desiccation \\ 
+\href{https://www.ncbi.nlm.nih.gov//pubmed//30924013}{30924013} & Chemistry and Biology of Selected Mexican Medicinal Plants. \\ 
+\href{https://www.ncbi.nlm.nih.gov//pubmed//30916554}{30916554} & HPLC \\ 
+\href{https://www.ncbi.nlm.nih.gov//pubmed//30906414}{30906414} & Heuchera Creme Brulee and Mahogany Medicinal Value under Water Stress and Oligosaccharide (COS) Treatment. \\ 
+\href{https://www.ncbi.nlm.nih.gov//pubmed//30885881}{30885881} & Medicinal plants of the Caatinga \\ 
+\href{https://www.ncbi.nlm.nih.gov//pubmed//30854016}{30854016} & Local Knowledge and Conservation Priorities of Medicinal Plants near a Protected Area in Brazil. \\ 
+\href{https://www.ncbi.nlm.nih.gov//pubmed//30852764}{30852764} & Medicinal plants and their isolated phytochemicals for the management of chemotherapy \\ 
+\href{https://www.ncbi.nlm.nih.gov//pubmed//30838937}{30838937} & Medicinal plants in tissue engineering and regenerative medicine in the African Continent. \\ 
+\href{https://www.ncbi.nlm.nih.gov//pubmed//30792999}{30792999} & Antimicrobial Efficiency of Essential Oils from Traditional Medicinal Plants of Asir Region \\ 
+\href{https://www.ncbi.nlm.nih.gov//pubmed//30791451}{30791451} & Medicinal Potentialities of Plant Defensins: A Review with Applied Perspectives. \\ 
+\href{https://www.ncbi.nlm.nih.gov//pubmed//30774594}{30774594} & Selection of Reference Genes for Expression Analysis in Chinese Medicinal Herb Huperzia serrata. \\ 
 	\end{tabular}
 \end{table}
 
