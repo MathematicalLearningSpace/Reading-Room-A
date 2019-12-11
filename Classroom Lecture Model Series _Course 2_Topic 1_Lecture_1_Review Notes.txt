@@ -383,20 +383,35 @@ DNA Repair (Amst). 2006 May 10;5(5):544-55. Epub 2006 Jan 26.
 \section{Micronutrients}
 
 \subsection{Vitamins}
+
+\begin{table}[H]\centering
+	\begin{tabular}{p{1cm}p{4cm}p{3cm}}
+	Vitamin & Chemical Name & Comments\\
+	\hline
+	Vitamin A & retinol &  \\
+	\hline
+	Vitamin B1 & thiamin  &  \\
+	Vitamin B2 & riboflavin  &  \\
+	Vitamin B3 & niacin  &  \\
+	Vitamin B5 & pantothenic acid  &  \\
+	Vitamin B6 & Pyridoxine, Pyridoxal, Pyridoxamine  &  \\
+	Vitamin B7 & biotin  &  \\
+	Vitamin B8 & ergadenylic acid  &  \\
+	Vitamin B9  & folic acid  &  \\
+	Vitamin B12 & cyanocobalamin  &  \\
+	\hline
+	Vitamin E & tocopherol & \\ 
+	Vitamin K &  \\
+	\hline
+	\end{tabular}
+\end{table}
+
+
 \subsection{Minerals}
 \subsection{Organic acids}
 
 
 
-
-
-\begin{table}[H]\centering
-	\begin{tabular}{p{1cm}p{4cm}p{3cm}}
-		Article ID & Summary & Comments\\
-		\hline
-		\hline
-	\end{tabular}
-\end{table}
 
 \section{Classroom Lecture 25-27 Topics:  Metabolism Obesity Pancreatic Signalling I}
 
