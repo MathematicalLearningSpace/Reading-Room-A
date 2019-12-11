@@ -357,6 +357,39 @@ DNA Repair (Amst). 2006 May 10;5(5):544-55. Epub 2006 Jan 26.
 
 \section{Classroom Lecture 22-24 Topics:  Digestion I and II Sugar and Insulin}
 
+\section{Macronutrients}
+
+\subsection{Water}
+
+\subsection{Protein}
+
+\subsection{Carbohydrates}
+
+\subsubsection{Dietary fiber}
+\subsubsection{Starch}
+\subsubsection{Sugars}
+\subsubsection{Sugar substitutes}
+
+\subsection{Fat}
+
+\subsubsection{Saturated fats}
+\subsubsection{Monounsaturated fats}
+\subsubsection{Polyunsaturated fats}
+\subsubsection{Essential fatty acids}
+\subsubsection{Other fats}
+\subsubsection{Fat substitutes}
+
+
+\section{Micronutrients}
+
+\subsection{Vitamins}
+\subsection{Minerals}
+\subsection{Organic acids}
+
+
+
+
+
 \begin{table}[H]\centering
 	\begin{tabular}{p{1cm}p{4cm}p{3cm}}
 		Article ID & Summary & Comments\\
