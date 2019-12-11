@@ -38,6 +38,38 @@ Vocabulary Words:
 \begin{enumerate}
 \end{enumerate}
 
+\section{Protein Interaction Diagram and Annotations}
+
+\begin{tikzpicture}
+	[->,>=stealth',shorten >=2pt,node distance=3cm,
+	thick,main node/.style={circle,draw,scale=0.25,transform canvas={scale=0.75},font=\sffamily\Small\bfseries},
+	blacknode/.style={shape=circle, draw=black, line width=2},
+	bluenode/.style={shape=circle, draw=blue, line width=2},
+	greennode/.style={shape=circle, draw=green, line width=2},
+	rednode/.style={shape=circle, draw=red, line width=2}
+	]
+	%-------Legend ------------------------------------------------------------	
+	\matrix [draw,below left] at (current bounding box.south) {
+		\node [state,label=right:State] {}; Description. \\
+		\node [shapeSquare,label=right:Square-.] {}; \\
+		\node [shapeEllipse,label=right:Ellipse-.] {}; \\
+		\node [shapeTriangle,label=right:Triangle-.] {}; \\
+		\node [shapeHexagon,label=right:Hexagon-.] {}; \\
+	};
+\end{tikzpicture}
+
+\centering	
+\begin{table}[H]\tiny
+\caption{Gene/Protein/Enzymes Description and References}	
+\begin{tabular}{r|p{3cm}|l}
+\hline	
+Gene/Protein & Description & Reference \\
+\hline 
+\hline 
+\end{tabular}
+\end{table}
+
+
 \section{Mathematical Review Topic: Semi-Markov Models}
 
 \subsection{Definitions}
