@@ -32,9 +32,27 @@
 \section{Classroom Lecture 7-9 Topics: Botany 1 and 2 Shikimate}
 
 \begin{table}[H]\centering
-	\begin{tabular}{p{1cm}p{4cm}p{3cm}}
-		Article ID & Summary & Comments\\
+	\begin{tabular}{p{1cm}p{6cm}}
+		Article ID & Title\\
 		\hline
+		\href{https://www.ncbi.nlm.nih.gov//pubmed//31057648}{31057648} & Ethnobotanical Study of Medicinal Plants Used in Central Macedonia \\ 
+		\href{https://www.ncbi.nlm.nih.gov//pubmed//31050184}{31050184} & Editorial for the Special Issue: Bioactive Natural Products from the Medicinal Plants in the Lingnan Region of China. \\ 
+		\href{https://www.ncbi.nlm.nih.gov//pubmed//31024752}{31024752} & Mauritian Endemic Medicinal Plant Extracts Induce G2/M Phase Cell Cycle Arrest and Growth Inhibition of Oesophageal Squamous Cell Carcinoma in Vitro. \\
+		\href{https://www.ncbi.nlm.nih.gov//pubmed//30988997}{30988997} & Opuntia dillenii: A Forgotten Plant with Promising Pharmacological Properties. \ 
+		\href{https://www.ncbi.nlm.nih.gov//pubmed//30988992}{30988992} & Control of Anthracnose and Gray Mold in Pepper Plants Using Culture Extract of White \\ 
+		\href{https://www.ncbi.nlm.nih.gov//pubmed//30987216}{30987216} & Sequencing and Structural Analysis of the Complete Chloroplast Genome of the Medicinal Plant Lyciumchinense Mill. \\ 
+		\href{https://www.ncbi.nlm.nih.gov//pubmed//30984118}{30984118} & Bioactive Products From Plant \\
+		\href{https://www.ncbi.nlm.nih.gov//pubmed//30968350}{30968350} & Ethnomedicinal Investigation of Medicinal Plants of Chakrata Region (Uttarakhand) Used in the Traditional Medicine for Diabetes by Jaunsari Tribe. \\ 
+		\href{https://www.ncbi.nlm.nih.gov//pubmed//30942656}{30942656} & Medicinal Plant Extracts and Their Use As Wound Closure Inducing Agents. \\ 
+		\href{https://www.ncbi.nlm.nih.gov//pubmed//30935155}{30935155} & Antifungal Activity in Compounds from the Australian Desert Plant Eremophila alternifolia with Potency Against Cryptococcus spp. \\ 
+		\href{https://www.ncbi.nlm.nih.gov//pubmed//30924013}{30924013} & Chemistry and Biology of Selected Mexican Medicinal Plants. \\
+		\href{https://www.ncbi.nlm.nih.gov//pubmed//30867404}{30867404} & Chemical Composition and Biological Activities of Lebanese Pentapera Plant. \\ 
+		\href{https://www.ncbi.nlm.nih.gov//pubmed//30854016}{30854016} & Local Knowledge and Conservation Priorities of Medicinal Plants near a Protected Area in Brazil. \\ 
+		\href{https://www.ncbi.nlm.nih.gov//pubmed//30830783}{30830783} & Potential Anticancer Agents Characterized from Selected Tropical Plants. \\ 
+		\href{https://www.ncbi.nlm.nih.gov//pubmed//30823479}{30823479} & Electrochemical Screening and Evaluation of Lamiaceae Plant Species from South Africa with Potential Tyrosinase Activity. \\
+		\href{https://www.ncbi.nlm.nih.gov//pubmed//30792999}{30792999} & Antimicrobial Efficiency of Essential Oils from Traditional Medicinal Plants of Asir Region \\ 
+		\href{https://www.ncbi.nlm.nih.gov//pubmed//30791451}{30791451} & Medicinal Potentialities of Plant Defensins: A Review with Applied Perspectives. \\  
+		\href{https://www.ncbi.nlm.nih.gov//pubmed//30759795}{30759795} & A Traditional Medicine Plant \\ 
 		\hline
 	\end{tabular}
 \end{table}
