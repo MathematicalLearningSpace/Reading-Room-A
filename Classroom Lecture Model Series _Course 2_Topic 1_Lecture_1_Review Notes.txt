@@ -528,7 +528,48 @@ Topic ID & #Articles & Readability & Vocabulary & Search String  \\
 \subsection{Classroom Lecture 22-24 Topics: Digestion I and II Sugar and Insulin}
 \subsection{Classroom Lecture 25-27 Topics: Metabolism Obesity Pancreatic Signalling I}
 \subsection{Classroom Lecture 28-30 Topics: Application Study I and II}
-\subsection{Topic A:}
+\subsection{Topic A: Immunotherapy}
+
+\bibitem[8]{key8}\href{https://www.ncbi.nlm.nih.gov//pubmed//30993030}{30993030}-Robust and accurate quantification of biomarkers of immune cells in lung cancer micro-environment using deep convolutional neural networks. 
+\bibitem[14]{key14}\href{https://www.ncbi.nlm.nih.gov//pubmed//30931360}{30931360}-Management of Immune-Related Adverse Events Associated with Immune Checkpoint Inhibitor Therapy: a Minireview of Current Clinical Guidelines. 
+\bibitem[24]{key24}\href{https://www.ncbi.nlm.nih.gov//pubmed//30862951}{30862951}-Revisiting immune escape in colorectal cancer in the era of immunotherapy. 
+\bibitem[25]{key25}\href{https://www.ncbi.nlm.nih.gov//pubmed//30861094}{30861094}-Will deeper characterization of the landscape of immune checkpoint molecules in acute myeloid leukemia bone marrow lead to improved therapeutic targeting? 
+\bibitem[26]{key26}\href{https://www.ncbi.nlm.nih.gov//pubmed//30854794}{30854794}-The immune microenvironment in non-small cell lung cancer is predictive of prognosis after surgery. 
+\bibitem[35]{key35}\href{https://www.ncbi.nlm.nih.gov//pubmed//30790471}{30790471}-Retrospective efficacy analysis of immune checkpoint inhibitors in patients with EGFR-mutated non-small cell lung cancer.
+\bibitem[39]{key39}\href{https://www.ncbi.nlm.nih.gov//pubmed//30756454}{30756454}-Development of a-Gal-Antibody Conjugates to Increase Immune Response by Recruiting Natural Antibodies.
+\bibitem[48]{key48}\href{https://www.ncbi.nlm.nih.gov//pubmed//30709339}{30709339}-Crosslink between Temozolomide and PD-L1 immune-checkpoint inhibition in glioblastoma multiforme. 
+\bibitem[50]{key50}\href{https://www.ncbi.nlm.nih.gov//pubmed//30680732}{30680732}-The innate immune architecture of lung tumors and its implication in disease progression. 
+\bibitem[66]{key66}\href{https://www.ncbi.nlm.nih.gov//pubmed//30592986}{30592986}-ASTCT Consensus Grading for Cytokine Release Syndrome and Neurologic Toxicity Associated with Immune Effector Cells. 
+\bibitem[73]{key73}\href{https://www.ncbi.nlm.nih.gov//pubmed//30575963}{30575963}-Differential effects of corticosteroids and anti-TNF on tumor-specific immune responses: implications for the management of irAEs.
+\bibitem[74]{key74}\href{https://www.ncbi.nlm.nih.gov//pubmed//30570217}{30570217}-Implementation and Validation of an Automated Flow Cytometry Analysis Pipeline for Human Immune Profiling. 
+\bibitem[88]{key88}\href{https://www.ncbi.nlm.nih.gov//pubmed//30451357}{30451357}-Protein profiling of fine-needle aspirates reveals subtype-associated immune signatures and involvement of chemokines in breast cancer. 
+\bibitem[116]{key116}\href{https://www.ncbi.nlm.nih.gov//pubmed//30315712}{30315712}-The prognostic value of immune checkpoints in oral squamous cell carcinoma. 
+\bibitem[164]{key164}\href{https://www.ncbi.nlm.nih.gov//pubmed//29933886}{29933886}-[Immune checkpoints inhibitors: Recent data from ASCO's meeting 2017 and perspectives]. 
+\bibitem[169]{key169}\href{https://www.ncbi.nlm.nih.gov//pubmed//29871670}{29871670}-Immune oncology, immune responsiveness and the theory of everything. 
+\bibitem[202]{key202}\href{https://www.ncbi.nlm.nih.gov//pubmed//29530456}{29530456}-An Overview of Immune Checkpoint Inhibitors in Gynecologic Cancers. 
+\bibitem[211]{key211}\href{https://www.ncbi.nlm.nih.gov//pubmed//29437869}{29437869}-Integrative analysis of exogenous, endogenous, tumour and immune factors for precision medicine. 
+\bibitem[226]{key226}\href{https://www.ncbi.nlm.nih.gov//pubmed//29282718}{29282718}-Multispectral imaging for quantitative and compartment-specific immune infiltrates reveals distinct immune profiles that classify lung cancer patients.
+\bibitem[234]{key234}\href{https://www.ncbi.nlm.nih.gov//pubmed//29211297}{29211297}-Immune checkpoint inhibitors in advanced non-small cell lung cancer. 
+\bibitem[240]{key240}\href{https://www.ncbi.nlm.nih.gov//pubmed//29193231}{29193231}-Using MRI cell tracking to monitor immune cell recruitment in response to a peptide-based cancer vaccine. 
+\bibitem[244]{key244}\href{https://www.ncbi.nlm.nih.gov//pubmed//29173974}{29173974}-[Indications and follow-up for autologous hematopoietic stem cell transplantation in autoimmune and autoinflammatory diseases: Guidelines from the Francophone Society of Bone Marrow Transplantation and Cellular Therapy (SFGM-TC)]. 
+\bibitem[247]{key247}\href{https://www.ncbi.nlm.nih.gov//pubmed//29162153}{29162153}-Managing toxicities associated with immune checkpoint inhibitors: consensus recommendations from the Society for Immunotherapy of Cancer (SITC) Toxicity Management Working Group. 
+\bibitem[249]{key249}\href{https://www.ncbi.nlm.nih.gov//pubmed//29131530}{29131530}-Biomarkers for immune checkpoint inhibitors: The importance of tumor topography and the challenges to cytopathology. 
+\bibitem[270]{key270}\href{https://www.ncbi.nlm.nih.gov//pubmed//28926891}{28926891}-[Advances in immune checkpoint inhibitors in gastrointestinal cancer]. 
+\bibitem[289]{key289}\href{https://www.ncbi.nlm.nih.gov//pubmed//28818609}{28818609}-Multicenter Comparison of 22C3 PharmDx (Agilent) and SP263 (Ventana) Assays to Test PD-L1 Expression for NSCLC Patients to Be Treated with Immune Checkpoint Inhibitors. 
+\bibitem[313]{key313}\href{https://www.ncbi.nlm.nih.gov//pubmed//28543700}{28543700}-Interaction of molecular alterations with immune response in melanoma. 
+\bibitem[314]{key314}\href{https://www.ncbi.nlm.nih.gov//pubmed//28543699}{28543699}-Immune and molecular correlates in melanoma treated with immune checkpoint blockade. 
+\bibitem[322]{key322}\href{https://www.ncbi.nlm.nih.gov//pubmed//28515944}{28515944}-Identifying baseline immune-related biomarkers to predict clinical outcome of immunotherapy. 
+\bibitem[341]{key341}\href{https://www.ncbi.nlm.nih.gov//pubmed//28411378}{28411378}-Immune responses and long-term disease recurrence status after telomerase-based dendritic cell immunotherapy in patients with acute myeloid leukemia. 
+\bibitem[349]{key349}\href{https://www.ncbi.nlm.nih.gov//pubmed//28331613}{28331613}-Systematic evaluation of immune regulation and modulation. 
+\bibitem[360]{key360}\href{https://www.ncbi.nlm.nih.gov//pubmed//28271366}{28271366}-Advancing Immune and Cell-Based Therapies Through Imaging. 
+\bibitem[372]{key372}\href{https://www.ncbi.nlm.nih.gov//pubmed//28201977}{28201977}-Targeting the Immune Niche within the Bone Marrow Microenvironment: The Rise of Immunotherapy in Multiple Myeloma. 
+\bibitem[400]{key400}\href{https://www.ncbi.nlm.nih.gov//pubmed//27920468}{27920468}-Immune checkpoint therapy for pancreatic cancer.
+\bibitem[426]{key426}\href{https://www.ncbi.nlm.nih.gov//pubmed//27811020}{27811020}-Impact of CTLA4 genotype and other immune response gene polymorphisms on outcomes after single umbilical cord blood transplantation. 
+\bibitem[467]{key467}\href{https://www.ncbi.nlm.nih.gov//pubmed//27517639}{27517639}-Combining chemotherapy and immune checkpoint blockade. 
+\bibitem[474]{key474}\href{https://www.ncbi.nlm.nih.gov//pubmed//27441513}{27441513}-Update on New Therapies With Immune Checkpoint Inhibitors. 
+
+
+
 \subsection{Topic B:}
 \subsection{Topic C:}
 \subsection{Topic D:}
