@@ -512,6 +512,76 @@ Topic ID & #Articles & Readability & Vocabulary & Search String  \\
 \subsection{Classroom Lecture 7-9 Topics: Botany 1 and 2 Shikimate}
 \subsection{Classroom Lecture 10-12 Topics: MAPK, Calcium cAMP}
 \subsection{Classroom Lecture 13-15 Topics: Fox0 Cell cycle mTOR}
+
+\bibitem[141]{key141}\href{https://www.ncbi.nlm.nih.gov//pubmed//31019655}{31019655}-Hsp90 Inhibitor SNX-2112 Enhances TRAIL-Induced Apoptosis of Human Cervical Cancer Cells via the ROS-Mediated JNK-p53-Autophagy-DR5 Pathway. 
+\bibitem[146]{key146}\href{https://www.ncbi.nlm.nih.gov//pubmed//31018249}{31018249}-Fisetin and 5-fluorouracil: Effective combination for PIK3CA-mutant colorectal cancer. 
+\bibitem[170]{key170}\href{https://www.ncbi.nlm.nih.gov//pubmed//31010254}{31010254}-Influence of the HDAC Inhibitor Valproic Acid on the Growth and Proliferation of Temsirolimus-Resistant Prostate Cancer Cells In Vitro. 
+\bibitem[173]{key173}\href{https://www.ncbi.nlm.nih.gov//pubmed//31009138}{31009138}-miR-188-5p emerges as an oncomiRNA to promote gastric cancer cell proliferation and migration via upregulation of SALL4. 
+\bibitem[175]{key175}\href{https://www.ncbi.nlm.nih.gov//pubmed//31007884}{31007884}-Transcriptomic metaanalyses of autistic brains reveals shared gene expression and biological pathway abnormalities with cancer. 
+\bibitem[176]{key176}\href{https://www.ncbi.nlm.nih.gov//pubmed//31007870}{31007870}-Treatment According to Molecular Profiling in Relapsed/Refractory Cancer Patients: A Review Focusing on Latest Profiling Studies. 
+\bibitem[177]{key177}\href{https://www.ncbi.nlm.nih.gov//pubmed//31007848}{31007848}-AXL knockdown gene signature reveals a drug repurposing opportunity for a class of antipsychotics to reduce growth and metastasis of triple-negative breast cancer. 
+\bibitem[178]{key178}\href{https://www.ncbi.nlm.nih.gov//pubmed//31007702}{31007702}-Formononetin Enhances the Tumoricidal Effect of Everolimus in Breast Cancer MDA-MB-468 Cells by Suppressing the mTOR Pathway. 
+\bibitem[180]{key180}\href{https://www.ncbi.nlm.nih.gov//pubmed//31007526}{31007526}-Cancer Genetic Network Inference Using Gaussian Graphical Models. 
+\bibitem[183]{key183}\href{https://www.ncbi.nlm.nih.gov//pubmed//31006841}{31006841}-Curcumin induces apoptotic cell death and protective autophagy by inhibiting AKT/mTOR/p70S6K pathway in human ovarian cancer cells. 
+\bibitem[192]{key192}\href{https://www.ncbi.nlm.nih.gov//pubmed//31005030}{31005030}-YY1 regulates cancer cell immune resistance by modulating PD-L1 expression. 
+\bibitem[196]{key196}\href{https://www.ncbi.nlm.nih.gov//pubmed//31004402}{31004402}-Fulvestrant in the treatment of hormone receptor-positive/human epidermal growth factor receptor 2-negative advanced breast cancer: A review.
+\bibitem[197]{key197}\href{https://www.ncbi.nlm.nih.gov//pubmed//31004362}{31004362}-9za plays cytotoxic and proapoptotic roles and induces cytoprotective autophagy through the PDK1/Akt/mTOR axis in non-small-cell lung cancer. 
+\bibitem[201]{key201}\href{https://www.ncbi.nlm.nih.gov//pubmed//31002130}{31002130}-LncRNA DANCR accelerates the development of multidrug resistance of gastric cancer. 
+\bibitem[203]{key203}\href{https://www.ncbi.nlm.nih.gov//pubmed//31001120}{31001120}-Zinc-Doped Copper Oxide Nanocomposites Inhibit the Growth of Pancreatic Cancer by Inducing Autophagy Through AMPK/mTOR Pathway.
+\bibitem[208]{key208}\href{https://www.ncbi.nlm.nih.gov//pubmed//30999672}{30999672}-The PTEN<U+207B>PI3K Axis in Cancer. 
+\bibitem[232]{key232}\href{https://www.ncbi.nlm.nih.gov//pubmed//30989669}{30989669}-Chlorogenic acid inhibits proliferation and induces apoptosis in A498 human kidney cancer cells via inactivating PI3K/Akt/mTOR signalling pathway.
+\bibitem[237]{key237}\href{https://www.ncbi.nlm.nih.gov//pubmed//30988770}{30988770}-BOS-93, a novel bromophenol derivative, induces apoptosis and autophagy in human A549 lung cancer cells via PI3K/Akt/mTOR and MAPK signaling pathway. 
+\bibitem[238]{key238}\href{https://www.ncbi.nlm.nih.gov//pubmed//30988743}{30988743}-Effect of T-cadherin on the AKT/mTOR signaling pathway, gastric cancer cell cycle, migration and invasion, and its association with patient survival rate. 
+\bibitem[244]{key244}\href{https://www.ncbi.nlm.nih.gov//pubmed//30987661}{30987661}-ALKBH5 inhibited autophagy of epithelial ovarian cancer through miR-7 and BCL-2. 
+\bibitem[245]{key245}\href{https://www.ncbi.nlm.nih.gov//pubmed//30987650}{30987650}-Glucose-6-phosphate dehydrogenase blockade potentiates tyrosine kinase inhibitor effect on breast cancer cells through autophagy perturbation.
+\bibitem[248]{key248}\href{https://www.ncbi.nlm.nih.gov//pubmed//30987073}{30987073}-AICAR Induces Apoptosis and Inhibits Migration and Invasion in Prostate Cancer Cells Through an AMPK/mTOR-Dependent Pathway. 
+\bibitem[263]{key263}\href{https://www.ncbi.nlm.nih.gov//pubmed//30982499}{30982499}-Non-steroidal anti-inflammatory drugs sensitize CD44-overexpressing cancer cells to Hsp90 inhibitor through autophagy activation. 
+\bibitem[267]{key267}\href{https://www.ncbi.nlm.nih.gov//pubmed//30982255}{30982255}-[NVP-BKM120 in combination with letrozole inhibit human breast cancer stem cells via PI3K/mTOR pathway]. 
+\bibitem[270]{key270}\href{https://www.ncbi.nlm.nih.gov//pubmed//30981504}{30981504}-Rebound pathway overactivation by cancer cells following discontinuation of PI3K or mTOR inhibition promotes cancer cell growth.
+\bibitem[274]{key274}\href{https://www.ncbi.nlm.nih.gov//pubmed//30979843}{30979843}-Deleterious somatic variants in 473 consecutive individuals with ovarian cancer: results of the observational AGO-TR1 study (NCT02222883). 
+\bibitem[276]{key276}\href{https://www.ncbi.nlm.nih.gov//pubmed//30979588}{30979588}-Metastasis-associated protein 1, modulated by miR-30c, promotes endometrial cancer progression through AKT/mTOR/4E-BP1 pathway. 
+\bibitem[278]{key278}\href{https://www.ncbi.nlm.nih.gov//pubmed//30978443}{30978443}-ZY0511, a novel, potent and selective LSD1 inhibitor, exhibits anticancer activity against solid tumors via the DDIT4/mTOR pathway. 
+\bibitem[281]{key281}\href{https://www.ncbi.nlm.nih.gov//pubmed//30977669}{30977669}-Targeted therapies in urothelial bladder cancer: a disappointing past preceding a bright future?
+\bibitem[283]{key283}\href{https://www.ncbi.nlm.nih.gov//pubmed//30976815}{30976815}-Microwave hyperthermia enhances the sensitivity of lung cancer cells to gemcitabine through reactive oxygen species-induced autophagic death. 
+\bibitem[291]{key291}\href{https://www.ncbi.nlm.nih.gov//pubmed//30974224}{30974224}-miR-182 contributes to cell proliferation, invasion and tumor growth in colorectal cancer by targeting DAB2IP. 
+\bibitem[297]{key297}\href{https://www.ncbi.nlm.nih.gov//pubmed//30972293}{30972293}-Expanding the Arsenal of FGFR Inhibitors: A Novel Chloroacetamide Derivative as a New Irreversible Agent With Anti-proliferative Activity Against FGFR1-Amplified Lung Cancer Cell Lines. 
+\bibitem[300]{key300}\href{https://www.ncbi.nlm.nih.gov//pubmed//30972187}{30972187}-Combined inhibition of FGFR and mTOR pathways is effective in suppressing ovarian cancer. 
+\bibitem[304]{key304}\href{https://www.ncbi.nlm.nih.gov//pubmed//30970654}{30970654}-mTOR Signalling in Head and Neck Cancer: Heads Up. 
+\bibitem[307]{key307}\href{https://www.ncbi.nlm.nih.gov//pubmed//30968255}{30968255}-Molecular and cellular adaptations to exercise training in skeletal muscle from cancer patients treated with chemotherapy. 
+\bibitem[316]{key316}\href{https://www.ncbi.nlm.nih.gov//pubmed//30964118}{30964118}-Rapamycin may inhibit murine S180 sarcoma growth by regulating the pathways associated with autophagy and cancer stem cells. 
+\bibitem[318]{key318}\href{https://www.ncbi.nlm.nih.gov//pubmed//30962959}{30962959}-Genomic heterogeneity and efficacy of PI3K pathway inhibitors in patients with gynaecological cancer. 
+\bibitem[323]{key323}\href{https://www.ncbi.nlm.nih.gov//pubmed//30962086}{30962086}-Discovery of an EGFR tyrosine kinase inhibitor from Ilex latifolia in breast cancer therapy. 
+\bibitem[325]{key325}\href{https://www.ncbi.nlm.nih.gov//pubmed//30959969}{30959969}-Ponatinib Inhibits Proliferation and Induces Apoptosis of Liver Cancer Cells, but Its Efficacy Is Compromised by Its Activation on PDK1/Akt/mTOR Signaling. 
+\bibitem[334]{key334}\href{https://www.ncbi.nlm.nih.gov//pubmed//30957241}{30957241}-EPHA2 blockade reverses acquired resistance to afatinib induced by EPHA2-mediated MAPK pathway activation in gastric cancer cells and avatar mice. 
+\bibitem[338]{key338}\href{https://www.ncbi.nlm.nih.gov//pubmed//30954648}{30954648}-The NQO1/PKLR axis promotes lymph node metastasis and breast cancer progression by modulating glycolytic reprogramming. 
+\bibitem[340]{key340}\href{https://www.ncbi.nlm.nih.gov//pubmed//30954283}{30954283}-Corrigendum to "HOTAIR/miR-326/FUT6 axis facilitates colorectal cancer progression through regulating fucosylation of CD44 via PI3K/AKT/mTOR pathway" [BBA - Mol. Cell Res. 1866 (2019) 750-760]. 
+\bibitem[366]{key366}\href{https://www.ncbi.nlm.nih.gov//pubmed//30943748}{30943748}-LncRNA SNHG20 promotes tumorigenesis and cancer stemness in glioblastoma via activating PI3K/Akt/mTOR signaling pathway. 
+\bibitem[372]{key372}\href{https://www.ncbi.nlm.nih.gov//pubmed//30942430}{30942430}-Benzyl isothiocyanate suppresses IGF1R, FGFR3 and mTOR expression by upregulation of miR-99a-5p in human bladder cancer cells. 
+\bibitem[373]{key373}\href{https://www.ncbi.nlm.nih.gov//pubmed//30942425}{30942425}-miR-802 inhibits the aggressive behaviors of non-small cell lung cancer cells by directly targeting FGFR1. 
+\bibitem[374]{key374}\href{https://www.ncbi.nlm.nih.gov//pubmed//30942417}{30942417}-Inhibition of miR-214 attenuates the migration and invasion of triple-negative breast cancer cells. 
+\bibitem[376]{key376}\href{https://www.ncbi.nlm.nih.gov//pubmed//30941986}{30941986}-Sorghumol triterpene inhibits the growth of circulating renal cancer cells by promoting cell apoptosis, G2/M cell cycle arrest and downregulating m-TOR/PI3K/AKT signalling pathway. 
+\bibitem[377]{key377}\href{https://www.ncbi.nlm.nih.gov//pubmed//30941959}{30941959}-Effect of AMPK/Akt/mTOR pathway on cytokine-induced killer cells immunotherapy on colorectal cancer cells. 
+\bibitem[381]{key381}\href{https://www.ncbi.nlm.nih.gov//pubmed//30940661}{30940661}-Epigenetic regulation of NAMPT by NAMPT-AS drives metastatic progression in triple-negative breast cancer. 
+\bibitem[387]{key387}\href{https://www.ncbi.nlm.nih.gov//pubmed//30939187}{30939187}-FAM83D inhibits autophagy and promotes proliferation and invasion of ovarian cancer cells via PI3K/AKT/mTOR pathway. 
+\bibitem[391]{key391}\href{https://www.ncbi.nlm.nih.gov//pubmed//30936621}{30936621}-Induction of sestrin 2 is associated with fisetin-mediated apoptosis in human head and neck cancer cell lines. 
+\bibitem[396]{key396}\href{https://www.ncbi.nlm.nih.gov//pubmed//30933440}{30933440}-Dual PI3K-BRD4 Inhibitor SF1126 Inhibits Colorectal Cancer Cell Growth in Vitro and in Vivo. 
+\bibitem[399]{key399}\href{https://www.ncbi.nlm.nih.gov//pubmed//30931649}{30931649}-Heat shock factor 1 (HSF1)-targeted anticancer therapeutics: overview of current preclinical progress. 
+\bibitem[405]{key405}\href{https://www.ncbi.nlm.nih.gov//pubmed//30930233}{30930233}-Cardiac glycoside cerberin exerts anticancer activity through PI3K/AKT/mTOR signal transduction inhibition. 
+\bibitem[408]{key408}\href{https://www.ncbi.nlm.nih.gov//pubmed//30929166}{30929166}-Insulin and insulin-like growth factors act as renal cell cancer intratumoral regulators. 
+\bibitem[409]{key409}\href{https://www.ncbi.nlm.nih.gov//pubmed//30929157}{30929157}-Discovery and anticancer evaluation of a formononetin derivative against gastric cancer SGC7901 cells. 
+\bibitem[410]{key410}\href{https://www.ncbi.nlm.nih.gov//pubmed//30928610}{30928610}-Advances in understanding the mechanisms of evasive and innate resistance to mTOR inhibition in cancer cells. 
+\bibitem[411]{key411}\href{https://www.ncbi.nlm.nih.gov//pubmed//30928405}{30928405}-Znhit1 inhibits breast cancer by up-regulating PTEN to deactivate the PI3K/Akt/mTOR pathway. 
+\bibitem[412]{key412}\href{https://www.ncbi.nlm.nih.gov//pubmed//30928092}{30928092}-Inhibition of fatty acid synthesis arrests colorectal neoplasm growth and metastasis: Anti-cancer therapeutical effects of natural cyclopeptide RA-XII. 
+\bibitem[433]{key433}\href{https://www.ncbi.nlm.nih.gov//pubmed//30922397}{30922397}-IMB0901 inhibits muscle atrophy induced by cancer cachexia through MSTN signaling pathway. 
+\bibitem[437]{key437}\href{https://www.ncbi.nlm.nih.gov//pubmed//30920609}{30920609}-Safety, Tolerability, and Management of Toxic Effects of Phosphatidylinositol 3-Kinase Inhibitor Treatment in Patients With Cancer: A Review. 
+\bibitem[441]{key441}\href{https://www.ncbi.nlm.nih.gov//pubmed//30919166}{30919166}-Incidence of peripheral edema in patients receiving PI3K/mTOR/CDK4/6 inhibitors for metastatic breast cancer. 
+\bibitem[448]{key448}\href{https://www.ncbi.nlm.nih.gov//pubmed//30916585}{30916585}-Preventive effects of low-intensity exercise on cancer cachexia-induced muscle atrophy. 
+\bibitem[449]{key449}\href{https://www.ncbi.nlm.nih.gov//pubmed//30916079}{30916079}-Activity-based protein profiling reveals GSTO1 as the covalent target of piperlongumine and a promising target for combination therapy for cancer. 
+\bibitem[452]{key452}\href{https://www.ncbi.nlm.nih.gov//pubmed//30915355}{30915355}-Ubenimex Reverses MDR in Gastric Cancer Cells by Activating Caspase-3-Mediated Apoptosis and Suppressing the Expression of Membrane Transport Proteins.
+\bibitem[454]{key454}\href{https://www.ncbi.nlm.nih.gov//pubmed//30914432}{30914432}-Long Noncoding RNA MALAT1 regulates cancer glucose metabolism by enhancing mTOR-mediated translation of TCF7L2. 
+\bibitem[464]{key464}\href{https://www.ncbi.nlm.nih.gov//pubmed//30911337}{30911337}-HER2-positive breast cancer: new therapeutic frontiers and overcoming resistance. 
+\bibitem[494]{key494}\href{https://www.ncbi.nlm.nih.gov//pubmed//30903363}{30903363}-Metformin and Breast Cancer: Molecular Targets. 
+
 \subsection{Classroom Lecture 16-18 Topics: Longevity Immune System Wnt Notch Hedgehog TGF-Beta and VGF}
 
 \bibitem[1]{key1}Model studies for isolation of G-quadruplex-forming DNA sequences through a pull-down strategy with macrocyclic polyoxazole. 
