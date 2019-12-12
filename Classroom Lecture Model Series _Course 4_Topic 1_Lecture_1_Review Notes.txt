@@ -15,6 +15,34 @@
 	\begin{tabular}{p{1cm}p{4cm}p{3cm}}
 		Article ID & Summary & Comments\\
 		\hline
+\href{https://www.ncbi.nlm.nih.gov//pubmed//31050205}{31050205} & Lyrics only or lyrics with music? The effect of different lyric conditions on prosocial-related outcomes.\cite{key1} &  \\
+\href{https://www.ncbi.nlm.nih.gov//pubmed//31050032}{31050032} & Effects of Music, Video, and 360-Degree Video on Cycle Ergometer Exercise at the Ventilatory Threshold.\cite{key2} &  \\
+\href{https://www.ncbi.nlm.nih.gov//pubmed//31049671}{31049671} & Music, heart rate variability, and symptom clusters: a comparative study.\cite{key3} &  \\
+\href{https://www.ncbi.nlm.nih.gov//pubmed//31049591}{31049591} & A Sequential Mixed-Methods Study of Pre-Professionals' Understanding of the Undergraduate Music Therapy Internship.\cite{key4} &  \\
+\href{https://www.ncbi.nlm.nih.gov//pubmed//31046943}{31046943} & Driver's visual attention to different categories of roadside advertising signs.\cite{key5} &  \\
+\href{https://www.ncbi.nlm.nih.gov//pubmed//31046334}{31046334} & Increased levels of bass in popular music recordings 1955-2016 and their relation to loudness.\cite{key6} &  \\
+\href{https://www.ncbi.nlm.nih.gov//pubmed//31046318}{31046318} & Pitch discrimination with mixtures of three concurrent harmonic complexes.\cite{key7} &  \\
+\href{https://www.ncbi.nlm.nih.gov//pubmed//31046314}{31046314} & An investigation of listener envelopment utilizing a spherical microphone array and third-order ambisonics reproduction.\cite{key8} &  \\
+\href{https://www.ncbi.nlm.nih.gov//pubmed//31046305}{31046305} & On the perception of raga motifs by trained musicians.\cite{key9} &  \\
+\href{https://www.ncbi.nlm.nih.gov//pubmed//31046031}{31046031} & The sound of music: A rare case of auditory Charles Bonnet syndrome in an elderly male.\cite{key10} &  \\
+\href{https://www.ncbi.nlm.nih.gov//pubmed//31045652}{31045652} & Improving Clinical Outcomes in Cochlear Implantation Using Glucocorticoid Therapy: A Review.\cite{key11} &  \\
+\href{https://www.ncbi.nlm.nih.gov//pubmed//31044692}{31044692} & Middle Latency Responses to Optimized Chirps in Adult Cochlear Implant Users.\cite{key12} &  \\
+\href{https://www.ncbi.nlm.nih.gov//pubmed//31044241}{31044241} & Happy you, happy me: expressive changes on a stranger's voice recruit faster implicit processes than self-produced expressions.\cite{key13} &  \\
+\href{https://www.ncbi.nlm.nih.gov//pubmed//31041819}{31041819} & Use of "Lean" Among Electronic Dance Music Party Attendees.\cite{key15} &  \\
+\href{https://www.ncbi.nlm.nih.gov//pubmed//31040806}{31040806} & Are Temporal and Tonal Musical Skills Related to Phonological Awareness and Literacy Skills? - Evidence From Two Cross-Sectional Studies With Children From Different Age Groups.\cite{key16} &  \\
+\href{https://www.ncbi.nlm.nih.gov//pubmed//31039545}{31039545} & Lessons to be learned from toxicological analyses in intoxicated patients and seized materials at an electronic music dance festival.\cite{key17} &  \\
+\href{https://www.ncbi.nlm.nih.gov//pubmed//31039038}{31039038} & Gap acceptance behavior at unsignalized intersections: Effects of using a phone and a music player while driving.\cite{key18} &  \\
+\href{https://www.ncbi.nlm.nih.gov//pubmed//31038575}{31038575} & Voice perception in teachers: life-story narratives between workspaces and the scenic choir.\cite{key19} &  \\
+\href{https://www.ncbi.nlm.nih.gov//pubmed//31038439}{31038439} & The energy-enhancing potential of participatory performance-based arts activities in the care of people with a diagnosis of cancer: an integrative review.\cite{key20} &  \\
+\href{https://www.ncbi.nlm.nih.gov//pubmed//31038430}{31038430} & A randomized pilot study of music therapy in the form of patient-preferred live music on fatigue, energy and pain in hospitalized adult oncology patients on a blood and marrow transplant unit.\cite{key21} &  \\
+\href{https://www.ncbi.nlm.nih.gov//pubmed//31038421}{31038421} & Lincoln center moments: integrating accessibility and enhancement through expanding performing arts experiences.\cite{key22} &  \\
+\href{https://www.ncbi.nlm.nih.gov//pubmed//31038420}{31038420} & Stronger together: learning from an interdisciplinary dementia, arts and well-being network.\cite{key23} &  \\
+\href{https://www.ncbi.nlm.nih.gov//pubmed//31038418}{31038418} & Quantitative comparison of group-based music therapy experiences in adults with substance use disorder on a detoxification unit: a three-group cluster-randomized study.\cite{key24} &  \\
+\href{https://www.ncbi.nlm.nih.gov//pubmed//31038040}{31038040} & Examining the artist-patient relationship in palliative care. A thematic analysis of artist reflections on encounters with palliative patients.\cite{key25} &  \\
+\href{https://www.ncbi.nlm.nih.gov//pubmed//31038038}{31038038} & Creative interventions for symptoms of postnatal depression: A process evaluation of implementation.\cite{key26} &  \\
+\href{https://www.ncbi.nlm.nih.gov//pubmed//31036058}{31036058} & Enhancing the efficacy of integrative improvisational music therapy in the treatment of depression: study protocol for a randomised controlled trial.\cite{key27} &  \\
+\href{https://www.ncbi.nlm.nih.gov//pubmed//31031513}{31031513} & Visual-spatial sequence learning and memory in trained musicians.\cite{key29} &  \\
+\href{https://www.ncbi.nlm.nih.gov//pubmed//31033419}{31033419} & The differential effect of background music on memory for verbal and visuospatial information.\cite{key30} &  \\
 		\hline
 	\end{tabular}
 \end{table}
