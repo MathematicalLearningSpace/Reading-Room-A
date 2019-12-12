@@ -220,6 +220,35 @@ Topic ID & #Articles & Readability & Vocabulary & Search String  \\
 \bibitem[15]{key15}A conformationally constrained nucleotide analogue controls the folding topology of a DNA g-quadruplex. 
 \bibitem[16]{key16}Crystal structure of parallel quadruplexes from human telomeric DNA.
 
+\subsubsection{Heat Shock Proteins}
+
+\bibitem[1]{key1}Inhibition of mouse RM-1 prostate cancer and B16F10 melanoma by the fusion protein of HSP65
+\bibitem[1]{key1}Investigation of B,C-ring truncated deguelin derivatives as heat shock protein 90 (HSP90) inhibitors for use as anti-breast cancer agents.
+\bibitem[1]{key1}Inhibition of HSP90 overcomes resistance to chemotherapy and radiotherapy in pancreatic cancer.
+\bibitem[1]{key1}Inhibition of thymidine phosphorylase expression by Hsp90 inhibitor potentiates the cytotoxic effect of salinomycin in human non-small-cell lung cancer cells.
+\bibitem[1]{key1}Fhit-Fdxr interaction in the mitochondria: modulation of reactive oxygen species generation and apoptosis in cancer cells.
+\bibitem[1]{key1}Proteomic characterization of early lung response to breast cancer metastasis in mice.
+\bibitem[1]{key1}Verteporfin blocks Clusterin which is required for survival of gastric cancer stem cell by modulating HSP90 function.
+\bibitem[1]{key1}Collateral sensitivity of natural products in drug-resistant cancer cells.
+\bibitem[1]{key1}Muscadine grape skin extract inhibits prostate cancer cells by inducing cell-cycle arrest, and decreasing migration through heat shock protein 40.
+\bibitem[1]{key1}C-terminal HSP90 inhibitor L80 elicits anti-metastatic effects in triple-negative breast cancer via STAT3 inhibition.
+\bibitem[1]{key1}Overcoming acquired resistance to HSP90 inhibition by targeting JAK-STAT signalling in triple-negative breast cancer.
+\bibitem[1]{key1}Profiling of apoptosis- and autophagy-associated molecules in human lung cancer A549 cells in response to cisplatin treatment using stable \bibitem[1]{key1}isotope labeling with amino acids in cell culture.
+\bibitem[1]{key1}Dickkopf-3 links HSF1 and YAP/TAZ signalling to control aggressive behaviours in cancer-associated fibroblasts.
+\bibitem[1]{key1}Cabazitaxel inhibits prostate cancer cell growth by inhibition of androgen receptor and heat shock protein expression.
+\bibitem[1]{key1}Hsp70 (HSP70A1A) downregulation enhances the metastatic ability of cancer cells.
+\bibitem[1]{key1}ERp29 counteracts the suppression of malignancy mediated by endoplasmic reticulum stress and promotes the metastasis of colorectal cancer.
+\bibitem[1]{key1}Heat shock proteins (HSPs): A novel target for cancer metastasis prevention.
+\bibitem[1]{key1}Quantitative assessment of serum heat shock protein 27 for the diagnosis of epithelial ovarian cancer using targeted proteomics coupled with immunoaffinity enrichment.
+\bibitem[1]{key1}TRPM7 overexpression enhances the cancer stem cell-like and metastatic phenotypes of lung cancer through modulation of the Hsp90a/uPA/MMP2 signaling pathway.
+\bibitem[1]{key1}High-throughput screens identify HSP90 inhibitors as potent therapeutics that target inter-related growth and survival pathways in advanced prostate cancer.
+\bibitem[1]{key1}Functional analysis of protein disulfide isomerase P5 in glioblastoma cells as a novel anticancer target.
+\bibitem[1]{key1}Chaperome heterogeneity and its implications for cancer study and treatment.
+\bibitem[1]{key1}A Novel Approach to Anticancer Therapy: Molecular Modules Based on the Barnase:Barstar Pair for Targeted Delivery of HSP70 to Tumor Cells.
+Vorinostat enhances gefitinib-induced cell death through reactive oxygen species-dependent cleavage of HSP90 and its clients in non-small cell lung cancer with the EGFR mutation.
+\bibitem[1]{key1}Genes involved in the regulation of different types of autophagy and their participation in cancer pathogenesis.
+\bibitem[1]{key1}Increased expression of heat shock factor 1 (HSF1) is associated with poor survival in gastric cancer patients.
+\bibitem[1]{key1}Potential involvement of heat shock proteins in pancreatic-duodenal homeobox-1-mediated effects on the genesis of gastric cancer: A 2D gel-based proteomic study.
 
 \subsection{Classroom Lecture 13-15 Topics: Machine Learning Models I, II and III}
 \subsection{Classroom Lecture 16-18 Topics: Ribosome Model}
