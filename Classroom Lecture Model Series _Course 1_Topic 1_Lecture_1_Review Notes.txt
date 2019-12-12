@@ -365,6 +365,40 @@ Topic ID & #Articles & Readability & Vocabulary & Search String  \\
 \subsubsection{Treatment: Chemotherapy}
 \subsubsection{Treatment: Natural Products}
 \subsubsection{Treatment: Radiotherapy}
+
+\bibitem[1]{key1}Parallel comparison of pre-conditioning and post-conditioning effects in human cancers and keratinocytes upon acute gamma irradiation. 
+\bibitem[2]{key2}Effect of gamma radiation on the production of bystander signals from three earthworm species irradiated in vivo. \bibitem[3]{key3}Effects of mucus thickness and goblet cell hyperplasia on microdosimetric quantities characterizing the bronchial epithelium upon radon exposure. 
+\bibitem[4]{key4}Gamma Low-Dose-Rate Ionizing Radiation Stimulates Adaptive Functional and Molecular Response in Human Aortic Endothelial Cells in a Threshold-, Dose-, and Dose Rate-Dependent Manner. 
+\bibitem[5]{key5}Low-Dose Ionizing Radiation Affects Mesenchymal Stem Cells via Extracellular Oxidized Cell-Free DNA: A Possible Mediator of Bystander Effect and Adaptive Response. 
+\bibitem[6]{key6}Interaction between Radioadaptive Response and Radiation-Induced Bystander Effect in Caenorhabditis elegans : A Unique Role of the DNA Damage Checkpoint. 
+\bibitem[7]{key7}Dose and Radioadaptive Response Analysis of Micronucleus Induction in Mouse Bone Marrow. 
+\bibitem[8]{key8}Non-induction of radioadaptive response in zebrafish embryos by neutrons. 
+\bibitem[9]{key9}Low-Dose Gamma Radiation Does Not Induce an Adaptive Response for Micronucleus Induction in Mouse Splenocytes. 
+\bibitem[10]{key10}Gene profiling characteristics of radioadaptive response in AG01522 normal human fibroblasts. 
+\bibitem[11]{key11}Repair of DNA double-strand breaks is not modulated by low-dose gamma radiation in C57BL/6J mice. 
+\bibitem[12]{key12}Dynamics of cellular responses to radiation. 
+\bibitem[13]{key13}The lack of cytotoxic effect and radioadaptive response in splenocytes of mice exposed to low level internal ß-particle irradiation through tritiated drinking water in vivo. 
+\bibitem[14]{key14}Different responses of tumor and normal cells to low-dose radiation. 
+\bibitem[15]{key15}Radiation-induced bystander effects induce radioadaptive response by low-dose radiation. 
+\bibitem[16]{key16}Radiation hormesis and radioadaptive response in Drosophila melanogaster flies with different genetic backgrounds: the role of cellular stress-resistance mechanisms. 
+\bibitem[17]{key17}Nitric oxide is a key molecule serving as a bridge between radiation-induced bystander and adaptive responses. \bibitem[18]{key18}Non-targeted effects as a paradigm breaking evidence. 
+\bibitem[19]{key19}A new paradigm in radioadaptive response developing from microbeam research. 
+\bibitem[20]{key20}Nitric oxide radicals choreograph a radioadaptive response. 
+\bibitem[21]{key21}Low-dose whole-body irradiation induced radioadaptive response in C57BL/6 mice. 
+\bibitem[22]{key22}Induction and loss of a TP53-dependent radioadaptive response in the human lymphoblastoid cell model TK6 and its abrogation by BCL2 over-expression. 
+\bibitem[23]{key23}Vanguards of paradigm shift in radiation biology: radiation-induced adaptive and bystander responses. 
+\bibitem[24]{key24}Radioadaptive response revisited. 
+\bibitem[25]{key25}Absence of radioadaptive responses in four cell-lines in vitro as determined by colony formation assay. 
+\bibitem[26]{key26}Special issue: space radiation biology. 
+\bibitem[27]{key27}A sense of danger from radiation. 
+\bibitem[28]{key28}Studies about space radiation promote new fields in radiation biology. 
+\bibitem[29]{key29}Low dose, low-LET ionizing radiation-induced radioadaptation and associated early responses in unirradiated cells. \bibitem[30]{key30}Radiation response of apoptosis in C57BL/6N mouse spleen after whole-body irradiation. 
+\bibitem[31]{key31}Investigation of the radioadaptive response in brain and liver of pUR288 lacZ transgenic mice. 
+\bibitem[32]{key32}Adaptive response in embryogenesis. III. Relationship to radiation-induced apoptosis and Trp53 gene status. 
+\bibitem[33]{key33}Radioadaptive response: responses to the five questions. 
+\bibitem[34]{key34}A cytokinesis-blocked micronucleus study of the radioadaptive response of lymphocytes of individuals occupationally exposed to chronic doses of radiation. 
+\bibitem[35]{key35}Participation of gap-junctional cell communication on the adaptive response in human cells induced by low dose of X-rays. \bibitem[36]{key36}On the reaction kinetics of the radioadaptive response in cultured mouse cells.
+
 \subsubsection{Treatment: Vaccination}
 \subsubsection{Treatment: Surgery}
 \subsubsection{Treatment Combinations: Chemotherapy and Surgery}
