@@ -297,7 +297,25 @@ Vorinostat enhances gefitinib-induced cell death through reactive oxygen species
 \bibitem[20]{key20}Computational analysis reveals histotype-dependent molecular profile and actionable mutation effects across cancers. \bibitem[21]{key21}Cross-cancer Prediction: A Novel Machine Learning Approach to Discover Molecular Targets for Development of Treatments for Multiple Cancers.
 
 \subsection{Classroom Lecture 28-30 Topics: Application Study I, II and III}
-\subsection{Topic A:}
+\subsection{Topic A: Compound-Protein Interactions}
+
+\bibitem[1]{key1}\href{https://www.ncbi.nlm.nih.gov//pubmed//30768156}{30768156}-DeepAffinity: Interpretable Deep Learning of Compound-Protein Affinity through Unified Recurrent and Convolutional Neural Networks. 
+\bibitem[2]{key2}\href{https://www.ncbi.nlm.nih.gov//pubmed//30334207}{30334207}-Physicochemical Property Labels as Molecular Descriptors for Improved Analysis of Compound-Protein and Compound-Compound Networks. 
+\bibitem[3]{key3}\href{https://www.ncbi.nlm.nih.gov//pubmed//30227391}{30227391}-Ecdysone Elicits Chronic Renal Impairment via Mineralocorticoid-Like Pathogenic Activities. 
+\bibitem[4]{key4}\href{https://www.ncbi.nlm.nih.gov//pubmed//30111886}{30111886}-Activation of mineralocorticoid receptor by ecdysone, an adaptogenic and anabolic ecdysteroid, promotes glomerular injury and proteinuria involving overactive GSK3ß pathway signaling. 
+\bibitem[5]{key5}\href{https://www.ncbi.nlm.nih.gov//pubmed//29997503}{29997503}-A Computational Systems Pharmacology Approach to Investigate Molecular Mechanisms of Herbal Formula Tian-Ma-Gou-Teng-Yin for Treatment of Alzheimer's Disease. 
+\bibitem[6]{key6}\href{https://www.ncbi.nlm.nih.gov//pubmed//29982330}{29982330}-Compound-protein interaction prediction with end-to-end learning of neural networks for graphs and sequences. 
+\bibitem[7]{key7}\href{https://www.ncbi.nlm.nih.gov//pubmed//29515774}{29515774}-Unbiased compound-protein interface mapping and prediction of chemoresistance loci through forward genetics in haploid stem cells. 
+\bibitem[8]{key8}\href{https://www.ncbi.nlm.nih.gov//pubmed//28577120}{28577120}-Large-Scale Prediction of Drug-Target Interaction: a Data-Centric Review. 
+\bibitem[9]{key9}\href{https://www.ncbi.nlm.nih.gov//pubmed//28456097}{28456097}-Structure-guided cancer blockade between bioactive bursehernin and proteins: Molecular docking and molecular dynamics study. 
+\bibitem[10]{key10}\href{https://www.ncbi.nlm.nih.gov//pubmed//28263088}{28263088}-Active learning for computational chemogenomics. \
+\bibitem[11]{key11}\href{https://www.ncbi.nlm.nih.gov//pubmed//28113437}{28113437}-Effectively Identifying Compound-Protein Interactions by Learning from Positive and Unlabeled Examples. 
+\bibitem[12]{key12}\href{https://www.ncbi.nlm.nih.gov//pubmed//27530612}{27530612}-Identification of compound-protein interactions through the analysis of gene ontology, KEGG enrichment for proteins and molecular fragments of compounds. 
+\bibitem[13]{key13}\href{https://www.ncbi.nlm.nih.gov//pubmed//27378654}{27378654}-Boosting compound-protein interaction prediction by deep learning. 
+\bibitem[14]{key14}\href{https://www.ncbi.nlm.nih.gov//pubmed//27337171}{27337171}-TarNet: An Evidence-Based Database for Natural Medicine Research. 
+\bibitem[15]{key15}\href{https://www.ncbi.nlm.nih.gov//pubmed//26888050}{26888050}-Pred-binding: large-scale protein-ligand binding affinity prediction. 
+
+
 \subsection{Topic B:}
 \subsection{Topic C:}
 \subsection{Topic D:}
