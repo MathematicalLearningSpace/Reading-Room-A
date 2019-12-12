@@ -278,6 +278,24 @@ Vorinostat enhances gefitinib-induced cell death through reactive oxygen species
 
 \subsection{Classroom Lecture 22-24 Topics: Proteasome Model}
 \subsection{Classroom Lecture 25-27 Topics: Network Models Molecular Machines I and II}
+
+\bibitem[1]{key1}In silico perturbation of drug targets in pan-cancer analysis combining multiple networks and pathways. 
+\bibitem[2]{key2}Integrated structural variation and point mutation signatures in cancer genomes using correlated topic models. 
+\bibitem[3]{key3}Deep-Resp-Forest: A deep forest model to predict anti-cancer drug response. 
+\bibitem[4]{key4}A mathematical-descriptor of tumor-mesoscopic-structure from computed-tomography images annotates prognostic- and molecular-phenotypes of epithelial ovarian cancer. 
+\bibitem[5]{key5}DNA methylation profiling reliably distinguishes pulmonary enteric adenocarcinoma from metastatic colorectal cancer. \bibitem[6]{key6}Radiomic nomogram for prediction of axillary lymph node metastasis in breast cancer. 
+\bibitem[7]{key7}Identification of antiproliferative emodin analogues as inhibitors of epidermal growth factor receptor in cancer. \bibitem[8]{key8}Graph- and rule-based learning algorithms: a comprehensive review of their applications for cancer type classification and prognosis using genomic data. 
+\bibitem[9]{key9}A novel gene selection algorithm for cancer classification using microarray datasets. 
+\bibitem[10]{key10}Combining high wavenumber and fingerprint Raman spectroscopy for the detection of prostate cancer during radical prostatectomy. 
+\bibitem[11]{key11}Machine learning-based radiomic models to predict intensity-modulated radiation therapy response, Gleason score and stage in prostate cancer. 
+\bibitem[12]{key12}An isomiR expression panel based novel breast cancer classification approach using improved mutual information. \bibitem[13]{key13}The antinociceptive effect of resveratrol in bone cancer pain is inhibited by the Silent Information Regulator 1 inhibitor selisistat. 
+\bibitem[14]{key14}Discovery and validation of a serum microRNA signature to characterize oligo- and polymetastatic prostate cancer: not ready for prime time. 
+\bibitem[15]{key15}CANDLE/Supervisor: a workflow framework for machine learning applied to cancer research. \bibitem[16]{key16}Synthetic lethal combinations of low-toxicity drugs for breast cancer identified <i>in silico 
+\bibitem[17]{key17}Neuroevolution as a tool for microarray gene expression pattern identification in cancer research. 
+\bibitem[18]{key18}The role of the molecular chaperone CCT in protein folding and mediation of cytoskeleton-associated processes: implications for cancer cell biology. 
+\bibitem[19]{key19}[Precision screening and treatment of human papilloma virus related cervical cancer]. 
+\bibitem[20]{key20}Computational analysis reveals histotype-dependent molecular profile and actionable mutation effects across cancers. \bibitem[21]{key21}Cross-cancer Prediction: A Novel Machine Learning Approach to Discover Molecular Targets for Development of Treatments for Multiple Cancers.
+
 \subsection{Classroom Lecture 28-30 Topics: Application Study I, II and III}
 \subsection{Topic A:}
 \subsection{Topic B:}
