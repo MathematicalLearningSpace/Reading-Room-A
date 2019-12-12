@@ -513,6 +513,17 @@ Topic ID & #Articles & Readability & Vocabulary & Search String  \\
 \subsection{Classroom Lecture 10-12 Topics: MAPK, Calcium cAMP}
 \subsection{Classroom Lecture 13-15 Topics: Fox0 Cell cycle mTOR}
 \subsection{Classroom Lecture 16-18 Topics: Longevity Immune System Wnt Notch Hedgehog TGF-Beta and VGF}
+
+\bibitem[1]{key1}Model studies for isolation of G-quadruplex-forming DNA sequences through a pull-down strategy with macrocyclic polyoxazole. 
+\bibitem[2]{key2}Synthesis and Telomeric G-Quadruplex-Stabilizing Ability of Macrocyclic Hexaoxazoles Bearing Three Side Chains. 
+\bibitem[3]{key3}Binding of Telomestatin, TMPyP4, BSU6037, and BRACO19 to a Telomeric G-Quadruplex-Duplex Hybrid Probed by All-Atom Molecular Dynamics Simulations with Explicit Solvent. 
+\bibitem[4]{key4}Random formation of G-quadruplexes in human telomere overhangs leads to a kinetic folding pattern with targetable vacant G-tracts. 
+\bibitem[5]{key5}Binding of a Telomestatin Derivative Changes the Mechanical Anisotropy of a Human Telomeric G-Quadruplex. 
+\bibitem[6]{key6}HERC2 Facilitates BLM and WRN Helicase Complex Interaction with RPA to Suppress G-Quadruplex DNA. 
+\bibitem[7]{key7}A minimal threshold of FANCJ helicase activity is required for its response to replication stress or double-strand break repair. 
+\bibitem[8]{key8}Identification of G-quadruplex clusters by high-throughput sequencing of whole-genome amplified products with a G-quadruplex ligand. 
+\bibitem[9]{key9}Targeting telomerase and telomeres to enhance ionizing radiation effects in in vitro and in vivo cancer models. \bibitem[10]{key10}Identification of G-quadruplex structures that possess transcriptional regulating functions in the Dele and Cdc6 CpG islands.
+
 \subsection{Classroom Lecture 19-21 Topics: Apelin Hippo JakStat Insulin WDR}
 \subsection{Classroom Lecture 22-24 Topics: Digestion I and II Sugar and Insulin}
 \subsection{Classroom Lecture 25-27 Topics: Metabolism Obesity Pancreatic Signalling I}
