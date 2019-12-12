@@ -224,6 +224,29 @@ Topic ID & #Articles & Readability & Vocabulary & Search String  \\
 \subsection{Classroom Lecture 13-15 Topics: Machine Learning Models I, II and III}
 \subsection{Classroom Lecture 16-18 Topics: Ribosome Model}
 \subsection{Classroom Lecture 19-21 Topics: Chaperonin Model}
+
+\bibitem[1]{key1}Pharmacological effectors of GRP78 chaperone in cancers.
+\bibitem[1]{key1}Mass Spectrometric Quantification for the Binding Ratio of Metal-Based Anticancer Complexes with Protein Thiols.
+\bibitem[1]{key1}Inhibition of thymidine phosphorylase expression by Hsp90 inhibitor potentiates the cytotoxic effect of salinomycin in human non-small-cell lung cancer cells.
+\bibitem[1]{key1}Inhibition of the hexosamine biosynthesis pathway potentiates cisplatin cytotoxicity by decreasing BiP expression in non-small-cell lung cancer cells.
+\bibitem[1]{key1}Prostate-specific loss of UXT promotes cancer progression.
+\bibitem[1]{key1}Expression of protein disulfide isomerase A3 and its clinicopathological association in gastric cancer.
+\bibitem[1]{key1}Tumor cells induce LAMP2a expression in tumor-associated macrophage for cancer progression.
+\bibitem[1]{key1}Combination therapies with HSP90 inhibitors against colorectal cancer.
+\bibitem[1]{key1}MCT1, MCT4 and CD147 expression and 3-bromopyruvate toxicity in colorectal cancer cells are modulated by the extracellular conditions.
+\bibitem[1]{key1}Spotlight on 17-AAG as an Hsp90 inhibitor for molecular targeted cancer treatment.
+\bibitem[1]{key1}ASF1a inhibition induces p53-dependent growth arrest and senescence of cancer cells.
+\bibitem[1]{key1}Overcoming acquired resistance to HSP90 inhibition by targeting JAK-STAT signalling in triple-negative breast cancer.
+\bibitem[1]{key1}Exosomes derived from HBV-associated liver cancer promote chemoresistance by upregulating chaperone-mediated autophagy.
+\bibitem[1]{key1}Tn antigen promotes human colorectal cancer metastasis via H-Ras mediated epithelial-mesenchymal transition activation.
+\bibitem[1]{key1}Celastrol induces ubiquitin-dependent degradation of mTOR in breast cancer cells.
+\bibitem[1]{key1}ERp29 counteracts the suppression of malignancy mediated by endoplasmic reticulum stress and promotes the metastasis of colorectal cancer.
+\bibitem[1]{key1}Clusterin enhances AKT2-mediated motility of normal and cancer prostate cells through a PTEN and PHLPP1 circuit.
+\bibitem[1]{key1}The mitochondrial chaperone Prohibitin 1 negatively regulates interleukin-8 in human liver cancers.
+\bibitem[1]{key1}Installation of a cancer promoting WNT/SIX1 signaling axis by the oncofusion protein MLL-AF9.
+\bibitem[1]{key1}Heat shock proteins (HSPs): A novel target for cancer metastasis prevention.
+
+
 \subsection{Classroom Lecture 22-24 Topics: Proteasome Model}
 \subsection{Classroom Lecture 25-27 Topics: Network Models Molecular Machines I and II}
 \subsection{Classroom Lecture 28-30 Topics: Application Study I, II and III}
