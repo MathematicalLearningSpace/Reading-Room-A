@@ -183,6 +183,44 @@ Topic ID & #Articles & Readability & Vocabulary & Search String  \\
 \subsection{Classroom Lecture 4-6 Topics: Translation and Transcription Models}
 \subsection{Classroom Lecture 7-9 Topics: Normal Mode Analysis Compound Discovery QSAR Models}
 \subsection{Classroom Lecture 10-12 Topics: WDR and G Quadruplexes Heat Shock Proteins}
+
+\bibitem[1]{key1}Characterization of parallel and antiparallel G-tetraplex structures by vibrational spectroscopy. 
+\bibitem[2]{key2}A conformationally constrained nucleotide analogue controls the folding topology of a DNA g-quadruplex. 
+\bibitem[3]{key3}Following G-quartet formation by UV-spectroscopy.
+\bibitem[1]{key1}Structure of the human telomere in Na+ solution: an antiparallel (2+2) G-quadruplex scaffold reveals additional diversity. 
+\bibitem[2]{key2}Interaction of [Ru(bpy)2(dppz)]2+ with human telomeric DNA: preferential binding to G-quadruplexes over i-motif. 
+\bibitem[3]{key3}Structure of a two-G-tetrad intramolecular G-quadruplex formed by a variant human telomeric sequence in K+ solution: insights into the interconversion of human telomeric G-quadruplex structures. 
+\bibitem[4]{key4}Giardia telomeric sequence d(TAGGG)4 forms two intramolecular G-quadruplexes in K+ solution: effect of loop length and sequence on the folding topology. 
+\bibitem[5]{key5}Structure of the human telomere in K+ solution: a stable basket-type G-quadruplex with only two G-tetrad layers. 
+\bibitem[6]{key6}Structural polymorphism of intramolecular quadruplex of human telomeric DNA: effect of cations, quadruplex-binding drugs and flanking sequences. 
+\bibitem[7]{key7}Intramolecular quadruplex conformation of human telomeric DNA assessed with 125I-radioprobing. 
+\bibitem[8]{key8}Propeller-type parallel-stranded G-quadruplexes in the human c-myc promoter. 
+\bibitem[9]{key9}A conformationally constrained nucleotide analogue controls the folding topology of a DNA g-quadruplex. 
+\bibitem[10]{key10}Telomestatin, a potent telomerase inhibitor that interacts quite specifically with the human telomeric intramolecular g-quadruplex.
+\bibitem[1]{key1}Thermodynamic, Anticoagulant, and Antiproliferative Properties of Thrombin Binding Aptamer Containing Novel UNA Derivative. 
+\bibitem[2]{key2}Giardia telomeric sequence d(TAGGG)4 forms two intramolecular G-quadruplexes in K+ solution: effect of loop length and sequence on the folding topology. 
+\bibitem[3]{key3}A novel chair-type G-quadruplex formed by a Bombyx mori telomeric sequence. 
+\bibitem[4]{key4}Unfolding thermodynamics of intramolecular G-quadruplexes: base sequence contributions of the loops. 
+\bibitem[5]{key5}Intramolecular quadruplex conformation of human telomeric DNA assessed with 125I-radioprobing. 
+\bibitem[6]{key6}Propeller-type parallel-stranded G-quadruplexes in the human c-myc promoter. 
+\bibitem[7]{key7}A conformationally constrained nucleotide analogue controls the folding topology of a DNA g-quadruplex.
+\bibitem[1]{key1}Parallel folding topology-selective label-free detection and monitoring of conformational and topological changes of different G-quadruplex DNAs by emission spectral changes
+\bibitem[2]{key2}Parallel G-Quadruplexes Formed by Guanine-Rich Microsatellite Repeats Inhibit Human Topoisomerase I. 
+\bibitem[3]{key3}Loss of loop adenines alters human telomere d[AG3(TTAG3)3] quadruplex folding. 
+\bibitem[4]{key4}Bulges in G-quadruplexes: broadening the definition of G-quadruplex-forming sequences. 
+\bibitem[5]{key5}Solution-state structure of an intramolecular G-quadruplex with propeller, diagonal and edgewise loops. 
+\bibitem[6]{key6}Structure of human telomeric DNA in crowded solution. 
+\bibitem[7]{key7}Giardia telomeric sequence d(TAGGG)4 forms two intramolecular G-quadruplexes in K+ solution: effect of loop length and sequence on the folding topology. 
+\bibitem[8]{key8}Duplex formation at the 5' end affects the quadruplex conformation of the human telomeric repeat overhang in sodium but not in potassium. \bibitem[9]{key9}Structure of the human telomere in K+ solution: a stable basket-type G-quadruplex with only two G-tetrad layers. 
+\bibitem[10]{key10}Topology conservation and loop flexibility in quadruplex-drug recognition: crystal structures of inter- and intramolecular telomeric DNA quadruplex-drug complexes. 
+\bibitem[11]{key11}The proximal promoter region of the human vascular endothelial growth factor gene has a G-quadruplex structure that can be targeted by G-quadruplex-interactive agents. 
+\bibitem[12]{key12}Design and synthesis of an expanded porphyrin that has selectivity for the c-MYC G-quadruplex structure. 
+\bibitem[13]{key13}Intramolecular quadruplex conformation of human telomeric DNA assessed with 125I-radioprobing. 
+\bibitem[14]{key14}Propeller-type parallel-stranded G-quadruplexes in the human c-myc promoter. 
+\bibitem[15]{key15}A conformationally constrained nucleotide analogue controls the folding topology of a DNA g-quadruplex. 
+\bibitem[16]{key16}Crystal structure of parallel quadruplexes from human telomeric DNA.
+
+
 \subsection{Classroom Lecture 13-15 Topics: Machine Learning Models I, II and III}
 \subsection{Classroom Lecture 16-18 Topics: Ribosome Model}
 \subsection{Classroom Lecture 19-21 Topics: Chaperonin Model}
