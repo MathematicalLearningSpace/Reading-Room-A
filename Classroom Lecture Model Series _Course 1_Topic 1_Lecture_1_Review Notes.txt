@@ -369,7 +369,29 @@ Keywords:
 
 \subsubsection{Melanoma}
 
+\begin{enumerate}
+	\item Oncogenic \textit{NRAS MUTATIONS} ACTIVATION \textit{Raf-MEK-ERK} AND \textit{ PI3K-Akt} \cite{key400}
+	\item \textbf{ Raf-MEK-ERK pathway} PROBABLE ACTIVATE MUTATION BRAF \cite{key400}
+	\item \textbf{PI3K-Akt} POSSIBLE ACTIVATE LOSS or MUTATION of INHIBIT Tumor Suppressor PTEN \cite{key400}
+	\item MUTATIONS EARLY Melanoma Pathogenesis Preserved Tumor Progression \cite{key400}
+	\item INACTIVATE p16INK4a/cyclin dependent kinases 4 \cite{key400}
+	\item INACTIVATE p16INK4a/CDK4,6/pRb \cite{key400}
+	\item INACTIVATE p14ARF/HMD2/p53 Tumor Suppressors \cite{key400} 
+	\item Melanoma Progression MITF AND TP53 \cite{key400}
+\end{enumerate}
+
+
 \subsubsection{Basal cell carcinoma}
+
+\begin{enumerate}
+	\item MUTATIONS SMOH 
+	\item MUTATIONS PTCH1 
+	\item MUTAIONS SHH 
+	\item MUTATION in TP53
+	\item Constitutive ACTIVATION \textbf{sonic Hedgehog Signaling}
+\end{enumerate}
+
+
 
 \subsubsection{Breast cancer}
 
