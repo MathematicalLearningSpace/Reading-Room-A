@@ -384,11 +384,11 @@ Keywords:
 \subsubsection{Basal cell carcinoma}
 
 \begin{enumerate}
-	\item MUTATIONS SMOH 
-	\item MUTATIONS PTCH1 
-	\item MUTAIONS SHH 
-	\item MUTATION in TP53
-	\item Constitutive ACTIVATION \textbf{sonic Hedgehog Signaling}
+	\item MUTATIONS SMOH \cite{key400}
+	\item MUTATIONS PTCH1 \cite{key400}
+	\item MUTAIONS SHH \cite{key400}
+	\item MUTATION in TP53 \cite{key400}
+	\item Constitutive ACTIVATION \textbf{sonic Hedgehog Signaling} \cite{key400}
 \end{enumerate}
 
 
@@ -404,6 +404,15 @@ Keywords:
 \subsubsection{Thyroid cancer}
 
 \subsubsection{Acute myeloid leukemia (AML)}
+
+\begin{enumerate}
+\item Transcription factor fusion proteins MUTATIONS \cite{key400}
+\item ACTIVATE RTK Flt3 N-Ras K-Ras in Kit and RANDOM in RTKs \cite{key400}
+\item Disordered cell GROWTH and\textbf{UPREGULATION} Cell Survival GENES \cite{key400}
+\item Transcription factor fusion proteins PML-RARalpha \cite{key400}
+\item Transcription factor fusion proteins AML-ETO \cite{key400}
+\item Transcription factor fusion proteins PLZF-RARalpha block Myeloid Cell Differentiation \cite{key400}
+\end{enumerate}
 
 \subsubsection{Chronic myeloid leukemia (CML)}
 
