@@ -45,6 +45,18 @@ test.Review.Notes.1
 #---------------------------------------------------------------------#
 #------------------------------Models---------------------------------#
 #---------------------------------------------------------------------#
+require(rgl)
+
+Model.1 <- function(s,t) {
+  r<-s
+  cbind(r*cos(t*2*pi), r*sin(t*2*pi), s)
+}
+#------------------------------Visualization----------------------------#
+open3d()
+plot3d(Model.1, slim = c(2, 0.5), tlim = c(2, 1), col = "blue", alpha = 0.5, type="w",aspect = c(1, 1, 0.5))
+#-----------------------------------------------------------------------#
+rgl.snapshot("Figure_1.png")
+
 Ribosome.Model.1<-function(X,Visualization=FALSE)
  {
  Table.1.df<-data.frame(); Table.2.df<-data.frame(); Table.3.df<-data.frame();
