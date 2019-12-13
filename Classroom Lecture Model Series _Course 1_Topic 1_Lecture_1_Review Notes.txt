@@ -367,6 +367,17 @@ Keywords:
 
 \subsubsection{Small cell lung cancer}
 
+\begin{enumerate}
+\item MUTATION or DELETION of p53 or PTEN can LEAD to MORE RAPID Proliferation AND Reduced Apoptosis
+\item INDUCED EXPRESSION Oncogene MYC
+\item LOSS p53 
+\item LOSS PTEN 
+\item LOSS RB 
+\item LOSS FHIT
+\item \textbf{ OVER EXPRESSION of MYC Proteins} Result GENE amplification
+\item OVER expression LEADS to MORE RAPID Proliferation and LOSS of Terminal Differentiation 
+\end{enumerate}
+
 \subsubsection{Melanoma}
 
 \begin{enumerate}
