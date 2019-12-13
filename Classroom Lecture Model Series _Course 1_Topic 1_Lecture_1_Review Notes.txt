@@ -345,24 +345,24 @@ Keywords:
 \subsubsection{Non-small cell lung cancer}
 
 \begin{enumerate}
-\item Non-small cell lung cancer CONSISTS of (1) squamous cell (SCC), (2) adeno (AC) and (3) large-cell carcinoma 
-\item Point MUTATIONS K-RAS gene \textbf{INACTIVATE} GTPase Activity AND p21-RAS protein GROWTH Signals
-\item INACTIVATE MUTATION of p53 GNENERATE INCREASE Rapid Proliferation AND Reduced Apoptosis
-\item MUTATIONS or OVER Expression of EGFR GENERATES Proliferative Advantage
-\item EML4-ALK fusion GENERATES Constitutive ALK ACTIVATE CAUSE cell (a) proliferation, (b) invasion, and (c) inhibition of apoptosis
-\item \textbf{ACTIVATION} Oncogenes and INACTIVATE of Tumor Suppressor GENES 
-\item ACTIVATE K-RAS GENE
-\item ACTIVATE EGFR GENE
-\item ACTIVATE EML4-ALK  GENE
-\item INACTIVATE p53 GENE
-\item INACTIVATE p16INK4a GENE 
-\item INACTIVATE RAR-beta GENE
-\item INACTIVATE RASSF1 GENE
-\item p16INK4a Protein Encoding INHIBITS CDK-cyclin-D complexesformation by CDK4 and CDK6 Competitive Binding 
-\item LOSS p16INK4a Expression 
-\item RAR-beta RECEPTIR HAS \textbf{Vitamin-A-dependent} Transcriptional Activity. 
-\item RASSF1A FORMS (a) Heterodimers with (b) Nore-1 AND (c) RAS effector.
-\item Loss of RASSF1A CHANGE Balance RAS Activity TOWARDS Growth Promotion
+\item Non-small cell lung cancer CONSISTS of (1) squamous cell (SCC), (2) adeno (AC) and (3) large-cell carcinoma  \cite{key400}
+\item Point MUTATIONS K-RAS gene \textbf{INACTIVATE} GTPase Activity AND p21-RAS protein GROWTH Signals  \cite{key400}
+\item INACTIVATE MUTATION of p53 GNENERATE INCREASE Rapid Proliferation AND Reduced Apoptosis  \cite{key400}
+\item MUTATIONS or OVER Expression of EGFR GENERATES Proliferative Advantage  \cite{key400}
+\item EML4-ALK fusion GENERATES Constitutive ALK ACTIVATE CAUSE cell (a) proliferation, (b) invasion, and (c) inhibition of apoptosis  \cite{key400}
+\item \textbf{ACTIVATION} Oncogenes and INACTIVATE of Tumor Suppressor GENES  \cite{key400}
+\item ACTIVATE K-RAS  \cite{key400}
+\item ACTIVATE EGFR   \cite{key400}
+\item ACTIVATE EML4-ALK  \cite{key400}
+\item INACTIVATE p53   \cite{key400}
+\item INACTIVATE p16INK4a   \cite{key400}
+\item INACTIVATE RAR-beta   \cite{key400}
+\item INACTIVATE RASSF1   \cite{key400}
+\item p16INK4a Protein Encoding INHIBITS CDK-cyclin-D complexesformation by CDK4 and CDK6 Competitive Binding  \cite{key400}
+\item LOSS p16INK4a EXPRESSION  \cite{key400}
+\item RAR-beta RECEPTOR HAS \textbf{Vitamin-A-dependent} Transcriptional Activity  \cite{key400}
+\item RASSF1A FORMS (a) Heterodimers with (b) Nore-1 AND (c) RAS effector  \cite{key400}
+\item Loss of RASSF1A CHANGE Balance RAS Activity TOWARDS Growth Promotion  \cite{key400}
 \end{enumerate}
 
 \subsubsection{Small cell lung cancer}
