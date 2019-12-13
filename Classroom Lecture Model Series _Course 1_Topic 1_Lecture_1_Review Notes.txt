@@ -286,9 +286,42 @@ Keywords:
 	\label{tab:Table2}
 \end{table}
 
-\bibitem[700]{key700} National Cancer Institute
- \newblock Annual Plan and Budget Proposal FY 2019
- \newblock https://www.cancer.gov/about-nci/budget/plan 
+
+
+\subsubsection{Colorectal cancer}
+
+\subsubsection{Gastric cancer}
+
+\subsubsection{Pancreatic cancer}
+
+\subsubsection{Hepatocellular carcinoma}
+
+\subsubsection{Renal cell carcinoma}
+
+\subsubsection{Bladder cancer}
+
+\subsubsection{Non-small cell lung cancer}
+
+\subsubsection{Small cell lung cancer}
+
+\subsubsection{Melanoma}
+
+\subsubsection{Basal cell carcinoma}
+
+\subsubsection{Breast cancer}
+
+\subsubsection{Endometrial cancer}
+
+\subsubsection{Prostate cancer}
+
+\subsubsection{Glioma}
+
+\subsubsection{Thyroid cancer}
+
+\subsubsection{Acute myeloid leukemia (AML)}
+
+\subsubsection{Chronic myeloid leukemia (CML)}
+
 
 
 \begin{enumerate}
@@ -393,6 +426,11 @@ Topic ID & #Articles & Readability & Vocabulary & Search String  \\
 \subsection{Classroom Lecture 28-30 Topics: Application Study 1,2,3}
 
 \subsection{Review: Mathematical Oncology}
+
+\bibitem[700]{key700} National Cancer Institute
+\newblock Annual Plan and Budget Proposal FY 2019
+\newblock https://www.cancer.gov/about-nci/budget/plan 
+
 \subsection{Review: MicroRNA}
 \subsection{Review: Network Regulation}
 \subsubsection{Up Regulation}
