@@ -42,7 +42,6 @@ Vocabulary Words:
 \label{fig:Figure1}
 \end{figure} 
 
-
 \subsection{Plan of the Article}
 
 \begin{enumerate}
@@ -60,7 +59,6 @@ PubmedID  & Title & Summary \\
 	\end{tabular}
 	\caption{Summary of Literature Review for Topic}
 \end{table}	
-
 
 \section{Protein Interaction Diagram and Annotations}
 
@@ -94,8 +92,6 @@ Gene/Protein & Description & Reference \\
 \end{tabular}
 \end{table}
 
-
-
 \subsection{Gene Ontology: Biological Process}
 
 \begin{table}[H]\centering
@@ -128,165 +124,6 @@ Gene/Protein & Description & Reference \\
 
 \section{Mathematical Background}
 
-\subsection{Stochastic Differential Equation System}
-
-The Itô interpretation is:
-\begin{equation}
-int(f(s)*dw(s),t0,T) = sum(f(t(i-1)) * (W(t(i)) - W(t(i-1))),i=1,…,N)
-\end{equation}
-
-The Stratonovich interpretation is:
-
-\begin{equation}
-int(f(s) o dw(s),t0,T) = sum(f((t(i)+t(i-1))/2) * (W(t(i)) - W(t(i-1))),i=1,…,N)
-\end{equation}
-
-\begin{equation}\label{eds01}
-dX_t = \mu(t,X_t) dt + \sigma(t,X_t) dW_t,\quad X_{t_{0}}=x_{0}
-\end{equation}
-
-
-\begin{enumerate}
-\end{enumerate}
-
-\subsection{Bayesian inference}
-
-\begin{equation}
-\end{equation}
-
-\subsection{Stochastic Integration}
-
-\begin{equation}
-\end{equation}
-
-\subsubsection{Uniform Distribution}
-
-\subsubsection{Normal, Beta, and Gamma Distributions}
-
-\begin{table}[H]\centering
-	\begin{tabular}{p{1cm}p{6cm}p{2cm}}
-		CDF ID & Equation Summary & Comments\\
-		\hline
-		\hline
-	\end{tabular}
-\end{table}
-
-\subsection{Bayesian MCMC}
-
-\begin{equation}
-\end{equation}
-
-\section{Equation Systems}
-
-\begin{align*} 
-\tiny
-\frac{d^{\alpha_1}X_1(t)}{dt^{\alpha_1}} = a_{11} *X_1(t - \tau_1) + \\
-a_{12} *\frac{X_1(t)^{\beta_1}}{(1-X_1(t - \tau_1))^{\beta_1}} - a_{15}X_1(t) + \\
-\epsilon_1(t) \\
-\frac{d^{\alpha_1}X_2(t)}{dt^{\alpha_1}} = a_{21} *X_2(t - \tau_2) + \\
-a_{22} *\frac{X_2(t)^{\beta_1}}{(1-X_2(t - \tau_2))^{\beta_1}} - a_{25}X_2(t) + \\
-\epsilon_2(t) \\ \\
-\frac{d^{\alpha_1}X_3(t)}{dt^{\alpha_1}} = a_{31} *X_3(t - \tau_3) + \\
-a_{32} *\frac{X_3(t)^{\beta_1}}{(1-X_3(t - \tau_3))^{\beta_1}} - a_{35}X_3(t) + \\
-\epsilon_3(t) \\ \\
-\frac{d^{\alpha_1}X_4(t)}{dt^{\alpha_1}} = a_{41} *X_4(t - \tau_4) + \\
-a_{42} *\frac{X_4(t)^{\beta_1}}{(1-X_4(t - \tau_4))^{\beta_1}} - a_{45}X_4(t) + \\
-\epsilon_4(t) \\ \\
-\frac{d^{\alpha_1}X_5(t)}{dt^{\alpha_1}} = a_{51} *X_5(t - \tau_5) + \\
-a_{52} *\frac{X_5(t)^{\beta_1}}{(1-X_5(t - \tau_5))^{\beta_1}} - a_{55}X_5(t) + \\
-\epsilon_5(t) \\
-\end{align*}
-
-\subsubsection{Parameter Table}
-
-\begin{table}[h]\footnotesize
-	\caption{Parameter Description and Value}
-	\begin{tabular}{rllp{2cm}l}
-		\hline	
-		Parameter & Value & Interval & Description & Reference \\
-		\hline 
-		a11 & 0 & [0,1] & Equation 1 & \cite{key1}
-		a12 & 0 & [0,1] & Equation 1 & \cite{key1}
-		a13 & 0 & [0,1] & Equation 1 & \cite{key1}
-		a14 & 0 & [0,1] & Equation 1 & \cite{key1}
-		a15 & 0 & [0,1] & Equation 1 & \cite{key1}
-		\hline
-		a21 & 0 & [0,1] & Equation 2 & \cite{key1}
-		a22 & 0 & [0,1] & Equation 2 & \cite{key1}
-		a23 & 0 & [0,1] & Equation 2 & \cite{key1}
-		a24 & 0 & [0,1] & Equation 2 & \cite{key1}
-		a25 & 0 & [0,1] & Equation 2 & \cite{key1}
-		\hline
-		a31 & 0 & [0,1] & Equation 3 & \cite{key1}
-		a32 & 0 & [0,1] & Equation 3 & \cite{key1}
-		a33 & 0 & [0,1] & Equation 3 & \cite{key1}
-		a34 & 0 & [0,1] & Equation 3 & \cite{key1}
-		a35 & 0 & [0,1] & Equation 3 & \cite{key1}
-		\hline
-		a41 & 0 & [0,1] & Equation 4 & \cite{key1}
-		a42 & 0 & [0,1] & Equation 4 & \cite{key1}
-		a43 & 0 & [0,1] & Equation 4 & \cite{key1}
-		a44 & 0 & [0,1] & Equation 4 & \cite{key1}
-		a45 & 0 & [0,1] & Equation 4 & \cite{key1}
-		\hline
-		a51 & 0 & [0,1] & Equation 5 & \cite{key1}
-		a52 & 0 & [0,1] & Equation 5 & \cite{key1}
-		a53 & 0 & [0,1] & Equation 5 & \cite{key1}
-		a54 & 0 & [0,1] & Equation 5 & \cite{key1}
-		a55 & 0 & [0,1] & Equation 5 & \cite{key1}
-		\hline
-		$\tau_1$ & 1 & [1,2] & Equation 1 & \cite{key1}
-		$\tau_2$ & 1 & [1,2] & Equation 2 & \cite{key1}
-		$\tau_3$ & 1 & [1,2] & Equation 3 & \cite{key1}
-		$\tau_4$ & 1 & [1,2] & Equation 4 & \cite{key1}
-		$\tau_5$ & 1 & [1,2] & Equation 5 & \cite{key1}
-		\hline
-		$\alpha_1$ & 1 & (0,2] & Equation 1 & \cite{key1}
-		$\alpha_2$ & 1 & (0,2] & Equation 2 & \cite{key1}
-		$\alpha_3$ & 1 & (0,2] & Equation 3 & \cite{key1}
-		$\alpha_4$ & 1 & (0,2] & Equation 4 & \cite{key1}
-		$\alpha_5$ & 1 & (0,2] & Equation 5 & \cite{key1}
-		\hline
-		$\beta_1$ & 1 & (0,2] & Equation 1 & \cite{key1}
-		$\beta_2$ & 1 & (0,2] & Equation 2 & \cite{key1}
-		$\beta_3$ & 1 & (0,2] & Equation 3 & \cite{key1}
-		$\beta_4$ & 1 & (0,2] & Equation 4 & \cite{key1}
-		$\beta_5$ & 1 & (0,2] & Equation 5 & \cite{key1}
-	\end{tabular}	
-\end{table}
-
-
-\centering	
-\begin{table}[H]\tiny
-  \caption{Stochastic Processes and Paths }	
-\begin{tabular}{r|p{0.5cm}p{0.5cm}p{2.5cm}|p{1cm}|p{1cm}}
-\hline	
-Stochastic Process & Start & Time & Description & Reference \\
-\hline 
-\hline 
-\end{tabular}
-\end{table}
-
-
-\subsection{Drift and Diffusion Parameter Specifications}
-
-\begin{table}[H]\centering
-	\begin{tabular}{p{1cm}p{4cm}p{3cm}}
-		EquationID & Description & Comments\\
-		\hline
-		\hline
-	\end{tabular}
-\end{table}
-
-\subsection{Error Term Specifications}
-
-\begin{table}[H]\centering
-	\begin{tabular}{p{1cm}p{4cm}p{3cm}}
-		Error ID & Summary & Comments\\
-		\hline
-		\hline
-	\end{tabular}
-\end{table}
 
 \section{Results}
 
