@@ -255,6 +255,42 @@ Keywords:
 
 \section{Review: Mathematical Oncology}
 
+\subsection{Oncology: Mutated Cancer Genes}
+
+\begin{table}[H]
+	\begin{tabular}{p{1cm}p{1cm}p{1cm}p{1cm}]}
+		\hline 
+		ID & Signal Transduction Pathway & Gene Mutations & Comment \\  	
+		\hline
+		\href{https://ghr.nlm.nih.gov/search?query=NIF1}{\textbf{A}} & Ras signaling pathway & NF1, NRAS, PIK3CA  &  \\
+		\href{https://ghr.nlm.nih.gov/search?query=NF1}{\textbf{J}} & ErbB signaling pathway & BRAF,NRAS,PIK3CA  &  \\
+		\href{https://ghr.nlm.nih.gov/search?query=NRAS}{\textbf{B}} & PI3K-Akt signaling pathway & NRAS,PIK3CA,PTEN,TP53  &  \\
+		\href{https://ghr.nlm.nih.gov/search?query=NRAS}{\textbf{R}} & T cell receptor signaling pathway & NRAS,PIK3CA  &  \\
+		\href{https://ghr.nlm.nih.gov/search?query=NRAS}{\textbf{K}} & MAPK signaling pathway & BRAF,NF1,NRAS,TP53  &  \\
+		\href{https://ghr.nlm.nih.gov/search?query=CTNNB1}{\textbf{C}} & Hippo signaling pathway & CTNNB1,SMAD4 &  \\
+		\href{https://ghr.nlm.nih.gov/search?query=CTNNB1}{\textbf{L}} & Hippo signaling pathway & CTNNB1,SMAD4  &  \\
+		\href{https://ghr.nlm.nih.gov/search?query=SMAD4}{\textbf{D}} & Wnt signaling pathway & CTNNB1,SMAD4,TP53  &  \\
+		\href{https://ghr.nlm.nih.gov/search?query=TP53}{\textbf{E}} & p53 signaling pathway & CDKN2A,PTEN,TP53 &  \\
+		\href{https://ghr.nlm.nih.gov/search?query=NCOR1}{\textbf{G}} & Thyroid hormone signaling pathway & CTNNB1,NCOR1,NRAS,PIK3CA,TP53  &  \\
+		\href{https://ghr.nlm.nih.gov/search?query=BRAF}{\textbf{H}} & FoxO signaling pathway & BRAF,NRAS,PIK3CA,PTEN,SMAD4  &  \\
+		\href{https://ghr.nlm.nih.gov/search?query=PIK3CA}{\textbf{I}} & mTOR signaling pathway & BRAF,PIK3CA,PTEN  &  \\
+		\href{https://ghr.nlm.nih.gov/search?query=PIK3CA}{\textbf{S}} & Estrogen signaling pathway & NRAS,PIK3CA  &  \\
+		\href{https://ghr.nlm.nih.gov/search?query=PIK3CA}{\textbf{M}} & Apoptosis & PIK3CA,TP53  &  \\
+		\href{https://ghr.nlm.nih.gov/search?query=PIK3CA}{\textbf{O}} & Rap1 signaling pathway & BRAF,CTNNB1,NRAS,PIK3CA  &  \\
+		\href{https://ghr.nlm.nih.gov/search?query=CDKN2A}{\textbf{N}} & Cell cycle & CDKN2A,SMAD4,TP53  &  \\
+		\href{https://ghr.nlm.nih.gov/search?query=BRAF}{\textbf{P}} & Chemokine signaling pathway & BRAF,NRAS,PIK3CA  &  \\
+		\href{https://ghr.nlm.nih.gov/search?query=PTEN}{\textbf{Q}} & Phosphatidylinositol signaling system & PIK3CA,PTEN  &  \\	
+		\hline
+	\end{tabular}
+	\caption{Mutated Cancer Genes and Signaling Networks \cite{key700}}
+	\label{tab:Table2}
+\end{table}
+
+\bibitem[700]{key700} National Cancer Institute
+ \newblock Annual Plan and Budget Proposal FY 2019
+ \newblock https://www.cancer.gov/about-nci/budget/plan 
+
+
 \begin{enumerate}
 \end{enumerate}
 
