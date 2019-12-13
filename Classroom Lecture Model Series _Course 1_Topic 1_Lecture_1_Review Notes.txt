@@ -322,6 +322,20 @@ Keywords:
 
 \subsubsection{Pancreatic cancer}
 
+\begin{enumerate}
+	\item Pancreatic Ductal Adenocarcinoma Extensive genomic INSTABILITY Aneuploidy \cite{key400}
+	\item EARLY ACTIVATE Point MUTATION in K-ras GENE \cite{key400}
+	\item \underline{Telomere ATTRITION} MUTATION in p53 GENE and BRCA2 GENE HIGH PROBABLE CONTRIBUTE Phenotypes \cite{key400}
+	\item EGF RECEPTORS CLASSICAL UP STREAM ACTIVATES RAS proteins \cite{key400}
+	\item INACTIVATE of \textbf{SMAD4} Tumour Suppressor GENE LEADS to LOSS \cite{key400}
+	\item INACTIVATE p16 GENE Intermediate STAGE \cite{key400}
+	\item LATE INACTIVATE p53 SMAD4 BRCA2 GENES \cite{key400}
+	\item ACTIVATE K-ras ENGAGE \textbf{Multiple} Effector NETWORKS  \cite{key400}
+	\item RAS SIGNAL by RAS-induced Autocrine ACTIVATION EGFR Family LIGANDS \cite{key400}
+	\item INHIBIT EFFECT of \textit{TRANSFORM GROWTH factor-beta SIGNAL NETWORKS} \cite{key400}
+	\item OVER Expression HER-2 GENE \cite{key400}
+\end{enumerate}
+
 \subsubsection{Hepatocellular carcinoma}
 
 \subsubsection{Renal cell carcinoma}
