@@ -290,6 +290,20 @@ Keywords:
 
 \subsubsection{Colorectal cancer}
 
+\begin{enumerate}
+	\item Chromosomal Instability ACTIVATE Oncogenes K-ras
+	\item Chromosomal Instability INACTIVATE TSG
+	\item Chromosomal Instability INACTIVATE p53
+	\item Chromosomal Instability INACTIVATE DCC/Smad4
+	\item Chromosomal Instability INACTIVATE APC
+	\item Chromosomal Instability has Microsatellite Instability (MSI)
+	\item Microsatellite Instability INACTIVATE DNA Mismatch Repair Genes 
+	\item Microsatellite Instability INACTIVATE MLH1
+	\item Microsatellite Instability INACTIVATE MSH2 by PROMOTER Hypermethylation
+	\item Microsatellite Instability INACTIVATE Secondary MUTATION of Coding Microsatellite Genes 
+	\item Microsatellite Instability TRANSFORMS growth factor receptor II (TGF-RII) and BAX.
+\end{enumerate}
+
 \subsubsection{Gastric cancer}
 
 \subsubsection{Pancreatic cancer}
