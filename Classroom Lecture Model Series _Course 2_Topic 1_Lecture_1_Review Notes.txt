@@ -11,6 +11,50 @@
 
 \section{Classroom Lecture 1-3 Topics: KEGG Review}
 
+\vspace{4pt}
+\centering
+\begin{table}[h]\footnotesize
+	\caption{Signal Transduction and Network Study}
+	\begin{tabular}{p{2cm}p{2cm}p{1cm}}
+		\hline	
+		MAPK & MAPK14  & \cite{key400} \\
+		ErbB & EGFR  & \cite{key400} \\
+		Rap1 & RRAS2  & \cite{key400} \\
+		Calcium & MAPK14  & \cite{key400} \\
+		cGMP & PRKACA  & \cite{key400} \\
+		cAMP & PRKG1  & \cite{key400} \\
+		Chemokine & FGR4  & \cite{key400} \\
+		NFKappa & BIRC2  & \cite{key400} \\
+		HIF1 & EGFR  & \cite{key400} \\
+		FOX0 & Ubiquitin  & \cite{key400} \\
+		Phosphatadylinositol & PLCD3  & \cite{key400} \\
+		Sphingolipid & C06124  & \cite{key400} \\
+		Cell Cycle & CDC25A  & \cite{key400} \\
+		p53 & MDM2  & \cite{key400} \\
+		mTOR & MTOR  & \cite{key400} \\
+		PI3K & AKT & AKT3  & \cite{key400} \\
+		AMPK & PRKAG2  & \cite{key400} \\
+		Apoptsis & TP53  & \cite{key400} \\
+		Longevity & SIRT1  & \cite{key400} \\
+		Wnt & APC2  & \cite{key400} \\
+		Notch & RBPJL  & \cite{key400} \\
+		Hedgehog & GLI1  & \cite{key400} \\
+		TGF & Beta & SMAD6  & \cite{key400} \\
+		VEGF & KDR  & \cite{key400} \\
+		Apelin & GNB5  & \cite{key400} \\
+		Hippo & YAP1  & \cite{key400} \\
+		JakStat & JAK1  & \cite{key400} \\
+		IL17.TAB3  & \cite{key400} \\
+		Insulin & AKT3  & \cite{key400} \\
+		Glucagon & PRKACA  & \cite{key400} \\
+		\hline
+	\end{tabular}
+	\label{tab:Table2}
+\end{table}
+
+
+
+
 \begin{table}[H]\centering
 	\begin{tabular}{p{1cm}p{4cm}p{3cm}}
 		Article ID & Summary & Comments\\
