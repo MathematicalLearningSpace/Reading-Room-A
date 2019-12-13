@@ -291,20 +291,34 @@ Keywords:
 \subsubsection{Colorectal cancer}
 
 \begin{enumerate}
-	\item Chromosomal Instability ACTIVATE Oncogenes K-ras
-	\item Chromosomal Instability INACTIVATE TSG
-	\item Chromosomal Instability INACTIVATE p53
-	\item Chromosomal Instability INACTIVATE DCC/Smad4
-	\item Chromosomal Instability INACTIVATE APC
-	\item Chromosomal Instability has Microsatellite Instability (MSI)
-	\item Microsatellite Instability INACTIVATE DNA Mismatch Repair Genes 
-	\item Microsatellite Instability INACTIVATE MLH1
-	\item Microsatellite Instability INACTIVATE MSH2 by PROMOTER Hypermethylation
-	\item Microsatellite Instability INACTIVATE Secondary MUTATION of Coding Microsatellite Genes 
-	\item Microsatellite Instability TRANSFORMS growth factor receptor II (TGF-RII) and BAX.
+	\item Chromosomal Instability ACTIVATE Oncogenes K-ras \cite{key400}
+	\item Chromosomal Instability INACTIVATE TSG \cite{key400}
+	\item Chromosomal Instability INACTIVATE p53 \cite{key400}
+	\item Chromosomal Instability INACTIVATE DCC/Smad4 \cite{key400}
+	\item Chromosomal Instability INACTIVATE APC \cite{key400}
+	\item Chromosomal Instability has Microsatellite Instability (MSI) \cite{key400}
+	\item Microsatellite Instability INACTIVATE DNA Mismatch Repair Genes \cite{key400}
+	\item Microsatellite Instability INACTIVATE MLH1 \cite{key400}
+	\item Microsatellite Instability INACTIVATE MSH2 by PROMOTER Hypermethylation \cite{key400}
+	\item Microsatellite Instability INACTIVATE Secondary MUTATION of Coding Microsatellite Genes \cite{key400}
+	\item Microsatellite Instability TRANSFORMS growth factor receptor II (TGF-RII), BAX \cite{key400}
 \end{enumerate}
 
 \subsubsection{Gastric cancer}
+
+\begin{enumerate}
+	\item Histological Group (A) intestinal \cite{key400}
+	\item Histological Group (B) Diffuse  \cite{key400}
+	\item Intestinal metaplasia MUTATIONS p53 gene  \cite{key400}
+	\item Gastric Adenomas (GA) MUTATIONS in APC gene  \cite{key400}
+	\item REDUCED Expression Retinoic Acid Receptor Beta (RAR-beta)  \cite{key400}
+	\item REDUCED Expression \textbf{hTERT}   \cite{key400}
+	\item REDUCED TGF-beta receptor type I (TGFBRI) Expression  \cite{key400}
+	\item REDUCED  p27 Expression \cite{key400}
+	\item REDUCED cyclin E Amplification.  \cite{key400} 
+	\item (A) Amplification and (B) Overexpression of c-ErbB2  \cite{key400}
+	\item COMPLETE p27 Expression LOSS ADVANCE STAGE GC \cite{key400}
+\end{enumerate}
 
 \subsubsection{Pancreatic cancer}
 
