@@ -1,4 +1,37 @@
 %-----------------------------Multilingual Math Vocabulary--------------------------
 %-----------------------------Work In Progress--------------------------------------
 
-mathematics & 数学 & suugaku & shùxué \\
+\hline
+mathematics & 数学 & suugaku & 数学 & shùxué \\
+statistics & 統計学 & Tōkei-gaku &  & \\
+biology & 生物学 & Ikimonogaku & & \\
+\hline
+theorem & 定理 & Teiri &  & \\
+lemma & 補題 & Hodai &  & \\
+proposition & 命題 & Meidai &  & \\
+definition & 定義 & Teigi &  & \\
+proof & 証明 & Shōmei &  & \\
+\hline
+calculus & 微積分 & Bisekibun &  & \\
+differential equations & 微分方程式 & Bibun hōteishiki &  & \\
+\hline
+add & 加える & Kuwaeru &  & \\
+substract & 引く & Hiku &  & \\
+multiply & かける & Kakeru &  & \\
+divide & 割る & Waru &  & \\
+\hline
+equation & 方程式 & Hōteishiki &  & \\
+function & 関数 & Kansū &  & \\
+fraction & 端数 & Hasū  &  & \\
+ratio & 比率 & Hiritsu  &  & \\
+exponent & 指数 & Shisū  &  & \\
+\hline
+up & アップ & Appu &  & \\
+down & ダウン & Daun &  & \\
+to & に & Ni &  & \\
+from & から & Kara &  & \\
+over & 以上 & Ijō &  & \\
+under & 下 & Shita &  & \\
+start & 開始 & Kaishi &  & \\
+end & 終わり & Owari &  & \\
+\hline
