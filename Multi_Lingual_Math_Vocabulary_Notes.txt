@@ -1,6 +1,7 @@
 %-----------------------------Multilingual Math Vocabulary--------------------------
 %-----------------------------Work In Progress--------------------------------------
 
+scholar & 学者 & Gakusha &  & \\
 \hline
 mathematics & 数学 & suugaku & 数学 & shùxué \\
 statistics & 統計学 & Tōkei-gaku &  & \\
