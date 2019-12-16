@@ -5,7 +5,9 @@
 mathematics & 数学 & suugaku & 数学 & shùxué \\
 statistics & 統計学 & Tōkei-gaku &  & \\
 biology & 生物学 & Ikimonogaku & & \\
+botany & 植物学 & Shokubutsu-gaku & & \\
 \hline
+theory & 理論 & Riron &  & \\
 theorem & 定理 & Teiri &  & \\
 lemma & 補題 & Hodai &  & \\
 proposition & 命題 & Meidai &  & \\
@@ -14,6 +16,7 @@ proof & 証明 & Shōmei &  & \\
 \hline
 calculus & 微積分 & Bisekibun &  & \\
 differential equations & 微分方程式 & Bibun hōteishiki &  & \\
+probability & 確率 & Kakuritsu & & \\
 \hline
 add & 加える & Kuwaeru &  & \\
 substract & 引く & Hiku &  & \\
