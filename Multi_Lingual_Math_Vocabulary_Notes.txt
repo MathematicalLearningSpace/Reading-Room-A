@@ -49,3 +49,6 @@ similar & 似た Nita &  & \\
 \hline
 chart & チャート & Chāto  &  & \\
 table & 表 & Hyō  &  & \\
+graph & グラフ & Gurafu & & \\
+references & 参照 & Sanshō & & \\
+\hline
