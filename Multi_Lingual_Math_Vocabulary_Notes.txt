@@ -8,6 +8,7 @@ statistics & 統計学 & Tōkei-gaku &  & \\
 biology & 生物学 & Ikimonogaku & & \\
 botany & 植物学 & Shokubutsu-gaku & & \\
 \hline
+applied & 適用された & Tekiyō sa reta & &  \\
 theory & 理論 & Riron &  & \\
 theorem & 定理 & Teiri &  & \\
 lemma & 補題 & Hodai &  & \\
@@ -27,6 +28,8 @@ divide & 割る & Waru &  & \\
 equation & 方程式 & Hōteishiki &  & \\
 function & 関数 & Kansū &  & \\
 fraction & 端数 & Hasū  &  & \\
+numerator &分子 & Bunshi & & \\
+denominator & 分母 & Bunbo & & \\
 ratio & 比率 & Hiritsu  &  & \\
 exponent & 指数 & Shisū  &  & \\
 \hline
