@@ -42,3 +42,6 @@ start & 開始 & Kaishi &  & \\
 end & 終わり & Owari &  & \\
 \hline
 similar & 似た Nita &  & \\
+\hline
+chart & チャート & Chāto  &  & \\
+table & 表 & Hyō  &  & \\
