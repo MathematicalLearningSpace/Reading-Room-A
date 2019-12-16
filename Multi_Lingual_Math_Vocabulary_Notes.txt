@@ -47,7 +47,7 @@ end & 終わり & Owari &  & \\
 \hline
 similar & 似た Nita &  & \\
 \hline
-section & セクション & Sekushon &  & \\
+section & 章 & Sekushon &  & \\
 chart & チャート & Chāto  &  & \\
 table & 表 & Hyō  &  & \\
 graph & グラフ & Gurafu & & \\
