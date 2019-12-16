@@ -30,8 +30,12 @@ up & アップ & Appu &  & \\
 down & ダウン & Daun &  & \\
 to & に & Ni &  & \\
 from & から & Kara &  & \\
+left & 左 & Hidari &  & \\
+middle & 中間 & Chūkan &  & \\
+right & 右 & Migi &  & \\
 over & 以上 & Ijō &  & \\
 under & 下 & Shita &  & \\
 start & 開始 & Kaishi &  & \\
 end & 終わり & Owari &  & \\
 \hline
+similar & 似た Nita &  & \\
