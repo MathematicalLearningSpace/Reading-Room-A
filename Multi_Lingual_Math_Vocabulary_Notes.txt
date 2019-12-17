@@ -33,23 +33,23 @@ denominator & 分母 & Bunbo & 分母 & Fēnmǔ \\
 ratio & 比率 & Hiritsu  &  比 & Bǐ \\
 exponent & 指数 & Shisū  &  指数 & Zhǐshù\\
 \hline
-up & アップ & Appu &  & \\
-down & ダウン & Daun &  & \\
-to & に & Ni &  & \\
-from & から & Kara &  & \\
-left & 左 & Hidari &  & \\
-middle & 中間 & Chūkan &  & \\
-right & 右 & Migi &  & \\
-over & 以上 & Ijō &  & \\
-under & 下 & Shita &  & \\
-start & 開始 & Kaishi &  & \\
-end & 終わり & Owari &  & \\
+up & アップ & Appu &  上 & Shàng \\
+down & ダウン & Daun &  下 & Xià \\
+to & に & Ni & 至 & Zhì\\
+from & から & Kara & 从 & Cóng\\
+left & 左 & Hidari &  剩下 & Shèng xià \\
+middle & 中間 & Chūkan &  中间 & Zhōngjiān \\
+right & 右 & Migi &  对 & Duì \\
+over & 以上 & Ijō &  过度 & Guòdù \\
+under & 下 & Shita &  下 & Xià \\
+start & 開始 & Kaishi &  开始 & Kāishǐ \\
+end & 終わり & Owari &  结束 & Jiéshù \\
 \hline
-similar & 似た Nita &  & \\
+similar & 似た Nita &  类似 & Lèisì \\
 \hline
-section & 章 & Sekushon &  & \\
-chart & チャート & Chāto  &  & \\
-table & 表 & Hyō  &  & \\
-graph & グラフ & Gurafu & & \\
-references & 参照 & Sanshō & & \\
+section & 章 & Sekushon &  部分 & Bùfèn \\
+chart & チャート & Chāto  &  图表 & Túbiǎo \\
+table & 表 & Hyō  &  表 & Biǎo \\
+graph & グラフ & Gurafu & 图形 & Túxíng \\
+references & 参照 & Sanshō & 参考资料 & Cānkǎo zīliào \\
 \hline
