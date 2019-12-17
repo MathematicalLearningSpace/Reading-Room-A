@@ -1,6 +1,8 @@
 %-----------------------------Multilingual Math Vocabulary--------------------------
 %-----------------------------Work In Progress--------------------------------------
 
+English & Japanese A & Japanese B & Chinese A & Chinese B \\
+\hline
 scholar & 学者 & Gakusha & 学者 & Xuézhě \\
 \hline
 mathematics & 数学 & suugaku & 数学 & shùxué \\
