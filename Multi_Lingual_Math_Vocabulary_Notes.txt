@@ -47,7 +47,7 @@ under & 下 & Shita &  下 & Xià \\
 start & 開始 & Kaishi &  开始 & Kāishǐ \\
 end & 終わり & Owari &  结束 & Jiéshù \\
 \hline
-similar & 似た Nita &  类似 & Lèisì \\
+similiar & 似た Nita &  类似 & Lèisì \\
 \hline
 section & 章 & Sekushon &  部分 & Bùfèn \\
 chart & チャート & Chāto  &  图表 & Túbiǎo \\
