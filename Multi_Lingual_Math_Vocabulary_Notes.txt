@@ -13,15 +13,15 @@ theory & 理論 & Riron &  理论 & Lǐlùn\\
 theorem & 定理 & Teiri &  定理 & Dìnglǐ\\
 lemma & 補題 & Hodai &  引理 & Yǐn lǐ\\
 proposition & 命題 & Meidai &  主张 & Zhǔzhāng\\
-definition & 定義 & Teigi &  & \\
-proof & 証明 & Shōmei &  & \\
+definition & 定義 & Teigi & 定义 & Dìngy \\
+proof & 証明 & Shōmei &  证明 & Zhèngmíng \\
 \hline
-calculus & 微積分 & Bisekibun &  & \\
-differential equations & 微分方程式 & Bibun hōteishiki &  & \\
-probability & 確率 & Kakuritsu & & \\
+calculus & 微積分 & Bisekibun &  结石 & Jiéshí \\
+differential equations & 微分方程式 & Bibun hōteishiki &  微分方程 & Wéifēn fāngchéng \\
+probability & 確率 & Kakuritsu & 可能性 & Kěnéng xìng \\
 \hline
-add & 加える & Kuwaeru &  & \\
-substract & 引く & Hiku &  & \\
+add & 加える & Kuwaeru &  加 & Jiā \\
+subtract & 引く & Hiku & 减去 & Jiǎn qù & \\
 multiply & かける & Kakeru &  & \\
 divide & 割る & Waru &  & \\
 \hline
