@@ -22,16 +22,16 @@ probability & 確率 & Kakuritsu & 可能性 & Kěnéng xìng \\
 \hline
 add & 加える & Kuwaeru &  加 & Jiā \\
 subtract & 引く & Hiku & 减去 & Jiǎn qù & \\
-multiply & かける & Kakeru &  & \\
-divide & 割る & Waru &  & \\
+multiply & かける & Kakeru &  乘 & Chéng \\
+divide & 割る & Waru &  划分 & Huàfēn \\
 \hline
-equation & 方程式 & Hōteishiki &  & \\
-function & 関数 & Kansū &  & \\
-fraction & 端数 & Hasū  &  & \\
-numerator &分子 & Bunshi & & \\
-denominator & 分母 & Bunbo & & \\
-ratio & 比率 & Hiritsu  &  & \\
-exponent & 指数 & Shisū  &  & \\
+equation & 方程式 & Hōteishiki &  方程 & Fāngchéng \\
+function & 関数 & Kansū &  功能 & Gōngnéng \\
+fraction & 端数 & Hasū  &  分数 & Fēnshù\\
+numerator &分子 & Bunshi & 分子 & Fēnzǐ \\
+denominator & 分母 & Bunbo & 分母 & Fēnmǔ \\
+ratio & 比率 & Hiritsu  &  比 & Bǐ \\
+exponent & 指数 & Shisū  &  指数 & Zhǐshù\\
 \hline
 up & アップ & Appu &  & \\
 down & ダウン & Daun &  & \\
