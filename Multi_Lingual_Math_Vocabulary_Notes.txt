@@ -1,12 +1,12 @@
 %-----------------------------Multilingual Math Vocabulary--------------------------
 %-----------------------------Work In Progress--------------------------------------
 
-scholar & 学者 & Gakusha &  & \\
+scholar & 学者 & Gakusha & 学者 & Xuézhě \\
 \hline
 mathematics & 数学 & suugaku & 数学 & shùxué \\
-statistics & 統計学 & Tōkei-gaku &  & \\
-biology & 生物学 & Ikimonogaku & & \\
-botany & 植物学 & Shokubutsu-gaku & & \\
+statistics & 統計学 & Tōkei-gaku & 统计 & Tǒngjì \\
+biology & 生物学 & Ikimonogaku & 生物学 & Shēngwù xué\\
+botany & 植物学 & Shokubutsu-gaku & 植物学 & Zhíwù xué \\
 \hline
 applied & 適用された & Tekiyō sa reta & &  \\
 theory & 理論 & Riron &  & \\
