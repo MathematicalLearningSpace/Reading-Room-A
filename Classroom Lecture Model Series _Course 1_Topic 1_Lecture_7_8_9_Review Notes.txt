@@ -1,1 +1,81 @@
 %-----------------------------------Notes-------------------------------
+
+\section{Stochastic Differential Equation System}
+
+The Itô:
+
+\begin{equation}
+int(f(s)*dw(s),t0,T) = \sum (f(t(i-1)) * (W(t(i)) - W(t(i-1))),i=1,…,N)
+\end{equation}
+
+The Stratonovich:
+
+\begin{equation}
+int(f(s)*dw(s),t0,T) = \sum (f((t(i)+t(i-1))/2) * (W(t(i)) - W(t(i-1))),i=1,…,N)
+\end{equation}
+
+\begin{equation}
+dX_t = \mu(t,X_t) dt + \sigma(t,X_t) dW_t,\quad X_{t_{0}}=x_{0}
+\end{equation}
+
+Let $(S(t)$ be a time-dependent boundary, then the first passage time (FPT) of the diffusion process through this boundary is given by
+
+\begin{equation}
+\tau_{S(t)}=
+\left\{
+\begin{array}{ll}
+inf \left\{t: X_{t} \geq S(t)|X_{t_{0}}=x_{0} \right\} & \hbox{if} \quad x_{0} \leq S(t_{0}) \\
+inf \left\{t: X_{t} \leq S(t)|X_{t_{0}}=x_{0} \right\} & \hbox{if} \quad x_{0} \geq S(t_{0})
+\end{array}
+\right
+\end{equation}
+
+Let the SDE have the linear boundary:
+
+\begin{align*}
+dX_{t}= (1-0.5 X_{t}) dt + a12*dW_{t},~x_{0} =1.7.\\
+S(t)= 2(1-sinh(0.5t))
+\end{align*}
+
+Here the first passage time (FPT) of Equation (1) with boundary: 
+
+\begin{equation}
+\tau_{S(t)}=
+\inf \left\{t: X_{t} \geq S(t) |X_{t_{0}}=x_{0} \right\} ~~ \text{if} \quad x_{0} \leq S(t_{0})
+\end{equation}
+
+R API
+\bibitem[100]{key100} Sim.DiffProc
+\bibitem[101]{key101} MsdeParEst
+\bibitem[102]{key102} QPot
+\bibitem[103]{key103} rpgm
+\bibitem[104]{key104} sde
+\bibitem[105]{key105} yuima
+
+\bibitem[1]{key1}A New Approach and Solution Technique to Solve Time Fractional Nonlinear Reaction-Diffusion Equations
+\bibitem[2]{key2}Stability Analysis of Fractional-Order Nonlinear Systems with Delay
+\bibitem[3]{key3}Application of the Multistep Generalized Differential Transform Method to Solve a Time-Fractional Enzyme Kinetics
+\bibitem[4]{key4}Wavelet Methods for Solving Fractional Order Differential Equations
+\bibitem[5]{key5}Numerical Methods for Pricing American Options with Time-Fractional PDE Models
+\bibitem[6]{key6}Application of Multistep Generalized Differential Transform Method for the Solutions of the Fractional-Order Chua System
+\bibitem[7]{key7}Numerical Solution of Some Types of Fractional Optimal Control Problems
+\bibitem[8]{key8}An Efficient Series Solution for Fractional Differential Equations
+\bibitem[9]{key9}Approximate Analytical Solution for Nonlinear System of Fractional Differential Equations by BPs Operational Matrices
+\bibitem[10]{key10}Numerical Solution for Complex Systems of Fractional Order
+\bibitem[11]{key11}Stability Analysis of Fractional-Order Nonlinear Systems with Delay
+\bibitem[12]{key12}Numerical Study for Time Delay Multistrain Tuberculosis Model of Fractional Order
+\bibitem[13]{key13}A Numerical Method for Solving Fractional Differential Equations by Using Neural Network
+\bibitem[14]{key14}Numerical Studies for Fractional-Order Logistic Differential Equation with Two Different Delays
+\bibitem[15]{key15}Numerical Modeling of Fractional-Order Biological Systems
+\bibitem[16]{key16}Numerical Solution of Some Types of Fractional Optimal Control Problems
+\bibitem[17]{key17}A Numerical Method for Delayed Fractional-Order Differential Equations
+\bibitem[18]{key18} New Insights into the Fractional Order Diffusion Equation Using Entropy and Kurtosis
+\bibitem[19]{key19} DELAY DIFFERENTIAL EQUATIONS IN SINGLE SPECIES DYNAMICS
+\bibitem[20]{key20} An Improved Artificial Bee Colony Algorithm Based on Elite Strategy and Dimension Learning
+\bibitem[21]{key21}Operators of Fractional Calculus and Their Applications
+\bibitem[22]{key22} Modelling Physiological and Pharmacological Control on Cell Proliferation to Optimise Cancer Treatments
+\bibitem[23]{key23}Press, W. H., S. A. Teukolsky, W. T Vetterling, and B. P. Flannery (2007). 
+\newblock Numerical Recipes: The Art of Numerical Computing. 
+\newblock Third Edition, Cambridge University Press, New York.
+
+
