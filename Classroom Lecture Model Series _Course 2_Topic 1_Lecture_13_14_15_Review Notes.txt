@@ -181,7 +181,59 @@ Table 1 shows the proteins for Mismatch Repair for Prokaryotic and Eukaryotic Ty
 		\hline
 	\end{tabular}
 	\caption{Summary of Literature Review for Homologous recombination \cite{key400}}
-\end{table}		
+\end{table}	
+
+\begin{table}[H]
+	\begin{tabular}{rll}
+		\hline
+		Protein & Description & Comment \\
+		\hline
+		MRN Complex & & \\
+		\hline
+		RPA & replication factor A1 & \\
+		Rad51 & DNA repair protein & \\
+		Rad52 & DNA repair and recombination protein & \\
+		\hline
+		Rad54 & DNA repair and recombination protein, RAD54-like protein & \\
+		\hline
+		$Pol_{\delta}$ & DNA polymerase delta subunit 1  & \\
+		\hline
+		BLM & bloom syndrome protein  & \\
+		TOP3 & DNA topoisomerase III & \\
+		\hline
+		Mus81 & crossover junction endonuclease MUS81  & \\
+		Eme1 & crossover junction endonuclease EME1 & \\
+		\hline
+	\end{tabular}
+	\caption{Proteins for Homologous recombination of single and double strand breaks for Eukaryotic type \cite{400}}
+\end{table}
+
+	\begin{algorithm}[H]
+		\begin{algorithmic}[1]
+			\State \textbf{Step 1. Recognition}
+			\State (C) ATM, BRCA1, CtIP, BARD1, BRIP1, TOPBP1, Abraxas, RAP80, NBA1, BRE, BRCC36, PALB2, BRCA2, DSS1,SYCP3
+			\State \textbf{Step 2. Filament formation}
+			\State (A)
+			\State (C) RPA, RaD51, Rad52
+			\State \textbf{Step 3: Strand Invasion DNA synthesis}
+			\State (A)
+			\State (C) Rad54
+			\State \textbf{Step 4: DNA Synthesis}
+			\State (A)
+			\State (C) $Pol_{\delta}$
+			\State \textbf{Step 5: Second End Capture}
+			\State \textbf{Step 6: Holliday Junction Intermediate}
+			\State \textbf{Step 7: Branch Migration, Resolution of Holliday Junction}
+			\State (C) BLM, TOP3, Mus81, Eme1
+			\State \textbf{Step 8: Strand Displacement}
+			\State \textbf{Step 9: Flap Removal, Annealing Ligation}
+			\State (C) BLM
+			\State (C)-A \textit{(BIR) Break Induced Replication}
+			\State 	   B-\textit{(SDSA) Synthesis Dependent Strand Annealing}
+			\State 	   C-\textit{(DSBR) Double Strand Break Repair}
+		\end{algorithmic}
+		\caption{Homologous Recombination: Double Strand \cite{400}}\label{HR_DS}
+	\end{algorithm}
 
 \subsection{Non-homologous end-joining}
 
