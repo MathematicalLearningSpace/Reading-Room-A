@@ -1,1 +1,32 @@
 %-----------------------------------Notes-------------------------------
+
+\section{Discrete-time Markov chain}
+
+\begin{definition}
+A sequence of random variables $X_1, X_2, X_3, ...$ with the Markov property has the probability of transition to the next state that depends only on the present state and not previous states is known as a discrete Markov Chain.
+
+\begin{equation}
+\Pr(X_{t+1}=x\mid X_1=x_1, X_2=x_2, \ldots, X_t=x_t) = \Pr(X_{t+1}=x\mid X_t=x_t)
+\end{equation}
+
+where the conditional probabilities are $\Pr(X_1=x_1,\ldots,X_t=x_t) > 0$
+\end{definition}
+
+\begin{definition}
+A sequence of directed graphs $G_{t}(V,E)$ with edges E of graph G are the probabilities of transition from one state at time t to the other states at time t+1,
+
+\begin{equation}
+\Pr(X_{t+1}=x\mid X_t=x_t)
+\end{equation} 
+
+\end{definition}
+
+\begin{definition}
+A continuous time Markov chain $X_{t}$ is defined by time derivatives of the transition probabilities between states i and j known as transition rates of change in matrix Q. Let $X_{t}$ be the random variable of state i of state space S at time t, then, if $X_t=i$, $X_{t + \tau}=j$ is independent of previous values then as $\tau → 0$,  $\left( X_s: s<t \right)$ for all j and for all t, then 
+
+\begin{equation}
+\Pr(X(t +\tau) = j \mid X(t) = i) = \delta_{ij} + q_{ij}\tau + o(\tau)
+\end{equation}
+
+where Kronecker delta is $\delta_{ij}$ and rate of transition is $q_{ij}$ of matrix Q from i to j.
+\end{definition}
