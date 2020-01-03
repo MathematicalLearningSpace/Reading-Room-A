@@ -83,6 +83,70 @@
 	\caption{Summary of Literature Review for Mismatch Repair \cite{key400}}
 \end{table}	
 
+Table 1 shows the proteins for Mismatch Repair for Prokaryotic and Eukaryotic Types
+
+\begin{table}[H]
+	\begin{tabular}{rll}
+		\hline
+		Protein & Description & Comment \\
+		\hline
+		MutS & DNA mismatch repair protein MutS & \\ 
+		MutL & DNA mismatch repair protein MutL  & \\
+		MutH & DNA mismatch repair protein MutH & \\
+		\hline
+		$MutL_{\alpha}$ (PMS2,MLH1) & & \\
+		$MutS_{\alpha}$ (MSH6,MSH2) & & \\
+		$MutL_{\alpha}$ (MLH1,PMS2) & & \\
+		$MutS_{\beta}$ (MSH2, MSH3) & & \\ 
+		MLH1/MLH3 (MLH1,MLH3) & & \\
+		$MutS_{\beta}$ (MSH2, MSH3) &  & \\
+		\hline
+		Helicase II- UVRD & DNA helicase II ATP-dependent DNA helicase PcrA   & \\
+		\hline 
+		Exonuclease &  & \\ 
+		ExoI & exonuclease 1 & \\
+		ExoI & exodeoxyribonuclease I  & \\
+		ExoVII & exodeoxyribonuclease VII large subunit   & \\
+		ExoX & exodeoxyribonuclease X   & \\
+		\hline 
+		RecJ & single-stranded-DNA-specific exonuclease  & \\
+		SSB & single-strand DNA-binding protein & \\
+		DpoIII & DNA polymerase III subunit alpha  & \\ 
+		Lig & DNA ligase (NAD+)  & \\
+		Dam & DNA adenine methylase & \\
+		\hline
+		RPA & replication factor A1 & \\
+		$Pol_{\gamma}$ & DNA polymerase delta subunit 1 & \\
+		Lig1 & DNA ligase 1  & \\
+	\hline
+\end{tabular}
+\caption{Proteins for Mismatch Repair Prokaryotic, Eukaryotic Types \cite{key400} }
+\end{table}	
+
+\subsection{Algorithm}
+
+\begin{algorithm}[H]
+	\begin{algorithmic}[1]
+		\State \textbf{Step 0: Mispair DNA}
+		\State \textbf{Step 1: Recognition}
+		\State (A) MutS and MutL
+		\State (C) $MutL_{\alpha}$ (PMS2, MLH1), $MutS_{\alpha}$ (MSH6, MSH2),$MutL_{\alpha}$ (MLH1,PMS2), $MutS_{\beta}$ (MSH2, MSH3), MLH1/MLH3 (MLH1,MLH3), $MutS_{\beta}$ (MSH2, MSH3), RFC and PCNA
+		\State \textbf{Step 2: Incision}
+		\State (A) MutH
+		\State \textbf{Step 3: Excision}
+		\State (A) UVRD  and Exonucleases: (a) Exo1, (b) ExoX, (c) ExoVII and (d) RecJ
+		\State (C) ExoI
+		\State \textbf{Step 4: DNA re-synthesis}
+		\State (A) SSB and DpoIII
+		\State (C) RPA and $Pol_{\gamma}$
+		\State \textbf{Step 5: Ligation}
+		\State (A) Lig and Dam
+		\State (C) LigI
+	\end{algorithmic}
+	\caption{Mismatch Repair \cite{400}}\label{MR_1}
+\end{algorithm}
+
+
 \subsection{Homologous recombination}
 
 \begin{table}[H]
