@@ -40,8 +40,16 @@ D_{t}^{\alpha} x(t) = F(t, x(t), x(t-\tau))
 
 where $t \ge 0$, $m-1 < \alpha \le m$ and $x(t) = \phi(t)$ with $ t \le 0$. \cite{key100}
 
+\section{Algorithms}
 
+\begin{definition}
+(Euler and Euler-Heun ODE solver)  Let $h = (b - a)/T$ for  $x \in [a,b]$ with $t \in (a,b)$ and $x =(T + 1)$ and $x[1] =x0$ then the difference equation is given by
 
+\begin{align}
+ x[i + 1] = x[i] + h * (f(t[i], x[i]) + f(t[i + 1], x[i + 1]))/2
+\end{align}
+
+\end{definition}
 
 
 
