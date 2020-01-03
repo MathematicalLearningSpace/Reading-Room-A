@@ -2,7 +2,7 @@
 \section{DNA Repair}
 
 \begin{table}[H]
-\caption{DNA Repair and Biological Function}
+\caption{DNA Repair and Biological Function \cite{key400}}
 \tiny
 	\begin{tabular}{rp{1.5cm}p{4cm}}
 		\hline
@@ -49,7 +49,7 @@
 		16569655 & Polymorphisms in estrogen bioactivation, detoxification and oxidative DNA base excision repair genes and prostate cancer risk.  & \\
 		\hline
 	\end{tabular}
-	\caption{Summary of Literature Review for Base Excision Repair Short Patch}
+	\caption{Summary of Literature Review for Base Excision Repair Short Patch \cite{key400}}
 \end{table}
 
 \subsection{Nucleotide excision repair}
@@ -80,7 +80,7 @@
 		10459502 & Expression of DNA mismatch repair genes in naevi. & \\
 		\hline
 	\end{tabular}
-	\caption{Summary of Literature Review for Mismatch Repair}
+	\caption{Summary of Literature Review for Mismatch Repair \cite{key400}}
 \end{table}	
 
 \subsection{Homologous recombination}
@@ -116,7 +116,7 @@
 		19596236 & Human \textbf{SLX4} is a Holliday junction resolvase subunit that binds multiple DNA repair/recombination endonucleases.  & \\
 		\hline
 	\end{tabular}
-	\caption{Summary of Literature Review for Homologous recombination}
+	\caption{Summary of Literature Review for Homologous recombination \cite{key400}}
 \end{table}		
 
 \subsection{Non-homologous end-joining}
@@ -156,7 +156,17 @@
 	23677788 &	Lytic infection of Kaposi's sarcoma-associated herpesvirus induces DNA double-strand breaks and impairs non-homologous end joining.  & \\
 		\hline
 	\end{tabular}
-	\caption{Summary of Literature Review for Non-Homologous End Joining}
+	\caption{Summary of Literature Review for Non-Homologous End Joining \cite{key400}}
 \end{table}		
 
+\bibitem[400]{key400} Kanehisa, Furumichi, M., Tanabe, M., Sato, Y., and Morishima, K.; 
+\newblock KEGG: new perspectives on genomes, pathways, diseases and drugs. 
+\newblock Nucleic Acids Res. 45, D353-D361 (2017).
 
+\bibitem[401]{key401} Kanehisa, M., Sato, Y., Kawashima, M., Furumichi, M., and Tanabe, M.; 
+\newblock KEGG as a reference resource for gene and protein annotation. 
+\newblock Nucleic Acids Res. 44, D457-D462 (2016).
+
+\bibitem[402]{key402} Kanehisa, M. and Goto, S.; 
+\newblock KEGG: Kyoto Encyclopedia of Genes and Genomes. 
+\newblock Nucleic Acids Res. 28, 27-30 (2000). 
