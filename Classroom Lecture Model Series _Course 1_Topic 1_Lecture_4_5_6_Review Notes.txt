@@ -4,7 +4,7 @@
 
 \begin{align}
 \frac{d^{\alpha}A}{dt^{\alpha}} = \overbrace{a11}^{\text{Constant}} + \\
-\overbrace{ a12*(B^{\beta_1}/(a12 + a13*B)^{\beta_1})}^{\text{Michaelis-Menton and Hill Response}} - \\
+\overbrace{ a12*(B^{\beta_1}/(a12 + a13*B)^{\beta_1})}^{\text{Michaelis-Menten and Hill Response}} - \\
 \underbrace{a14*A}_{Decline} + \\
 \overbrace{a15*\eta_{1}(t)}^{\text{Stochastic Error Term}}\\ 
 \end{align}
