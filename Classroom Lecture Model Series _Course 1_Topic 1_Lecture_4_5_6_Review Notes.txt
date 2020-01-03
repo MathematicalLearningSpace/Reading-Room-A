@@ -1,1 +1,68 @@
 %-----------------------------------Notes-------------------------------
+
+\begin{definition}
+
+\begin{align}
+\frac{d^{\alpha}A}{dt^{\alpha}} = \overbrace{a11}^{\text{Constant}} + \\
+\overbrace{ a12*(B^{\beta_1}/(a12 + a13*B)^{\beta_1})}^{\text{Michaelis-Menton and Hill Response}} - \\
+\underbrace{a14*A}_{Decline} + \\
+\overbrace{a15*\eta_{1}(t)}^{\text{Stochastic Error Term}}\\ 
+\end{align}
+
+\end{definition}
+
+\section{Pearson Differential Equation: Ratio of Polynomials/Rational Functions}
+
+\begin{definition}
+
+Let ${d^{\alpha}af(x)}{dx^{\alpha}}$ be a first order different operator with  $\alpha = 1$
+
+\begin{equation}
+\frac{d^{\alpha}f(x)}{d^{\alpha}x} = \frac{\sum_{i=0}^{n} a_{i} x^{i}}{\sum_{j=0}^{m} b_{j} x^{j} }
+\end{equation}
+
+Here $x > 0$ and each of the $a_{i} > 0$ and $b_{j} > 0$ are parameter values.  
+\end{definition}
+
+\begin{equation}
+\frac{d^{\alpha}f_{X}(x)}{dx^{\alpha}} = \frac{x + a}{bx^2 + cx + d} 
+\end{equation}
+
+where a, b, c, and d are real parameters and classified into the Pearson Family of distributions.
+
+\section{Fractional Differential Operators}
+
+Let $D_{t}^{\alpha} x(t)$ be the Caputo Fractional derivative operator of order $\alpha$ where Adams-Bashforth-Moulton Algorithm is given by 
+
+\begin{equation}
+D_{t}^{\alpha} x(t) = F(t, x(t), x(t-\tau))
+\end{equation} 
+
+where $t \ge 0$, $m-1 < \alpha \le m$ and $x(t) = \phi(t)$ with $ t \le 0$. \cite{key100}
+
+
+
+
+
+
+\bibitem[100]{key100}Zhen Wang (2013)
+\newblock A Numerical Method for Delayed Fractional-Order Differential Equations
+\newblock Journal of Applied Mathematics Volume 2013, Article ID 256071
+
+\bibitem[101]{key101}Kai Diethelm (2010). 
+\newblock Chapter 4. The analysis of fractional differential equations: an application-oriented exposition using differential operators of Caputo type. 
+\newblock Lecture Notes in Mathematics. Heidelberg and New York: Springer-Verlag
+
+\bibitem[104]{key104} V.S. Kiryakova
+\newblock Generalized Fractional Calculus and Applications
+\newblock Longman, Harlow, [Pitman Research Notes in Mathematics, Vol. 301], Wiley New York, 1994
+
+\bibitem[105]{key105} Odibat Z.M. and S. Momani
+\newblock An Algorithm for the Numerical Solution of Differential Equations of Fractional Order
+\newblock Journal Applied Mathematical and Informatics 26:(2008) 1:2pp.15-27
+
+\bibitem[106]{key106} Hilfer,  R.
+\newblock Threefold Introduction to fractional  derivatives.  
+\newblock Anomalous transport:  Foundation and applications. (2008)
+
+
