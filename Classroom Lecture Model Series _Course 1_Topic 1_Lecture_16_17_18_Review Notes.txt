@@ -19,3 +19,27 @@ The ML estimates of these parameters with $\widehat\beta = (X'X)^{-1}X'y$
 \end{aligned}
 \end{equation}
 \end{definition}
+
+\begin{definition}
+The (OLS) estimator for vector y with N rows and 1 column and design matrix $X_{N,K}$ with N rows and K columns given by
+\begin{equation}
+	X_{N,K} = 
+	\begin{pmatrix}
+		x_{1,1} & x_{1,2} & \cdots & x_{1,k} \\
+		x_{2,1} & x_{2,2} & \cdots & x_{2,k} \\
+		\vdots  & \vdots  & \ddots & \vdots  \\
+		x_{n,1} & x_{n,2} & \cdots & x_{n,k} 
+	\end{pmatrix}
+\end{equation}
+then 
+\begin{equation}
+\widehat \beta_\text{OLS} = (X' X)^{-1} X' y
+\end{equation}
+
+where the $\widehat{u}_j= (Y-X\widehat\beta_\text{OLS})_j$ are the estimates of the residuals with a diagonal variance-covariance matrix $ \Omega $ are the fitted residuals $\widehat{u}_j$  $\widehat{\Omega}_{OLS}$ where
+
+\begin{equation}
+\widehat{\Omega}_\text{OLS} = diag(\widehat{\sigma}^2_1, \widehat{\sigma}^2_2, \dots , \widehat{\sigma}^2_n).
+\end{equation}
+
+\end{definition}
