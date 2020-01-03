@@ -32,6 +32,41 @@ where a, b, c, and d are real parameters and classified into the Pearson Family 
 
 \section{Fractional Differential Operators}
 
+The Caputo fractional Derivative operator $D_{t_{0}}^{\alpha}f(t)$ given by
+
+\begin{equation}
+D_{t_{0}}^{\alpha} f(t) = \frac{1}{\Gamma(m - \alpha)} \int_{t_{0}}^{t} (t - \tau)^{m - \alpha -1} f^{m}(\tau) d \tau
+\end{equation}
+
+Then
+\begin{equation}
+f_{n} = \sum_{k=0}^{m-1} \frac{(t-t_{0})^{k}}{k!} f^{k} (t_{0} + h^{\alpha} (a_{1,n}^{\alpha} f_{0} + \sum_{j=1}^{n} a_{2,n-j}^{\alpha} f(t_{j}))
+\end{equation}
+
+where 
+\begin{align}
+a_{1,n}^{\alpha} = \frac{(n-1)^{\alpha + 1} - n^{\alpha}(n - \alpha -1)}{\Gamma (\alpha + 2)}
+\end{align}
+and 
+\begin{align}
+a_{n}^{\alpha} =\frac{1}{\Gamma (\alpha + 2)} \\
+\end{align}
+
+for n=0, 
+
+\begin{align}
+a_{2,n}^{\alpha} = \frac{(n-1)^{\alpha +1} -2 n^{\alpha + 1} + (n + 1)^{\alpha + 1}}{\Gamma (\alpha + 2)}
+\end{align}
+
+and for $ n >1 $.  Let x $\in (0,a]$ and $0 < \alpha \le 1$, $0 \le \epsilon \le x $ then 
+
+\begin{align}
+f(x) = \sum_{i=0}^{n} \frac{x^{i \alpha}}{\Gamma(i \alpha + 1} D^{i \alpha} (0) \\
+ + D^{(n+1) \alpha} \frac{f(\epsilon) x^{(n+1) \alpha}}{\Gamma ((n+1) \alpha +1}
+\end{align}
+
+be the generalized Taylor Series Expansion.\cite{key100}
+
 Let $D_{t}^{\alpha} x(t)$ be the Caputo Fractional derivative operator of order $\alpha$ where Adams-Bashforth-Moulton Algorithm is given by 
 
 \begin{equation}
@@ -42,6 +77,42 @@ where $t \ge 0$, $m-1 < \alpha \le m$ and $x(t) = \phi(t)$ with $ t \le 0$. \cit
 
 \section{Algorithms}
 
+generalized Taylor Series expansion and modified trapezoidal rule.  
+
+Let $\tau \in [t_{k}, t_{k+1}]$ be a collection of K intervals on $[0,a]$ with $h=a/K$. \cite{key100}.
+Here  $f(t_{k})$ with $k=1$ is given by
+
+\begin{equation}
+T(f,h, \alpha) =
+\begin{cases}
+ ((k-1)^{\alpha +1} - \\
+(k - \alpha - 1)k^{\alpha} )\frac{h^{\alpha}f(0)}{\Gamma (\alpha +2)} + \frac{h^{\alpha}f(0)}{\Gamma (\alpha +2)} \\
+\sum_{j=1}^{k-1} (( k - j + 1)^{\alpha + 1} - 2(k-j)^{\alpha +1} + \\
+(k - j - 1)^{\alpha +1}  \frac{h^{\alpha}f(t_{j})}{\Gamma (\alpha +2)}
+\end{cases}
+\end{equation}
+
+Algorithm 1 uses the Grunwald-Letniko valgorithm for the computation of the Caputo fractional derivative with 
+
+\begin{algorithm}[H]
+\footnotesize
+	\begin{algorithmic}[1]
+	 \State Select interval [0,T] with a grid of $t_{n} = nh$ with n=0,1,2,...,N where $h = T/N$ 
+\end{algorithmic}
+	\caption{Computation of the Caputo fractional derivative}
+	\label{Algorithm_1}
+\end{algorithm}
+
+Algorithm 1 solves Caputo-type Fractional Derivative Operator as an alternative to fractional differential equations (FDEs) derived by Diethelm et al.\cite{key104} in Algorithm 2.
+
+\begin{algorithm}[H]
+\begin{algorithmic}[1]
+\footnotesize
+\State 
+\end{algorithmic}
+\caption{Computation of the Caputo fractional differential equation (FDE)}
+\label{Algorithm_2}
+\end{algorithm}
 \begin{definition}
 (Euler and Euler-Heun ODE solver)  Let $h = (b - a)/T$ for  $x \in [a,b]$ with $t \in (a,b)$ and $x =(T + 1)$ and $x[1] =x0$ then the difference equation is given by
 
@@ -53,23 +124,58 @@ where $t \ge 0$, $m-1 < \alpha \le m$ and $x(t) = \phi(t)$ with $ t \le 0$. \cit
 
 
 
-\bibitem[100]{key100}Zhen Wang (2013)
-\newblock A Numerical Method for Delayed Fractional-Order Differential Equations
-\newblock Journal of Applied Mathematics Volume 2013, Article ID 256071
 
-\bibitem[101]{key101}Kai Diethelm (2010). 
-\newblock Chapter 4. The analysis of fractional differential equations: an application-oriented exposition using differential operators of Caputo type. 
-\newblock Lecture Notes in Mathematics. Heidelberg and New York: Springer-Verlag
 
-\bibitem[104]{key104} V.S. Kiryakova
-\newblock Generalized Fractional Calculus and Applications
-\newblock Longman, Harlow, [Pitman Research Notes in Mathematics, Vol. 301], Wiley New York, 1994
 
-\bibitem[105]{key105} Odibat Z.M. and S. Momani
+\bibitem[100]{key100} Mistry, L. A. Khan, and D.L. Suthar (2016)
+\newblock Review on Fractional Differential Equations and their Applications
+\newblock Proceedings of International Conference on Emerging Technologies in Engineering, Biomedical, Management and Science 
+
+\bibitem[101]{key101} Odibat Z.M. and S. Momani
 \newblock An Algorithm for the Numerical Solution of Differential Equations of Fractional Order
 \newblock Journal Applied Mathematical and Informatics 26:(2008) 1:2pp.15-27
 
+\bibitem[102]{key102} Roberto Garrappa
+\newblock Numerical Solution of Fractional Differential Equations: A Survey and a Software Tutorial
+\newblock Mathematics 2018,6, 16; doi:10.3390/math6020016 www.mdpi.com/journal/mathematics
+
+\bibitem[103]{key103} Nan Xia, Tashpolat Tiyip, Ardak Kelimu, et al., 
+\newblock Influence of Fractional Differential on Correlation Coefficient between EC1:5 and Reflectance Spectra of Saline Soil,
+\newblock Journal of Spectroscopy, vol. 2017, Article ID 1236329, 11 pages, 2017. https://doi.org/10.1155/2017/1236329.
+
+\bibitem[104]{key104}K. Diethelm, N.J. Ford, A.D. Freed, 
+\newblock A predictor–corrector approach for the numerical solution of fractional differential equations, 
+\newblock Nonlinear Dyn. 29 (2002) 3–22.
+ 
+\bibitem[105]{key105} K. Diethelm, 
+\newblock Detailed error analysis for a fractional Adams method
+\newblock Numerical Algorithms, in press
+
 \bibitem[106]{key106} Hilfer,  R.
+\newblock Threefold  Introduccion  to  fractional  derivatives.  
+\newblock Anomalous transport:  Foundation and applications. (2008)
+
+\bibitem[107]{key107} Ruben A. Cerutti
+\newblock The k-Fractional Logistic Equation with k-Caputo Derivative
+\newblock Pure Mathematical Sciences, Vol.  4, 2015, no.  1, 9 - 15
+
+\bibitem[110]{key100}Zhen Wang (2013)
+\newblock A Numerical Method for Delayed Fractional-Order Differential Equations
+\newblock Journal of Applied Mathematics Volume 2013, Article ID 256071
+
+\bibitem[111]{key101}Kai Diethelm (2010). 
+\newblock Chapter 4. The analysis of fractional differential equations: an application-oriented exposition using differential operators of Caputo type. 
+\newblock Lecture Notes in Mathematics. Heidelberg and New York: Springer-Verlag
+
+\bibitem[114]{key104} V.S. Kiryakova
+\newblock Generalized Fractional Calculus and Applications
+\newblock Longman, Harlow, [Pitman Research Notes in Mathematics, Vol. 301], Wiley New York, 1994
+
+\bibitem[115]{key105} Odibat Z.M. and S. Momani
+\newblock An Algorithm for the Numerical Solution of Differential Equations of Fractional Order
+\newblock Journal Applied Mathematical and Informatics 26:(2008) 1:2pp.15-27
+
+\bibitem[116]{key106} Hilfer,  R.
 \newblock Threefold Introduction to fractional  derivatives.  
 \newblock Anomalous transport:  Foundation and applications. (2008)
 
