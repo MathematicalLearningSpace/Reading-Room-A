@@ -30,7 +30,7 @@
 		\hline
 		PubmedID  & Title & Summary \\
 		\hline
-    22336916 & Telomere proteins\textbf{ POT1, TRF1 and TRF2 }augment long-patch base excision repair in vitro.  & \\
+ 		22336916 & Telomere proteins\textbf{ POT1, TRF1 and TRF2 }augment long-patch base excision repair in vitro.  & \\
 		20581465 & BRCA1 regulation of base excision repair pathway. & \\
 		19369898 & Micronucleus occurrence related to base excision repair gene polymorphisms in Chinese workers occupationally exposed to vinyl chloride monomer. & \\
 		12592398 & Product-assisted catalysis in base-excision DNA repair.  & \\
@@ -62,11 +62,11 @@
 		\hline
 		PubmedID  & Title & Summary \\
 		\hline
-    16981255 & Mutation screening of mismatch repair gene \textbf{Mlh3} in familial esophageal cancer.  & \\
-    26062774 & Mismatch repair deficiency predicts benefit of anti-PD-1 therapy.  & \\
+    		16981255 & Mutation screening of mismatch repair gene \textbf{Mlh3} in familial esophageal cancer.  & \\
+    		26062774 & Mismatch repair deficiency predicts benefit of anti-PD-1 therapy.  & \\
 		8533151 & Mismatch repair: mechanisms and relationship to cancer susceptibility.  & \\
-    18355840 & Mismatch repair gene \textbf{MSH3 polymorphism }is associated with the risk of sporadic prostate cancer.  & \\
-    20336543 & Mismatch repair gene \textbf{hMLH1 A655G/A polymorphism} and colorectal cancer.  & \\
+    		18355840 & Mismatch repair gene \textbf{MSH3 polymorphism }is associated with the risk of sporadic prostate cancer.  & \\
+    		20336543 & Mismatch repair gene \textbf{hMLH1 A655G/A polymorphism} and colorectal cancer.  & \\
 		8666228 & Biochemistry and genetics of eukaryotic mismatch repair. & \\
 		16873053 & \textbf{MutLalpha}: at the cutting edge of mismatch repair.  & \\
 		11474654 & Hereditary and somatic DNA mismatch repair gene mutations in sporadic endometrial carcinoma.  & \\
@@ -91,11 +91,11 @@
 		\hline
 		PubmedID  & Title & Summary \\
 		\hline
-    20236180 & Holliday junction-binding activity of human SPF45.  & \\
-    17728255 & Holliday junction processing activity of the \textbf{BLM-Topo IIIalpha-BLAP75 complex}. & \\
+    		20236180 & Holliday junction-binding activity of human SPF45.  & \\
+    		17728255 & Holliday junction processing activity of the \textbf{BLM-Topo IIIalpha-BLAP75 complex}. & \\
 		12441335 & Holliday junction binding activity of the human Rad51B protein.  & \\
 		12374758 & Holliday junction resolution in human cells: two junction endonucleases with distinct substrate specificities.  & \\
-    20634321 & Mechanism of Holliday junction resolution by the human \textbf{GEN1 protein}.  & \\
+    		20634321 & Mechanism of Holliday junction resolution by the human \textbf{GEN1 protein}.  & \\
 		22274865 & \textbf{Methotrexate-mediated inhibition} of RAD51 expression and homologous recombination in cancer cells. & \\
 		22579622 & High levels of wild-type BRCA2 suppress homologous recombination. & \\
 		19020614 & Identification of Holliday junction resolvases from humans and yeast.  & \\
@@ -124,12 +124,12 @@
 \begin{table}[H]
 	\centering
 	\begin{tabular}{r|p{12cm}|l}
-		\hline
-		PubmedID  & Title & Summary \\
-		\hline
-    11406603 &	Role of the non-homologous DNA end joining pathway in the early steps of retroviral infection.  & \\
-    21936820 &	Non-homologous end-joining partners in a helical dance: structural studies of \textbf{XLF-XRCC4 interactions}.  & \\
-    15258142 &	Non-homologous end joining requires that the \textbf{DNA-PK complex} undergo an \textit{autophosphorylation-dependent rearrangement} at DNA ends.  & \\
+	\hline
+	PubmedID  & Title & Summary \\
+	\hline
+    	11406603 &	Role of the non-homologous DNA end joining pathway in the early steps of retroviral infection.  & \\
+    	21936820 &	Non-homologous end-joining partners in a helical dance: structural studies of \textbf{XLF-XRCC4 interactions}.  & \\
+    	15258142 &	Non-homologous end joining requires that the \textbf{DNA-PK complex} undergo an \textit{autophosphorylation-dependent rearrangement} at DNA ends.  & \\
 	20496270 & Analysis of the polymorphisms in non-homologous DNA end joining (NHEJ) \textbf{gene Ku70 and Ligase IV} in sporadic breast cancer in women. & \\
 	17504121 & Non-homologous DNA end joining in anticancer therapy. & \\
 	17963495 & Extensive ssDNA end formation at \textbf{DNA double-strand breaks in non-homologous end-joining deficient cells} during the S phase.  & \\
