@@ -10,6 +10,11 @@ statistics & 統計学 & Tōkei-gaku & 统计 & Tǒngjì \\
 biology & 生物学 & Ikimonogaku & 生物学 & Shēngwù xué\\
 botany & 植物学 & Shokubutsu-gaku & 植物学 & Zhíwù xué \\
 \hline
+mathematical oncology & 数学的腫瘍学 & Sūgaku-teki shuyō-gaku & 数学肿瘤学 & Shùxué zhǒngliú xué \\
+cancer research & 癌研究 & Gan kenkyū & 癌症研究 & Áizhèng yánjiū \\
+cancer treatment & 癌治療 & Gan chiryō & 癌症治疗 & Áizhèng zhìliáo  \\
+cancer cells & がん細胞 & Gan saibō & 癌细胞 & Ái xìbāo  \\
+\hline
 applied & 適用された & Tekiyō sa reta & 已应用 & Yǐ yìngyòng\\
 theory & 理論 & Riron &  理论 & Lǐlùn\\
 theorem & 定理 & Teiri &  定理 & Dìnglǐ\\
